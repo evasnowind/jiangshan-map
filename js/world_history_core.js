@@ -6,7 +6,14 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
   const MODES = ['day', 'year', 'topic'];
-  const REGIONS = ['中国', '日本', '美国'];
+  function regionNames(data) { return data.regions.map(region => region.name); }
+
+  function resolveRegions(values, data) {
+    if (!Array.isArray(values)) return regionNames(data);
+    return data.regions.filter(region => values.some(value =>
+      [region.id, region.name, ...(region.aliases || []), ...(region.selectionAliases || [])].includes(value)
+    )).map(region => region.name);
+  }
 
   function isExactDate(value) {
     if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
@@ -20,15 +27,29 @@
       ? input.caseId : defaults.caseId;
     const date = isExactDate(input.date) && Number(input.date.slice(0, 4)) >= data.period.startYear &&
       Number(input.date.slice(0, 4)) <= data.period.endYear ? input.date : defaults.date;
-    const regions = Array.isArray(input.regions)
-      ? REGIONS.filter(region => input.regions.includes(region)) : REGIONS.slice();
-    return {
+    const regions = resolveRegions(input.regions, data);
+    const selected = data.records.find(record => record.id === input.recordId &&
+      (caseId === 'all' || record.caseId === caseId));
+    const comparison = caseId === 'all' && data.records.find(record => record.id === input.compareId &&
+      record.id !== selected?.id && record.regions.includes('中国'));
+    const state = {
       caseId,
       mode: MODES.includes(input.mode) ? input.mode : defaults.mode,
       date,
       regions,
-      query: typeof input.query === 'string' ? input.query.slice(0, 120) : ''
+      query: typeof input.query === 'string' ? input.query.slice(0, 120) : '',
+      recordId: selected?.id || null,
+      compareId: comparison?.id || null
     };
+    if (caseId === 'all') {
+      const visible = visibleRecords(data, state);
+      state.recordId = visible.find(record => record.id === state.recordId)?.id || visible[0]?.id || null;
+      if (!state.recordId || state.compareId === state.recordId) state.compareId = null;
+      const primary = visible.find(record => record.id === state.recordId);
+      if (state.mode === 'topic' && primary?.date.precision === 'day') state.date = primary.date.value;
+      else if (state.mode === 'topic' && primary?.date.precision === 'year') state.date = primary.date.value + '-01-01';
+    }
+    return state;
   }
 
   function readState(search, data) {
@@ -36,19 +57,23 @@
     return normalizeState({
       caseId: params.get('case'), mode: params.get('mode'), date: params.get('date'),
       regions: params.has('regions') ? params.get('regions').split(',') : undefined,
-      query: params.get('q')
+      query: params.get('q'), recordId: params.get('event'), compareId: params.get('compare')
     }, data);
   }
 
-  function writeState(state) {
+  function writeState(state, data) {
     const params = new URLSearchParams({ case: state.caseId, mode: state.mode, date: state.date });
-    if (state.regions.length !== REGIONS.length) params.set('regions', state.regions.join(','));
+    if (state.regions.length !== regionNames(data).length) params.set('regions', state.regions.join(','));
     if (state.query.trim()) params.set('q', state.query.trim());
+    if (state.recordId) params.set('event', state.recordId);
+    if (state.compareId) params.set('compare', state.compareId);
     return '?' + params.toString();
   }
 
   function matchesTime(record, state) {
     if (state.mode === 'topic') return true;
+    if (record.date.precision === 'year' && /^\d{4}$/.test(record.date.value || ''))
+      return state.mode === 'year' && record.date.value === state.date.slice(0, 4);
     // A regnal year is not an inferred Gregorian year, month or day.
     if (record.date.precision !== 'day' || !isExactDate(record.date.value)) return false;
     return state.mode === 'day' ? record.date.value === state.date
@@ -57,19 +82,28 @@
 
   function normalizeText(text) { return text.normalize('NFKC').toLocaleLowerCase(); }
 
-  function matchesFilters(record, state) {
+  function matchesFilters(record, state, data) {
     if (!record.regions.some(region => state.regions.includes(region))) return false;
     const query = normalizeText(state.query.trim());
     if (!query) return true;
     return normalizeText([
       record.title, record.placeLabel, record.summary, record.regions.join(' '),
-      ...(record.aliases || []), ...record.people.map(p => p.name + ' ' + p.role)
+      ...(record.aliases || []), ...(record.polities || []), ...(record.parties || []),
+      ...(data ? data.regions.filter(region => record.regions.includes(region.name)).flatMap(region => region.aliases || []) : []),
+      ...record.people.map(p => p.name + ' ' + p.role)
     ].join(' ')).includes(query);
   }
 
   function visibleRecords(data, state) {
     return data.records.filter(record => (state.caseId === 'all' || record.caseId === state.caseId) &&
-      matchesTime(record, state) && matchesFilters(record, state));
+      matchesTime(record, state) && matchesFilters(record, state, data)).sort((a, b) =>
+      a.date.sortYear - b.date.sortYear || (a.date.value || '').localeCompare(b.date.value || '') || a.id.localeCompare(b.id));
+  }
+
+  function regionContexts(data, region, state) {
+    const from = state.mode === 'topic' ? data.period.startYear : Number(state.date.slice(0, 4));
+    const to = state.mode === 'topic' ? data.period.endYear : from;
+    return region.contexts.filter(context => context.from <= to && context.to >= from);
   }
 
   function clusterPlaces(records, places) {
@@ -88,8 +122,47 @@
     return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 86400000);
   }
 
+  function relationLabel(a, b) {
+    if (a.date.precision === 'regnal_year' || b.date.precision === 'regnal_year')
+      return '主题对读 · 日期精度不同';
+    const years = [a.date.value?.slice(0, 4), b.date.value?.slice(0, 4)];
+    const days = daysBetween(a.date.value, b.date.value);
+    if (days === 0) return '同日 · 文献对读';
+    if (years[0] === years[1]) return days === null ? '同年 · 含年级精度' : '同年 · 相隔' + Math.abs(days) + '天';
+    return '跨年对读 · ' + years.join(' / ');
+  }
+
   function project(coordinates) {
     return [(coordinates[0] + 180) * 3, (90 - coordinates[1]) * 3];
+  }
+
+  // View-only clustering never changes an event's evidence-backed location.
+  function spatialClusters(records, places, scale, ratio, radius = 38) {
+    const points = clusterPlaces(records, places).map(cluster => ({
+      place: cluster.place, records: cluster.records, point: project(cluster.place.coordinates)
+    }));
+    const parents = points.map((_, i) => i);
+    function find(i) { if (parents[i] !== i) parents[i] = find(parents[i]); return parents[i]; }
+    for (let i = 0; i < points.length; i++) for (let j = i + 1; j < points.length; j++) {
+      const distance = Math.hypot(points[i].point[0] - points[j].point[0], points[i].point[1] - points[j].point[1]) * scale * ratio;
+      if (distance < radius) parents[find(j)] = find(i);
+    }
+    const groups = new Map();
+    points.forEach((point, i) => {
+      const parent = find(i);
+      if (!groups.has(parent)) groups.set(parent, []);
+      groups.get(parent).push(point);
+    });
+    return Array.from(groups.values()).map(group => ({
+      places: group.map(point => point.place),
+      records: Array.from(new Map(group.flatMap(point => point.records).map(record => [record.id, record])).values()),
+      point: [0, 1].map(axis => group.reduce((sum, point) => sum + point.point[axis], 0) / group.length)
+    }));
+  }
+
+  function clusterAction(cluster, scale, maximum = 32) {
+    if (cluster.places.length > 1) return scale < maximum ? 'zoom' : 'choose';
+    return cluster.records.length > 1 ? 'choose' : 'select';
   }
 
   function safeSourceUrl(value) {
@@ -99,6 +172,6 @@
     } catch (_) { return null; }
   }
 
-  return { MODES, REGIONS, isExactDate, normalizeState, readState, writeState, matchesTime,
-    matchesFilters, visibleRecords, clusterPlaces, daysBetween, project, safeSourceUrl };
+  return { MODES, regionNames, resolveRegions, regionContexts, isExactDate, normalizeState, readState, writeState, matchesTime,
+    matchesFilters, visibleRecords, clusterPlaces, spatialClusters, clusterAction, daysBetween, relationLabel, project, safeSourceUrl };
 });

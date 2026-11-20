@@ -1,14 +1,14 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "researchDate": "2026-11-20",
   "period": {
     "startYear": 1852,
     "endYear": 1868
   },
   "defaultState": {
-    "caseId": "citizenship",
-    "mode": "day",
-    "date": "1868-07-28"
+    "caseId": "all",
+    "mode": "topic",
+    "date": "1858-06-18"
   },
   "cases": [
     {
@@ -68,6 +68,296 @@
   ],
   "records": [
     {
+      "id": "E5",
+      "caseId": "knowledge",
+      "title": "魏源《海国图志后叙》署年",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "gaoyou",
+      "placeLabel": "高邮州（序文自署）",
+      "placeRole": "文献自署写作地",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1852,
+        "display": "约1852年 · 原署咸丰二年",
+        "original": "咸丰二年；西历年界未核，1852仅作书目排序参照",
+        "sourceIds": [
+          "S5"
+        ]
+      },
+      "summary": "以外国史地和地图扩展视野，兼论北美政治章程及中国的经世目标。",
+      "people": [
+        {
+          "name": "魏源",
+          "role": "学者、编纂者；后叙自署作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "后叙称赞他所理解的北美政治章程，并讨论外国史地和国别地图；不能压缩为只学舰船火炮。",
+          "sourceId": "S5",
+          "locator": "后叙北美政治与地图段",
+          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+        },
+        {
+          "text": "篇末署咸丰二年、高邮州；同一数字文本另收同治七年陈氏重刊序。",
+          "sourceId": "S5",
+          "locator": "后叙篇末；重刊序篇末",
+          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+        }
+      ],
+      "quote": {
+        "text": "其章程可垂奕世而無弊",
+        "translation": "魏源高度评价他所理解的北美政治章程；这是作者判断，不是对制度优劣的现代认证。",
+        "sourceId": "S5",
+        "locator": "后叙北美段",
+        "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+      },
+      "limitation": "数字文本的作者署年、所据刊本和重刊增序分开。只在专题全时段出现，不参加精确同日或同年匹配。",
+      "aliases": [
+        "海國圖志",
+        "魏默深"
+      ],
+      "polities": [
+        "清朝"
+      ]
+    },
+    {
+      "id": "W13",
+      "caseId": null,
+      "title": "阿根廷邦联宪法通过、签署",
+      "regions": [
+        "阿根廷"
+      ],
+      "placeId": "santa-fe",
+      "placeLabel": "圣菲",
+      "placeRole": "制宪会议通过与签署地",
+      "date": {
+        "value": "1853-05-01",
+        "precision": "day",
+        "sortYear": 1853,
+        "display": "1853年5月1日",
+        "original": "历史原版末署圣菲1853年5月1日；与现行修订文本分开",
+        "sourceIds": [
+          "A3"
+        ]
+      },
+      "summary": "原版宪法将联邦、宗教与居民权利作出不同层次的制度规定。",
+      "people": [
+        {
+          "name": "法昆多·苏维里亚",
+          "role": "会议主席、萨尔塔代表"
+        },
+        {
+          "name": "何塞·马里亚·苏维里亚",
+          "role": "会议秘书"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条采用代议、共和、联邦政体；第101条将未授予联邦的权力保留各省。",
+          "sourceId": "A3",
+          "locator": "1853原版第1、101条",
+          "url": "https://www.infoleg.gob.ar/?page_id=3873/"
+        },
+        {
+          "text": "第2条由联邦政府支持罗马天主教，第14条同时保障居民自由信奉宗教。",
+          "sourceId": "A3",
+          "locator": "1853原版第2、14条",
+          "url": "https://www.infoleg.gob.ar/?page_id=3873/"
+        }
+      ],
+      "quote": {
+        "text": "representativa republicana federal",
+        "translation": "代议、共和、联邦。",
+        "sourceId": "A3",
+        "locator": "第1条",
+        "url": "https://www.infoleg.gob.ar/?page_id=3873/"
+      },
+      "limitation": "未逐页校读手稿；第3条的首都文字不能直接证明对布宜诺斯艾利斯已经有效控制。",
+      "polities": [
+        "阿根廷邦联"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W12",
+      "caseId": null,
+      "title": "智利民法典批准、公布",
+      "regions": [
+        "智利"
+      ],
+      "placeId": "santiago",
+      "placeLabel": "圣地亚哥",
+      "placeRole": "批准法署地",
+      "date": {
+        "value": "1855-12-14",
+        "precision": "day",
+        "sortYear": 1855,
+        "display": "1855年12月14日",
+        "original": "批准法署1855年12月14日；1855年11月22日咨文、1856首版、1857年施行另记",
+        "sourceIds": [
+          "C1",
+          "C2"
+        ]
+      },
+      "summary": "批准法确定施行日期与权威文本保存方式，不能把批准直接等同开始施行。",
+      "people": [
+        {
+          "name": "曼努埃尔·蒙特",
+          "role": "智利总统、署名者"
+        },
+        {
+          "name": "弗朗西斯科·哈维尔·奥瓦列",
+          "role": "司法部长、署名者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "唯一条款批准民法典，规定1857年1月1日起施行。",
+          "sourceId": "C1",
+          "locator": "唯一条款",
+          "url": "https://es.wikisource.org/wiki/Ley_aprobatoria_del_Código_Civil_de_la_República_de_Chile"
+        },
+        {
+          "text": "要求制作总统授权、司法部盖印的权威本，分别保存于两院秘书处与司法部，后续印本应以之为准。",
+          "sourceId": "C1",
+          "locator": "唯一条款，权威本保存段",
+          "url": "https://es.wikisource.org/wiki/Ley_aprobatoria_del_Código_Civil_de_la_República_de_Chile"
+        },
+        {
+          "text": "首版最后条的废旧法规定保留不相抵触的证据、程序等旧规定。",
+          "sourceId": "C3",
+          "locator": "1856首版，Título Final最后条",
+          "url": "https://es.wikisource.org/wiki/Código_Civil_de_la_República_de_Chile_(1856)_-_Título_Final"
+        }
+      ],
+      "quote": {
+        "text": "comenzará a regir desde el 1º de enero de 1857",
+        "translation": "1857年元旦起施行。",
+        "sourceId": "C1",
+        "locator": "唯一条款",
+        "url": "https://es.wikisource.org/wiki/Ley_aprobatoria_del_Código_Civil_de_la_República_de_Chile"
+      },
+      "limitation": "核心条款已读文字转录，官方批准法扫描未取得；官方1855总统咨文可独立定位，不能称已核原刻。",
+      "polities": [
+        "智利共和国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W3",
+      "caseId": null,
+      "title": "巴黎和约签署",
+      "regions": [
+        "英国",
+        "法国",
+        "德国",
+        "奥匈帝国",
+        "土耳其",
+        "俄罗斯"
+      ],
+      "placeId": "paris",
+      "placeLabel": "巴黎",
+      "placeRole": "会议与签署地",
+      "date": {
+        "value": "1856-03-30",
+        "precision": "day",
+        "sortYear": 1856,
+        "display": "1856年3月30日",
+        "original": "条约末署巴黎1856年3月30日",
+        "sourceIds": [
+          "P1"
+        ]
+      },
+      "summary": "克里米亚战争后的多国和约规定恢复和平的条件，并安排黑海的中立化。",
+      "people": [
+        {
+          "name": "A. Walewski",
+          "role": "法国君主的和约全权代表；MJP署名转写作A. Walewki"
+        },
+        {
+          "name": "Clarendon",
+          "role": "英国君主的和约全权代表"
+        },
+        {
+          "name": "Buol-Schauenstein",
+          "role": "奥地利皇帝的和约全权代表"
+        },
+        {
+          "name": "Manteuffel",
+          "role": "普鲁士国王的和约全权代表"
+        },
+        {
+          "name": "Orloff",
+          "role": "俄罗斯皇帝的和约全权代表"
+        },
+        {
+          "name": "Cavour",
+          "role": "撒丁国王的和约全权代表"
+        },
+        {
+          "name": "Aali",
+          "role": "奥斯曼苏丹的和约全权代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "序言及落款列出有关君主和全权，普鲁士受邀加入安排；此时奥地利仍称奥地利帝国。",
+          "sourceId": "P1",
+          "locator": "序言及落款",
+          "url": "https://mjp.univ-perp.fr/traites/1856paris.htm"
+        },
+        {
+          "text": "第1条以交换批准书为恢复和平与友好的起算条件，不能把签署与这一条件混同。",
+          "sourceId": "P1",
+          "locator": "第1条",
+          "url": "https://mjp.univ-perp.fr/traites/1856paris.htm"
+        },
+        {
+          "text": "第11条规定黑海中立化、向商船开放及军旗禁入，但第14、19条有明列例外。",
+          "sourceId": "P1",
+          "locator": "第11、14、19条",
+          "url": "https://mjp.univ-perp.fr/traites/1856paris.htm"
+        },
+        {
+          "text": "按国名分列的署名可核对各方全权代表。本轮只采用其文书代表身份，不补入未核官职。",
+          "sourceId": "P2",
+          "locator": "条约汇编第180页，分国署名",
+          "url": "https://restitutio.bcub.ro/storage/item/2024/Mar/les-grands-traites-politiques/9v03NZFa2hvXrrN5ZVbnWrXO6Q5ccJZT9srMOI10.pdf"
+        }
+      ],
+      "quote": {
+        "text": "La mer Noire est neutralisée",
+        "translation": "黑海被规定为中立海域，需连同相关例外条款阅读。",
+        "sourceId": "P1",
+        "locator": "第11条",
+        "url": "https://mjp.univ-perp.fr/traites/1856paris.htm"
+      },
+      "limitation": "德国与奥匈是检索地区；实际参与者为普鲁士与奥地利帝国。签署原件与地方执行未核。",
+      "polities": [
+        "法兰西第二帝国",
+        "奥地利帝国",
+        "普鲁士",
+        "奥斯曼帝国",
+        "俄罗斯帝国"
+      ],
+      "parties": [
+        "英国",
+        "法国",
+        "奥地利帝国",
+        "俄罗斯帝国",
+        "撒丁王国",
+        "奥斯曼帝国",
+        "普鲁士"
+      ],
+      "aliases": []
+    },
+    {
       "id": "E1",
       "caseId": "treaties",
       "title": "中美天津条约签署",
@@ -120,7 +410,11 @@
         "locator": "第十一条，第1025页",
         "url": "https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg1023.pdf#page=3"
       },
-      "limitation": "签署和公布分开；这份文本不能单独证明地方执行情况。"
+      "limitation": "签署和公布分开；这份文本不能单独证明地方执行情况。",
+      "polities": [
+        "清朝",
+        "美利坚合众国"
+      ]
     },
     {
       "id": "E2",
@@ -185,6 +479,715 @@
       "aliases": [
         "哈里斯条约",
         "Harris Treaty"
+      ],
+      "polities": [
+        "德川幕府",
+        "美利坚合众国"
+      ]
+    },
+    {
+      "id": "W1",
+      "caseId": null,
+      "title": "英国印度政府法获御准",
+      "regions": [
+        "英国",
+        "印度"
+      ],
+      "placeId": "london",
+      "placeLabel": "伦敦",
+      "placeRole": "立法机关所在城市",
+      "date": {
+        "value": "1858-08-02",
+        "precision": "day",
+        "sortYear": 1858,
+        "display": "1858年8月2日",
+        "original": "法令题首署1858年8月2日",
+        "sourceIds": [
+          "B1"
+        ]
+      },
+      "summary": "法令安排东印度公司治理权向王室转移，设置新的印度事务治理结构。",
+      "people": [
+        {
+          "name": "维多利亚",
+          "role": "英国女王；法令以其名义治理印度"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第I—II条规定有关治理权、领土及相关权利转归女王，并以女王名义治理印度。",
+          "sourceId": "B1",
+          "locator": "第I—II条，PDF第1—2页",
+          "url": "https://www.legislation.gov.uk/ukpga/Vict/21-22/106/pdfs/ukpga_18580106_en.pdf#page=1"
+        },
+        {
+          "text": "第III条由一名国务大臣承接原由公司和印度事务委员会行使的有关权力。",
+          "sourceId": "B1",
+          "locator": "第III条，PDF第2页",
+          "url": "https://www.legislation.gov.uk/ukpga/Vict/21-22/106/pdfs/ukpga_18580106_en.pdf#page=2"
+        }
+      ],
+      "quote": {
+        "text": "India shall be governed by and in the Name of Her Majesty",
+        "translation": "印度将由女王并以其名义治理。",
+        "sourceId": "B1",
+        "locator": "第II条",
+        "url": "https://www.legislation.gov.uk/ukpga/Vict/21-22/106/pdfs/ukpga_18580106_en.pdf#page=2"
+      },
+      "limitation": "议会立法不等于全国施政已即时完成；伦敦点不表示女王实际签署处。",
+      "polities": [
+        "大不列颠及爱尔兰联合王国",
+        "东印度公司治理向英国王室转移"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W2",
+      "caseId": null,
+      "title": "维多利亚女王印度公告颁示",
+      "regions": [
+        "英国",
+        "印度"
+      ],
+      "placeId": "allahabad",
+      "placeLabel": "阿拉哈巴德",
+      "placeRole": "公告印件所署颁示地",
+      "date": {
+        "value": "1858-11-01",
+        "precision": "day",
+        "sortYear": 1858,
+        "display": "1858年11月1日",
+        "original": "公告原印件页首：Allahabad, Monday, 1 November 1858",
+        "sourceIds": [
+          "B2"
+        ]
+      },
+      "summary": "公告在印度宣布王室接管此前由东印度公司代管的政府。",
+      "people": [
+        {
+          "name": "维多利亚",
+          "role": "公告名义颁布者；不据此推断她本人到场"
+        }
+      ],
+      "claims": [
+        {
+          "text": "公告印件页首同时注明阿拉哈巴德及1858年11月1日。",
+          "sourceId": "B2",
+          "locator": "IOR/R/15/1/172，f.63r页首",
+          "url": "https://www.qdl.qa/en/archive/81055/vdc_100023510061.0x000085"
+        },
+        {
+          "text": "正文向印度诸王公、首领与人民宣布接管此前由公司代管的印度政府。",
+          "sourceId": "B2",
+          "locator": "f.63r，公告开头",
+          "url": "https://www.qdl.qa/en/archive/81055/vdc_100023510061.0x000085"
+        }
+      ],
+      "quote": {
+        "text": "We have taken upon Ourselves the said Government",
+        "translation": "我们已承担上述治理权；“上述”指此前由公司代管的印度政府。",
+        "sourceId": "B2",
+        "locator": "f.63r，NOW therefore段",
+        "url": "https://www.qdl.qa/en/archive/81055/vdc_100023510061.0x000085"
+      },
+      "limitation": "原印件证明公告内容和署地，未核宣读仪式全过程，也不证明承诺已实现。",
+      "polities": [
+        "英国王室接管印度治理"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W10",
+      "caseId": null,
+      "title": "中俄北京续增条约签署",
+      "regions": [
+        "中国",
+        "俄罗斯",
+        "蒙古"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京",
+      "placeRole": "条约签署地；库伦为条文所涉地区",
+      "date": {
+        "value": "1860-11-14",
+        "precision": "day",
+        "sortYear": 1860,
+        "display": "1860年11月14日",
+        "original": "原署俄历1860年11月2日；儒略历与格里高利历在本期相差12日",
+        "sourceIds": [
+          "R1"
+        ]
+      },
+      "summary": "条文涉及恰克图—库伦—张家口商路及俄罗斯在库伦设置领事的权利。",
+      "people": [
+        {
+          "name": "奕訢",
+          "role": "清方全权代表"
+        },
+        {
+          "name": "尼古拉·伊格纳季耶夫",
+          "role": "俄方全权代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第5条允许俄商循旧路贸易、在库伦及张家口交易，并约定库伦设领及土地牧场商定条件。",
+          "sourceId": "R1",
+          "locator": "第5条",
+          "url": "https://www.abirus.ru/content/564/623/626/14338/16620/16637.html"
+        },
+        {
+          "text": "第12条规定过库伦邮差向俄领事馆交收信件；第15条说明交换中俄文约本。",
+          "sourceId": "R1",
+          "locator": "第12、15条",
+          "url": "https://www.abirus.ru/content/564/623/626/14338/16620/16637.html"
+        }
+      ],
+      "quote": {
+        "text": "В Урге русскому правительству предоставляется право иметь консула",
+        "translation": "俄国政府获准在库伦设置一名领事；不是已经开馆的证明。",
+        "sourceId": "R1",
+        "locator": "第5条",
+        "url": "https://www.abirus.ru/content/564/623/626/14338/16620/16637.html"
+      },
+      "limitation": "蒙古是所涉地区，不是独立缔约方；本轮未取得1861年实际开馆原始档案。",
+      "polities": [
+        "清朝",
+        "俄罗斯帝国",
+        "清朝辖治下的库伦地区"
+      ],
+      "parties": [
+        "清朝",
+        "俄罗斯帝国"
+      ],
+      "aliases": [],
+      "calendarConversion": {
+        "original": "1860-11-02",
+        "calendar": "Julian",
+        "offsetDays": 12,
+        "converted": "1860-11-14"
+      }
+    },
+    {
+      "id": "W11",
+      "caseId": null,
+      "title": "俄国解放宣言及地方适用范围",
+      "regions": [
+        "俄罗斯",
+        "白俄罗斯",
+        "乌克兰"
+      ],
+      "placeId": "saint-petersburg",
+      "placeLabel": "圣彼得堡",
+      "placeRole": "宣言署地；所列省份为适用地区",
+      "date": {
+        "value": "1861-03-03",
+        "precision": "day",
+        "sortYear": 1861,
+        "display": "1861年3月3日",
+        "original": "原署俄历1861年2月19日；本期两历相差12日。省份清单另见俄历3月2日公布命令",
+        "sourceIds": [
+          "R2"
+        ]
+      },
+      "summary": "宣言规定农民权利与过渡义务；公布命令明确列出西部和西南部省份的不同条例。",
+      "people": [
+        {
+          "name": "亚历山大二世",
+          "role": "宣言发布者、俄罗斯皇帝"
+        }
+      ],
+      "claims": [
+        {
+          "text": "宣言规定自由乡民权利，同时保留地主土地所有权与农民使用土地的义务，存在暂时义务阶段。",
+          "sourceId": "R2",
+          "locator": "宣言正文，原编第27—30页",
+          "url": "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+        },
+        {
+          "text": "公布命令第三部分第8、9项直接列出基辅、波多利亚、沃里尼亚和明斯克等省份条例。",
+          "sourceId": "R3",
+          "locator": "№36650所附公布命令，第三部分第8—9项",
+          "url": "https://ru.wikisource.org/wiki/Полное_собрание_законов_Российской_империи/ДО/Собрание_второе/36650"
+        },
+        {
+          "text": "地方条例第1条及注3另列莫吉廖夫、部分维捷布斯克与另一条例的适用分界。",
+          "sourceId": "R4",
+          "locator": "第1条、注3",
+          "url": "https://nnov.hse.ru/ba/law/igpr/mestpolozh1861"
+        }
+      ],
+      "quote": {
+        "text": "полные права свободных сельских обывателей",
+        "translation": "自由乡民的完整权利；须连同土地、义务和过渡条款阅读。",
+        "sourceId": "R2",
+        "locator": "宣言正文",
+        "url": "https://www.hist.msu.ru/ER/Etext/feb1861.htm"
+      },
+      "limitation": "白俄罗斯与乌克兰标签依据明确列省，不能泛化为整个今日国家地区，也不加入未核的分地租役数额。",
+      "polities": [
+        "俄罗斯帝国",
+        "白俄罗斯、乌克兰地区所列帝国省份"
+      ],
+      "parties": [],
+      "aliases": [],
+      "calendarConversion": {
+        "original": "1861-02-19",
+        "calendar": "Julian",
+        "offsetDays": 12,
+        "converted": "1861-03-03"
+      }
+    },
+    {
+      "id": "W8",
+      "caseId": null,
+      "title": "Mouhot记抵琅勃拉邦",
+      "regions": [
+        "老挝",
+        "法国"
+      ],
+      "placeId": "luang-prabang",
+      "placeLabel": "琅勃拉邦",
+      "placeRole": "旅行者自记到达地",
+      "date": {
+        "value": "1861-07-25",
+        "precision": "day",
+        "sortYear": 1861,
+        "display": "1861年7月25日",
+        "original": "1864刊本卷II第137、143页的1861年行程；7月27日家书说两日前抵达",
+        "sourceIds": [
+          "L1"
+        ]
+      },
+      "summary": "法国旅行者记录进入琅勃拉邦、获得安排及随后接见国王的经历。",
+      "people": [
+        {
+          "name": "Henri Mouhot",
+          "role": "法国博物学旅行者、记录者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第137页及第143页记7月25日抵琅勃拉邦，第143页又记8月3日获国王接见。",
+          "sourceId": "L1",
+          "locator": "卷II，第137、143页",
+          "url": "https://archive.org/stream/travelsincentral02mouh/travelsincentral02mouh_djvu.txt"
+        },
+        {
+          "text": "7月27日致妻子信称两日前抵达，并述住处由国王安排；同一作者的家书不能算独立作者见证。",
+          "sourceId": "L1",
+          "locator": "卷II附录，第265—267页",
+          "url": "https://archive.org/stream/travelsincentral02mouh/travelsincentral02mouh_djvu.txt"
+        }
+      ],
+      "quote": {
+        "text": "On the 25th of July I reached Louang Prabang",
+        "translation": "7月25日我到达琅勃拉邦。",
+        "sourceId": "L1",
+        "locator": "卷II，第137页",
+        "url": "https://archive.org/stream/travelsincentral02mouh/travelsincentral02mouh_djvu.txt"
+      },
+      "limitation": "由逝世后的日记、家书整理出版，非原手稿；不把作者观察升级为整个现代老挝的事实。",
+      "polities": [
+        "琅勃拉邦王国",
+        "法国旅行者视角"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W6",
+      "caseId": null,
+      "title": "西贡和平友好条约签署",
+      "regions": [
+        "法国",
+        "越南"
+      ],
+      "placeId": "saigon",
+      "placeLabel": "西贡",
+      "placeRole": "条约签署地",
+      "date": {
+        "value": "1862-06-05",
+        "precision": "day",
+        "sortYear": 1862,
+        "display": "1862年6月5日",
+        "original": "条约并列1862年6月5日与嗣德十五年五月九日",
+        "sourceIds": [
+          "V1"
+        ]
+      },
+      "summary": "法国、西班牙与阮朝的条约涉及领土割让、宗教活动和战争赔款。",
+      "people": [
+        {
+          "name": "Louis-Alphonse Bonard",
+          "role": "法国全权代表、海军少将"
+        },
+        {
+          "name": "潘清简 Phan Thanh Gian",
+          "role": "嗣德帝全权使臣、礼部大臣"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第3条将边和、嘉定、定祥三省及Poulo-Condor岛连同主权割让法国。",
+          "sourceId": "V1",
+          "locator": "第3条",
+          "url": "https://mjp.univ-perp.fr/constit/vn1862.htm"
+        },
+        {
+          "text": "第2条涉及法、西臣民及自愿改宗的阮朝臣民宗教活动；第8条规定十年赔付四百万美元。",
+          "sourceId": "V1",
+          "locator": "第2、8条",
+          "url": "https://mjp.univ-perp.fr/constit/vn1862.htm"
+        }
+      ],
+      "quote": {
+        "text": "en toute souveraineté",
+        "translation": "连同完整主权；需在第3条列明地域内理解。",
+        "sourceId": "V1",
+        "locator": "第3条",
+        "url": "https://mjp.univ-perp.fr/constit/vn1862.htm"
+      },
+      "limitation": "西班牙也是参与方；嗣德帝是缔约君主，不能写成在西贡亲笔签署者。",
+      "polities": [
+        "法兰西第二帝国",
+        "阮朝"
+      ],
+      "parties": [
+        "法国",
+        "西班牙",
+        "阮朝"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "W7",
+      "caseId": null,
+      "title": "法国—柬埔寨保护条约签署",
+      "regions": [
+        "法国",
+        "柬埔寨"
+      ],
+      "placeId": "oudong",
+      "placeLabel": "乌栋",
+      "placeRole": "条约所署乌栋王宫",
+      "date": {
+        "value": "1863-08-11",
+        "precision": "day",
+        "sortYear": 1863,
+        "display": "1863年8月11日",
+        "original": "条约并列1863年8月11日与Assath月27日、Kor年1225；保留法文转写",
+        "sourceIds": [
+          "K1"
+        ]
+      },
+      "summary": "条约安排法国保护、驻扎官和柬王权威之间的关系。",
+      "people": [
+        {
+          "name": "诺罗敦",
+          "role": "柬埔寨国王"
+        },
+        {
+          "name": "Pierre-Paul de La Grandière",
+          "role": "法国代表、交趾支那总督及总司令"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条规定法国皇帝给予柬王保护，第2条设置受交趾支那总督管辖的法国驻扎官。",
+          "sourceId": "K1",
+          "locator": "第1—2条",
+          "url": "https://mjp.univ-perp.fr/constit/kh1863.htm"
+        },
+        {
+          "text": "第16条承认诺罗敦王权并约定秩序与抵御外来攻击；第19条规定须法国皇帝批准才有效。",
+          "sourceId": "K1",
+          "locator": "第16、19条",
+          "url": "https://mjp.univ-perp.fr/constit/kh1863.htm"
+        }
+      ],
+      "quote": {
+        "text": "accorde sa protection",
+        "translation": "给予保护；这是一项条约安排，不能直接等同其后所有殖民统治条款。",
+        "sourceId": "K1",
+        "locator": "第1条",
+        "url": "https://mjp.univ-perp.fr/constit/kh1863.htm"
+      },
+      "limitation": "签署与批准生效分开；古城参照点不是已核的1863签约宫殿坐标。",
+      "polities": [
+        "柬埔寨王国",
+        "法国保护关系"
+      ],
+      "parties": [
+        "法国",
+        "柬埔寨王国"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "W9",
+      "caseId": null,
+      "title": "丙寅洋扰：江华失城与鼎足山城奏报",
+      "regions": [
+        "韩国",
+        "朝鲜",
+        "法国"
+      ],
+      "placeId": "ganghwa",
+      "placeLabel": "江华岛",
+      "placeRole": "奏报所述冲突地区",
+      "date": {
+        "value": "1866",
+        "precision": "year",
+        "sortYear": 1866,
+        "display": "1866年 · 月日未作西历换算",
+        "original": "高宗三年／清同治五年／丙寅；条目九月九日、九月十一日与十月三日保留农历",
+        "sourceIds": [
+          "J1"
+        ]
+      },
+      "summary": "朝鲜王朝的奏报与往复檄文记录对法冲突；两个现代半岛入口共用此条。",
+      "people": [
+        {
+          "name": "李寅夔",
+          "role": "江华留守、失城奏报者"
+        },
+        {
+          "name": "梁憲洙",
+          "role": "鼎足山城守将、战报奏报者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "九月九日乙丑奏报描述敌军循甲串道路越城及守军溃散。",
+          "sourceId": "J1",
+          "locator": "kza_10309009_004，卷3第58叶B／影印本第1册233页",
+          "url": "https://sillok.history.go.kr/id/kza_10309009_004"
+        },
+        {
+          "text": "九月十一日往复檄文中法方自述因传教士被杀而来；这只是文书中的一方理由。",
+          "sourceId": "J1",
+          "locator": "kza_10309011_009，第61叶A／235页",
+          "url": "https://sillok.history.go.kr/id/kza_10309011_009"
+        },
+        {
+          "text": "十月三日载梁憲洙设伏战报；伤亡、弹药等数字只能作为奏报内容，不作中立战果统计。",
+          "sourceId": "J1",
+          "locator": "kza_10310003_003，第73叶A／241页",
+          "url": "https://sillok.history.go.kr/id/kza_10310003_003"
+        }
+      ],
+      "quote": {
+        "text": "我軍左右埋伏，齊發銃丸",
+        "translation": "奏报称己军左右设伏，齐射。",
+        "sourceId": "J1",
+        "locator": "十月三日奏报，第73叶A",
+        "url": "https://sillok.history.go.kr/id/kza_10310003_003"
+      },
+      "limitation": "只确定西历1866年，不把农历条目当作公历；1927—1935后编实录的传承限制另列。",
+      "polities": [
+        "朝鲜王朝",
+        "法兰西第二帝国"
+      ],
+      "parties": [],
+      "aliases": [],
+      "sharedPolityId": "joseon"
+    },
+    {
+      "id": "W4",
+      "caseId": null,
+      "title": "北德意志联邦宪法公布文书",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "bad-ems",
+      "placeLabel": "巴特埃姆斯",
+      "placeRole": "公布文书落款地",
+      "date": {
+        "value": "1867-07-26",
+        "precision": "day",
+        "sortYear": 1867,
+        "display": "1867年7月26日",
+        "original": "公布文书署Bad Ems，1867年7月26日；取得法律效力另记7月1日",
+        "sourceIds": [
+          "D1"
+        ]
+      },
+      "summary": "公报公布联邦宪法，并注明其已经从7月1日起取得法律效力。",
+      "people": [
+        {
+          "name": "威廉一世",
+          "role": "普鲁士国王、联邦主席权承受者"
+        },
+        {
+          "name": "俾斯麦",
+          "role": "公布文书副署者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条列举联邦成员；黑森仅有美因河以北部分在列。",
+          "sourceId": "D1",
+          "locator": "第1条，第2—3页",
+          "url": "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes"
+        },
+        {
+          "text": "第11条把联邦主席权授予普鲁士王室，并规定对外代表等职权。",
+          "sourceId": "D1",
+          "locator": "第11条，第7页",
+          "url": "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes"
+        },
+        {
+          "text": "第79条仍另列南德加入与关系的立法安排，不能写作德国已经全部统一。",
+          "sourceId": "D1",
+          "locator": "第79条，第22—23页；末尾落款",
+          "url": "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes"
+        }
+      ],
+      "quote": {
+        "text": "Das Präsidium des Bundes steht der Krone Preußen zu",
+        "translation": "联邦主席权归普鲁士王室。",
+        "sourceId": "D1",
+        "locator": "第11条，第7页",
+        "url": "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes"
+      },
+      "limitation": "地图点表示7月26日公告落款地，不表示7月1日生效仪式。",
+      "polities": [
+        "北德意志联邦",
+        "普鲁士王室"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "W5",
+      "caseId": null,
+      "title": "奥匈共同事务法颁署",
+      "regions": [
+        "奥匈帝国"
+      ],
+      "placeId": "vienna",
+      "placeLabel": "维也纳",
+      "placeRole": "颁法落款地",
+      "date": {
+        "value": "1867-12-21",
+        "precision": "day",
+        "sortYear": 1867,
+        "display": "1867年12月21日",
+        "original": "法令落款12月21日；公报公布日期另为12月22日",
+        "sourceIds": [
+          "H1"
+        ]
+      },
+      "summary": "奥地利侧法律文本区分共同管理事项与按协议共同原则处理的事务。",
+      "people": [
+        {
+          "name": "弗朗茨·约瑟夫",
+          "role": "颁法君主"
+        },
+        {
+          "name": "贝乌斯特",
+          "role": "法令副署者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条将外交、含海军的军务及有关共同支出财政列为共同事务，并有明列例外。",
+          "sourceId": "H1",
+          "locator": "第401—402页，第1条",
+          "url": "https://de.wikisource.org/wiki/Seite:Reichsgesetzblatt_(Austria)_1867_0402.jpg"
+        },
+        {
+          "text": "第2条将关税、部分间接税及币制等列为按协定原则处理，区别于共同管理。",
+          "sourceId": "H1",
+          "locator": "第402页，第2条",
+          "url": "https://de.wikisource.org/wiki/Seite:Reichsgesetzblatt_(Austria)_1867_0402.jpg"
+        },
+        {
+          "text": "第5—6条规定共同责任内阁与双方议会代表团；末署维也纳1867年12月21日。",
+          "sourceId": "H1",
+          "locator": "第402页，第5—6条；第406页末署",
+          "url": "https://de.wikisource.org/wiki/Seite:Reichsgesetzblatt_(Austria)_1867_0406.jpg"
+        }
+      ],
+      "quote": {
+        "text": "Die Verwaltung der gemeinsamen Angelegenheiten wird durch ein gemeinsames verantwortliches Ministerium besorgt",
+        "translation": "共同事务由共同责任内阁管理。",
+        "sourceId": "H1",
+        "locator": "第402页，第5条",
+        "url": "https://de.wikisource.org/wiki/Seite:Reichsgesetzblatt_(Austria)_1867_0402.jpg"
+      },
+      "limitation": "这是奥地利侧共同事务法，不把整个奥匈妥协压成单日建国，也未核匈牙利Act XII原件。",
+      "polities": [
+        "奥匈二元君主国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "E6",
+      "caseId": "knowledge",
+      "title": "《五箇条御誓文》誓约与颁示",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "kyoto",
+      "placeLabel": "京都御所 · 紫宸殿",
+      "placeRole": "誓约仪式地",
+      "date": {
+        "value": "1868-04-06",
+        "precision": "day",
+        "sortYear": 1868,
+        "display": "1868年4月6日",
+        "original": "慶応四年三月十四日（旧历）；西历换算据宫内厅说明",
+        "sourceIds": [
+          "S6",
+          "A2"
+        ]
+      },
+      "summary": "政府誓文要求向世界求取知识，并以振兴皇基为明确目的。",
+      "people": [
+        {
+          "name": "明治天皇",
+          "role": "政治誓约的主体；不能由此断言传世控本为其亲笔"
+        },
+        {
+          "name": "三条实美",
+          "role": "仪式中宣读誓文；据宫内厅说明"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第五条把向世界求知和振兴皇基连在同一句中。",
+          "sourceId": "S6",
+          "locator": "第五条",
+          "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
+        },
+        {
+          "text": "宫内厅说明给出西历1868年4月6日与紫宸殿仪式地点；旧历3月14日不能当作西历日期。",
+          "sourceId": "A2",
+          "locator": "宫内厅说明，PDF第14页",
+          "url": "https://www.kunaicho.go.jp/event/kyotogosho/pdf/02shishinden.pdf#page=14"
+        }
+      ],
+      "quote": {
+        "text": "智識ヲ世界ニ求メ大ニ皇基ヲ振起スベシ",
+        "translation": "向世界求取知识，以大力振兴皇基为目的；不能省去后半句的政治目的。",
+        "sourceId": "S6",
+        "locator": "第五条",
+        "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
+      },
+      "limitation": "政府誓文和学者序文的效力不同；求知表述不能直接证明全国改革成效。",
+      "aliases": [
+        "五条誓文",
+        "五箇条の誓文",
+        "明治维新",
+        "Charter Oath"
+      ],
+      "polities": [
+        "明治新政府"
       ]
     },
     {
@@ -249,6 +1252,10 @@
         "蒲安臣条约",
         "Burlingame Treaty",
         "Seward"
+      ],
+      "polities": [
+        "清朝",
+        "美利坚合众国"
       ]
     },
     {
@@ -310,121 +1317,9 @@
         "美国宪法",
         "Seward",
         "Fourteenth Amendment"
-      ]
-    },
-    {
-      "id": "E5",
-      "caseId": "knowledge",
-      "title": "魏源《海国图志后叙》署年",
-      "regions": [
-        "中国"
       ],
-      "placeId": "gaoyou",
-      "placeLabel": "高邮州（序文自署）",
-      "placeRole": "文献自署写作地",
-      "date": {
-        "value": null,
-        "precision": "regnal_year",
-        "sortYear": 1852,
-        "display": "约1852年 · 原署咸丰二年",
-        "original": "咸丰二年；西历年界未核，1852仅作书目排序参照",
-        "sourceIds": [
-          "S5"
-        ]
-      },
-      "summary": "以外国史地和地图扩展视野，兼论北美政治章程及中国的经世目标。",
-      "people": [
-        {
-          "name": "魏源",
-          "role": "学者、编纂者；后叙自署作者"
-        }
-      ],
-      "claims": [
-        {
-          "text": "后叙称赞他所理解的北美政治章程，并讨论外国史地和国别地图；不能压缩为只学舰船火炮。",
-          "sourceId": "S5",
-          "locator": "后叙北美政治与地图段",
-          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
-        },
-        {
-          "text": "篇末署咸丰二年、高邮州；同一数字文本另收同治七年陈氏重刊序。",
-          "sourceId": "S5",
-          "locator": "后叙篇末；重刊序篇末",
-          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
-        }
-      ],
-      "quote": {
-        "text": "其章程可垂奕世而無弊",
-        "translation": "魏源高度评价他所理解的北美政治章程；这是作者判断，不是对制度优劣的现代认证。",
-        "sourceId": "S5",
-        "locator": "后叙北美段",
-        "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
-      },
-      "limitation": "数字文本的作者署年、所据刊本和重刊增序分开。只在专题全时段出现，不参加精确同日或同年匹配。",
-      "aliases": [
-        "海國圖志",
-        "魏默深"
-      ]
-    },
-    {
-      "id": "E6",
-      "caseId": "knowledge",
-      "title": "《五箇条御誓文》誓约与颁示",
-      "regions": [
-        "日本"
-      ],
-      "placeId": "kyoto",
-      "placeLabel": "京都御所 · 紫宸殿",
-      "placeRole": "誓约仪式地",
-      "date": {
-        "value": "1868-04-06",
-        "precision": "day",
-        "sortYear": 1868,
-        "display": "1868年4月6日",
-        "original": "慶応四年三月十四日（旧历）；西历换算据宫内厅说明",
-        "sourceIds": [
-          "S6",
-          "A2"
-        ]
-      },
-      "summary": "政府誓文要求向世界求取知识，并以振兴皇基为明确目的。",
-      "people": [
-        {
-          "name": "明治天皇",
-          "role": "政治誓约的主体；不能由此断言传世控本为其亲笔"
-        },
-        {
-          "name": "三条实美",
-          "role": "仪式中宣读誓文；据宫内厅说明"
-        }
-      ],
-      "claims": [
-        {
-          "text": "第五条把向世界求知和振兴皇基连在同一句中。",
-          "sourceId": "S6",
-          "locator": "第五条",
-          "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
-        },
-        {
-          "text": "宫内厅说明给出西历1868年4月6日与紫宸殿仪式地点；旧历3月14日不能当作西历日期。",
-          "sourceId": "A2",
-          "locator": "宫内厅说明，PDF第14页",
-          "url": "https://www.kunaicho.go.jp/event/kyotogosho/pdf/02shishinden.pdf#page=14"
-        }
-      ],
-      "quote": {
-        "text": "智識ヲ世界ニ求メ大ニ皇基ヲ振起スベシ",
-        "translation": "向世界求取知识，以大力振兴皇基为目的；不能省去后半句的政治目的。",
-        "sourceId": "S6",
-        "locator": "第五条",
-        "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
-      },
-      "limitation": "政府誓文和学者序文的效力不同；求知表述不能直接证明全国改革成效。",
-      "aliases": [
-        "五条誓文",
-        "五箇条の誓文",
-        "明治维新",
-        "Charter Oath"
+      "polities": [
+        "美利坚合众国"
       ]
     }
   ],
@@ -457,7 +1352,8 @@
       ],
       "coordinateSource": "https://www.marineregions.org/gazetteer.php?p=details&id=9086",
       "coordinateLabel": "Marine Regions地名录 · Tokyo Bay，MRGID9086",
-      "note": "以现代东京湾地名录的海域参照点与范围示意。史料指小柴近海军舰上，军舰确切锚位未核；示意环不是实测精度或历史岸线。"
+      "note": "以现代东京湾地名录的海域参照点与范围示意。史料指小柴近海军舰上，军舰确切锚位未核；示意环不是实测精度或历史岸线。",
+      "shortLabel": "江户湾"
     },
     {
       "id": "washington",
@@ -494,6 +1390,162 @@
       "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q34600&oldid=2565609745",
       "coordinateLabel": "Wikidata Q34600 · 固定修订2565609745",
       "note": "现代京都城市参照点。仪式地点据宫内厅为京都御所紫宸殿；此点不表示殿内仪式的精确坐标。"
+    },
+    {
+      "id": "london",
+      "label": "伦敦",
+      "coordinates": [
+        -0.1275,
+        51.507222222222
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q84&oldid=2571926487",
+      "coordinateLabel": "Wikidata Q84 · London · 固定修订2571926487",
+      "note": "现代伦敦城市参照点，用于立法机关所在城市；不推断女王当日实际签署处或印度公告宣读地点。"
+    },
+    {
+      "id": "allahabad",
+      "label": "阿拉哈巴德",
+      "coordinates": [
+        81.85,
+        25.45
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q162442&oldid=2565117381",
+      "coordinateLabel": "Wikidata Q162442 · Prayagraj · 固定修订2565117381",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "paris",
+      "label": "巴黎",
+      "coordinates": [
+        2.352222222222222,
+        48.85666666666667
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q90&oldid=2571885447",
+      "coordinateLabel": "Wikidata Q90 · Paris · 固定修订2571885447",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "bad-ems",
+      "label": "巴特埃姆斯",
+      "coordinates": [
+        7.7105555555556,
+        50.338055555556
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q490670&oldid=2567637994",
+      "coordinateLabel": "Wikidata Q490670 · Bad Ems · 固定修订2567637994",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "vienna",
+      "label": "维也纳",
+      "coordinates": [
+        16.3725,
+        48.208333333333336
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q1741&oldid=2571887414",
+      "coordinateLabel": "Wikidata Q1741 · Vienna · 固定修订2571887414",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "saigon",
+      "label": "西贡",
+      "coordinates": [
+        106.70194444444445,
+        10.775555555555556
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q1854&oldid=2571295572",
+      "coordinateLabel": "Wikidata Q1854 · Ho Chi Minh City · 固定修订2571295572",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "luang-prabang",
+      "label": "琅勃拉邦",
+      "coordinates": [
+        102.13472222222222,
+        19.89
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q190165&oldid=2561592555",
+      "coordinateLabel": "Wikidata Q190165 · Luang Prabang · 固定修订2561592555",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "ganghwa",
+      "label": "江华岛",
+      "coordinates": [
+        126.44,
+        37.71
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q494786&oldid=2569031787",
+      "coordinateLabel": "Wikidata Q494786 · Ganghwa Island · 固定修订2569031787",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "beijing",
+      "label": "北京",
+      "coordinates": [
+        116.407526,
+        39.90403
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q956&oldid=2571710508",
+      "coordinateLabel": "Wikidata Q956 · Beijing · 固定修订2571710508",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "saint-petersburg",
+      "label": "圣彼得堡",
+      "coordinates": [
+        30.316666666667,
+        59.95
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q656&oldid=2571717697",
+      "coordinateLabel": "Wikidata Q656 · Saint Petersburg · 固定修订2571717697",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "santiago",
+      "label": "圣地亚哥",
+      "coordinates": [
+        -70.65,
+        -33.4375
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q2887&oldid=2563734302",
+      "coordinateLabel": "Wikidata Q2887 · Santiago · 固定修订2563734302",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "santa-fe",
+      "label": "圣菲",
+      "coordinates": [
+        -60.7,
+        -31.633333333333
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q44244&oldid=2550542976",
+      "coordinateLabel": "Wikidata Q44244 · Santa Fe · 固定修订2550542976",
+      "note": "现代地理参照点；历史活动地点及角色据记录分别说明，不表示建筑、仪式或战斗位置的实测坐标。"
+    },
+    {
+      "id": "oudong",
+      "label": "乌栋",
+      "coordinates": [
+        104.7425,
+        11.823888888889
+      ],
+      "precision": "site_reference",
+      "coordinateSource": "https://whc.unesco.org/en/tentativelists/6459",
+      "coordinateLabel": "UNESCO《Ancient City of Ondong》预备名录6459",
+      "note": "乌栋古城遗址参照点，取北纬11°49′26″、东经104°44′33″；不表示1863年签约王宫的实测建筑坐标。"
     }
   ],
   "sources": [
@@ -578,10 +1630,208 @@
       "checked": "说明中的西历日期与地点已读。",
       "limitation": "用于确认1868年4月6日和紫宸殿；不取代誓文正文。",
       "humanReviewed": false
+    },
+    {
+      "id": "B1",
+      "title": "英国《Government of India Act 1858》",
+      "url": "https://www.legislation.gov.uk/ukpga/Vict/21-22/106/pdfs/ukpga_18580106_en.pdf",
+      "kind": "英国官方法令原印本数字化",
+      "locator": "21 & 22 Vict. c.106，第I—III条，PDF第1—2页",
+      "checked": "对应条款及题首1858年8月2日已读。",
+      "limitation": "法令规定的权力转移与实际施政分开；地图定位立法机关所在城市，不确定女王实际签署处。",
+      "humanReviewed": false
+    },
+    {
+      "id": "B2",
+      "title": "维多利亚女王印度公告原印件",
+      "url": "https://www.qdl.qa/en/archive/81055/vdc_100023510061.0x000085",
+      "kind": "英国图书馆印度事务档案 · 公告印件数字化",
+      "locator": "IOR/R/15/1/172，f.63r；页首Allahabad, Monday, 1 November 1858",
+      "checked": "原印件题头、日期、地点与接管宣告已读。",
+      "limitation": "未核坎宁宣读的完整仪式；公告承诺不等于实际施政已实现。",
+      "humanReviewed": false,
+      "witnessUrl": "https://searcharchives.bl.uk/catalog/041-000566434",
+      "witnessLabel": "英国图书馆独立目录"
+    },
+    {
+      "id": "P1",
+      "title": "1856年巴黎和约",
+      "url": "https://mjp.univ-perp.fr/traites/1856paris.htm",
+      "kind": "大学机构转录 · 法文原始条约",
+      "locator": "据de Clercq《Recueil des traités de la France》1880卷VII，第59页起；序言、第1、11、14、19条及落款",
+      "checked": "序言、相关条款、落款与英文全文已读。",
+      "limitation": "大学页面直开曾返回502，相关段落通过检索返回核读；签字原件未逐字对校。",
+      "humanReviewed": false,
+      "witnessUrl": "https://resources.ials.sas.ac.uk/flare/733388",
+      "witnessLabel": "伦敦大学IALS条约目录"
+    },
+    {
+      "id": "D1",
+      "title": "《北德意志联邦宪法》及公布文书",
+      "url": "https://de.wikisource.org/wiki/Verfassung_des_Norddeutschen_Bundes",
+      "kind": "1867年联邦法律公报 · 附扫描的文字转录",
+      "locator": "Bundesgesetzblatt 1867年第1号，第1—23页；第1、11、79条与末尾日期",
+      "checked": "对应条款、7月1日取得效力与7月26日公告落款已读。",
+      "limitation": "没有逐字校对全部23页扫描；公告落款地不是7月1日的仪式地点。",
+      "humanReviewed": false
+    },
+    {
+      "id": "H1",
+      "title": "1867年奥匈共同事务法",
+      "url": "https://de.wikisource.org/wiki/Seite:Reichsgesetzblatt_(Austria)_1867_0401.jpg",
+      "kind": "帝国法律公报原页转录 · 政府元数据互校",
+      "locator": "Reichsgesetzblatt 1867年第61期、第146号，第401—406页；第1、2、5、6条",
+      "checked": "第401、402、406页及林茨大学全文已读；日期与RIS互校。",
+      "limitation": "ALEX原入口403；匈牙利Act XII原件未核，不能把奥地利侧法文书等同整个妥协的单日建国。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.jku.at/fileadmin/gruppen/142/Gesetz_vom_21__December_1867_Nr_1_7.pdf",
+      "parallelLabel": "林茨大学收录全文",
+      "witnessUrl": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=BgblAlt&Dokumentnummer=rgb1867_0146_00401",
+      "witnessLabel": "奥地利政府RIS公布元数据"
+    },
+    {
+      "id": "V1",
+      "title": "1862年西贡和平友好条约",
+      "url": "https://mjp.univ-perp.fr/constit/vn1862.htm",
+      "kind": "大学机构转录 · 法文条约",
+      "locator": "序言、第2、3、8、12条及落款；1862-06-05并列嗣德十五年五月九日",
+      "checked": "相关条款、全权职衔、地点与两种署日已读。",
+      "limitation": "未对读越文及签章底本；批准书交换程序不能与签署阶段混淆。",
+      "humanReviewed": false
+    },
+    {
+      "id": "K1",
+      "title": "1863年法国—柬埔寨保护条约",
+      "url": "https://mjp.univ-perp.fr/constit/kh1863.htm",
+      "kind": "大学机构转录 · 法文条约",
+      "locator": "第1、2、16、19条及乌栋王宫落款",
+      "checked": "条款、诺罗敦、乌栋地点、当地纪年及1863-08-11已读。",
+      "limitation": "第19条要求法国皇帝批准；8月11日是签署，不直接作为生效日。后接1884公约不能倒填。",
+      "humanReviewed": false
+    },
+    {
+      "id": "L1",
+      "title": "Mouhot《中南半岛中部旅行记》卷II",
+      "url": "https://archive.org/stream/travelsincentral02mouh/travelsincentral02mouh_djvu.txt",
+      "kind": "1864年伦敦John Murray刊本 · OCR转录",
+      "locator": "第XVII章，第137、143页；附录第265—267页；康涅狄格大学藏本数字化",
+      "checked": "琅勃拉邦到达日、接见条目和家书对应段落已读。",
+      "limitation": "逝世后由弟弟Charles按日记、家书整理出版；序言承认增补及铅笔字漫漶，不是手稿原貌或当地人的自述。",
+      "humanReviewed": false,
+      "parallelUrl": "https://archive.org/stream/travelsincentral01mouh/travelsincentral01mouh_djvu.txt",
+      "parallelLabel": "卷I整理者序言，第11—15页",
+      "witnessUrl": "https://archive.org/details/travelsincentral02mouh",
+      "witnessLabel": "数字化版本与馆藏信息"
+    },
+    {
+      "id": "J1",
+      "title": "《高宗实录》1866年对法冲突奏报",
+      "url": "https://sillok.history.go.kr/id/kza_10309009_004",
+      "kind": "国史编纂委员会数据库 · 后编实录所收奏报转录",
+      "locator": "卷3：九月九日58叶B、九月十一日61叶A、十月三日73叶A；条目ID分别另列",
+      "checked": "汉文奏报、往复檄文与编纂说明已读；原农历不直接换成公历。",
+      "limitation": "《高宗实录》1927年起编、1935年刊毕，非1866即时刊成；伤亡数字仅是奏报数字。",
+      "humanReviewed": false,
+      "witnessUrl": "https://sillok.history.go.kr/popup/haejae.do?id=kza&sillokName=고종실록",
+      "witnessLabel": "官方编纂与传承说明"
+    },
+    {
+      "id": "R1",
+      "title": "1860年中俄北京续增条约",
+      "url": "https://www.abirus.ru/content/564/623/626/14338/16620/16637.html",
+      "kind": "民间网站转录 · 注明条约汇编及档案号",
+      "locator": "《俄中条约文书1689—1916》；第5、12、15条；原件档号Ф.Трактаты，Оп.3，1860，Д.881/157",
+      "checked": "相关俄文条款、署名和两历日期已读。",
+      "limitation": "原档及中文约本未核；库伦设领权与1861实际开馆不是同一件事。",
+      "humanReviewed": false
+    },
+    {
+      "id": "R2",
+      "title": "俄国1861年解放宣言",
+      "url": "https://www.hist.msu.ru/ER/Etext/feb1861.htm",
+      "kind": "莫斯科大学校录 · 1989年法律文献集",
+      "locator": "《俄罗斯法律十至二十世纪》第7卷，原编第27—30页；文末圣彼得堡俄历2月19日",
+      "checked": "自由乡民权利、地主土地权与暂时义务条款已读。",
+      "limitation": "亲署原件未核；“获得自由”不等于即时取得土地所有权或全国执行一致。",
+      "humanReviewed": false
+    },
+    {
+      "id": "R3",
+      "title": "解放法规公布命令中的省份清单",
+      "url": "https://ru.wikisource.org/wiki/Полное_собрание_законов_Российской_империи/ДО/Собрание_второе/36650",
+      "kind": "《全俄法律汇编》文字转录",
+      "locator": "第二辑第36卷№36650；俄历1861年3月2日元老院公布命令，第三部分第8、9项",
+      "checked": "明确列出基辅、波多利亚、沃里尼亚及明斯克等省份的条目已读。",
+      "limitation": "西部、西南部条例扫描受限，未通读；不加入具体分地或租役数额。",
+      "humanReviewed": false
+    },
+    {
+      "id": "R4",
+      "title": "俄国1861地方条例第1条及注3",
+      "url": "https://nnov.hse.ru/ba/law/igpr/mestpolozh1861",
+      "kind": "高等经济大学收录 · 地方条例原文",
+      "locator": "大俄罗斯、新俄罗斯及白俄罗斯省地方条例，第1条、注3",
+      "checked": "莫吉廖夫、部分维捷布斯克及另属明斯克条例的县份说明已读。",
+      "limitation": "列明省份并不等于覆盖所有今日白俄罗斯和乌克兰国土。",
+      "humanReviewed": false
+    },
+    {
+      "id": "C1",
+      "title": "1855年智利民法典批准法",
+      "url": "https://es.wikisource.org/wiki/Ley_aprobatoria_del_Código_Civil_de_la_República_de_Chile",
+      "kind": "批准法文字转录 · 原刻扫描未核",
+      "locator": "唯一条款；1855年12月14日署日；1857年1月1日施行规定",
+      "checked": "批准、施行日期及权威本保存条款已读。",
+      "limitation": "BCN批准法扫描抓取失败；核查层级是文字转录，不能标作已读原刻。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.bcn.cl/leychile/navegar?idNorma=1080094",
+      "parallelLabel": "BCN官方1855年总统咨文"
+    },
+    {
+      "id": "C2",
+      "title": "1855年智利总统提交民法典咨文",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1080094",
+      "kind": "智利国会图书馆官方历史文本",
+      "locator": "1855年11月22日圣地亚哥署名及咨文全文",
+      "checked": "总统向国会建议批准法典的全文、签署人与日期已读。",
+      "limitation": "提交建议、后续批准与1857年施行分别记录。",
+      "humanReviewed": false
+    },
+    {
+      "id": "C3",
+      "title": "智利民法典1856首版最后条",
+      "url": "https://es.wikisource.org/wiki/Código_Civil_de_la_República_de_Chile_(1856)_-_Título_Final",
+      "kind": "1856首版文字转录",
+      "locator": "Título Final，最后条；旧法废止与例外",
+      "checked": "最后条对应转录已读。",
+      "limitation": "首版扫描约93MB，本轮未逐页核影像。",
+      "humanReviewed": false
+    },
+    {
+      "id": "A3",
+      "title": "1853年阿根廷邦联宪法",
+      "url": "https://www.infoleg.gob.ar/?page_id=3873/",
+      "kind": "阿根廷官方历史全文转录",
+      "locator": "第1、2、14、101条及圣菲末署",
+      "checked": "对应原版条号、圣菲1853年5月1日署日及会议职衔已读。",
+      "limitation": "未逐页校读手写字形；不能用现行修订条号或把首都条款当作实际控制证明。",
+      "humanReviewed": false,
+      "witnessUrl": "https://digitales.bcn.gob.ar/files/textos/constituciondelaconfederacionargentina1853.pdf",
+      "witnessLabel": "国会图书馆1853手稿影印"
+    },
+    {
+      "id": "P2",
+      "title": "巴黎和约分国署名汇编页",
+      "url": "https://restitutio.bcub.ro/storage/item/2024/Mar/les-grands-traites-politiques/9v03NZFa2hvXrrN5ZVbnWrXO6Q5ccJZT9srMOI10.pdf",
+      "kind": "大学图书馆数字化条约汇编 · 署名页",
+      "locator": "Les grands traités politiques，第180页，按国名分列的署名",
+      "checked": "对应署名页与MJP条约末尾署名互校。",
+      "limitation": "本轮只核署名页，版本其他部分未逐页核；不补入未经核对的官职。MJP将Walewski转写作Walewki，异文在人物角色中保留。",
+      "humanReviewed": false
     }
   ],
-  "method": "本轮优先对读当事文本，区分官方公布本、机构转录和馆藏说明。正文已读只表示核对了相关条款，不等于亲署原件鉴定、整册校勘或第三方专业审读。所有材料均保留尚待人工复核的状态。",
-  "selection": "样本围绕司法空间、政治成员资格和求知目的选择，偏向国家机关、外交人员和男性知识精英；没有覆盖的地区与群体不代表没有历史。",
+  "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。",
+  "selection": "本轮保持1852—1868年，按请求地区补入首批可定位材料，并保留原三组精读。每个地区有相关材料不等于覆盖其完整历史；半岛入口共享史料、帝国辖区及非缔约地区均另作说明。",
   "basemap": {
     "title": "Natural Earth 1:110m Land",
     "version": "v5.1.2仓库版本；陆地层",
@@ -591,5 +1841,412 @@
     "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
     "sha256": "74e32d31a1f9531a8531d9f5d7bf1b29c4ec94f87a006639e998e01be14f9156",
     "note": "现代概化陆地轮廓只作地理参照；不显示国家疆界，不表示1852—1868年精确岸线。"
-  }
+  },
+  "regions": [
+    {
+      "id": "china",
+      "name": "中国",
+      "group": "东亚",
+      "contexts": [
+        {
+          "label": "清朝",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "地区入口不等于事件发生地；中美续增条约发生在华盛顿。",
+      "aliases": [
+        "China",
+        "清朝"
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "日本",
+      "group": "东亚",
+      "contexts": [
+        {
+          "label": "德川幕府",
+          "from": 1852,
+          "to": 1868
+        },
+        {
+          "label": "明治新政府",
+          "from": 1868,
+          "to": 1868
+        }
+      ],
+      "note": "1868年政权更替；交接年并列名称，具体参与者按文书分别标明。",
+      "aliases": [
+        "Japan",
+        "幕府",
+        "明治"
+      ]
+    },
+    {
+      "id": "britain",
+      "name": "英国",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "大不列颠及爱尔兰联合王国",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "英国立法机关所在城市与印度公告颁示地分别定位。",
+      "aliases": [
+        "United Kingdom",
+        "Britain",
+        "联合王国"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "法国",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "法兰西第二共和国／第二帝国",
+          "from": 1852,
+          "to": 1852
+        },
+        {
+          "label": "法兰西第二帝国",
+          "from": 1853,
+          "to": 1868
+        }
+      ],
+      "note": "1852年发生体制变更；外交条约、保护条约和法国旅行者记录分别标明性质。",
+      "aliases": [
+        "France",
+        "法兰西",
+        "第二帝国"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "德国",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "德意志邦联、普鲁士等",
+          "from": 1852,
+          "to": 1866
+        },
+        {
+          "label": "北德意志联邦及南德诸邦",
+          "from": 1867,
+          "to": 1868
+        }
+      ],
+      "note": "本期不能当作已经统一的德意志帝国；1867宪法第79条仍另列南德加入问题。",
+      "aliases": [
+        "Germany",
+        "德意志",
+        "普鲁士",
+        "北德意志"
+      ]
+    },
+    {
+      "id": "austria-hungary",
+      "name": "奥匈帝国",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "奥地利帝国",
+          "from": 1852,
+          "to": 1867
+        },
+        {
+          "label": "奥匈二元君主国",
+          "from": 1867,
+          "to": 1868
+        }
+      ],
+      "note": "1856巴黎和约中的缔约方是奥地利帝国；1867年后再区分二元君主国的共同事务安排。",
+      "aliases": [
+        "Austria-Hungary",
+        "奥地利",
+        "奥匈",
+        "哈布斯堡"
+      ]
+    },
+    {
+      "id": "turkey",
+      "name": "土耳其",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "奥斯曼帝国",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "现代地区名称用于检索；1856年条约参与方是奥斯曼帝国，不使用现代土耳其共和国名称。",
+      "aliases": [
+        "Turkey",
+        "Ottoman",
+        "奥斯曼"
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "美国",
+      "group": "美洲",
+      "contexts": [
+        {
+          "label": "美利坚合众国",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "本轮收录对外条约与1868公民权文书，不声称已经覆盖该国全部重大历史。",
+      "aliases": [
+        "United States",
+        "USA",
+        "美利坚"
+      ]
+    },
+    {
+      "id": "india",
+      "name": "印度",
+      "group": "南亚",
+      "contexts": [
+        {
+          "label": "东印度公司治理及诸土邦",
+          "from": 1852,
+          "to": 1858
+        },
+        {
+          "label": "英国王室接管后的治理及诸土邦",
+          "from": 1858,
+          "to": 1868
+        }
+      ],
+      "note": "1858年的立法、权力接管公告与实际施政分开；不把当时英属印度范围等同今日印度国界。",
+      "aliases": [
+        "India",
+        "英属印度",
+        "东印度公司"
+      ]
+    },
+    {
+      "id": "vietnam",
+      "name": "越南",
+      "group": "东南亚",
+      "contexts": [
+        {
+          "label": "阮朝",
+          "from": 1852,
+          "to": 1862
+        },
+        {
+          "label": "阮朝及南部法国殖民统治",
+          "from": 1862,
+          "to": 1868
+        }
+      ],
+      "note": "1862条约割让的是列明省份与岛屿，不能把整个现代越南都画成同一种统治状态。",
+      "aliases": [
+        "Vietnam",
+        "安南",
+        "阮朝",
+        "交趾支那"
+      ]
+    },
+    {
+      "id": "chile",
+      "name": "智利",
+      "group": "美洲",
+      "contexts": [
+        {
+          "label": "智利共和国",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "民法典提出、批准、印行与施行分开记录。",
+      "aliases": [
+        "Chile",
+        "智利共和国"
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "阿根廷",
+      "group": "美洲",
+      "contexts": [
+        {
+          "label": "阿根廷邦联／阿根廷共和国",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "本轮对读1853原版宪法；不使用后来的修订条号，也不把宪法中的首都条款当作实际控制的证明。",
+      "aliases": [
+        "Argentina",
+        "阿根廷邦联"
+      ]
+    },
+    {
+      "id": "cambodia",
+      "name": "柬埔寨",
+      "group": "东南亚",
+      "contexts": [
+        {
+          "label": "柬埔寨王国",
+          "from": 1852,
+          "to": 1863
+        },
+        {
+          "label": "柬埔寨王国及法国保护关系",
+          "from": 1863,
+          "to": 1868
+        }
+      ],
+      "note": "1863保护条约的签署与法国批准分开；不倒填1884公约条款。",
+      "aliases": [
+        "Cambodia",
+        "高棉",
+        "柬王"
+      ]
+    },
+    {
+      "id": "laos",
+      "name": "老挝",
+      "group": "东南亚",
+      "contexts": [
+        {
+          "label": "琅勃拉邦王国等地方政治体",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "不是统一的现代老挝国家。本轮旅行记录属于法国作者视角，不能代表当地自述或整个老挝地区。",
+      "aliases": [
+        "Laos",
+        "琅勃拉邦",
+        "寮国"
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "韩国",
+      "group": "东亚",
+      "contexts": [
+        {
+          "label": "朝鲜王朝（半岛共用史料）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "1852—1868年尚无现代韩国国家。与“朝鲜”入口共用同一组王朝材料，不把同一事件重复造为两国事件。",
+      "aliases": [
+        "South Korea",
+        "半岛南部",
+        "南韩"
+      ]
+    },
+    {
+      "id": "north-korea",
+      "name": "朝鲜",
+      "group": "东亚",
+      "contexts": [
+        {
+          "label": "朝鲜王朝（半岛共用史料）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "1852—1868年尚无现代朝鲜民主主义人民共和国。与“韩国”入口共用史料；“朝祥”按“朝鲜”处理。",
+      "aliases": [
+        "North Korea",
+        "半岛北部",
+        "朝祥"
+      ]
+    },
+    {
+      "id": "mongolia",
+      "name": "蒙古",
+      "group": "东亚",
+      "contexts": [
+        {
+          "label": "蒙古地区（本轮：清朝库伦商路）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "蒙古是条文涉及的地区，不是1860中俄条约的独立缔约方；设领权不等于已经开馆。",
+      "aliases": [
+        "Mongolia",
+        "库伦",
+        "Urga"
+      ]
+    },
+    {
+      "id": "russia",
+      "name": "俄罗斯",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "俄罗斯帝国（沙皇俄国）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "本期只收俄罗斯帝国材料；苏联、俄罗斯联邦属于后续年代批次。",
+      "aliases": [
+        "Russia",
+        "俄国",
+        "沙俄",
+        "沙皇俄国"
+      ],
+      "selectionAliases": [
+        "沙皇俄国/苏联/俄罗斯"
+      ],
+      "futureNames": [
+        "苏联",
+        "俄罗斯联邦"
+      ]
+    },
+    {
+      "id": "belarus",
+      "name": "白俄罗斯",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "白俄罗斯地区（本轮：俄国所辖省份）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "收录依据是法令明确列出的明斯克、莫吉廖夫等省份；不假设当时已有同名独立国家，也不代表全部今日国土。",
+      "aliases": [
+        "Belarus",
+        "明斯克",
+        "莫吉廖夫"
+      ]
+    },
+    {
+      "id": "ukraine",
+      "name": "乌克兰",
+      "group": "欧洲与欧亚",
+      "contexts": [
+        {
+          "label": "乌克兰地区（本轮：俄国所辖省份）",
+          "from": 1852,
+          "to": 1868
+        }
+      ],
+      "note": "本轮依据基辅、波多利亚、沃里尼亚等省份条例；只代表文本所指辖区，不覆盖全部今日乌克兰地区。",
+      "aliases": [
+        "Ukraine",
+        "基辅",
+        "波多利亚",
+        "沃里尼亚"
+      ]
+    }
+  ],
+  "scopeNote": "本批为1852—1868年；苏联、现代两韩、俄罗斯联邦等后续阶段尚未纳入时间轴。"
 }

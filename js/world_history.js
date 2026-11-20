@@ -3,7 +3,7 @@
   const core = window.WorldHistoryCore;
   const $ = id => document.getElementById(id);
   const svgNS = 'http://www.w3.org/2000/svg';
-  let data, state, selectedId = null;
+  let data, state, selectedId = null, clusterOpener = null;
   const camera = { scale: 1, x: 0, y: 0 };
 
   function element(tag, className, text) {
@@ -37,8 +37,11 @@
   function announce(message) { $('announcement').textContent = message; }
 
   function setState(patch, replace) {
+    const previous = state;
     state = core.normalizeState(Object.assign({}, state, patch), data);
-    const query = core.writeState(state);
+    if (previous.caseId !== state.caseId || previous.regions.join('|') !== state.regions.join('|'))
+      Object.assign(camera, { scale: 1, x: 0, y: 0 });
+    const query = core.writeState(state, data);
     if (query !== window.location.search) {
       window.history[replace ? 'replaceState' : 'pushState'](null, '', window.location.pathname + query + window.location.hash);
     }
@@ -46,14 +49,13 @@
   }
 
   function selectCase(item) {
-    selectedId = null;
-    setState({ caseId: item.id, mode: item.defaultMode, date: item.defaultDate, query: '', regions: core.REGIONS.slice() });
+    setState({ caseId: item.id, mode: item.defaultMode, date: item.defaultDate, query: '',
+      regions: core.regionNames(data), recordId: null, compareId: null });
   }
 
   function selectRecord(record, scroll) {
-    selectedId = record.id;
-    setState({ caseId: record.caseId, date: record.date.value || state.date,
-      mode: record.date.precision === 'day' ? state.mode : 'topic' });
+    setState({ caseId: state.caseId === 'all' ? 'all' : record.caseId || 'all', recordId: record.id,
+      date: record.date.precision === 'day' ? record.date.value : state.date });
     if (scroll) {
       $('comparison').scrollIntoView({ behavior: 'smooth', block: 'start' });
       $('comparison').focus({ preventScroll: true });
@@ -62,9 +64,8 @@
 
   function buildCaseButtons() {
     const container = $('case-buttons');
-    const all = button('全样本总览', () => {
-      selectedId = null;
-      setState({ caseId: 'all', mode: 'topic', query: '', regions: core.REGIONS.slice() });
+    const all = button('全部地区史事', () => {
+      setState({ caseId: 'all', mode: 'topic', query: '', regions: core.regionNames(data), recordId: null, compareId: null });
     }, 'case-button overview-button');
     all.dataset.case = 'all';
     container.append(all);
@@ -76,8 +77,46 @@
     }
   }
 
+  function buildRegions() {
+    const jump = $('region-jump');
+    for (const [value, text] of [['all', '全部地区'], ['multiple', '多地区组合'], ['none', '未选地区']]) {
+      const option = element('option', '', text); option.value = value; option.disabled = value !== 'all'; jump.append(option);
+    }
+    const groups = new Map();
+    for (const region of data.regions) {
+      if (!groups.has(region.group)) {
+        const optgroup = element('optgroup'); optgroup.label = region.group; jump.append(optgroup); groups.set(region.group, optgroup);
+      }
+      const count = data.records.filter(record => record.regions.includes(region.name)).length;
+      const option = element('option', '', region.name + ' · ' + count + '条相关记录'); option.value = region.id;
+      groups.get(region.group).append(option);
+      const label = element('label'); const input = element('input'); input.type = 'checkbox'; input.value = region.name;
+      label.append(input, element('span', '', region.name), element('span', 'region-total', String(count)));
+      $('region-filters').append(label);
+    }
+    $('period-label').textContent = data.period.startYear + '—' + data.period.endYear + ' · ' + data.regions.length + '个地区';
+    $('sample-note').replaceChildren(document.createTextNode(data.regions.length + '个地区 · 3组精读'), element('br'),
+      element('span', '', data.records.length + '项记录 · 原文逐条可查'));
+  }
+
+  function renderRegionContext() {
+    const container = $('region-context');
+    const wasOpen = container.querySelector('details')?.open;
+    container.replaceChildren();
+    const selected = data.regions.filter(region => state.regions.includes(region.name));
+    if (!selected.length) { container.append(element('p', '', '未选地区。可用“地区速览”选择一处，或恢复全部地区。')); return; }
+    const content = selected.length <= 2 ? container : element('details');
+    if (selected.length > 2) { content.open = Boolean(wasOpen); content.append(element('summary', '', '这些地区在当时叫什么？')); container.append(content); }
+    for (const region of selected) {
+      const contexts = core.regionContexts(data, region, state);
+      content.append(element('h3', '', region.name), element('p', 'historical-name', contexts.map(c => c.label).join(' / ')),
+        element('p', '', region.note));
+    }
+  }
+
   function renderControls() {
     $('share').textContent = '复制当前视图链接';
+    $('case-reset').textContent = currentCase() ? '回到本组时间' : '恢复全部史事';
     const year = state.date.slice(0, 4);
     $('time-heading').textContent = state.mode === 'day' ? state.date.replace(/-/g, ' / ')
       : state.mode === 'year' ? year + '年' : '1852—1868 · 专题全时段';
@@ -92,6 +131,10 @@
         : '地图只显示此日的确日记录；另一日期的材料会以历史对照卡保留。';
     for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
     for (const input of document.querySelectorAll('#region-filters input')) input.checked = state.regions.includes(input.value);
+    $('region-count').textContent = state.regions.length + '/' + data.regions.length;
+    $('region-jump').value = state.regions.length === data.regions.length ? 'all' : state.regions.length === 1
+      ? data.regions.find(region => region.name === state.regions[0]).id : state.regions.length ? 'multiple' : 'none';
+    renderRegionContext();
     if ($('record-search').value !== state.query) $('record-search').value = state.query;
     for (const node of $('case-buttons').children) node.setAttribute('aria-pressed', String(node.dataset.case === state.caseId));
   }
@@ -102,8 +145,9 @@
     $('visible-count').textContent = records.length + '项记录 · ' + core.clusterPlaces(records, data.places).length + '处地点';
     if (!records.length) {
       const empty = element('div', 'empty-state');
-      empty.append(element('strong', '', '当前条件下没有记录'), element('p', '', '本研究只收录6项材料。没有记录不等于当时没有历史。'),
-        button('恢复本组时间与筛选', resetCase, 'text-button'));
+      empty.append(element('strong', '', '当前条件下没有记录'), element('p', '', '本轮收录' + data.records.length + '项材料。没有记录不等于当时没有历史。'),
+        button('查看所选地区全时段史事', () => setState({caseId:'all', mode:'topic', query:'',recordId:null,compareId:null}), 'text-button'),
+        button(currentCase() ? '恢复本组时间与筛选' : '恢复全部地区与史事', resetCase, 'text-button'));
       container.append(empty);
       return;
     }
@@ -127,16 +171,16 @@
       marker.setAttribute('transform', `translate(${marker.dataset.x} ${marker.dataset.y}) scale(${1 / (camera.scale * ratio)})`);
     }
     $('world-map').style.touchAction = camera.scale > 1 ? 'none' : 'pan-y';
-    $('zoom-in').disabled = camera.scale >= 16;
+    $('zoom-in').disabled = camera.scale >= 32;
     $('zoom-out').disabled = camera.scale <= 1;
   }
 
   function zoom(factor) {
-    const next = Math.max(1, Math.min(16, camera.scale * factor));
+    const next = Math.max(1, Math.min(32, camera.scale * factor));
     camera.x = 540 - (540 - camera.x) / camera.scale * next;
     camera.y = 270 - (270 - camera.y) / camera.scale * next;
     camera.scale = next;
-    updateCamera();
+    renderMarkers(core.visibleRecords(data, state));
   }
 
   function locate(place) {
@@ -144,7 +188,7 @@
     camera.scale = 4;
     camera.x = 540 - point[0] * camera.scale;
     camera.y = 270 - point[1] * camera.scale;
-    updateCamera();
+    renderMarkers(core.visibleRecords(data, state));
     $('world-map').scrollIntoView({ behavior: 'smooth', block: 'center' });
     announce('地图已定位到' + place.label + '，' + place.note);
   }
@@ -152,24 +196,48 @@
   function renderMarkers(records) {
     const group = $('map-markers');
     group.replaceChildren();
+    $('cluster-menu').hidden = true;
+    $('cluster-records').replaceChildren();
     const offsets = { tianjin: [-17, -10], gaoyou: [-17, 28], kyoto: [17, 27], 'edo-bay': [-18, -40], washington: [18, -12] };
-    for (const cluster of core.clusterPlaces(records, data.places)) {
-      const [x, y] = core.project(cluster.place.coordinates);
-      const isArea = cluster.place.precision === 'area_reference';
+    const bounds = $('world-map').getBoundingClientRect();
+    const ratio = Math.min(bounds.width / 1080, bounds.height / 540) || 1;
+    for (const cluster of core.spatialClusters(records, data.places, camera.scale, ratio)) {
+      const [x, y] = cluster.point;
+      const aggregate = cluster.places.length > 1;
+      const action = core.clusterAction(cluster, camera.scale);
+      const place = cluster.places[0];
+      const labelText = aggregate ? cluster.places.length + '处地点 · ' + cluster.records.length + '项' : (place.shortLabel || place.label) +
+        (cluster.records.length > 1 ? ' · ' + cluster.records.length : '');
+      const isArea = !aggregate && place.precision === 'area_reference';
       const selected = cluster.records.some(r => r.id === selectedId);
       const marker = svgElement('g', { role: 'button', tabindex: '0',
-        'aria-label': cluster.place.label + '，' + cluster.records.length + '项记录，打开历史对照',
-        'aria-pressed': String(selected), class: 'map-marker' + (selected ? ' selected' : '') + (isArea ? ' area-marker' : '') });
+        'aria-label': cluster.places.map(p => p.label).join('、') + '，' + cluster.records.length + '项记录，' + (action === 'zoom' ? '放大这些地点' : action === 'choose' ? '选择史事' : '打开历史对照'),
+        'aria-pressed': String(selected), class: 'map-marker' + (selected ? ' selected' : '') + (isArea ? ' area-marker' : '') + (aggregate ? ' aggregate-marker' : '') });
       marker.dataset.x = x;
       marker.dataset.y = y;
-      const title = svgElement('title'); title.textContent = cluster.place.label + '：' + cluster.place.note;
+      marker.dataset.recordIds = cluster.records.map(record => record.id).join(',');
+      const title = svgElement('title'); title.textContent = aggregate ? '视图聚合：' + cluster.places.map(p => p.label).join('、') : place.label + '：' + place.note;
       marker.append(title, svgElement('circle', { r: 18, class: 'marker-hit' }),
-        svgElement('circle', { r: isArea ? 11 : 8, class: 'marker-ring' }), svgElement('circle', { r: 3.5, class: 'marker-dot' }));
-      const [dx, dy] = offsets[cluster.place.id] || [17, -12];
+        svgElement('circle', { r: aggregate ? 13 : isArea ? 11 : 8, class: 'marker-ring' }));
+      if (aggregate) { const count = svgElement('text', { class:'cluster-number', 'text-anchor':'middle', y:5 }); count.textContent = cluster.places.length; marker.append(count); }
+      else marker.append(svgElement('circle', { r: 3.5, class: 'marker-dot' }));
+      const [dx, dy] = aggregate ? [18,-15] : offsets[place.id] || (x > 800 ? [-18,-12] : [18,-12]);
       const label = svgElement('text', { x: dx, y: dy, 'text-anchor': dx < 0 ? 'end' : 'start' });
-      label.textContent = cluster.place.label + (cluster.records.length > 1 ? ' · ' + cluster.records.length : '');
+      label.textContent = labelText;
       marker.append(label);
-      const activate = () => selectRecord(cluster.records[0], true);
+      const activate = () => {
+        if (action === 'select') { selectRecord(cluster.records[0], true); return; }
+        if (action === 'choose') { showClusterChoices(cluster, marker); return; }
+        const points = cluster.places.map(p => core.project(p.coordinates));
+        const spanX = Math.max(...points.map(p=>p[0])) - Math.min(...points.map(p=>p[0]));
+        const spanY = Math.max(...points.map(p=>p[1])) - Math.min(...points.map(p=>p[1]));
+        camera.scale = Math.min(32, Math.max(camera.scale*1.6, Math.min(700/Math.max(1,spanX),350/Math.max(1,spanY))));
+        camera.x = 540 - x * camera.scale; camera.y = 270 - y * camera.scale;
+        const restoreFocus = document.activeElement === marker;
+        renderMarkers(records);
+        if (restoreFocus) Array.from($('map-markers').children).find(node => node.dataset.recordIds.split(',').includes(cluster.records[0].id))?.focus();
+        announce('已放大' + cluster.places.map(p=>p.label).join('、'));
+      };
       marker.addEventListener('click', activate);
       marker.addEventListener('keydown', event => {
         if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); activate(); }
@@ -177,6 +245,21 @@
       group.append(marker);
     }
     updateCamera();
+  }
+
+  function showClusterChoices(cluster, opener) {
+    clusterOpener = opener;
+    const container = $('cluster-records'); container.replaceChildren();
+    for (const record of cluster.records) container.append(button(record.placeLabel + ' · ' + record.title, () => {
+      $('cluster-menu').hidden = true; selectRecord(record, true);
+    }, 'cluster-record-choice'));
+    $('cluster-menu').hidden = false;
+    container.querySelector('button')?.focus();
+  }
+
+  function closeClusterChoices() {
+    $('cluster-menu').hidden = true;
+    if (clusterOpener?.isConnected) clusterOpener.focus();
   }
 
   function renderCard(record, visibleIds) {
@@ -194,6 +277,8 @@
     const location = element('p', 'location-line', record.placeRole + '：' + record.placeLabel + ' ');
     if (visibleIds.has(record.id)) location.append(button('地图定位', () => locate(place), 'text-button'));
     card.append(location, element('p', '', record.summary));
+    if (record.polities?.length) card.append(element('p', 'historical-name', '当时政权／关系：' + record.polities.join('、')));
+    if (record.parties?.length) card.append(element('p', 'muted', '文书参与方：' + record.parties.join('、')));
     const claims = element('ul', 'claim-list');
     for (const claim of record.claims) {
       const item = element('li');
@@ -221,21 +306,32 @@
     const cards = $('comparison-cards');
     const conclusion = $('comparison-conclusion');
     cards.replaceChildren(); conclusion.replaceChildren();
+    $('reading-tools').hidden = Boolean(item);
     if (!item) {
-      $('comparison-title').textContent = '从中国看同时代的日本与美国';
-      $('relation-label').textContent = '三组对照 · 六项记录';
-      $('comparison-intro').textContent = '地图上的记录依当前时间和筛选显示。选择一组专题，展开两份材料、人物角色与证据边界。';
-      for (const c of data.cases) {
-        const preview = element('article', 'comparison-card');
-        preview.append(element('p', 'context-label', c.relation), element('h3', '', c.question),
-          element('p', '', c.conclusion), button('打开这组对照', () => selectCase(c), 'text-button'));
-        cards.append(preview);
+      const primary = records.find(record => record.id === state.recordId);
+      const comparison = primary && data.records.find(record => record.id === state.compareId && record.id !== primary.id);
+      $('comparison-title').textContent = primary ? primary.title : '选择一条史事，打开原文';
+      $('relation-label').textContent = primary ? comparison ? core.relationLabel(primary, comparison)
+        : primary.date.precision === 'day' ? '确日记录' : primary.date.precision === 'year' ? '年级精度' : '原署年 · 西历年界待核' : '当前筛选无记录';
+      $('comparison-intro').textContent = '地区名称用于检索，当时政权与文献阶段另行说明。点选记录阅读来源，也可添加一项中国相关材料并排对读。';
+      $('reading-tools').hidden = !primary;
+      const select = $('china-comparison'); select.replaceChildren();
+      const none = element('option', '', '暂不添加'); none.value = ''; select.append(none);
+      for (const record of data.records.filter(record => record.regions.includes('中国') && record.id !== primary?.id)) {
+        const option = element('option', '', record.date.display + ' · ' + record.title); option.value = record.id; select.append(option);
       }
-      cards.classList.add('overview-cards');
+      select.value = comparison?.id || '';
+      $('reading-gap').textContent = comparison ? core.relationLabel(primary, comparison) + '。并列阅读不自动证明因果、传播或制度优劣。'
+        : '对读材料不改变当前地图的时间与地区筛选，卡片会注明是否在筛选内。';
+      const ids = new Set(records.map(record => record.id));
+      if (primary) cards.append(renderCard(primary, ids));
+      if (comparison) cards.append(renderCard(comparison, ids));
+      cards.classList.remove('overview-cards');
+      cards.classList.toggle('single-card', !comparison);
       conclusion.hidden = true;
       return;
     }
-    cards.classList.remove('overview-cards'); conclusion.hidden = false;
+    cards.classList.remove('overview-cards', 'single-card'); conclusion.hidden = false;
     $('comparison-title').textContent = item.question;
     $('relation-label').textContent = item.relation;
     $('comparison-intro').textContent = item.intro;
@@ -246,6 +342,7 @@
   }
 
   function render() {
+    selectedId = state.recordId;
     renderControls();
     const records = core.visibleRecords(data, state);
     renderRecords(records); renderMarkers(records); renderComparison(records);
@@ -258,8 +355,8 @@
       card.append(element('h3', '', material.id + ' · ' + material.title), element('p', 'source-kind', material.kind),
         element('p', '', material.locator), element('p', '', material.checked), element('p', 'muted', material.limitation),
         sourceLink('打开来源', material.url));
-      if (material.parallelUrl) card.append(sourceLink('英文平行文本', material.parallelUrl));
-      if (material.witnessUrl) card.append(sourceLink('传世控本著录', material.witnessUrl));
+      if (material.parallelUrl) card.append(sourceLink(material.parallelLabel || '英文平行文本', material.parallelUrl));
+      if (material.witnessUrl) card.append(sourceLink(material.witnessLabel || '传世控本著录', material.witnessUrl));
       card.append(element('p', 'review-state', '第三方专业审读：待完成'));
       $('source-list').append(card);
     }
@@ -301,34 +398,43 @@
   function resetCase() {
     const item = currentCase();
     if (item) selectCase(item);
-    else setState({ mode: 'topic', regions: core.REGIONS.slice(), query: '' });
+    else setState({ mode: 'topic', regions: core.regionNames(data), query: '',recordId:null,compareId:null });
   }
 
   function bindControls() {
-    $('time-modes').addEventListener('change', event => setState({ mode: event.target.value }));
+    $('cluster-close').addEventListener('click', closeClusterChoices);
+    $('cluster-menu').addEventListener('keydown', event => { if (event.key === 'Escape') { event.preventDefault(); closeClusterChoices(); } });
+    $('time-modes').addEventListener('change', event => setState({ mode: event.target.value, recordId:null }));
     $('year-range').addEventListener('input', event => {
       const year = event.target.value;
       let date = year + state.date.slice(4);
       if (!core.isExactDate(date)) date = year + '-02-28';
-      setState({ date }, true);
+      setState({ date,recordId:null }, true);
     });
     $('exact-date').addEventListener('change', event => {
-      if (event.target.validity.valid && core.isExactDate(event.target.value)) setState({ date: event.target.value });
+      if (event.target.validity.valid && core.isExactDate(event.target.value)) setState({ date: event.target.value,recordId:null });
       else { renderControls(); announce('请选择1852至1868年之间的有效日期。'); }
     });
     $('region-filters').addEventListener('change', () => setState({
-      regions: Array.from(document.querySelectorAll('#region-filters input:checked'), input => input.value)
+      regions: Array.from(document.querySelectorAll('#region-filters input:checked'), input => input.value),recordId:null,compareId:null
     }));
-    $('record-search').addEventListener('input', event => setState({ query: event.target.value }, true));
+    $('region-jump').addEventListener('change', event => {
+      const region = data.regions.find(region => region.id === event.target.value);
+      setState({caseId:'all', mode:'topic',regions:region?[region.name]:core.regionNames(data),query:'',recordId:null,compareId:null});
+    });
+    $('regions-all').addEventListener('click', () => setState({regions:core.regionNames(data),recordId:null,compareId:null}));
+    $('regions-clear').addEventListener('click', () => setState({regions:[],recordId:null,compareId:null}));
+    $('china-comparison').addEventListener('change', event => setState({compareId:event.target.value || null}));
+    $('record-search').addEventListener('input', event => setState({ query: event.target.value,recordId:null }, true));
     $('case-reset').addEventListener('click', resetCase);
     $('zoom-in').addEventListener('click', () => zoom(1.5));
     $('zoom-out').addEventListener('click', () => zoom(1 / 1.5));
-    $('zoom-reset').addEventListener('click', () => { Object.assign(camera, { scale: 1, x: 0, y: 0 }); updateCamera(); });
+    $('zoom-reset').addEventListener('click', () => { Object.assign(camera, { scale: 1, x: 0, y: 0 }); renderMarkers(core.visibleRecords(data,state)); });
     window.addEventListener('popstate', () => { state = core.readState(window.location.search, data); selectedId = null; render(); });
-    if (typeof ResizeObserver === 'function') new ResizeObserver(updateCamera).observe($('world-map'));
+    if (typeof ResizeObserver === 'function') new ResizeObserver(() => renderMarkers(core.visibleRecords(data,state))).observe($('world-map'));
     $('share').addEventListener('click', async () => {
       try {
-        const link = window.location.origin + window.location.pathname + core.writeState(state) + window.location.hash;
+        const link = window.location.origin + window.location.pathname + core.writeState(state, data) + window.location.hash;
         await navigator.clipboard.writeText(link);
         $('share').textContent = '链接已复制'; announce('当前专题、日期和筛选条件的链接已复制。');
       } catch (_) { $('share').textContent = '请复制地址栏链接'; announce('当前环境无法访问剪贴板，请复制地址栏中的链接。'); }
@@ -362,11 +468,11 @@
   async function init() {
     try {
       if (!core) throw new Error('Missing time rules');
-      const results = await Promise.allSettled([fetchJson('data/world/history.json'), fetchJson('data/world/land-110m.geojson')]);
+      const results = await Promise.allSettled([fetchJson($('world-history-script').dataset.recordsSrc), fetchJson('data/world/land-110m.geojson')]);
       if (results[0].status !== 'fulfilled') throw results[0].reason;
       data = results[0].value;
       state = core.readState(window.location.search, data);
-      buildCaseButtons(); renderSources(); bindControls();
+      buildCaseButtons(); buildRegions(); renderSources(); bindControls();
       if (results[1].status === 'fulfilled') drawBaseMap(results[1].value);
       else {
         $('load-status').textContent = '陆地底图暂未载入，记录和证据仍可阅读。刷新页面可重试。';
