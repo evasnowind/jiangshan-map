@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-11-20",
+  "period": {
+    "startYear": 1852,
+    "endYear": 1868
+  },
+  "defaultState": {
+    "caseId": "citizenship",
+    "mode": "day",
+    "date": "1868-07-28"
+  },
+  "cases": [
+    {
+      "id": "treaties",
+      "title": "通商与司法",
+      "subtitle": "1858 · 中国与日本",
+      "relation": "同年 · 相隔41天",
+      "relationType": "same_year",
+      "defaultMode": "year",
+      "defaultDate": "1858-06-18",
+      "question": "同一个美国，怎样在中日取得条约权利？",
+      "intro": "将相隔41天的两份对美条约放在一起，比较谁能审判外国涉案者、谁能在哪里居留，以及哪些港口只是约定未来开放。",
+      "conclusion": "两份条约都把所述美国涉案者交由美国领事等机构依美国法处理，并用港口、关税与通行范围安排对外活动空间。这是条约规则的相似，不是两国谈判力量或实际执行完全相同的证明。",
+      "boundary": "不能由条约推算全国司法权的实际变化。港口执行要查开港公文，司法执行要查领事判例与地方记录。",
+      "dimensions": [
+        "涉案者由谁处理",
+        "居留、贸易与通行范围",
+        "签约日和约定开港日"
+      ]
+    },
+    {
+      "id": "citizenship",
+      "title": "迁徙与公民",
+      "subtitle": "1868 · 中国与美国",
+      "relation": "同日 · 同城 · 同一署名者",
+      "relationType": "same_day",
+      "defaultMode": "day",
+      "defaultDate": "1868-07-28",
+      "question": "获准迁徙，是否也意味着成为公民？",
+      "intro": "1868年7月28日，华盛顿的中美续增条约签署和第十四修正案正式认证都出现了西华德的名字。把这次时空重合变成一组权利概念的对读。",
+      "conclusion": "迁徙、旅行、居留、归化、公民身份和平等法律保护是不同问题。条约中的居留待遇不自动赋予入籍；修正案平等保护条款的文字对象又不限公民。",
+      "boundary": "同日、同城与署名重合已有文书依据；两文书互相影响、在同一建筑签署，以及这些规则的现实实现程度，尚未证明。",
+      "dimensions": [
+        "跨境迁徙与国内成员资格",
+        "公民和任何人的区别",
+        "人物的代表身份"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "title": "向世界求知",
+      "subtitle": "约1852 / 1868 · 中国与日本",
+      "relation": "同时代主题 · 相隔约16年",
+      "relationType": "same_era",
+      "defaultMode": "topic",
+      "defaultDate": "1868-04-06",
+      "question": "两种求知表述，各自指向怎样的政治目的？",
+      "intro": "将魏源的作者后叙与明治政府的誓文并置。两者相隔约16年，分别属于学者编纂自述与政府政治誓约，不能当作同年事件或同等效力的文件。",
+      "conclusion": "本轮的解释是：两份文本都把外部知识放入自身政治目标之中。魏源并非只谈舰船火炮；御誓文的向世界求知也明确服务于振兴皇基。",
+      "boundary": "比较的是表述与目的，不代表全国改革成效，也不证明思想传播关系。魏源文本的版本与历法精度低于确日的政府文书。",
+      "dimensions": [
+        "求知的范围与目的",
+        "作者和政府的不同权威",
+        "原署年、刊本年与西历日期"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "E1",
+      "caseId": "treaties",
+      "title": "中美天津条约签署",
+      "regions": [
+        "中国",
+        "美国"
+      ],
+      "placeId": "tianjin",
+      "placeLabel": "天津",
+      "placeRole": "签署地",
+      "date": {
+        "value": "1858-06-18",
+        "precision": "day",
+        "sortYear": 1858,
+        "display": "1858年6月18日",
+        "original": "官方英文公布文本署1858年6月18日",
+        "sourceIds": [
+          "S1"
+        ]
+      },
+      "summary": "清朝与美国约定领事司法、居留贸易港口和关税待遇。",
+      "people": [
+        {
+          "name": "桂良、花沙纳",
+          "role": "清方全权；英文公布文本列Kweiliang、Hwashana"
+        },
+        {
+          "name": "William B. Reed",
+          "role": "美国全权代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第十一条将所述美国涉案者交由美国领事或授权官员依美国法处理，中国涉案者由中国官员依法处理。",
+          "sourceId": "S1",
+          "locator": "第十一条，第1025页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg1023.pdf#page=3"
+        },
+        {
+          "text": "第十四条列居留贸易地点，第十五条规定关税待遇；两者共同界定条约的活动空间。",
+          "sourceId": "S1",
+          "locator": "第十四、十五条，第1026页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg1023.pdf#page=4"
+        }
+      ],
+      "quote": {
+        "text": "punished only by the consul",
+        "translation": "所述美国涉案者仅由领事等授权官员处罚；需连同整条的适用条件阅读。",
+        "sourceId": "S1",
+        "locator": "第十一条，第1025页",
+        "url": "https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg1023.pdf#page=3"
+      },
+      "limitation": "签署和公布分开；这份文本不能单独证明地方执行情况。"
+    },
+    {
+      "id": "E2",
+      "caseId": "treaties",
+      "title": "日美修好通商条约签署",
+      "regions": [
+        "日本",
+        "美国"
+      ],
+      "placeId": "edo-bay",
+      "placeLabel": "江户湾小柴近海 · 波瓦坦号上",
+      "placeRole": "舰上签署海域",
+      "date": {
+        "value": "1858-07-29",
+        "precision": "day",
+        "sortYear": 1858,
+        "display": "1858年7月29日",
+        "original": "安政五年六月十九日",
+        "sourceIds": [
+          "S2"
+        ]
+      },
+      "summary": "幕府与美国约定领事裁判、游步范围及分期开放的港口。",
+      "people": [
+        {
+          "name": "井上清直、岩濑忠震",
+          "role": "德川幕府谈判与签署代表"
+        },
+        {
+          "name": "Townsend Harris",
+          "role": "美国驻日总领事；哈里斯"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第六条规定所述美国涉案者由美国领事裁判所依美国法处理，日本涉案者由日本官员依日本法处理。",
+          "sourceId": "S2",
+          "locator": "第六条",
+          "url": "https://worldjpn.net/documents/texts/pw/18580729.T1J.html"
+        },
+        {
+          "text": "第三条将神奈川开放约定为1859年7月4日；不应把1858年签约画成当日已经开港。",
+          "sourceId": "S2",
+          "locator": "第三条；另参第七条游步范围",
+          "url": "https://worldjpn.net/documents/texts/pw/18580729.T1J.html"
+        },
+        {
+          "text": "国立公文书馆说明将签约定位于江户湾小柴近海的美国军舰波瓦坦号上。",
+          "sourceId": "A1",
+          "locator": "展项20，馆藏说明",
+          "url": "https://www.archives.go.jp/exhibition/digital/bakumatsu/contents/20.html"
+        }
+      ],
+      "quote": {
+        "text": "亞米利加の法度を以て罰すへし",
+        "translation": "依美国法处罚。此处的对象和裁判机构由同条前文限定。",
+        "sourceId": "S2",
+        "locator": "第六条",
+        "url": "https://worldjpn.net/documents/texts/pw/18580729.T1J.html"
+      },
+      "limitation": "馆藏说明不是亲署原件；海域标记不是军舰精确锚位。",
+      "aliases": [
+        "哈里斯条约",
+        "Harris Treaty"
+      ]
+    },
+    {
+      "id": "E3",
+      "caseId": "citizenship",
+      "title": "中美续增条约定稿签署",
+      "regions": [
+        "中国",
+        "美国"
+      ],
+      "placeId": "washington",
+      "placeLabel": "华盛顿",
+      "placeRole": "条约签署地",
+      "date": {
+        "value": "1868-07-28",
+        "precision": "day",
+        "sortYear": 1868,
+        "display": "1868年7月28日",
+        "original": "公布文本中的签署署日；公布另署1870年2月5日",
+        "sourceIds": [
+          "S3"
+        ]
+      },
+      "summary": "蒲安臣使团与美国议定迁徙、旅行与居留等条款。",
+      "people": [
+        {
+          "name": "蒲安臣 Anson Burlingame",
+          "role": "此次代表清朝使团；不能仅按出生国归入美国一方"
+        },
+        {
+          "name": "志刚、孙家谷",
+          "role": "清朝全权使臣"
+        },
+        {
+          "name": "William H. Seward 西华德",
+          "role": "美国国务卿；条约签署者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第五条承认自愿迁徙原则；第六条规定旅行居留最惠国待遇，但不因本条约而赋予归化。",
+          "sourceId": "S3",
+          "locator": "第五、六条，第740页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-16/pdf/STATUTE-16-Pg739.pdf#page=2"
+        },
+        {
+          "text": "条约列蒲安臣、志刚、孙家谷与西华德；末尾署华盛顿1868年7月28日。",
+          "sourceId": "S3",
+          "locator": "第739页序言与第741页署名",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-16/pdf/STATUTE-16-Pg739.pdf#page=3"
+        }
+      ],
+      "quote": {
+        "text": "nothing herein contained shall be held to confer naturalization",
+        "translation": "本条约的内容不得被解释为赋予归化（入籍）；这句话本身不等于全面禁止入籍。",
+        "sourceId": "S3",
+        "locator": "第六条，第740页",
+        "url": "https://www.govinfo.gov/content/pkg/STATUTE-16/pdf/STATUTE-16-Pg739.pdf#page=2"
+      },
+      "limitation": "所读版本为美国官方公布文本；签署、批准、换约与公布需要分别记录。",
+      "aliases": [
+        "蒲安臣条约",
+        "Burlingame Treaty",
+        "Seward"
+      ]
+    },
+    {
+      "id": "E4",
+      "caseId": "citizenship",
+      "title": "第十四修正案正式认证",
+      "regions": [
+        "美国"
+      ],
+      "placeId": "washington",
+      "placeLabel": "华盛顿",
+      "placeRole": "认证文书署地",
+      "date": {
+        "value": "1868-07-28",
+        "precision": "day",
+        "sortYear": 1868,
+        "display": "1868年7月28日",
+        "original": "国务卿正式认证署日；不是国会提出或州批准日期",
+        "sourceIds": [
+          "S4"
+        ]
+      },
+      "summary": "西华德正式认证修正案；第一款分别规定公民资格与州的法律保护义务。",
+      "people": [
+        {
+          "name": "William H. Seward 西华德",
+          "role": "美国国务卿；认证文书署名者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第一款规定在美国出生或归化、且受其管辖者的公民资格。",
+          "sourceId": "S4",
+          "locator": "第一款，第709页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-15/pdf/STATUTE-15-Pg708-2.pdf#page=2"
+        },
+        {
+          "text": "对州的正当程序与平等保护限制使用任何人等措辞，文字对象不限公民。",
+          "sourceId": "S4",
+          "locator": "第一款，第709页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-15/pdf/STATUTE-15-Pg708-2.pdf#page=2"
+        },
+        {
+          "text": "认证文书末尾署华盛顿1868年7月28日，署名西华德。",
+          "sourceId": "S4",
+          "locator": "第13号文书末尾，第711页",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-15/pdf/STATUTE-15-Pg708-2.pdf#page=4"
+        }
+      ],
+      "quote": {
+        "text": "any person within its jurisdiction",
+        "translation": "辖区内任何人；这里的平等保护禁止义务针对州。",
+        "sourceId": "S4",
+        "locator": "第一款，第709页",
+        "url": "https://www.govinfo.gov/content/pkg/STATUTE-15/pdf/STATUTE-15-Pg708-2.pdf#page=2"
+      },
+      "limitation": "文本中的权利不等于当时已经普遍实现；本轮不对具体历史判例作结论。",
+      "aliases": [
+        "美国宪法",
+        "Seward",
+        "Fourteenth Amendment"
+      ]
+    },
+    {
+      "id": "E5",
+      "caseId": "knowledge",
+      "title": "魏源《海国图志后叙》署年",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "gaoyou",
+      "placeLabel": "高邮州（序文自署）",
+      "placeRole": "文献自署写作地",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1852,
+        "display": "约1852年 · 原署咸丰二年",
+        "original": "咸丰二年；西历年界未核，1852仅作书目排序参照",
+        "sourceIds": [
+          "S5"
+        ]
+      },
+      "summary": "以外国史地和地图扩展视野，兼论北美政治章程及中国的经世目标。",
+      "people": [
+        {
+          "name": "魏源",
+          "role": "学者、编纂者；后叙自署作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "后叙称赞他所理解的北美政治章程，并讨论外国史地和国别地图；不能压缩为只学舰船火炮。",
+          "sourceId": "S5",
+          "locator": "后叙北美政治与地图段",
+          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+        },
+        {
+          "text": "篇末署咸丰二年、高邮州；同一数字文本另收同治七年陈氏重刊序。",
+          "sourceId": "S5",
+          "locator": "后叙篇末；重刊序篇末",
+          "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+        }
+      ],
+      "quote": {
+        "text": "其章程可垂奕世而無弊",
+        "translation": "魏源高度评价他所理解的北美政治章程；这是作者判断，不是对制度优劣的现代认证。",
+        "sourceId": "S5",
+        "locator": "后叙北美段",
+        "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2"
+      },
+      "limitation": "数字文本的作者署年、所据刊本和重刊增序分开。只在专题全时段出现，不参加精确同日或同年匹配。",
+      "aliases": [
+        "海國圖志",
+        "魏默深"
+      ]
+    },
+    {
+      "id": "E6",
+      "caseId": "knowledge",
+      "title": "《五箇条御誓文》誓约与颁示",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "kyoto",
+      "placeLabel": "京都御所 · 紫宸殿",
+      "placeRole": "誓约仪式地",
+      "date": {
+        "value": "1868-04-06",
+        "precision": "day",
+        "sortYear": 1868,
+        "display": "1868年4月6日",
+        "original": "慶応四年三月十四日（旧历）；西历换算据宫内厅说明",
+        "sourceIds": [
+          "S6",
+          "A2"
+        ]
+      },
+      "summary": "政府誓文要求向世界求取知识，并以振兴皇基为明确目的。",
+      "people": [
+        {
+          "name": "明治天皇",
+          "role": "政治誓约的主体；不能由此断言传世控本为其亲笔"
+        },
+        {
+          "name": "三条实美",
+          "role": "仪式中宣读誓文；据宫内厅说明"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第五条把向世界求知和振兴皇基连在同一句中。",
+          "sourceId": "S6",
+          "locator": "第五条",
+          "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
+        },
+        {
+          "text": "宫内厅说明给出西历1868年4月6日与紫宸殿仪式地点；旧历3月14日不能当作西历日期。",
+          "sourceId": "A2",
+          "locator": "宫内厅说明，PDF第14页",
+          "url": "https://www.kunaicho.go.jp/event/kyotogosho/pdf/02shishinden.pdf#page=14"
+        }
+      ],
+      "quote": {
+        "text": "智識ヲ世界ニ求メ大ニ皇基ヲ振起スベシ",
+        "translation": "向世界求取知识，以大力振兴皇基为目的；不能省去后半句的政治目的。",
+        "sourceId": "S6",
+        "locator": "第五条",
+        "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html"
+      },
+      "limitation": "政府誓文和学者序文的效力不同；求知表述不能直接证明全国改革成效。",
+      "aliases": [
+        "五条誓文",
+        "五箇条の誓文",
+        "明治维新",
+        "Charter Oath"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "tianjin",
+      "label": "天津",
+      "coordinates": [
+        117.2,
+        39.12
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://ungegn.un.org/dashboard/cities/details?crM49=156&id=2391",
+      "coordinateLabel": "UNGEGN城市地名录 · 天津",
+      "note": "现代城市参照点，定位到城市层级；不表示1858年签约建筑的精确位置。"
+    },
+    {
+      "id": "edo-bay",
+      "label": "江户湾 · 小柴近海",
+      "coordinates": [
+        139.8595,
+        35.4815
+      ],
+      "precision": "area_reference",
+      "bounds": [
+        139.56,
+        35.15,
+        140.15,
+        35.75
+      ],
+      "coordinateSource": "https://www.marineregions.org/gazetteer.php?p=details&id=9086",
+      "coordinateLabel": "Marine Regions地名录 · Tokyo Bay，MRGID9086",
+      "note": "以现代东京湾地名录的海域参照点与范围示意。史料指小柴近海军舰上，军舰确切锚位未核；示意环不是实测精度或历史岸线。"
+    },
+    {
+      "id": "washington",
+      "label": "华盛顿",
+      "coordinates": [
+        -77.036666666667,
+        38.895
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q61&oldid=2572052133",
+      "coordinateLabel": "Wikidata Q61 · 固定修订2572052133",
+      "note": "现代城市参照点。两文书均署华盛顿；本轮未定位具体签署、认证建筑，也未证明二者发生在同一房间。"
+    },
+    {
+      "id": "gaoyou",
+      "label": "高邮州",
+      "coordinates": [
+        119.44324,
+        32.78469
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q1253949&oldid=2526579967",
+      "coordinateLabel": "Wikidata Q1253949 · 固定修订2526579967",
+      "note": "用现代高邮城市点参照序文自署高邮州；历史州域和实际书斋位置未核。"
+    },
+    {
+      "id": "kyoto",
+      "label": "京都",
+      "coordinates": [
+        135.76811111111112,
+        35.01161111111111
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q34600&oldid=2565609745",
+      "coordinateLabel": "Wikidata Q34600 · 固定修订2565609745",
+      "note": "现代京都城市参照点。仪式地点据宫内厅为京都御所紫宸殿；此点不表示殿内仪式的精确坐标。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "中美天津条约",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-12/pdf/STATUTE-12-Pg1023.pdf",
+      "kind": "美国官方汇编 · 公布文本",
+      "locator": "United States Statutes at Large，卷12，第1023—1030页；第十一条在第1025页",
+      "checked": "对应英文条款与签署日期已读。",
+      "limitation": "中文约本、亲署原件与地方执行未核；公布日1860年1月26日与签署日分开。",
+      "humanReviewed": false
+    },
+    {
+      "id": "S2",
+      "title": "日美修好通商条约",
+      "url": "https://worldjpn.net/documents/texts/pw/18580729.T1J.html",
+      "kind": "机构转录 · 条约汇编",
+      "locator": "《旧条约汇纂》第一卷第一部，第13—29页；第三、四、六、七条",
+      "checked": "对应英日文本已读。",
+      "limitation": "未逐页校对1859年刊本或亲署原件；约定开港日不等于已经实际开港。",
+      "humanReviewed": false,
+      "parallelUrl": "https://worldjpn.net/documents/texts/pw/18580729.T1E.html"
+    },
+    {
+      "id": "S3",
+      "title": "中美续增条约（蒲安臣条约）",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-16/pdf/STATUTE-16-Pg739.pdf",
+      "kind": "美国官方汇编 · 公布文本",
+      "locator": "United States Statutes at Large，卷16，第739—741页；第五、六条在第740页",
+      "checked": "相关正文已读，第740页影像已核。",
+      "limitation": "中方中文约本未核；所读公布文书署1870年2月5日，不是本次签署日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "S4",
+      "title": "第十四修正案正式认证文书",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-15/pdf/STATUTE-15-Pg708-2.pdf",
+      "kind": "美国官方汇编 · 第13号文书",
+      "locator": "United States Statutes at Large，卷15，第708—711页；第一款在第709页，认证署名在第711页",
+      "checked": "对应正文、署地与日期已读。",
+      "limitation": "未鉴定亲署原件；7月28日是正式认证，不是国会提出或州批准日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "S5",
+      "title": "魏源《海国图志后叙》",
+      "url": "https://www.shidianguji.com/zh/book/NLG312001063009/chapter/1lehuf14cd3q2",
+      "kind": "国图来源数字文本 · 转录",
+      "locator": "国图来源书号NLG312001063009；《后叙》北美段及篇末咸丰二年高邮州自署",
+      "checked": "对应转录及同册重刊序已读。",
+      "limitation": "原刻影像、原叶行次及历法年界待核；同册含1868年陈氏重刊序，不能把整册视为1852年原印。",
+      "humanReviewed": false
+    },
+    {
+      "id": "S6",
+      "title": "《五箇条御誓文》",
+      "url": "https://worldjpn.net/documents/texts/pw/18680314.O1J.html",
+      "kind": "机构转录 · 传世控本著录",
+      "locator": "第五条；宫内厅传世控本函架号459之61",
+      "checked": "原文转录已读，控本缩略图已看。",
+      "limitation": "未逐字校勘高分辨率影像；控本为幟仁亲王书写，不能称明治天皇亲笔。",
+      "humanReviewed": false,
+      "witnessUrl": "https://shoryobu.kunaicho.go.jp/Ryobo/Detail/1000402480000?index=63178&searchtype=Freeword&sort=Title"
+    },
+    {
+      "id": "A1",
+      "title": "国立公文书馆《五ヶ国条约并税则》说明",
+      "url": "https://www.archives.go.jp/exhibition/digital/bakumatsu/contents/20.html",
+      "kind": "馆藏说明 · 地点辅助证据",
+      "locator": "展项20；馆藏号188-0270",
+      "checked": "馆藏说明已读。",
+      "limitation": "属于后出的馆藏说明；用来定位江户湾小柴近海舰上签约，不冒充同时代正文。",
+      "humanReviewed": false
+    },
+    {
+      "id": "A2",
+      "title": "宫内厅京都御所紫宸殿说明",
+      "url": "https://www.kunaicho.go.jp/event/kyotogosho/pdf/02shishinden.pdf#page=14",
+      "kind": "机构说明 · 历法与地点辅助证据",
+      "locator": "PDF第14页，御誓文仪式说明",
+      "checked": "说明中的西历日期与地点已读。",
+      "limitation": "用于确认1868年4月6日和紫宸殿；不取代誓文正文。",
+      "humanReviewed": false
+    }
+  ],
+  "method": "本轮优先对读当事文本，区分官方公布本、机构转录和馆藏说明。正文已读只表示核对了相关条款，不等于亲署原件鉴定、整册校勘或第三方专业审读。所有材料均保留尚待人工复核的状态。",
+  "selection": "样本围绕司法空间、政治成员资格和求知目的选择，偏向国家机关、外交人员和男性知识精英；没有覆盖的地区与群体不代表没有历史。",
+  "basemap": {
+    "title": "Natural Earth 1:110m Land",
+    "version": "v5.1.2仓库版本；陆地层",
+    "url": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+    "downloadUrl": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_110m_land.geojson",
+    "license": "Public domain",
+    "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "sha256": "74e32d31a1f9531a8531d9f5d7bf1b29c4ec94f87a006639e998e01be14f9156",
+    "note": "现代概化陆地轮廓只作地理参照；不显示国家疆界，不表示1852—1868年精确岸线。"
+  }
+}

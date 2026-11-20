@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="1852—1868年，中国、日本与美国的三组历史对照。在世界地图上对读事件、人物与可追溯的原始文献。" />
+  <title>世界同期 · 江山时序</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/world_history.css" />
+  <script defer src="js/world_history_core.js"></script>
+  <script defer src="js/world_history.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#comparison">跳到历史对照</a>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="seal">江山时序</span><span>世界同期</span></a>
+    <nav aria-label="地图导航"><a href="./">中国历史地图</a><a href="#sources">史料与方法</a><button id="share" type="button">复制当前视图链接</button></nav>
+  </header>
+  <main>
+    <div class="introduction">
+      <div><p class="eyebrow">1852—1868 · 中国 / 日本 / 美国</p><h1>在同一段时间里，读懂不同的世界。</h1><p>从地图找到事件，再把人物、条文与时代放在一起读。</p></div>
+      <p class="sample-note">三组深入对照<br /><span>6项记录 · 5处地点 · 原文可追溯</span></p>
+    </div>
+    <div id="load-status" role="status">正在载入历史记录与世界底图…</div>
+    <div id="reader" hidden>
+      <section class="case-selector" aria-label="选择对照专题"><div id="case-buttons" class="case-buttons"></div></section>
+      <section class="workspace" aria-label="历史地图与时间筛选">
+        <div class="map-column">
+          <div class="map-heading"><div><p class="eyebrow">世界地图</p><h2 id="time-heading"></h2></div><span id="visible-count" role="status" aria-live="polite"></span></div>
+          <div class="map-wrap">
+            <svg id="world-map" viewBox="0 0 1080 540" role="group" aria-label="世界历史事件地图，事件也可在下方列表中选择"><title>世界历史事件地图</title><g id="map-viewport"><g id="map-grid" aria-hidden="true"></g><g id="map-land" aria-hidden="true"></g><g id="map-labels" aria-hidden="true"></g><g id="map-markers"></g></g></svg>
+            <div class="map-controls" role="group" aria-label="地图缩放"><button id="zoom-in" type="button" aria-label="放大地图">＋</button><button id="zoom-out" type="button" aria-label="缩小地图">−</button><button id="zoom-reset" type="button">全图</button></div>
+            <p class="map-legend"><span class="legend-ring" aria-hidden="true"></span>城市参照点 / 海域示意 · 无历史疆界</p>
+          </div>
+          <div class="time-controls">
+            <div class="mode-row"><fieldset id="time-modes"><legend>时间范围</legend><label><input type="radio" name="mode" value="day" />同日</label><label><input type="radio" name="mode" value="year" />同年</label><label><input type="radio" name="mode" value="topic" />专题全时段</label></fieldset><button id="case-reset" type="button">回到本组时间</button></div>
+            <div class="date-row"><label for="year-range">年份 <output id="year-output" for="year-range"></output></label><input id="year-range" type="range" min="1852" max="1868" step="1" /><label class="date-label" for="exact-date">日期<input id="exact-date" type="date" min="1852-01-01" max="1868-12-31" /></label></div>
+            <p id="time-note" class="muted"></p>
+          </div>
+        </div>
+        <aside class="record-column" aria-labelledby="records-heading">
+          <h2 id="records-heading">此时此地</h2>
+          <label class="search-label" for="record-search">搜索事件、人物或地点<input id="record-search" type="search" maxlength="120" placeholder="如：西华德、魏源、天津" /></label>
+          <fieldset id="region-filters"><legend>历史涉及地区</legend><label><input type="checkbox" value="中国" checked />中国</label><label><input type="checkbox" value="日本" checked />日本</label><label><input type="checkbox" value="美国" checked />美国</label></fieldset>
+          <p class="filter-note">地区按事件参与方筛选，发生地点另行标注。</p>
+          <div id="record-list" class="record-list"></div>
+        </aside>
+      </section>
+      <section id="comparison" class="comparison" aria-labelledby="comparison-title" tabindex="-1">
+        <div class="comparison-heading"><div><p class="eyebrow">并置阅读</p><h2 id="comparison-title"></h2></div><span id="relation-label" class="badge"></span></div>
+        <p id="comparison-intro" class="comparison-intro"></p>
+        <div id="comparison-cards" class="comparison-cards"></div>
+        <div id="comparison-conclusion" class="conclusion"></div>
+      </section>
+      <section id="sources" class="sources" aria-labelledby="sources-title">
+        <details id="source-ledger"><summary id="sources-title">史料与方法 · 核查状态与地图出处</summary><div id="method-note"></div><div id="source-list" class="source-list"></div><div id="geography-sources"></div></details>
+      </section>
+    </div>
+    <noscript><p>此地图需要启用 JavaScript。史料与核查方法可阅读 <a href="docs/world-history.md">研究说明</a>。</p></noscript>
+  </main>
+  <footer><p>江山时序 · 世界同期研究样本</p><p>同年不等于同日；同时发生，也不自动构成因果。</p></footer>
+  <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+</body>
+</html>

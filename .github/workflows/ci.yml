@@ -51,5 +51,8 @@ jobs:
       - name: Check responsive UI layout geometry and non-overlap
         run: node scripts/audit_layout.js --check
 
+      - name: Validate world-history evidence and time precision
+        run: node scripts/validate_world_history.cjs
+
       - name: Run Atlas Validation Suite
         run: node scripts/validate_atlas.js
