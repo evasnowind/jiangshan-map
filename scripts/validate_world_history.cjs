@@ -20,7 +20,7 @@ const ids = s => core.visibleRecords(data, s).map(record => record.id);
 const byId = id => data.records.find(record => record.id === id);
 
 check('requested regions have evidence-backed records throughout the expanded time frame', () => {
-  assert.equal(data.schemaVersion, 3);
+  assert.equal(data.schemaVersion, 4);
   assert.deepEqual(data.period,{startYear:-10,endYear:2000});
   assert(data.records.length >= 60);
   assert(data.places.length >= 18);
@@ -54,7 +54,8 @@ check('every assertion, excerpt, date and regional entry is auditable', () => {
   }
   for(const record of data.records) {
     assert(record.caseId===null || data.cases.some(c=>c.id===record.caseId));
-    assert(data.places.some(p=>p.id===record.placeId));
+    if(record.placeId===null) assert(record.locationStatus==='unlocated' && record.locationNote);
+    else assert(data.places.some(p=>p.id===record.placeId));
     assert(Array.isArray(record.people) && record.people.every(p=>p.name && p.role));
     assert(record.regions.length && record.regions.every(r=>core.regionNames(data).includes(r)));
     assert(record.placeRole && record.placeLabel && record.limitation && record.polities.length);
@@ -62,13 +63,21 @@ check('every assertion, excerpt, date and regional entry is auditable', () => {
     assert(record.date.sortYear>=-10 && record.date.sortYear<=2000 && record.date.sortYear!==0);
     if(record.date.precision==='day') { assert(core.isExactDate(record.date.value)); assert.equal(core.yearOfDate(record.date.value),record.date.sortYear); }
     else if(record.date.precision==='year') { assert(/^-?\d{4}$/.test(record.date.value) && core.yearOfDate(record.date.value)!==null); assert.equal(core.yearOfDate(record.date.value),record.date.sortYear); }
-    else { assert.equal(record.date.precision,'regnal_year'); assert.equal(record.date.value,null); }
+    else if(record.date.precision==='range') {
+      assert.equal(record.date.value,null);
+      assert(Number.isInteger(record.date.fromYear) && record.date.fromYear!==0 && record.date.fromYear>=-10);
+      assert(Number.isInteger(record.date.toYear) && record.date.toYear!==0 && record.date.toYear<=2000);
+      assert(record.date.fromYear<=record.date.toYear);
+      assert.equal(record.date.sortYear,record.date.fromYear);
+      assert(record.date.original);
+    } else { assert.equal(record.date.precision,'regnal_year'); assert.equal(record.date.value,null); }
     assert(record.claims.length>=1);
     for(const claim of [...record.claims,record.quote]) {
       assert(sources.has(claim.sourceId));
       assert(claim.locator && core.safeSourceUrl(claim.url));
     }
     assert(record.quote.text && record.quote.translation);
+    assert(['primary_text','catalog_description','research_report'].includes(record.quote.kind || 'primary_text'));
   }
 });
 
@@ -221,8 +230,8 @@ check('view clustering expands with zoom and never changes evidence-backed place
   assert.equal(core.spatialClusters(records,places,32,1).length,3);
   assert.equal(JSON.stringify(places),before);
   const actual=core.spatialClusters(data.records,data.places,1,.8);
-  assert.equal(new Set(actual.flatMap(c=>c.records.map(r=>r.id))).size,data.records.length);
-  assert.equal(actual.reduce((sum,c)=>sum+c.records.length,0),data.records.length);
+  assert.equal(new Set(actual.flatMap(c=>c.records.map(r=>r.id))).size,data.records.filter(r=>r.placeId!==null).length);
+  assert.equal(actual.reduce((sum,c)=>sum+c.records.length,0),data.records.filter(r=>r.placeId!==null).length);
 });
 
 check('geographic references retain sources, precision and the correct Vienna', () => {
@@ -308,7 +317,7 @@ check('epochs partition the requested 2010 historical years without fabricating 
     for(let index=core.yearToIndex(era.from);index<=core.yearToIndex(era.to);index++) years.push(core.indexToYear(index));
     const scoped=all({eraId:era.id});
     assert(ids(scoped).length>0,era.id+' has no real material');
-    assert(core.visibleRecords(data,scoped).every(r=>r.date.sortYear>=era.from && r.date.sortYear<=era.to));
+    assert(core.visibleRecords(data,scoped).every(r=>core.overlapsYears(r,era.from,era.to)));
     assert.deepEqual(core.readState(core.writeState(scoped,data),data),scoped);
   }
   assert.equal(years.length,2010); assert.equal(new Set(years).size,2010);
@@ -341,6 +350,73 @@ check('every epoch offers an evidence-backed Chinese counterpart', () => {
   assert.equal(byId('EX1').date.value,'0014');
   assert.equal(byId('EX1').statistics.value,4937000);
   assert(byId('EX1').placeRole.includes('传本'));
+});
+
+check('date ranges never become exact-year or exact-day facts', () => {
+  const range={id:'TEST-RANGE',caseId:null,regions:['中国'],title:'范围测试',summary:'',people:[],placeId:null,date:{value:null,precision:'range',fromYear:450,toYear:550,sortYear:450}};
+  assert(!core.matchesTime(range,{mode:'year',date:'0500-01-01'},data));
+  assert(core.matchesTime(range,{mode:'year',date:'0500-01-01',includeRanges:true},data));
+  for(const year of [450,550]) assert(core.matchesTime(range,{mode:'year',date:core.yearValue(year)+'-01-01',includeRanges:true},data));
+  for(const year of [449,551]) assert(!core.matchesTime(range,{mode:'year',date:core.yearValue(year)+'-01-01',includeRanges:true},data));
+  assert(!core.matchesTime(range,{mode:'day',date:'0500-01-01',includeRanges:true},data));
+  assert(!core.matchesTime({...range,date:{...range.date,fromYear:-1,toYear:1}},{mode:'year',date:'0000-01-01',includeRanges:true},data));
+  const fixture={...data,records:[...data.records,range]};
+  const s=core.normalizeState({caseId:'all',mode:'topic',eraId:'medieval-early',recordId:range.id,includeRanges:true},fixture);
+  assert.equal(s.date,'0501-01-01','The cursor uses the intersecting epoch, not a fabricated midpoint');
+  assert.equal(range.date.value,null);
+  assert.deepEqual(core.readState(core.writeState(s,fixture),fixture),s);
+  assert.equal(core.readState('?case=all&mode=year&date=0500-01-01&ranges=on',fixture).includeRanges,false);
+  assert.equal(core.readState('?case=all&mode=year&date=0500-01-01&ranges=1',fixture).includeRanges,true);
+});
+
+check('range ranking respects intersection, distance and the missing year zero', () => {
+  const r=(from,to)=>({date:{precision:'range',value:null,fromYear:from,toYear:to,sortYear:from}});
+  const y=year=>({date:{precision:'year',value:core.yearValue(year),sortYear:year}});
+  assert.equal(core.temporalDistance(r(970,1020),y(1000)),0);
+  assert.equal(core.temporalDistance(r(970,1020),r(1010,1100)),0);
+  assert.equal(core.temporalDistance(r(970,1020),y(1041)),21);
+  assert.equal(core.temporalDistance(y(-1),y(1)),1);
+  assert.equal(core.relationLabel(r(970,1020),y(1000)),'年代范围相交 · 同期尚不确定');
+  assert.equal(core.relationLabel(r(970,1020),y(1041)),'范围对读 · 年代不重叠');
+});
+
+check('coverage distinguishes anchored material, intersecting ranges and empty cells', () => {
+  const fixture={regions:[{id:'china',name:'中国'},{id:'usa',name:'美国'}],eras:[{id:'a',from:1,to:500},{id:'b',from:501,to:1000}],records:[
+    {regions:['中国'],date:{precision:'range',value:null,fromYear:450,toYear:550,sortYear:450}},
+    {regions:['美国'],date:{precision:'year',value:'0500',sortYear:500}}
+  ]};
+  const rows=core.coverageMatrix(fixture);
+  assert.deepEqual(rows.map(row=>row.cells.map(c=>[c.anchoredCount,c.rangeCount])),[[[0,1],[0,1]],[[1,0],[0,0]]]);
+  const actual=core.coverageMatrix(data).flatMap(row=>row.cells);
+  assert.equal(actual.length,140);
+  assert(actual.filter(cell=>cell.anchoredCount).length>74,'New fixed/dated material must fill previous gaps');
+  assert(actual.some(cell=>cell.rangeCount));
+  assert.equal(data.coverage.complete,false);
+  assert.deepEqual(data.period,{startYear:-10,endYear:2000});
+});
+
+check('unlocated material stays readable without acquiring a fabricated map point', () => {
+  const unlocated=data.records.filter(record=>record.placeId===null);
+  assert(unlocated.length>0);
+  for(const record of unlocated) {
+    assert.equal(record.locationStatus,'unlocated'); assert(record.locationNote);
+    assert.equal(core.clusterPlaces([record],data.places).length,0);
+  }
+  const clustered=core.clusterPlaces(data.records,data.places).flatMap(cluster=>cluster.records);
+  assert.equal(new Set(clustered.map(record=>record.id)).size,data.records.length-unlocated.length);
+});
+
+check('curated Chinese reading guides link evidence and state the comparison boundary', () => {
+  assert(data.readingGuides.length>=3);
+  for(const guide of data.readingGuides) {
+    assert(guide.title && guide.question && guide.reading && guide.boundary && guide.relationBasis);
+    const china=byId(guide.chinaRecordId),other=byId(guide.otherRecordId);
+    assert(china && other && china.id!==other.id && china.regions.includes('中国'));
+    assert(guide.sourceIds.length>=2 && guide.sourceIds.every(id=>data.sources.some(source=>source.id===id)));
+    const s=all({recordId:other.id,compareId:china.id});
+    assert.equal(s.compareId,china.id);
+    assert.deepEqual(core.readState(core.writeState(s,data),data),s);
+  }
 });
 
 check('data, core and UI receive matching cache versions with local runtime assets', () => {

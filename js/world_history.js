@@ -96,7 +96,7 @@
     }
     $('period-label').textContent = core.formatYear(data.period.startYear) + '—' + core.formatYear(data.period.endYear) + ' · ' + data.regions.length + '个地区';
     $('sample-note').replaceChildren(document.createTextNode(data.regions.length + '个地区 · ' + data.cases.length + '组精读'), element('br'),
-      element('span', '', data.records.length + '项记录 · 原文逐条可查'));
+      element('span', '', data.records.length + '项记录 · 证据逐条可查'));
   }
 
   function buildEras() {
@@ -107,6 +107,39 @@
       node.append(element('strong', '', era.label), element('span', '', era.caption), element('span', 'era-total', ''));
       $('era-buttons').append(node);
     }
+  }
+
+  function buildCoverage() {
+    const rows = core.coverageMatrix(data), cells = rows.flatMap(row => row.cells);
+    const anchored = cells.filter(cell => cell.anchoredCount).length;
+    const ranges = cells.filter(cell => cell.count && !cell.anchoredCount).length;
+    $('coverage-summary').textContent = '· ' + anchored + '格有纪年材料 · ' + ranges + '格仅有范围材料 · ' + cells.filter(cell => !cell.count).length + '格空白';
+    const table = $('coverage-table'), head = element('thead'), headings = element('tr');
+    const corner = element('th', '', '地区入口'); corner.scope = 'col'; headings.append(corner);
+    for (const era of data.eras) {
+      const cell = element('th'); cell.scope = 'col';
+      cell.append(element('span', '', era.label),element('small', '', era.caption)); headings.append(cell);
+    }
+    head.append(headings); table.append(element('caption', '', '纪年条目与范围条目分别计数；共用和跨时代范围材料可出现在多格，整批记录不重复。'),head);
+    const body = element('tbody');
+    for (const row of rows) {
+      const line = element('tr'), title = element('th', '', row.region.name); title.scope = 'row'; line.append(title);
+      for (const cell of row.cells) {
+        const container = element('td');
+        const node = button('', () => setState({caseId:'all',mode:'topic',eraId:cell.era.id,regions:[row.region.name],query:'',recordId:null,compareId:null}),
+          'coverage-cell' + (!cell.count ? ' coverage-empty' : !cell.anchoredCount ? ' coverage-range-only' : ''));
+        node.dataset.region = row.region.id; node.dataset.era = cell.era.id;
+        node.setAttribute('aria-label',row.region.name + '，' + cell.era.caption + '，' + cell.anchoredCount + '项纪年材料，' + cell.rangeCount + '项范围材料');
+        if (!cell.count) node.textContent = '空白';
+        else {
+          if (cell.anchoredCount) node.append(element('span', '', cell.anchoredCount + '条'));
+          if (cell.rangeCount) node.append(element('span', 'range-total', cell.rangeCount + '范围'));
+        }
+        container.append(node); line.append(container);
+      }
+      body.append(line);
+    }
+    table.append(body);
   }
 
   function renderRegionContext() {
@@ -120,10 +153,10 @@
     if (selected.length > 2) { content.open = Boolean(wasOpen); content.append(element('summary', '', '游标年份的政权与材料')); container.append(content); }
     for (const region of selected) {
       const contexts = core.regionContexts(data, region, state);
-      const witnesses = data.records.filter(record => record.regions.includes(region.name) && record.date.sortYear === core.yearOfDate(state.date));
+      const witnesses = data.records.filter(record => record.regions.includes(region.name) && core.overlapsYears(record,core.yearOfDate(state.date),core.yearOfDate(state.date)));
       const names = Array.from(new Set(witnesses.flatMap(record => record.polities)));
       const label = contexts.length ? contexts.map(c => c.label).join(' / ') : names.length
-        ? '此年已收文献涉及：' + names.join('、') : '此年份的地区沿革尚未单独校核，请参照史事卡。';
+        ? '游标参照的材料涉及：' + names.join('、') : '此年份的地区沿革尚未单独校核，请参照史事卡。';
       content.append(element('h3', '', region.name), element('p', 'historical-name', label),
         element('p', '', region.note));
     }
@@ -136,8 +169,9 @@
     const era = core.eraForState(data, state);
     $('time-heading').textContent = state.mode === 'day' ? core.formatDate(state.date)
       : state.mode === 'year' ? core.formatYear(year) : era ? era.label : '公元前10年—公元2000年 · 全时段';
-    const approximate = state.mode === 'topic' && data.records.find(record => record.id === state.recordId)?.date.precision === 'regnal_year';
-    $('year-output').textContent = core.formatYear(year) + (approximate ? '（排序参照）' : '');
+    const precision = data.records.find(record => record.id === state.recordId)?.date.precision;
+    const approximate = state.mode === 'topic' && precision === 'regnal_year';
+    $('year-output').textContent = core.formatYear(year) + (approximate ? '（排序参照）' : state.mode === 'topic' && precision === 'range' ? '（范围参照）' : '');
     $('year-range').min = core.yearToIndex(data.period.startYear);
     $('year-range').max = core.yearToIndex(data.period.endYear);
     $('year-range').value = core.yearToIndex(year);
@@ -147,11 +181,14 @@
     $('year-input').value = Math.abs(year);
     $('exact-date').value = state.date.slice(-5);
     $('exact-date').disabled = state.mode !== 'day';
+    $('range-option').hidden = state.mode !== 'year';
+    $('include-ranges').checked = state.includeRanges;
     $('time-note').textContent = state.mode === 'topic'
       ? '按所选时代并置材料；拖动年份或输入年份后按回车可转为同年。原署年待核的材料仅在时代浏览中显示。'
-      : state.mode === 'year' ? '仅显示已核定西历年份的材料；没有月日的记录不会补成确日。公元前1年直接接公元1年。'
+      : state.mode === 'year' ? '默认只显示已核定年份的记录；可另勾选年代范围可能相交的材料，它们不能确认为发生于此年。原署年未核的记录仍只参加时代浏览。'
         : '月日格式为MM-DD。游标采用推算格里历；仅匹配已核定转换的确日记录，原历日期仍列在卡片中。';
     if (approximate) $('time-note').textContent += ' 当前游标仅按原署年排序，未确定完整西历年界。';
+    if (state.mode === 'topic' && precision === 'range') $('time-note').textContent += ' 当前游标仅参照断代范围，不是事件发生年。';
     $('era-controls').hidden = Boolean(currentCase());
     for (const node of $('era-buttons').children) {
       node.setAttribute('aria-pressed', String(state.mode === 'topic' && node.dataset.era === state.eraId));
@@ -161,6 +198,9 @@
     const scoped = core.visibleRecords(data, {...state,caseId:'all'});
     const covered = state.regions.filter(region => scoped.some(record => record.regions.includes(region)));
     $('coverage-note').textContent = scoped.length + '项材料，涉及所选' + state.regions.length + '个地区中的' + covered.length + '个；本批为可追溯选编，尚未逐年、逐地区补齐。';
+    for (const node of document.querySelectorAll('#coverage-table button')) node.setAttribute('aria-pressed',String(
+      state.caseId === 'all' && state.mode === 'topic' && state.eraId === node.dataset.era && state.regions.length === 1 &&
+      data.regions.find(region => region.id === node.dataset.region).name === state.regions[0]));
     for (const input of document.querySelectorAll('input[name="mode"]')) input.checked = input.value === state.mode;
     for (const input of document.querySelectorAll('#region-filters input')) input.checked = state.regions.includes(input.value);
     $('region-count').textContent = state.regions.length + '/' + data.regions.length;
@@ -174,7 +214,9 @@
   function renderRecords(records) {
     const container = $('record-list');
     container.replaceChildren();
-    $('visible-count').textContent = records.length + '项记录 · ' + core.clusterPlaces(records, data.places).length + '处地点';
+    const ranges = records.filter(record => record.date.precision === 'range').length;
+    const unlocated = records.filter(record => record.placeId === null).length;
+    $('visible-count').textContent = records.length + '项记录 · ' + core.clusterPlaces(records, data.places).length + '处地点' + (ranges ? ' · 含' + ranges + '项范围材料' : '') + (unlocated ? ' · ' + unlocated + '项未定位' : '');
     if (!records.length) {
       const empty = element('div', 'empty-state');
       empty.append(element('strong', '', '当前条件下没有记录'), element('p', '', '本批收录' + data.records.length + '项材料。没有记录不等于当时没有历史。'),
@@ -298,7 +340,7 @@
     const card = element('article', 'comparison-card' + (record.id === selectedId ? ' selected' : ''));
     card.id = 'record-' + record.id;
     const inTime = core.matchesTime(record, state, data);
-    const context = visibleIds.has(record.id) ? (state.mode === 'topic' ? '专题材料 · 保留各自日期' : '当前时间与筛选内')
+    const context = visibleIds.has(record.id) ? (record.date.precision === 'range' ? (state.mode === 'year' ? '范围材料 · 可能处于当前年' : '范围材料 · 保留原始断代') : state.mode === 'topic' ? '专题材料 · 保留各自日期' : '当前时间与筛选内')
       : !inTime ? '历史对照 · 不在当前时间内' : '对照保留 · 不在当前地区或搜索筛选内';
     card.append(element('p', 'context-label' + (!visibleIds.has(record.id) ? ' off-time' : ''), context));
     const tags = element('div', 'tags');
@@ -307,7 +349,7 @@
       element('p', 'original-date', record.date.original));
     const place = data.places.find(p => p.id === record.placeId);
     const location = element('p', 'location-line', record.placeRole + '：' + record.placeLabel + ' ');
-    if (visibleIds.has(record.id)) location.append(button('地图定位', () => locate(place), 'text-button'));
+    if (place && visibleIds.has(record.id)) location.append(button('地图定位', () => locate(place), 'text-button'));
     card.append(location, element('p', '', record.summary));
     if (record.polities?.length) card.append(element('p', 'historical-name', '当时政权／关系：' + record.polities.join('、')));
     if (record.parties?.length) card.append(element('p', 'muted', '文书参与方：' + record.parties.join('、')));
@@ -323,14 +365,16 @@
     for (const person of record.people) people.append(element('dt', '', person.name), element('dd', '', person.role));
     card.append(people);
     const evidence = element('details', 'evidence-detail');
-    evidence.append(element('summary', '', '对读原文与核查状态'));
+    const quoteKind = record.quote.kind || 'primary_text';
+    const quoteLabel = quoteKind === 'catalog_description' ? '现代馆藏说明（不是器物铭文）' : quoteKind === 'research_report' ? '现代原始研究报告短摘' : '文献原文或其所据译文';
+    evidence.append(element('summary', '', quoteKind === 'catalog_description' ? '馆藏信息与核查状态' : quoteKind === 'research_report' ? '研究报告与核查状态' : '对读原文与核查状态'));
     const quote = element('blockquote', '', record.quote.text);
     const material = data.sources.find(s => s.id === record.quote.sourceId);
-    evidence.append(quote, element('p', '', '本轮释读：' + record.quote.translation),
+    evidence.append(element('p', 'source-kind', quoteLabel),quote, element('p', '', '本轮释读：' + record.quote.translation),
       sourceLink('[' + material.id + '] ' + record.quote.locator, record.quote.url),
       element('p', 'source-kind', material.kind), element('p', 'muted', material.checked),
       element('p', 'evidence-limit', material.limitation), element('p', 'review-state', '第三方专业审读：待完成'));
-    card.append(evidence, element('p', 'location-note', place.note), element('p', 'card-limit', record.limitation));
+    card.append(evidence, element('p', 'location-note', place ? place.note : record.locationNote), element('p', 'card-limit', record.limitation));
     return card;
   }
 
@@ -345,27 +389,42 @@
       const comparison = primary && data.records.find(record => record.id === state.compareId && record.id !== primary.id);
       $('comparison-title').textContent = primary ? primary.title : '选择一条史事，打开原文';
       $('relation-label').textContent = primary ? comparison ? core.relationLabel(primary, comparison)
-        : primary.date.precision === 'day' ? '确日记录' : primary.date.precision === 'year' ? '年级精度' : '原署年 · 西历年界待核' : '当前筛选无记录';
+        : primary.date.precision === 'day' ? '确日记录' : primary.date.precision === 'year' ? '年级精度' : primary.date.precision === 'range' ? '年代范围 · 未定具体年' : '原署年 · 西历年界待核' : '当前筛选无记录';
       $('comparison-intro').textContent = '地区名称用于检索，当时政权与文献阶段另行说明。点选记录阅读来源，也可添加一项中国相关材料并排对读。';
       $('reading-tools').hidden = !primary;
       const select = $('china-comparison'); select.replaceChildren();
       const none = element('option', '', '暂不添加'); none.value = ''; select.append(none);
       for (const record of data.records.filter(record => primary && record.regions.includes('中国') && record.id !== primary.id).sort((a,b) =>
-        Math.abs(core.yearToIndex(a.date.sortYear)-core.yearToIndex(primary.date.sortYear))-Math.abs(core.yearToIndex(b.date.sortYear)-core.yearToIndex(primary.date.sortYear)))) {
-        const gap = Math.abs(core.yearToIndex(record.date.sortYear)-core.yearToIndex(primary.date.sortYear));
+        core.temporalDistance(a,primary)-core.temporalDistance(b,primary))) {
+        const gap = core.temporalDistance(record,primary);
+        const range = record.date.precision === 'range' || primary.date.precision === 'range';
         const approximate = record.date.precision === 'regnal_year' || primary.date.precision === 'regnal_year';
-        const label = gap === 0 ? (approximate ? '参考年份相同' : '同年') : (approximate ? '约相隔' : '相隔') + gap + '年';
+        const label = gap === 0 ? (range ? '年代范围可能相交' : approximate ? '参考年份相同' : '同年') : (range || approximate ? '参考年份距离约' : '年份距离') + gap + '年';
         const option = element('option', '', label + ' · ' + record.date.display + ' · ' + record.title); option.value = record.id; select.append(option);
       }
       select.value = comparison?.id || '';
       $('reading-gap').textContent = comparison ? core.relationLabel(primary, comparison) + '。并列阅读不自动证明因果、传播或制度优劣。'
-        : '中国材料按年份距离排序，只有年级精度时差值也为年级；时间接近本身不能证明历史联系。';
+        : '中国材料按年代的最短参考距离排序；范围相交并不确认同年，时间接近也不证明历史联系。';
+      const suggestions = $('reading-suggestions'); suggestions.replaceChildren();
+      for (const guide of (data.readingGuides || []).filter(guide => guide.otherRecordId === primary?.id)) {
+        suggestions.append(button('按问题对读：' + guide.title, () => setState({compareId:guide.chinaRecordId}), 'reading-suggestion'));
+      }
+      const guide = primary && comparison && (data.readingGuides || []).find(guide => guide.otherRecordId === primary.id && guide.chinaRecordId === comparison.id);
       const ids = new Set(records.map(record => record.id));
       if (primary) cards.append(renderCard(primary, ids));
       if (comparison) cards.append(renderCard(comparison, ids));
       cards.classList.remove('overview-cards');
       cards.classList.toggle('single-card', !comparison);
-      conclusion.hidden = true;
+      conclusion.hidden = !guide;
+      if (guide) {
+        const references = element('p', 'guide-sources', '对读依据：');
+        for (const id of guide.sourceIds) {
+          const source = data.sources.find(source => source.id === id);
+          references.append(document.createTextNode(' '),sourceLink('[' + id + '] ' + source.title,source.url));
+        }
+        conclusion.append(element('h3', '', guide.question),element('p', 'source-kind', '本轮比较性释读 · ' + guide.relationBasis),
+          element('p', '', guide.reading),references,element('h4', '', '比较的边界'),element('p', '', guide.boundary));
+      }
       return;
     }
     cards.classList.remove('overview-cards', 'single-card'); conclusion.hidden = false;
@@ -487,6 +546,7 @@
     $('regions-all').addEventListener('click', () => setState({regions:core.regionNames(data),recordId:null,compareId:null}));
     $('regions-clear').addEventListener('click', () => setState({regions:[],recordId:null,compareId:null}));
     $('china-comparison').addEventListener('change', event => setState({compareId:event.target.value || null}));
+    $('include-ranges').addEventListener('change', event => setState({includeRanges:event.target.checked,recordId:null}));
     $('record-search').addEventListener('input', event => setState({ query: event.target.value,recordId:null }, true));
     $('case-reset').addEventListener('click', resetCase);
     $('zoom-in').addEventListener('click', () => zoom(1.5));
@@ -534,7 +594,7 @@
       if (results[0].status !== 'fulfilled') throw results[0].reason;
       data = results[0].value;
       state = core.readState(window.location.search, data);
-      buildCaseButtons(); buildRegions(); buildEras(); renderSources(); bindControls();
+      buildCaseButtons(); buildRegions(); buildEras(); buildCoverage(); renderSources(); bindControls();
       if (results[1].status === 'fulfilled') drawBaseMap(results[1].value);
       else {
         $('load-status').textContent = '陆地底图暂未载入，记录和证据仍可阅读。刷新页面可重试。';

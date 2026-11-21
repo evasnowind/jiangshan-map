@@ -1146,3 +1146,26 @@ select:focus-visible {
 @media print { .era-controls { display:none; } }
 
 @media(max-width:720px) { .overview-button { grid-column:1 / -1; } }
+
+.coverage-browser { margin:1rem 0 1.4rem; border:1px solid var(--line); border-radius:8px; padding:.8rem 1rem; background:var(--card); }
+.coverage-browser>summary { cursor:pointer; font-weight:600; }
+#coverage-summary { font-weight:400; font-size:.875rem; color:var(--muted); }
+.coverage-browser>p { font-size:.875rem; margin:.7rem 0; }
+.coverage-scroll { max-width:100%; overflow-x:auto; scroll-padding-inline-start:7rem; border-radius:5px; }
+.coverage-table { border-collapse:separate; border-spacing:0; width:100%; min-width:840px; font-size:.875rem; }
+.coverage-table caption { text-align:left; padding:.4rem; color:var(--muted); }
+.coverage-table th,.coverage-table td { border-bottom:1px solid var(--line); padding:.35rem; text-align:center; }
+.coverage-table th:first-child { position:sticky; left:0; z-index:1; background:var(--card); min-width:6rem; text-align:left; }
+.coverage-table th span,.coverage-table th small { display:block; }
+.coverage-table th small { font-weight:400; color:var(--muted); }
+.coverage-cell { width:100%; min-height:44px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:.3rem; border:1px solid var(--line); background:#edf3f0; border-radius:5px; }
+.coverage-empty { background:white; color:var(--muted); }
+.coverage-range-only { background:#fbf2e3; }
+.range-total { color:#815d27; }
+.coverage-cell[aria-pressed="true"] { border-color:var(--red); box-shadow:inset 0 0 0 1px var(--red); }
+.range-option { display:flex; align-items:flex-start; gap:.45rem; margin-top:.8rem; font-size:.875rem; }
+.range-option input { margin-top:.35rem; flex-shrink:0; }
+.reading-suggestions { display:flex; flex-wrap:wrap; gap:.5rem; margin-top:.6rem; }
+.reading-suggestions button { min-height:44px; text-align:left; padding:.5rem .7rem; font-size:.875rem; }
+@media(max-width:720px) { .coverage-browser { padding:.7rem; } #coverage-summary { display:block; margin-top:.3rem; } }
+@media print { .coverage-browser,.range-option { display:none; } }

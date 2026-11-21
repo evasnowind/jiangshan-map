@@ -48,6 +48,31 @@
   }
   function eraForState(data, state) { return (data.eras || []).find(era => era.id === state.eraId); }
 
+  function recordSpan(record) {
+    if (record.date.precision === 'range') return {from:record.date.fromYear, to:record.date.toYear};
+    const year = yearOfDate(record.date.value) ?? record.date.sortYear;
+    return {from:year, to:year};
+  }
+
+  function overlapsYears(record, from, to) {
+    const span = recordSpan(record);
+    return span.from <= to && span.to >= from;
+  }
+
+  // Used to rank reading candidates, never to prove contemporaneity or elapsed time.
+  function temporalDistance(a, b) {
+    const left = recordSpan(a), right = recordSpan(b);
+    return Math.max(0, yearToIndex(left.from) - yearToIndex(right.to), yearToIndex(right.from) - yearToIndex(left.to));
+  }
+
+  function coverageMatrix(data) {
+    return data.regions.map(region => ({region, cells:data.eras.map(era => {
+      const records = data.records.filter(record => record.regions.includes(region.name) && overlapsYears(record,era.from,era.to));
+      const rangeCount = records.filter(record => record.date.precision === 'range').length;
+      return {era, count:records.length, rangeCount, anchoredCount:records.length-rangeCount};
+    })}));
+  }
+
   function normalizeState(input, data) {
     const defaults = data.defaultState;
     const caseId = input.caseId === 'all' || data.cases.some(c => c.id === input.caseId)
@@ -64,6 +89,7 @@
       mode: MODES.includes(input.mode) ? input.mode : defaults.mode,
       date,
       eraId: caseId === 'all' && (data.eras || []).some(era => era.id === input.eraId) ? input.eraId : 'all',
+      includeRanges: input.includeRanges === true,
       regions,
       query: typeof input.query === 'string' ? input.query.slice(0, 120) : '',
       recordId: selected?.id || null,
@@ -78,6 +104,13 @@
       else if (state.mode === 'topic' && primary?.date.precision === 'year') state.date = primary.date.value + '-01-01';
       // This cursor is a sorting reference, never a fabricated event date.
       else if (state.mode === 'topic' && primary?.date.precision === 'regnal_year') state.date = yearValue(primary.date.sortYear) + '-01-01';
+      else if (state.mode === 'topic' && primary?.date.precision === 'range') {
+        const era = eraForState(data,state), span = recordSpan(primary);
+        const from = Math.max(span.from,era?.from ?? data.period.startYear);
+        const to = Math.min(span.to,era?.to ?? data.period.endYear);
+        const previous = yearOfDate(state.date);
+        state.date = yearValue(previous >= from && previous <= to ? previous : from) + '-01-01';
+      }
     }
     return state;
   }
@@ -87,6 +120,7 @@
     return normalizeState({
       caseId: params.get('case'), mode: params.get('mode'), date: params.get('date'),
       eraId: params.get('era'),
+      includeRanges: params.get('ranges') === '1',
       regions: params.has('regions') ? params.get('regions').split(',') : undefined,
       query: params.get('q'), recordId: params.get('event'), compareId: params.get('compare')
     }, data);
@@ -95,6 +129,7 @@
   function writeState(state, data) {
     const params = new URLSearchParams({ case: state.caseId, mode: state.mode, date: state.date });
     if (state.eraId && state.eraId !== 'all') params.set('era', state.eraId);
+    if (state.includeRanges) params.set('ranges','1');
     if (state.regions.length !== regionNames(data).length) params.set('regions', state.regions.join(','));
     if (state.query.trim()) params.set('q', state.query.trim());
     if (state.recordId) params.set('event', state.recordId);
@@ -105,7 +140,11 @@
   function matchesTime(record, state, data) {
     if (state.mode === 'topic') {
       const era = data && eraForState(data, state);
-      return !era || record.date.sortYear >= era.from && record.date.sortYear <= era.to;
+      return !era || overlapsYears(record,era.from,era.to);
+    }
+    if (record.date.precision === 'range') {
+      const year = yearOfDate(state.date);
+      return year !== null && state.mode === 'year' && state.includeRanges === true && overlapsYears(record,year,year);
     }
     if (record.date.precision === 'year' && /^-?\d{4}$/.test(record.date.value || ''))
       return state.mode === 'year' && yearOfDate(record.date.value) === yearOfDate(state.date);
@@ -164,6 +203,8 @@
   }
 
   function relationLabel(a, b) {
+    if (a.date.precision === 'range' || b.date.precision === 'range')
+      return temporalDistance(a,b) === 0 ? '年代范围相交 · 同期尚不确定' : '范围对读 · 年代不重叠';
     if (a.date.precision === 'regnal_year' || b.date.precision === 'regnal_year')
       return '主题对读 · 日期精度不同';
     const years = [yearOfDate(a.date.value), yearOfDate(b.date.value)];
@@ -214,6 +255,7 @@
   }
 
   return { MODES, regionNames, resolveRegions, regionContexts, yearToIndex, indexToYear, yearValue, yearOfDate, formatYear,
-    formatDate, dateForYear, eraForState, isExactDate, normalizeState, readState, writeState, matchesTime,
+    formatDate, dateForYear, eraForState, recordSpan, overlapsYears, temporalDistance, coverageMatrix,
+    isExactDate, normalizeState, readState, writeState, matchesTime,
     matchesFilters, visibleRecords, clusterPlaces, spatialClusters, clusterAction, daysBetween, relationLabel, project, safeSourceUrl };
 });

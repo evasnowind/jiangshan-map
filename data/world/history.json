@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "researchDate": "2026-11-21",
   "period": {
     "startYear": -10,
@@ -4896,6 +4896,4120 @@
         "中华民国"
       ],
       "parties": []
+    },
+    {
+      "id": "AY1",
+      "caseId": null,
+      "title": "《日本书纪》推古十二年条所载十七条规范",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "ay-asuka",
+      "placeLabel": "飞鸟（朝廷所在地区参照）",
+      "placeRole": "小垦田宫所属飞鸟地区参照，不表示已核具体颁示建筑",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 604,
+        "display": "约604年 · 推古十二年四月",
+        "original": "推古十二年夏四月丙寅朔戊辰；未核儒略历与公历日换算，保留原纪年。",
+        "sourceIds": [
+          "AT1"
+        ]
+      },
+      "summary": "《日本书纪》将十七条规范系于推古十二年，内容包括敬重佛法僧、遵诏、审理诉讼和避免农忙征役。",
+      "people": [
+        {
+          "name": "厩户丰聪耳皇子",
+          "role": "该书所称皇太子；十二年条把十七条规范归于皇太子制作"
+        }
+      ],
+      "claims": [
+        {
+          "text": "十二年条称皇太子作十七条；第二条推崇佛法僧，第三条要求谨慎承诏。",
+          "sourceId": "AT1",
+          "locator": "卷二十二·推古十二年夏四月条，第2、3条",
+          "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+        },
+        {
+          "text": "第五条批评受贿影响诉讼，第十六条主张避开春至秋的农桑季节征役；这些是文本中的规范，不能视为实际执法成效。",
+          "sourceId": "AT1",
+          "locator": "推古十二年所载第5、16条",
+          "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+        }
+      ],
+      "quote": {
+        "text": "使民以時，古之良典",
+        "translation": "在合宜的季节征用民力，是古代的良好规范。",
+        "sourceId": "AT1",
+        "locator": "推古十二年·第16条",
+        "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+      },
+      "limitation": "《日本书纪》于720年编成，是后编史书保存的文本，不能当作604年亲笔原件；作者归属依该书叙述，未作独立定论。此处‘宪法’是十七条政治伦理规范的原称，不等同现代国家宪法。",
+      "aliases": [
+        "十七条宪法",
+        "圣德太子",
+        "推古十二年"
+      ],
+      "polities": [
+        "倭国"
+      ]
+    },
+    {
+      "id": "AY2",
+      "caseId": null,
+      "title": "《日本书纪》记推古十五年派小野妹子出使",
+      "regions": [
+        "日本",
+        "中国"
+      ],
+      "placeId": "ay-asuka",
+      "placeLabel": "飞鸟（派使朝廷所在地区参照）",
+      "placeRole": "派使政治中心参照；不是航海出发港或抵达隋廷的坐标",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 607,
+        "display": "约607年 · 推古十五年七月",
+        "original": "推古十五年秋七月戊申朔庚戌；只作通行纪年对照，未核日历转换。",
+        "sourceIds": [
+          "AT1"
+        ]
+      },
+      "summary": "该书记小野妹子出使，并明确鞍作福利担任通事；文中以‘大唐’称目的地，保存了后编史书的用称。",
+      "people": [
+        {
+          "name": "小野妹子",
+          "role": "十五年条所记受遣使者，冠位大礼"
+        },
+        {
+          "name": "鞍作福利",
+          "role": "同条所记通事"
+        }
+      ],
+      "claims": [
+        {
+          "text": "推古十五年七月条记大礼小野妹子受遣，鞍作福利为通事。",
+          "sourceId": "AT1",
+          "locator": "卷二十二·推古十五年秋七月条",
+          "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+        },
+        {
+          "text": "该条原文写‘遣于大唐’；与现有AX4《隋书》同一纪年外交材料对读时，保留两种史书的称呼差异，不把607年的中国政权改称唐朝。",
+          "sourceId": "AT1",
+          "locator": "推古十五年秋七月条；次年十六年条亦沿用‘大唐’",
+          "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+        }
+      ],
+      "quote": {
+        "text": "以鞍作福利爲通事",
+        "translation": "以鞍作福利充任翻译通事。",
+        "sourceId": "AT1",
+        "locator": "推古十五年秋七月条",
+        "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二"
+      },
+      "limitation": "与AX4是同一外交往来的不同传世史书证据，不是另一次已核使行。《日本书纪》后编约一世纪，目的地‘大唐’是其文本用称；本条不据后书补造使者所携原信全文。",
+      "aliases": [
+        "小野妹子",
+        "鞍作福利",
+        "遣隋使",
+        "推古十五年"
+      ],
+      "polities": [
+        "倭国",
+        "隋朝"
+      ]
+    },
+    {
+      "id": "AY3",
+      "caseId": null,
+      "title": "日本降伏文书在东京湾签署，中国代表列入接受签栏",
+      "regions": [
+        "日本",
+        "中国",
+        "美国",
+        "英国",
+        "俄罗斯",
+        "法国"
+      ],
+      "placeId": "edo-bay",
+      "placeLabel": "东京湾（海湾参照）",
+      "placeRole": "文书明署的签署海湾；参照点不代表密苏里号当日停泊坐标，更不代表中国境内受降场所",
+      "date": {
+        "value": "1945-09-02",
+        "precision": "day",
+        "sortYear": 1945,
+        "display": "1945年9月2日",
+        "original": "文书明署SECOND day of SEPTEMBER, 1945；Signed at TOKYO BAY, JAPAN。",
+        "sourceIds": [
+          "AT2"
+        ]
+      },
+      "summary": "文书接受波茨坦宣言条件，宣布日本军队无条件投降；接受方签栏明确列中国代表徐永昌。",
+      "people": [
+        {
+          "name": "重光葵",
+          "role": "代表日本天皇与日本政府签署"
+        },
+        {
+          "name": "徐永昌",
+          "role": "接受签栏的中华民国代表（HSU YUNG-CH'ANG）"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第二段宣布日本大本营、全部日本军队及日本控制下各地军队向盟国无条件投降。",
+          "sourceId": "AT2",
+          "locator": "Instrument of Surrender，第2段",
+          "url": "https://www.archives.gov/milestone-documents/surrender-of-japan"
+        },
+        {
+          "text": "签署地点和日期为东京湾、1945年9月2日；接受签栏列HSU YUNG-CH'ANG为Republic of China Representative。",
+          "sourceId": "AT2",
+          "locator": "署日行、接受签栏HSU YUNG-CH'ANG行",
+          "url": "https://www.archives.gov/milestone-documents/surrender-of-japan"
+        }
+      ],
+      "quote": {
+        "text": "HSU YUNG-CH'ANG / Republic of China Representative",
+        "translation": "徐永昌／中华民国代表。斜线表示原件换行。",
+        "sourceId": "AT2",
+        "locator": "接受方签栏，中国代表签名与身份行",
+        "url": "https://www.archives.gov/milestone-documents/surrender-of-japan"
+      },
+      "limitation": "NARA提供原件影像入口与逐字转录，本轮实际读正文及签栏转录。俄罗斯筛选对应签栏中的苏联这一前代政权，法国也有接受方代表；其他未设地区的签方未穷尽列入regions。此文书的东京湾签署与同日越南独立宣言可同期对读，但不表示两文书彼此承认或有共同签署程序。",
+      "aliases": [
+        "日本降伏文书",
+        "徐永昌",
+        "重光葵",
+        "HSU YUNG-CH'ANG",
+        "Instrument of Surrender"
+      ],
+      "polities": [
+        "日本帝国",
+        "中华民国",
+        "美国",
+        "英国",
+        "苏联",
+        "法国"
+      ]
+    },
+    {
+      "id": "AY4",
+      "caseId": null,
+      "title": "甘地致欧文信要求取消盐税与私人制盐禁令",
+      "regions": [
+        "印度",
+        "英国"
+      ],
+      "placeId": null,
+      "placeLabel": "原文未定位写信地点",
+      "placeRole": "写信地点待核，仅在列表对读",
+      "date": {
+        "value": "1930-05-04",
+        "precision": "day",
+        "sortYear": 1930,
+        "display": "1930年5月4日",
+        "original": "博物馆所收信件题署May 4, 1930，并说明是被捕前夕草拟。",
+        "sourceIds": [
+          "AT3"
+        ]
+      },
+      "summary": "甘地在信中提出前往达拉萨纳盐场的意图，要求取消盐税及私人制盐禁令，并反复强调非暴力。",
+      "people": [
+        {
+          "name": "莫罕达斯·甘地",
+          "role": "信件署名者M. K. Gandhi"
+        },
+        {
+          "name": "欧文勋爵",
+          "role": "收信人、英属印度总督"
+        }
+      ],
+      "claims": [
+        {
+          "text": "信的开头表示打算与同伴前往Dharasana要求取得盐场；这是拟议行动，不能据该信断言甘地亲自完成了此行。",
+          "sourceId": "AT3",
+          "locator": "May 4, 1930，开头第1段",
+          "url": "https://www.gandhi-manibhavan.org/educational-resources/letter-to-lord-irwin.html"
+        },
+        {
+          "text": "信末将取消盐税和私人制盐禁令作为停止下一步行动的条件，正文强调以非暴力克服暴力。",
+          "sourceId": "AT3",
+          "locator": "‘I know the dangers’段及最后‘If, therefore’段",
+          "url": "https://www.gandhi-manibhavan.org/educational-resources/letter-to-lord-irwin.html"
+        }
+      ],
+      "quote": {
+        "text": "remove the Salt Tax",
+        "translation": "取消盐税。",
+        "sourceId": "AT3",
+        "locator": "署名前最后一段",
+        "url": "https://www.gandhi-manibhavan.org/educational-resources/letter-to-lord-irwin.html"
+      },
+      "limitation": "所读为甘地纪念馆的现代转录，未核手稿原件或《甘地全集》卷页。只记信中要求及计划，不以其中对殖民当局暴力、税负的指控充当独立核实的统计结论。",
+      "aliases": [
+        "甘地",
+        "盐税",
+        "达拉萨纳",
+        "Dharasana",
+        "非暴力"
+      ],
+      "polities": [
+        "英属印度",
+        "大英帝国"
+      ],
+      "locationStatus": "unlocated",
+      "locationNote": "信中Dharasana是拟议行动目标；收信总督的官署不能充当甘地写作地。"
+    },
+    {
+      "id": "AY5",
+      "caseId": null,
+      "title": "《三国史记》记神文王二年设国学",
+      "regions": [
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ay-gyeongju",
+      "placeLabel": "庆州（新罗政治中心参照）",
+      "placeRole": "当时新罗王都地区参照，不是已核国学建筑遗址",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 682,
+        "display": "约682年 · 神文王二年六月",
+        "original": "神文王二年六月；保留王朝纪年，未核完整西历历日换算。",
+        "sourceIds": [
+          "AT4"
+        ]
+      },
+      "summary": "《三国史记》把设立国学、设置一名卿记在神文王二年六月。",
+      "people": [
+        {
+          "name": "神文王",
+          "role": "该篇所记在位的新罗国王；正文名政明"
+        }
+      ],
+      "claims": [
+        {
+          "text": "二年六月条明确记‘立国学，置卿一人’，未说明该句所对应的实际学生规模或课程实行状况。",
+          "sourceId": "AT4",
+          "locator": "卷八·新罗本纪第八·神文王二年六月条",
+          "url": "https://zh.wikisource.org/wiki/三國史記/卷08"
+        }
+      ],
+      "quote": {
+        "text": "六月，立國學。置卿一人",
+        "translation": "六月设立国学，设置一名卿。",
+        "sourceId": "AT4",
+        "locator": "神文王二年六月条",
+        "url": "https://zh.wikisource.org/wiki/三國史記/卷08"
+      },
+      "limitation": "《三国史记》1145年编成，距所述事件四百余年，现读现代转录而非682年原档。韩国、朝鲜共用半岛前代材料，不表示七世纪已有两个现代国家；庆州点不用于裁定历史疆界。",
+      "aliases": [
+        "新罗",
+        "神文王",
+        "国学",
+        "教育"
+      ],
+      "polities": [
+        "新罗"
+      ]
+    },
+    {
+      "id": "AY6",
+      "caseId": null,
+      "title": "1919年朝鲜独立宣言主张国家独立与民族自决",
+      "regions": [
+        "韩国",
+        "朝鲜",
+        "日本"
+      ],
+      "placeId": "ax-seoul",
+      "placeLabel": "首尔（宣言公开发表城市参照）",
+      "placeRole": "现代机构所述宣言公开发表的城市参照，不标作33人具体签署地点",
+      "date": {
+        "value": "1919",
+        "precision": "year",
+        "sortYear": 1919,
+        "display": "1919年 · 三一独立宣言",
+        "original": "选本标题Declaration of Independence (March 1, 1919)；此条采用公元年精度，未把现代英译当成当年原印文本。",
+        "sourceIds": [
+          "AT5"
+        ]
+      },
+      "summary": "宣言主张朝鲜是独立国家、朝鲜人是自主人民，并提出行动应维护公共秩序与正直态度。",
+      "people": [],
+      "claims": [
+        {
+          "text": "开篇宣称朝鲜独立与人民自主，以各民族平等及民族生存权向世界说明其要求。",
+          "sourceId": "AT5",
+          "locator": "Longer Selection，开头第1段",
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_korea-march-first-declaration.htm"
+        },
+        {
+          "text": "末尾三项公开誓约中的第三项要求谨慎维护公共秩序、以正直体面的态度提出要求；这是宣言规范，不是对所有示威行为的统计。",
+          "sourceId": "AT5",
+          "locator": "Three Open Pledges，第3项",
+          "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_korea-march-first-declaration.htm"
+        }
+      ],
+      "quote": {
+        "text": "Korea is an independent state and that Koreans are a self-governing people",
+        "translation": "朝鲜是独立国家，朝鲜人是自主的人民。",
+        "sourceId": "AT5",
+        "locator": "Longer Selection，开头第1句节选",
+        "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_korea-march-first-declaration.htm"
+      },
+      "limitation": "所读是Han-Kyo Kim英译，经2000年《Sources of Korean Tradition》卷2第337—339页收入，再由哥伦比亚大学许可转载；未读1919年韩文初印。宣言的政治主张不等于1919年已经取得国家独立。半岛材料由韩国、朝鲜共用，不回投现代分立国界。",
+      "aliases": [
+        "三一运动",
+        "三一独立宣言",
+        "Declaration of Independence"
+      ],
+      "polities": [
+        "日本殖民统治下的朝鲜"
+      ]
+    },
+    {
+      "id": "AY7",
+      "caseId": null,
+      "title": "长孙无忌等进呈三十卷律疏",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "ax-changan",
+      "placeLabel": "长安（唐廷行政中心参照）",
+      "placeRole": "进表所属唐廷行政中心参照，不标具体编纂或进表殿堂",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 653,
+        "display": "约653年 · 永徽四年十一月十九日进",
+        "original": "永徽四年十一月十九日进；未核原农历日期与西历年界，653仅为年号对照排序。",
+        "sourceIds": [
+          "AT6"
+        ]
+      },
+      "summary": "传本所收进表称三十卷律疏已经撰成，并以署年记其进呈。",
+      "people": [
+        {
+          "name": "长孙无忌",
+          "role": "进表所列奉命修律疏大臣及表末所称“臣无忌”"
+        },
+        {
+          "name": "李勣",
+          "role": "进表所列共同奉命修律疏的大臣"
+        }
+      ],
+      "claims": [
+        {
+          "text": "进表列无忌、勣等奉命修撰，并称律疏三十卷笔削已了。",
+          "sourceId": "AT6",
+          "locator": "序所收进表，自“乃制太尉”至“撰律疏三十卷笔削已了”",
+          "url": "https://zh.wikisource.org/wiki/故唐律疏議_(四部叢刊本)/序"
+        },
+        {
+          "text": "表末明署永徽四年十一月十九日进；不据此把传本的后世夹注也断为653年作品。",
+          "sourceId": "AT6",
+          "locator": "进表末署年及其后夹注",
+          "url": "https://zh.wikisource.org/wiki/故唐律疏議_(四部叢刊本)/序"
+        }
+      ],
+      "quote": {
+        "text": "撰律䟽三十卷筆削巳了",
+        "translation": "三十卷律疏已经编撰完成。",
+        "sourceId": "AT6",
+        "locator": "进表“乃制太尉……无忌……勣”及“撰律疏三十卷”句、末署“永徽四年十一月十九日进”",
+        "url": "https://zh.wikisource.org/wiki/故唐律疏議_(四部叢刊本)/序"
+      },
+      "limitation": "所读为《四部丛刊》所影后世传本的现代转录，正文夹有大量后世注释；仅取可分辨的进表正文、署名与署年，不称唐代手稿原件。地理点是唐廷行政中心参照。",
+      "aliases": [
+        "唐律疏议",
+        "长孙无忌",
+        "李勣",
+        "法典"
+      ],
+      "polities": [
+        "唐朝"
+      ]
+    },
+    {
+      "id": "AY8",
+      "caseId": null,
+      "title": "《宋史》记王安石任参知政事并设条例司",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "ay-kaifeng",
+      "placeLabel": "开封（北宋政治中心参照）",
+      "placeRole": "新政所属朝廷的行政中心参照，不代表各项新法实际覆盖边界",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1069,
+        "display": "约1069年 · 熙宁二年二月",
+        "original": "熙宁二年二月；未核完整中西历年界，保留年号年精度。",
+        "sourceIds": [
+          "AT7"
+        ]
+      },
+      "summary": "史书在王安石二月参政条后，记设制置三司条例司，并概述此后陆续推行的新法。",
+      "people": [
+        {
+          "name": "王安石",
+          "role": "该条所记受任参知政事者"
+        },
+        {
+          "name": "陈升之",
+          "role": "该条所记与王安石共同领制置三司条例司者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "熙宁二年二月条记王安石拜参知政事，并设置制置三司条例司、令陈升之同领。",
+          "sourceId": "AT7",
+          "locator": "卷327王安石传，熙宁二年二月段",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷327"
+        },
+        {
+          "text": "史书继而以“相继并兴”概述多项新法，又说明青苗法以常平籴本散作青苗钱；不能把这一总述涉及的所有法令压成1069年同日颁布。",
+          "sourceId": "AT7",
+          "locator": "同传“而农田水利、青苗”及“青苗法者”段",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷327"
+        }
+      ],
+      "quote": {
+        "text": "變風俗，立法度",
+        "translation": "改变风俗，建立法度；这是史书转录王安石向皇帝所作的回答。",
+        "sourceId": "AT7",
+        "locator": "熙宁二年二月段及紧接的“相继并兴”“青苗法者”段",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷327"
+      },
+      "limitation": "《宋史》1345年修成，距变法二百余年，且本传有鲜明批评新法的编纂立场；只据其记录的任命、机构和制度描述，不沿用其成败评价。",
+      "aliases": [
+        "王安石",
+        "陈升之",
+        "青苗法",
+        "制置三司条例司"
+      ],
+      "polities": [
+        "北宋"
+      ]
+    },
+    {
+      "id": "AY9",
+      "caseId": null,
+      "title": "元仁宗科举诏书区分考试程式与人群名额",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "大都（元廷行政中心参照）",
+      "placeRole": "诏书所属元廷及文中京师会试中心参照，不把现代北京城界投作考试覆盖边界",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1313,
+        "display": "约1313年 · 皇庆二年十一月诏",
+        "original": "皇庆二年十一月诏；原文先叙同年十月省臣奏，未核农历十一月与西历年界。",
+        "sourceIds": [
+          "AT8"
+        ]
+      },
+      "summary": "《元史》保存皇庆二年科举诏与中书省条目，规定德行经术取士，也按蒙古、色目、汉人、南人区分程式与名额。",
+      "people": [
+        {
+          "name": "元仁宗",
+          "role": "史书所记接受省臣建议并下科举诏的皇帝"
+        }
+      ],
+      "claims": [
+        {
+          "text": "诏书要求德行为首、经术为先，命次年各地举人再会试京师；这是制度安排，不是本条已核实际录取人数。",
+          "sourceId": "AT8",
+          "locator": "卷81选举志·皇庆二年十月奏、十一月诏",
+          "url": "https://zh.wikisource.org/wiki/元史/卷081"
+        },
+        {
+          "text": "考试程式对蒙古色目人与汉人南人规定不同场次、题目和篇幅；中书省条目又定会试取中100人，四类各25人。",
+          "sourceId": "AT8",
+          "locator": "同诏“考试程式”；中书省条目“天下选合格者三百人”",
+          "url": "https://zh.wikisource.org/wiki/元史/卷081"
+        }
+      ],
+      "quote": {
+        "text": "舉人宜以德行為首",
+        "translation": "选举人才应首先看德行，这是诏书所宣示的原则。",
+        "sourceId": "AT8",
+        "locator": "皇庆二年十月奏、十一月诏及“考试程式”“天下选合格者三百人”条",
+        "url": "https://zh.wikisource.org/wiki/元史/卷081"
+      },
+      "limitation": "《元史》1370年编成，为后修史书保存的诏令文本。原文族群分类属元代制度，不转成现代民族资格，也不把100人的制度定额当成某一科实录。",
+      "aliases": [
+        "元仁宗",
+        "皇庆二年",
+        "科举",
+        "经术",
+        "身份分类"
+      ],
+      "polities": [
+        "元朝"
+      ]
+    },
+    {
+      "id": "AY10",
+      "caseId": null,
+      "title": "《明史》记明廷在安南设置交阯布政司",
+      "regions": [
+        "中国",
+        "越南"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "交阯（以河内城市地区参照）",
+      "placeRole": "史书所称设司地区的现代城市参照，不表示1407年行政范围或现代疆界",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1407,
+        "display": "约1407年 · 永乐五年六月癸未",
+        "original": "永乐五年六月癸未；保留年号年月日，未核西历转换。",
+        "sourceIds": [
+          "AT9"
+        ]
+      },
+      "summary": "《明史》在征安南的叙述中记明廷宣诏、设置交阯布政司，并命访人才赴京。",
+      "people": [
+        {
+          "name": "张辅",
+          "role": "史书所记领兵征安南、擒黎季犛及黎苍的明将"
+        }
+      ],
+      "claims": [
+        {
+          "text": "永乐五年五月条记张辅擒黎季犛、黎苍；六月癸未条随即记诏天下、置交阯布政司。",
+          "sourceId": "AT9",
+          "locator": "卷6成祖本纪二·永乐五年五月、六月条",
+          "url": "https://zh.wikisource.org/wiki/明史/卷6"
+        },
+        {
+          "text": "六月癸卯条记命张辅访交阯人才、礼遣赴京；这里只记录朝廷命令，不能据此证明具体人数、同意程度或实际移送结果。",
+          "sourceId": "AT9",
+          "locator": "同年六月癸卯条",
+          "url": "https://zh.wikisource.org/wiki/明史/卷6"
+        }
+      ],
+      "quote": {
+        "text": "置交阯布政司",
+        "translation": "设置交阯布政司，是该书对明廷行政措施的记述。",
+        "sourceId": "AT9",
+        "locator": "永乐五年五月甲子、六月癸未及癸卯条",
+        "url": "https://zh.wikisource.org/wiki/明史/卷6"
+      },
+      "limitation": "《明史》1739年完成，是清代官史对明代战争与行政措施的叙述；“安南平”等词反映其立场。本条不据此认可征服的合法性，不把行政宣称视为整个地区已稳定受控。",
+      "aliases": [
+        "张辅",
+        "黎季犛",
+        "交阯布政司",
+        "安南",
+        "永乐五年"
+      ],
+      "polities": [
+        "明朝",
+        "大越"
+      ]
+    },
+    {
+      "id": "AY11",
+      "caseId": null,
+      "title": "《康熙字典》御序说明汇集旧籍、切音解义的编纂原则",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（清廷行政中心参照）",
+      "placeRole": "御命编纂项目所属清廷中心参照，不指定各编纂者写作地点",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1716,
+        "display": "约1716年 · 《国朝宫史》署康熙五十五年校刊",
+        "original": "《国朝宫史》署康熙五十五年校刊；本条仅取年号年，未核完整西历年界。",
+        "sourceIds": [
+          "AT10"
+        ]
+      },
+      "summary": "宫史所收御序称命儒臣汇集旧字书、广引经史诗文证据，历五年成书，供官府吏民遵循。",
+      "people": [
+        {
+          "name": "康熙帝",
+          "role": "宫史称圣祖仁皇帝，御命纂典并有御制序者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "宫史列该书十二集、40册，署康熙五十五年校刊；这是本传本所记刊校年代。",
+          "sourceId": "AT10",
+          "locator": "卷31书籍十·字学·康熙字典一部首段",
+          "url": "https://zh.wikisource.org/wiki/國朝宮史/31"
+        },
+        {
+          "text": "所收御序说兼用说文、玉篇、广韵、集韵等旧书，并要求补足引证、切音解义；“无一义不详”等是自陈理想，不是准确性审计。",
+          "sourceId": "AT10",
+          "locator": "同条所收圣祖仁皇帝御制序后半",
+          "url": "https://zh.wikisource.org/wiki/國朝宮史/31"
+        }
+      ],
+      "quote": {
+        "text": "悉取舊籍，次第排纂",
+        "translation": "收集旧有典籍，依次编排纂集。",
+        "sourceId": "AT10",
+        "locator": "康熙字典一部首段及所收圣祖仁皇帝御制序",
+        "url": "https://zh.wikisource.org/wiki/國朝宮史/31"
+      },
+      "limitation": "所读为乾隆时期宫史转录的御序及书目说明，不是1716年初刻实物。它证明编纂项目如何自述标准，不证明所有音义均无误，也不代表全国已统一使用。",
+      "aliases": [
+        "康熙字典",
+        "康熙帝",
+        "切音解义",
+        "字书",
+        "知识编纂"
+      ],
+      "polities": [
+        "清朝"
+      ]
+    },
+    {
+      "id": "AY12",
+      "caseId": null,
+      "title": "开罗公报公布对日战争与战后处置目标",
+      "regions": [
+        "中国",
+        "美国",
+        "英国",
+        "日本",
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ay-cairo",
+      "placeLabel": "开罗（会议城市参照）",
+      "placeRole": "开罗会议城市参照，不表示公报在此公布或有签字仪式",
+      "date": {
+        "value": "1943-12-01",
+        "precision": "day",
+        "sortYear": 1943,
+        "display": "1943年12月1日",
+        "original": "英文转录题署Released December 1, 1943；事件取公开发布，不把11月会商日期称为签字日。",
+        "sourceIds": [
+          "AT11"
+        ]
+      },
+      "summary": "公报表达继续作战直至日本无条件投降的目标，并宣示中国相关领土与朝鲜未来独立的处置意图。",
+      "people": [],
+      "claims": [
+        {
+          "text": "正文以“their purpose”宣示将满洲、台湾、澎湖归还中华民国，并称朝鲜在适当时候应自由独立；这是公报目标，不能直接当作已发生的移交或全部后续法律状态。",
+          "sourceId": "AT11",
+          "locator": "第2主体段，含Manchuria、Formosa、Pescadores、in due course Korea",
+          "url": "https://avalon.law.yale.edu/wwii/cairo.asp"
+        },
+        {
+          "text": "末段表示三盟国将继续必要行动，以促成日本无条件投降。",
+          "sourceId": "AT11",
+          "locator": "最后主体段",
+          "url": "https://avalon.law.yale.edu/wwii/cairo.asp"
+        }
+      ],
+      "quote": {
+        "text": "in due course Korea shall become free and independent",
+        "translation": "公报宣称朝鲜应在适当时候成为自由独立之地。",
+        "sourceId": "AT11",
+        "locator": "标题Released December 1, 1943；全文第2主体段与最后段",
+        "url": "https://avalon.law.yale.edu/wwii/cairo.asp"
+      },
+      "limitation": "所读为耶鲁法学院公开的英文转录；不是含三位首脑签名的条约原件。本条日期是12月1日公开发布，地点只参照开罗会议城市，不声称公报在该点公布；不以公报主张独断后来领土法律争议。",
+      "aliases": [
+        "开罗公报",
+        "开罗宣言",
+        "无条件投降",
+        "朝鲜独立"
+      ],
+      "polities": [
+        "中华民国",
+        "美国",
+        "英国",
+        "日本帝国"
+      ]
+    },
+    {
+      "id": "AY13",
+      "caseId": null,
+      "title": "1954年宪法规定国家权力机关与被告辩护权",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（宪法通过城市）",
+      "placeRole": "第一届全国人大第一次会议通过宪法的城市参照，不指具体投票席位",
+      "date": {
+        "value": "1954-09-20",
+        "precision": "day",
+        "sortYear": 1954,
+        "display": "1954年9月20日",
+        "original": "文本题署1954年9月20日第一届全国人民代表大会第一次会议通过。",
+        "sourceIds": [
+          "AT12"
+        ]
+      },
+      "summary": "1954年宪法规定全国及地方人大行使人民权力，并在诉讼条款中规定公开审判、辩护和民族语言诉讼。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第2条规定一切权力属于人民，人民通过全国人大和地方各级人大行使权力。",
+          "sourceId": "AT12",
+          "locator": "第一章第2条",
+          "url": "https://news.12371.cn/2015/03/18/ARTI1426665514681575.shtml"
+        },
+        {
+          "text": "第76、77条规定除特别情形外公开审判、被告辩护权，并要求为不通晓当地通用语言的当事人翻译。",
+          "sourceId": "AT12",
+          "locator": "第二章第6节第76、77条",
+          "url": "https://news.12371.cn/2015/03/18/ARTI1426665514681575.shtml"
+        }
+      ],
+      "quote": {
+        "text": "被告人有权获得辩护",
+        "translation": "被告在审判中享有取得辩护的权利，这是该宪法的规范文本。",
+        "sourceId": "AT12",
+        "locator": "通过日期题署；第2条；第76、77条",
+        "url": "https://news.12371.cn/2015/03/18/ARTI1426665514681575.shtml"
+      },
+      "limitation": "所读是2015年党务机构网站转载的1954年宪法全文，非当年会议签署原件；条文是历史法律文本，不能当作现行宪法，也不能由规范推断实际执行效果。",
+      "aliases": [
+        "1954年宪法",
+        "五四宪法",
+        "全国人民代表大会",
+        "辩护权"
+      ],
+      "polities": [
+        "中华人民共和国"
+      ]
+    },
+    {
+      "id": "AY14",
+      "caseId": null,
+      "title": "《后汉书》记倭奴国使者朝贺及光武赐印绶",
+      "regions": [
+        "日本",
+        "中国"
+      ],
+      "placeId": null,
+      "placeLabel": "原文未定位活动地点",
+      "placeRole": "史书此句未署朝贺地点；不从后世出土金印或现代国界倒推具体受赐场所，仅在列表对读",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 57,
+        "display": "约57年 · 建武中元二年",
+        "original": "建武中元二年；57为通行年号对照排序，原句无月日且未核完整西历年界。",
+        "sourceIds": [
+          "AT13"
+        ]
+      },
+      "summary": "《后汉书》将倭奴国奉贡朝贺和光武赐印绶记在建武中元二年。",
+      "people": [
+        {
+          "name": "汉光武帝",
+          "role": "原文称光武，赐印绶者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "倭条明确记倭奴国奉贡朝贺、使人自称大夫，并记光武赐印绶。",
+          "sourceId": "AT13",
+          "locator": "卷85东夷列传·倭·建武中元二年条",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷85"
+        }
+      ],
+      "quote": {
+        "text": "光武賜以印綬",
+        "translation": "光武帝赐给印与绶带。",
+        "sourceId": "AT13",
+        "locator": "倭条，建武中元二年奉贡朝贺、赐印绶句",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷85"
+      },
+      "limitation": "《后汉书》为5世纪官史追记，非57年外交档案。此句不写印面文字，故不把“汉委奴国王”金印铭文混当本句引文；‘倭奴国’不等同现代统一日本国家。",
+      "aliases": [
+        "倭奴国",
+        "汉光武帝",
+        "印绶",
+        "建武中元二年"
+      ],
+      "polities": [
+        "东汉",
+        "倭奴国"
+      ],
+      "locationStatus": "unlocated",
+      "locationNote": "史书此句未署朝贺地点；不从后世出土金印或现代国界倒推具体受赐场所，仅在列表对读"
+    },
+    {
+      "id": "AY15",
+      "caseId": null,
+      "title": "《后汉书》记征侧、征贰起兵并自立为王",
+      "regions": [
+        "越南",
+        "中国"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "交阯（以河内地区参照）",
+      "placeRole": "史书叙事区域的现代城市参照，不表示麊泠县遗址、六十五城或任何现代疆界",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 40,
+        "display": "约40年 · 建武十六年",
+        "original": "建武十六年；本段前有建武十二年、继言至十六年，40只作年号对照排序，未核西历年界。",
+        "sourceIds": [
+          "AT14"
+        ]
+      },
+      "summary": "《后汉书》在汉朝官史视角中记征侧与征贰起兵、多地响应及征侧自立为王。",
+      "people": [
+        {
+          "name": "征侧",
+          "role": "史书所记交阯起兵、自立为王者"
+        },
+        {
+          "name": "征贰",
+          "role": "史书所记与征侧共同起兵的妹妹"
+        }
+      ],
+      "claims": [
+        {
+          "text": "史书称征侧及妹妹征贰攻郡，九真、日南、合浦有响应；其“反”等用语保留为汉朝叙事立场，不作为中立政治定性。",
+          "sourceId": "AT14",
+          "locator": "卷86南蛮传，建武十二年至十六年连续段",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷86"
+        },
+        {
+          "text": "本段把马援等出兵放在建武十八年，把其战果放在次年，故不把40年的起兵与43年的结局并作同一天事件。",
+          "sourceId": "AT14",
+          "locator": "同段“十八年，遣伏波将军马援”至“明年夏四月”",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷86"
+        }
+      ],
+      "quote": {
+        "text": "徵側及其妹徵貳反，攻郡",
+        "translation": "史书以“反”叙述征侧与征贰起兵攻郡；此处为原书立场用语。",
+        "sourceId": "AT14",
+        "locator": "建武十二年条后“至十六年”征侧段",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷86"
+      },
+      "limitation": "范晔《后汉书》是5世纪对1世纪事件的后编叙述，非征侧方面的自述或当年告示；城数、起因和结局仅按该书报告，不独立担保。地区标签只为现代检索，不把汉代交阯与现代国界等同。",
+      "aliases": [
+        "征侧",
+        "征贰",
+        "二征夫人",
+        "交阯",
+        "汉越关系"
+      ],
+      "polities": [
+        "东汉",
+        "征侧政权"
+      ]
+    },
+    {
+      "id": "AY16",
+      "caseId": null,
+      "title": "《梁书》记交州李贲攻刺史萧咨",
+      "regions": [
+        "越南",
+        "中国"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "交州（以河内地区参照）",
+      "placeRole": "史书叙事行政区域参照，不表示当年战斗或起兵点的精确坐标",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 541,
+        "display": "约541年 · 大同七年末“是岁”条",
+        "original": "大同七年末“是岁”条；原书未给月日，未核完整西历年界。",
+        "sourceIds": [
+          "AT15"
+        ]
+      },
+      "summary": "《梁书》把李贲攻击交州刺史、萧咨输赂返回越州记在大同七年末。",
+      "people": [
+        {
+          "name": "李贲",
+          "role": "史书所记在交州攻刺史者"
+        },
+        {
+          "name": "萧咨",
+          "role": "史书所记被攻的交州刺史"
+        }
+      ],
+      "claims": [
+        {
+          "text": "大同七年“是岁”句记交州土民李贲攻刺史萧咨，后者输赂而返回越州。",
+          "sourceId": "AT15",
+          "locator": "卷3武帝本纪下·大同七年末“是岁”句",
+          "url": "https://zh.wikisource.org/wiki/梁書/卷03"
+        },
+        {
+          "text": "大同八年另记朝廷遣陈侯、宁巨、李智、阮汉征李贲，不能把后续征讨与541年起事并为同次日级事件。",
+          "sourceId": "AT15",
+          "locator": "大同八年三月遣将句",
+          "url": "https://zh.wikisource.org/wiki/梁書/卷03"
+        }
+      ],
+      "quote": {
+        "text": "交州土民李賁攻刺史蕭諮",
+        "translation": "该书记交州当地人李贲攻击刺史萧咨。",
+        "sourceId": "AT15",
+        "locator": "大同七年末“是岁”句及大同八年三月句",
+        "url": "https://zh.wikisource.org/wiki/梁書/卷03"
+      },
+      "limitation": "《梁书》636年成书，是梁朝政治视角的后编史书；本条不把其后大同十年所记称号建立回填541年，也不以该书用语裁定越南历史政权的正统归属。",
+      "aliases": [
+        "李贲",
+        "李賁",
+        "萧咨",
+        "交州",
+        "大同七年"
+      ],
+      "polities": [
+        "梁朝",
+        "李贲势力"
+      ]
+    },
+    {
+      "id": "AY17",
+      "caseId": null,
+      "title": "《宋书》记扶南王在元嘉十一年遣使奉献",
+      "regions": [
+        "柬埔寨",
+        "中国"
+      ],
+      "placeId": "ax-jiankang",
+      "placeLabel": "建康（刘宋朝廷中心参照）",
+      "placeRole": "接受使贡的刘宋政治中心参照；不据此定位扶南都城或扶南疆界",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 434,
+        "display": "约434年 · 元嘉十一年",
+        "original": "元嘉十一年；同句并列十二、十五年，本条只取十一年；未核西历年界。",
+        "sourceIds": [
+          "AT16"
+        ]
+      },
+      "summary": "《宋书》扶南国条简记国王持黎跋摩在元嘉十一、十二、十五年遣使奉献。",
+      "people": [
+        {
+          "name": "持黎跋摩",
+          "role": "《宋书》所称扶南国王、遣使者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "扶南国条仅一句，明确列元嘉十一、十二、十五年及国王持黎跋摩遣使奉献；没有提供贡物清单、路线或都城坐标。",
+          "sourceId": "AT16",
+          "locator": "卷97夷蛮传·南夷·扶南国整条",
+          "url": "https://zh.wikisource.org/wiki/宋書/卷97"
+        }
+      ],
+      "quote": {
+        "text": "國王持黎跋摩遣使奉獻",
+        "translation": "国王持黎跋摩派遣使者奉献。",
+        "sourceId": "AT16",
+        "locator": "扶南国：太祖元嘉十一、十二、十五年一句",
+        "url": "https://zh.wikisource.org/wiki/宋書/卷97"
+      },
+      "limitation": "《宋书》由沈约等于5世纪末编成，是刘宋宫廷所见外交纪事。扶南涉及下湄公河古代区域，不能把这个名称与现代柬埔寨边界或民族直接等同；本条只证明该书记录的遣使。",
+      "aliases": [
+        "扶南",
+        "持黎跋摩",
+        "元嘉十一年",
+        "遣使"
+      ],
+      "polities": [
+        "刘宋",
+        "扶南"
+      ]
+    },
+    {
+      "id": "AY18",
+      "caseId": null,
+      "title": "吴哥波雷K600铭文列寺神附属人群、牲畜与稻田",
+      "regions": [
+        "柬埔寨"
+      ],
+      "placeId": "ay-angkor-borei",
+      "placeLabel": "吴哥波雷（出土地所在乡镇参照）",
+      "placeRole": "Tuol Vat Komnou石座所在吴哥波雷地区参照；不是吴哥城，也不把现代乡镇坐标当原石发现点",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 611,
+        "display": "约611年 · Śaka 533，Māgha月上弦第13日等星历语",
+        "original": "Śaka 533，Māgha月上弦第13日等星历语；611只作纪元年起年对照排序，未核该月是否已跨至西历612，不给公元年值。",
+        "sourceIds": [
+          "AT17"
+        ]
+      },
+      "summary": "古高棉文石座铭文记录捐给寺神的依附人群、牛与田地；现代释读保留了人名及不同职事名单。",
+      "people": [
+        {
+          "name": "Poñ Uy",
+          "role": "北面第1行所记捐献者，Poñ为原称"
+        }
+      ],
+      "claims": [
+        {
+          "text": "北面第1—2行记Śaka 533、捐献者Poñ Uy，并列人群、60头牛、2头水牛及田地；田地单位sanre不擅换公顷。",
+          "sourceId": "AT17",
+          "locator": "K600北面第1—2行，原文释读及Cœdès法译",
+          "url": "https://dharmalekha.info/texts/INSCIK00600"
+        },
+        {
+          "text": "东面将舞者、歌者、乐器演奏者及稻田人员分列；这些是寺产相关名单，不是吴哥波雷全体居民的人口普查。",
+          "sourceId": "AT17",
+          "locator": "K600东面第1—4行；法译东面1—3、3—4行",
+          "url": "https://dharmalekha.info/texts/INSCIK00600"
+        }
+      ],
+      "quote": {
+        "text": "Le Poñ Uy donne des esclaves",
+        "translation": "Cœdès法译称Poñ Uy捐献奴仆；原文kñuṁ的具体身份须结合高棉铭文学语境理解。",
+        "sourceId": "AT17",
+        "locator": "北面第1—2行、东面第1—4行；Cœdès《Inscriptions du Cambodge》卷2第21—23页；EFEO拓本1054",
+        "url": "https://dharmalekha.info/texts/INSCIK00600",
+        "kind": "research_report"
+      },
+      "limitation": "依据EFEO拓本1054的现代重编释读；南面另编号K557，不能把两号算成两个独立事件。法译esclaves是译者用词，不在缺少法律材料时径同近代动产奴隶制。原始纪元与阴历保留，不把通称611年强作已核西历年界。",
+      "aliases": [
+        "K600",
+        "K557",
+        "吴哥波雷",
+        "Poñ Uy",
+        "kñuṁ",
+        "寺产"
+      ],
+      "polities": [
+        "前吴哥时期地方寺神供养体系"
+      ]
+    },
+    {
+      "id": "AY19",
+      "caseId": null,
+      "title": "Vat Luang Kau碑将地方圣地称为新的俱卢之野",
+      "regions": [
+        "老挝"
+      ],
+      "placeId": "ay-vatphou",
+      "placeLabel": "Vat Phou文化景观（出土区域参照）",
+      "placeRole": "碑来自Vat Luang Kau；采用UNESCO文化景观参照点，不等于碑石发现点或Vat Phou主寺中心",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "sortYear": 401,
+        "display": "约401—600年",
+        "original": "DHARMA书体说明为fifth-sixth centuries CE，故保留401—600年；页面标题另写5th century Śaka，不能把Śaka世纪直接当CE世纪。未采单一事件年。",
+        "sourceIds": [
+          "AT18"
+        ],
+        "fromYear": 401,
+        "toYear": 600
+      },
+      "summary": "梵文碑颂扬名为Devānīka的王者，并把所设圣地与俱卢之野的宗教功德相联系。",
+      "people": [
+        {
+          "name": "Devānīka",
+          "role": "碑文A15称颂的王者；不把其政治归属强定为现代国家"
+        }
+      ],
+      "claims": [
+        {
+          "text": "A15—16行称Devānīka，并以王者宗教功德解释祭献；是颂扬性文字，不能当作其领土实测记录。",
+          "sourceId": "AT18",
+          "locator": "K365 A15—16，法译A5—A16",
+          "url": "https://dharmalekha.info/texts/INSCIK00365"
+        },
+        {
+          "text": "B8行记创建mahātīrtha，C5—8行及法译第8—10节将此地称作新的Kurukṣetra；不据同名推断它就是印度地理上的俱卢之野。",
+          "sourceId": "AT18",
+          "locator": "B8；C5—C8；法译第8—10节",
+          "url": "https://dharmalekha.info/texts/INSCIK00365"
+        }
+      ],
+      "quote": {
+        "text": "mahādirājaś śrīmāñ chrīdevānīkaḥ",
+        "translation": "尊贵的王者Devānīka；依现代罗马字释读摘取，不是古石上的拉丁字母。",
+        "sourceId": "AT18",
+        "locator": "A15—16、B8、C5—8；DHARMA书体说明；Cœdès1956《BEFEO》48(1)209—220页为初刊",
+        "url": "https://dharmalekha.info/texts/INSCIK00365"
+      },
+      "limitation": "碑无本轮可用的绝对纪年，401—600来自数字版明确书体断代，完整保留跨世纪范围。现地在今老挝，不表明古代已有老挝民族国家；梵文与印度圣地词汇不自动证明王者来自印度。",
+      "aliases": [
+        "K365",
+        "Vat Luang Kau",
+        "Devānīka",
+        "Kurukṣetra",
+        "梵文"
+      ],
+      "polities": [
+        "Devānīka碑文所称王权（归属未定）"
+      ]
+    },
+    {
+      "id": "AY20",
+      "caseId": null,
+      "title": "伊本·白图泰自述在德里附近受到苏丹接待",
+      "regions": [
+        "印度"
+      ],
+      "placeId": "ay-delhi",
+      "placeLabel": "德里地区（Tilbat相对王都的参照）",
+      "placeRole": "原文称Tilbat在王都外7英里；现代城市点只作区域参照，不将它冒称已核堡垒坐标",
+      "date": {
+        "value": "1334",
+        "precision": "year",
+        "sortYear": 1334,
+        "display": "1334年",
+        "original": "原文4 Shawwal；Gibb英译方括注8 June 1334。只采用译者明示的公元年，不自行认定原教历日换算无误。",
+        "sourceIds": [
+          "AT19"
+        ]
+      },
+      "summary": "游记称作者携礼物在Tilbat会见苏丹，苏丹以波斯语欢迎他；后文另叙其在德里获得马立克派法官任命。",
+      "people": [
+        {
+          "name": "伊本·白图泰",
+          "role": "游记第一人称来访者及叙述者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "作者称苏丹返回距王都7英里的Tilbat，来访者按次序入见，他获握手并以波斯语受到欢迎。",
+          "sourceId": "AT19",
+          "locator": "Gibb译本第205—206页，4 Shawwal及I approached the sultan段",
+          "url": "https://www.heroesandlegends.com.au/wp-content/uploads/2022/08/2015.62617.Ibn-Battuta-Travels-In-Asia-And-Africa-1325-1354_text.pdf"
+        },
+        {
+          "text": "第206页随后记作者获德里马立克派法官任命；叙述中的afterwards、one day没有给该任命独立月日，不把它并成初见同一天。",
+          "sourceId": "AT19",
+          "locator": "第206页，Afterwards至appointment as qadi段",
+          "url": "https://www.heroesandlegends.com.au/wp-content/uploads/2022/08/2015.62617.Ibn-Battuta-Travels-In-Asia-And-Africa-1325-1354_text.pdf"
+        }
+      ],
+      "quote": {
+        "text": "I approached the sultan",
+        "translation": "我走近苏丹；是作者的第一人称叙述。",
+        "sourceId": "AT19",
+        "locator": "原书第205—206页；PDF第226—227页（从1计）；版权页First published1929、Third impression1953",
+        "url": "https://www.heroesandlegends.com.au/wp-content/uploads/2022/08/2015.62617.Ibn-Battuta-Travels-In-Asia-And-Africa-1325-1354_text.pdf"
+      },
+      "limitation": "所读为Gibb1929年选译的1953年第3次印本扫描，英文及编者日期注与14世纪口述旅行记有不同层次；镜像OCR有错字，未据夸张的城市规模、赏金或强制迁徙故事作独立统计。",
+      "aliases": [
+        "伊本·白图泰",
+        "Ibn Battuta",
+        "德里苏丹",
+        "Tilbat",
+        "法官"
+      ],
+      "polities": [
+        "德里苏丹国"
+      ]
+    },
+    {
+      "id": "AY21",
+      "caseId": null,
+      "title": "广开土王碑纪功并登记守墓户",
+      "regions": [
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ay-jian",
+      "placeLabel": "集安（碑石现存地城市参照）",
+      "placeRole": "国史编纂委员会注明原碑在今中国吉林集安；城市参照不表示现代国家对高句丽的历史归属裁断",
+      "date": {
+        "value": "0414",
+        "precision": "year",
+        "sortYear": 414,
+        "display": "414年",
+        "original": "碑第一面第6行甲寅年九月廿九日乙酉；机构编目为长寿王三年（414）。采用编目公元年与九月时点，不换算原阴历日。",
+        "sourceIds": [
+          "AT20"
+        ]
+      },
+      "summary": "碑文自称纪功示后世，并把守墓户按国烟、看烟区分登记，末尾限制守墓人的买卖。",
+      "people": [
+        {
+          "name": "广开土王",
+          "role": "碑文所纪念的高句丽王者，原文号永乐太王"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第一面第6行记迁就山陵、立碑纪功示后世；碑是王权纪念性自述，不是中立战争记录。",
+          "sourceId": "AT20",
+          "locator": "校勘释文第一面第6行",
+          "url": "https://db.history.go.kr/id/gskh_001_0010_0010_0020"
+        },
+        {
+          "text": "第四面第7—9行列国烟30、看烟300、合计330家，并限制转卖与擅买守墓人；此分母是守墓户，不是全国人口。",
+          "sourceId": "AT20",
+          "locator": "校勘释文第四面第7—9行",
+          "url": "https://db.history.go.kr/id/gskh_001_0010_0010_0020"
+        }
+      ],
+      "quote": {
+        "text": "國烟卅看烟三百都合三百卅家",
+        "translation": "国烟30家，看烟300家，总计330家；保留原分组称谓。",
+        "sourceId": "AT20",
+        "locator": "gskh_001_0010_0010_0020；第一面6行、第四面7—9行；编目长寿王三年414",
+        "url": "https://db.history.go.kr/id/gskh_001_0010_0010_0020"
+      },
+      "limitation": "读取的是基于拓本研究的现代校勘释文，条目以武田幸男2009年383—386页为基础并列异读。碑有残损、争议字，本条避开有重大争论的辛卯年句；韩国、朝鲜共同检索高句丽材料，碑现存地不与现代民族国家直接等同。",
+      "aliases": [
+        "广开土王碑",
+        "高句丽",
+        "守墓户",
+        "国烟",
+        "看烟"
+      ],
+      "polities": [
+        "高句丽"
+      ]
+    },
+    {
+      "id": "AY22",
+      "caseId": null,
+      "title": "吴哥IMA2铭文中王太后自陈宗教善行",
+      "regions": [
+        "柬埔寨"
+      ],
+      "placeId": "ax-angkor",
+      "placeLabel": "吴哥窟（吴哥地区参照）",
+      "placeRole": "铭文在吴哥窟的区域参照；既有吴哥点不表示具体廊柱或刻字位置",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1577,
+        "display": "约1577年 · IMA2自署牛年1499 Śaka",
+        "original": "IMA2自署牛年1499 Śaka；Jacobsen2013原始研究明确断为1577，未在本轮核对阴历日和历年界，保留原纪元年。",
+        "sourceIds": [
+          "AT21"
+        ]
+      },
+      "summary": "现代铭文学研究转引IMA2中王太后的第一人称陈述：自称虔敬在家女信徒，回顾截至牛年1499 Śaka的宗教善行。",
+      "people": [
+        {
+          "name": "Mahākalyānavattī Śrī Sujātā",
+          "role": "转引碑文所称王太后、mahā-upāsikā"
+        }
+      ],
+      "claims": [
+        {
+          "text": "Jacobsen在第80页转引王太后自陈善行及牛年1499 Śaka，并以注24指向IMA2第1—10行、Lewitz1970法译103—104页。",
+          "sourceId": "AT21",
+          "locator": "JOCBS4(2013)第80页，IMA2引文及注24",
+          "url": "https://jocbs.org/index.php/jocbs/article/viewFile/44/71"
+        },
+        {
+          "text": "这一称号与陈述可用于讨论皇家女性供养和信仰表达；不能仅据该引文断定她是已受具足戒的比丘尼。",
+          "sourceId": "AT21",
+          "locator": "同页引文mahā-upāsikā；论文关于女性修行身份的分析",
+          "url": "https://jocbs.org/index.php/jocbs/article/viewFile/44/71"
+        }
+      ],
+      "quote": {
+        "text": "the year of the Ox",
+        "translation": "牛年；这里是现代研究所转引英译的原纪年片段。",
+        "sourceId": "AT21",
+        "locator": "Journal of the Oxford Centre for Buddhist Studies4(2013)75—87页，重点80页及注24；IMA2第1—10行",
+        "url": "https://jocbs.org/index.php/jocbs/article/viewFile/44/71",
+        "kind": "research_report"
+      },
+      "limitation": "本条依据已读2013年原始铭文学研究及其明确转引的碑文段落，英译经1970法译转承；未独立核原石或Lewitz103—104页图版。现代研究英句不能当作16世纪刻石原字，quote.kind标明research_report。",
+      "aliases": [
+        "IMA2",
+        "王太后",
+        "1499 Śaka",
+        "吴哥窟",
+        "女性供养"
+      ],
+      "polities": [
+        "柬埔寨王权"
+      ]
+    },
+    {
+      "id": "AY23",
+      "caseId": null,
+      "title": "吴斯托夫日记摘译记荷兰使团在万象携信赴王廷",
+      "regions": [
+        "老挝",
+        "柬埔寨"
+      ],
+      "placeId": "ax-vientiane",
+      "placeLabel": "万象（王廷接待地区参照）",
+      "placeRole": "日记摘译叙接待于万象塔銮节庆所在地区；采用城市参照而非精确帐篷位置",
+      "date": {
+        "value": "1641",
+        "precision": "year",
+        "sortYear": 1641,
+        "display": "1641年",
+        "original": "摘译首段记1641年7月20日自Lovek出发；同一行旅顺序引日记11月16日。取1641年，不另核荷兰原日历日制；1944是Lévy刊文年。",
+        "sourceIds": [
+          "AT22"
+        ]
+      },
+      "summary": "经1944年研究摘译保存的日记说，使团把总督信件置于金盒、以象运送，个人携礼物赴万象王廷。",
+      "people": [
+        {
+          "name": "Gerrit Wuysthoff",
+          "role": "原文首段所记荷兰商人、使团领队及日记作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "摘译开头明确将行旅起点记为Lovek、1641年7月20日，目的地为Vientiane；这是柬埔寨至老挝的商人使团叙事。",
+          "sourceId": "AT22",
+          "locator": "Paul Lévy摘译，PDF第1页首段",
+          "url": "https://s36fe41ac926ee063.jimcontent.com/download/version/1462391417/module/13447310224/name/Wuysthoff%20au%20Laos%20%281641-1642%29.pdf"
+        },
+        {
+          "text": "日记11月16日摘录叙信件、礼物与使者分别由象载运，随后等候王者接待；塔銮节庆场所由Lévy叙述交代，区分旅行者原话与现代说明。",
+          "sourceId": "AT22",
+          "locator": "PDF第3页，11月16日引文及其前“fêtes du12e mois”说明",
+          "url": "https://s36fe41ac926ee063.jimcontent.com/download/version/1462391417/module/13447310224/name/Wuysthoff%20au%20Laos%20%281641-1642%29.pdf"
+        }
+      ],
+      "quote": {
+        "text": "La lettre a été mise sur le premier éléphant",
+        "translation": "信件被放在最前面那头象上；为1944法文摘译中的日记引文。",
+        "sourceId": "AT22",
+        "locator": "原载Indochine illustrée1944-06-15；现代转录PDF第1页首段、第3页11月16日引文",
+        "url": "https://s36fe41ac926ee063.jimcontent.com/download/version/1462391417/module/13447310224/name/Wuysthoff%20au%20Laos%20%281641-1642%29.pdf"
+      },
+      "limitation": "所读是Paul Lévy1944年《Indochine illustrée》所刊日记摘译的现代转录，非17世纪荷文手稿全文。保留荷兰商人及法国殖民时期编者的双重视角；不沿用文中对当地人的贬评，也不以行旅地名判现代国界。",
+      "aliases": [
+        "Wuysthoff",
+        "荷兰使团",
+        "万象",
+        "塔銮",
+        "Lovek"
+      ],
+      "polities": [
+        "澜沧王国",
+        "荷兰东印度公司"
+      ]
+    },
+    {
+      "id": "AY24",
+      "caseId": null,
+      "title": "会安沉船货物中的越南青花鸟纹盘",
+      "regions": [
+        "越南"
+      ],
+      "placeId": null,
+      "placeLabel": "烧制地未定（馆方疑为海阳）",
+      "placeRole": "确切窑口与沉船坐标未核，仅在列表对读；不把现代收藏地点回投为16世纪生产地点",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "sortYear": 1500,
+        "display": "约1500—1533年",
+        "original": "馆方文本断代early16th century；同机构公开API objectID828473给objectBeginDate1500、objectEndDate1533，完整保留其数值范围，不自行缩窄。",
+        "sourceIds": [
+          "AT23"
+        ],
+        "fromYear": 1500,
+        "toYear": 1533
+      },
+      "summary": "大都会博物馆所藏盘2023.585被归为会安沉船货物，馆方断为16世纪初、产于越南且疑为海阳。",
+      "people": [],
+      "claims": [
+        {
+          "text": "馆藏号2023.585，材质为透明釉下钴蓝彩炻器；馆方将文化归属写为Vietnam, probably Hai D’uong Province，保留probably。",
+          "sourceId": "AT23",
+          "locator": "Artwork Details及文化归属字段",
+          "url": "https://www.metmuseum.org/art/collection/search/828473"
+        },
+        {
+          "text": "馆方说明该盘来自Cu Lao Cham岛附近打捞的会安沉船货物；断代依据是馆方器物编目及API数值，不能据这一件盘推出全部出口量或所有窑场位置。",
+          "sourceId": "AT23",
+          "locator": "正文首段；API objectBeginDate/objectEndDate",
+          "url": "https://www.metmuseum.org/art/collection/search/828473"
+        }
+      ],
+      "quote": {
+        "text": "Stoneware with painted cobalt blue under transparent glaze",
+        "translation": "现代馆藏说明：透明釉下以钴蓝绘彩的炻器；不是古代铭文。",
+        "sourceId": "AT23",
+        "locator": "对象828473；藏品号2023.585；正文首段、Artwork Details；同馆API数值1500—1533",
+        "url": "https://www.metmuseum.org/art/collection/search/828473",
+        "kind": "catalog_description"
+      },
+      "limitation": "记录的是器物生产断代范围，非1990年代沉船发现年或2023年入藏年。馆方产地只有推测，精确窑址与沉船坐标均未核，故不落地图。quote.kind=catalog_description，不能把现代英文说明充作古代原文。",
+      "aliases": [
+        "会安沉船",
+        "青花",
+        "越南陶瓷",
+        "2023.585",
+        "海阳"
+      ],
+      "polities": [
+        "16世纪初越南地区"
+      ],
+      "locationStatus": "unlocated",
+      "locationNote": "确切窑口与沉船坐标未核，仅在列表对读；不把现代收藏地点回投为16世纪生产地点"
+    },
+    {
+      "id": "AY25",
+      "caseId": null,
+      "title": "统计年鉴列1936年柬埔寨与老挝人口估计",
+      "regions": [
+        "柬埔寨",
+        "老挝",
+        "法国"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "河内（1939年统计年鉴刊印地）",
+      "placeRole": "原始年鉴的刊印城市参照；统计覆盖多个殖民行政区域，此点不代表人口分布、受访地点或现国界",
+      "date": {
+        "value": "1936",
+        "precision": "year",
+        "sortYear": 1936,
+        "display": "1936年",
+        "original": "原书Tableau I明确题为en1936；这是1936年人口估计，传本为1939年河内刊印的1937—1938第八卷。",
+        "sourceIds": [
+          "AT24"
+        ]
+      },
+      "summary": "印度支那统计年鉴在1936年各省表中列柬埔寨约304.6万、老挝约101.2万人；方法注注明依据地方行政机关提供的估计。",
+      "people": [],
+      "claims": [
+        {
+          "text": "表I的POPULATION栏单位为Milliers，Cambodge的Ensemble en1936为3.046，Laos为1.012，即分别约3,046,000与1,012,000人。",
+          "sourceId": "AT24",
+          "locator": "原书第15页，Tableau I，Cambodge及Laos的Ensemble en1936行；PDF第13页右半",
+          "url": "https://seadelt.net/Asset/Source/Document_ID-249_No-01.pdf"
+        },
+        {
+          "text": "同表另列Recensement de 1931，末尾方法注称依据各地方行政机关的估计；1936估计不能混称1936人口普查，也不能由表内同年数据推断已统一的现代国界。",
+          "sourceId": "AT24",
+          "locator": "原书第15页1931普查对照行及第16页表末D’après les évaluations方法注；PDF第13页右半、第14页左半",
+          "url": "https://seadelt.net/Asset/Source/Document_ID-249_No-01.pdf"
+        }
+      ],
+      "quote": {
+        "text": "D’après les évaluations fournies par les Administrations locales",
+        "translation": "依据各地方行政机关提供的估计。",
+        "sourceId": "AT24",
+        "locator": "原书第15—16页，第二章Tableau I；扫描PDF第13页右半、第14页左半；题名页署Hanoi1939",
+        "url": "https://seadelt.net/Asset/Source/Document_ID-249_No-01.pdf"
+      },
+      "limitation": "这是殖民统计机关编制的行政估计，人口单位为千人，按原表行政区域列示；未独立审计漏报、族群分类或估计误差。1931普查与1936估计口径不同，不据二者直接计算真实增长率；地图点只标1939年传本刊印地。",
+      "aliases": [
+        "殖民人口统计",
+        "Milliers",
+        "行政估计",
+        "法属印度支那",
+        "1936年"
+      ],
+      "polities": [
+        "法属印度支那",
+        "柬埔寨保护国",
+        "老挝保护国"
+      ]
+    },
+    {
+      "id": "EY1",
+      "caseId": null,
+      "title": "长城铭文记第二奥古斯塔军团与总督Nepos",
+      "regions": [
+        "英国"
+      ],
+      "placeId": "ey-hotbank",
+      "placeLabel": "Hotbank区域（原碑发现点存疑）",
+      "placeRole": "铭文发现区域参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 122,
+        "toYear": 126,
+        "sortYear": 122,
+        "display": "约公元122—126年",
+        "original": "RIB据Nepos总督任期断代122—约126年；原铭无公元署年",
+        "sourceIds": [
+          "ET1"
+        ]
+      },
+      "summary": "哈德良名下的建筑铭文并列军团与总督姓名，为罗马不列颠边防组织提供实物文字证据。",
+      "people": [
+        {
+          "name": "哈德良",
+          "role": "铭文奉献对象；不能由此证明亲临该堡"
+        },
+        {
+          "name": "Aulus Platorius Nepos",
+          "role": "铭文所列皇帝使节/总督"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第3—4行明确记录第二奥古斯塔军团与Aulus Platorius Nepos。",
+          "sourceId": "ET1",
+          "locator": "Latin Text第3—4行",
+          "url": "https://romaninscriptionsofbritain.org/inscriptions/1638"
+        },
+        {
+          "text": "122—约126年为依据任期所作断代，并非刻石所署精确年份。",
+          "sourceId": "ET1",
+          "locator": "Dating",
+          "url": "https://romaninscriptionsofbritain.org/inscriptions/1638"
+        }
+      ],
+      "quote": {
+        "text": "leg(io) II Aug(usta)",
+        "translation": "第二奥古斯塔军团；括号是编辑展开缩写。",
+        "sourceId": "ET1",
+        "locator": "Latin Text第3行",
+        "url": "https://romaninscriptionsofbritain.org/inscriptions/1638",
+        "kind": "primary_text"
+      },
+      "limitation": "石刻只能证明该项工程的军团和总督名义，不能扩写为整个长城于122年全部竣工。出土堡号有争议；不参与伪精确同年匹配。",
+      "aliases": [
+        "Hadrian’s Wall",
+        "哈德良长城",
+        "RIB 1638"
+      ],
+      "polities": [
+        "罗马帝国（不列颠行省）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY2",
+      "caseId": null,
+      "title": "克劳狄铜表保存吸纳行省精英入元老院的主张",
+      "regions": [
+        "法国"
+      ],
+      "placeId": "ey-lyon",
+      "placeLabel": "Lugdunum／今里昂",
+      "placeRole": "铜表原置城市参照",
+      "date": {
+        "value": "0048",
+        "precision": "year",
+        "sortYear": 48,
+        "display": "公元48年",
+        "original": "研究版按克劳狄这次元老院演说断为公元48年",
+        "sourceIds": [
+          "ET2"
+        ]
+      },
+      "summary": "现存青铜文字反对仅因行省出身而排斥有条件入元老院者，呈现罗马统治中心与高卢精英的关系。",
+      "people": [
+        {
+          "name": "克劳狄",
+          "role": "铜表保存其元老院演说的部分文字"
+        }
+      ],
+      "claims": [
+        {
+          "text": "铜表第45—48行区分意大利人与行省人，主张有能力装点元老院的行省人亦不应被拒。",
+          "sourceId": "ET2",
+          "locator": "释文第45—48行",
+          "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/tpl/public-record/165"
+        },
+        {
+          "text": "第66—69行点名Narbonensis与Lugdunum；现存铜表缺失上部。",
+          "sourceId": "ET2",
+          "locator": "释文第66—69行；Description",
+          "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/tpl/public-record/165"
+        }
+      ],
+      "quote": {
+        "text": "sed ne provinciales quidem si modo ornare curiam poterint reiciendos puto",
+        "translation": "即便是行省人，只要能够增益元老院，我也认为不应拒之门外。",
+        "sourceId": "ET2",
+        "locator": "释文第47—48行",
+        "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/tpl/public-record/165",
+        "kind": "primary_text"
+      },
+      "limitation": "这不是给全部高卢居民普遍平权或授予公民权的法令；不要以塔西佗的再写演说代替铜表原辞。",
+      "aliases": [
+        "里昂铜表",
+        "Lyon Tablet",
+        "CIL XIII 1668"
+      ],
+      "polities": [
+        "罗马帝国（高卢）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY3",
+      "caseId": null,
+      "title": "狄奥记瓦鲁斯军队在日耳曼尼亚遭伏击",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ey-rhine-weser",
+      "placeLabel": "莱茵河—威悉河方向（宽泛叙事区域）",
+      "placeRole": "史文地理区域示意",
+      "date": {
+        "value": "0009",
+        "precision": "year",
+        "sortYear": 9,
+        "display": "公元9年",
+        "original": "卷首执政官年表及56.18—24叙事次序对应公元9年；不核月日",
+        "sourceIds": [
+          "ET3"
+        ]
+      },
+      "summary": "狄奥把失败联系到罗马治理方式、瓦鲁斯判断和阿尔米尼乌斯等人的诱敌；可与中国同年的政权变动并读。",
+      "people": [
+        {
+          "name": "Publius Quinctilius Varus／瓦鲁斯",
+          "role": "叙事中的罗马统帅，败战中自杀"
+        },
+        {
+          "name": "Arminius／阿尔米尼乌斯",
+          "role": "狄奥记为设伏组织者之一"
+        }
+      ],
+      "claims": [
+        {
+          "text": "56.18称罗马控制的是部分地区，56.18.5称诱敌者使军队离开莱茵河。",
+          "sourceId": "ET3",
+          "locator": "56.18.1、18.5",
+          "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/56*.html"
+        },
+        {
+          "text": "56.19记Arminius等人的计划，56.21.5记Varus与高级军官自杀。",
+          "sourceId": "ET3",
+          "locator": "56.19；56.21.5",
+          "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/56*.html"
+        }
+      ],
+      "quote": {
+        "text": "they drew him far away from the Rhine",
+        "translation": "他们把他远远引离莱茵河。",
+        "sourceId": "ET3",
+        "locator": "56.18.5",
+        "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/56*.html",
+        "kind": "primary_text"
+      },
+      "limitation": "三世纪作者对一世纪战争的回溯不能当作现场战报；原文不足以将地图定点于某一现代遗址，也不能直接采用其绝对化伤亡语句。",
+      "aliases": [
+        "Varus",
+        "Arminius",
+        "条顿堡森林战役"
+      ],
+      "polities": [
+        "罗马帝国",
+        "Cherusci等日耳曼政治群体"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY4",
+      "caseId": null,
+      "title": "卡农图姆碑记录工匠社团受赠与内部职官",
+      "regions": [
+        "奥匈帝国"
+      ],
+      "placeId": "ey-carnuntum",
+      "placeLabel": "Carnuntum／今奥地利古城区域",
+      "placeRole": "铭文所属古城参照",
+      "date": {
+        "value": "0219",
+        "precision": "year",
+        "sortYear": 219,
+        "display": "公元219年",
+        "original": "末署Antoninus第二次及Sacerdos任执政官、X Kalendas Septembres；数据库换算为219年",
+        "sourceIds": [
+          "ET4"
+        ]
+      },
+      "summary": "罗马边疆城市的奉献碑把皇帝名义、地方显贵和工匠社团联系起来，并保存社团管理者职衔。",
+      "people": [
+        {
+          "name": "Titus Aelius Constans",
+          "role": "铭文所列社团praefectus"
+        },
+        {
+          "name": "Aelius Herculanus",
+          "role": "铭文所列社团magister"
+        },
+        {
+          "name": "Ulpius Marcellinus",
+          "role": "铭文所列社团magister"
+        }
+      ],
+      "claims": [
+        {
+          "text": "标准释文说Faustinianus将Genius神像赠予卡农图姆工匠社团，并列社团职官。",
+          "sourceId": "ET4",
+          "locator": "标准拉丁释文正文与Dedication",
+          "url": "https://gdrg.ugent.be/guilddocuments/2985"
+        },
+        {
+          "text": "碑上帝名存在铲除与补读，执政官组合被数据库断为219年。",
+          "sourceId": "ET4",
+          "locator": "Date；标准释文的擦除符号",
+          "url": "https://gdrg.ugent.be/guilddocuments/2985"
+        }
+      ],
+      "quote": {
+        "text": "[c]oll(egio) fabr(um) Karn(untensium) d(onum) d(edit)",
+        "translation": "赠给卡农图姆工匠社团；缩写按编辑展开。",
+        "sourceId": "ET4",
+        "locator": "标准释文主面末行",
+        "url": "https://gdrg.ugent.be/guilddocuments/2985",
+        "kind": "primary_text"
+      },
+      "limitation": "“奥匈帝国”只是今奥地利/匈牙利地区的检索入口，219年此地属于罗马Pannonia Superior，尚无奥匈帝国。社团赠礼不证明全城工匠皆为会员。",
+      "aliases": [
+        "Carnuntum",
+        "AE 1966, 00286"
+      ],
+      "polities": [
+        "罗马帝国（上潘诺尼亚）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY5",
+      "caseId": null,
+      "title": "比德记肯特王埃塞尔伯特去世并回顾其英语言法律",
+      "regions": [
+        "英国"
+      ],
+      "placeId": "ey-canterbury",
+      "placeLabel": "肯特／坎特伯雷（城市参照）",
+      "placeRole": "葬礼与王国教会活动城市参照",
+      "date": {
+        "value": "0616",
+        "precision": "year",
+        "sortYear": 616,
+        "display": "公元616年",
+        "original": "比德卷二第五章明记616年王卒；本年不代表法律颁行年",
+        "sourceIds": [
+          "ET5"
+        ]
+      },
+      "summary": "比德在王卒条回顾埃塞尔伯特与贤人议定英语言司法法令；现传条文则以不同身份、财产权属规定赔偿。",
+      "people": [
+        {
+          "name": "埃塞尔伯特／Æthelberht",
+          "role": "比德所述肯特王与法律制定者"
+        },
+        {
+          "name": "比德",
+          "role": "八世纪教会史作者，回溯616年及王者立法"
+        }
+      ],
+      "claims": [
+        {
+          "text": "比德明确记王于616年去世，随后追述其英语言司法法令，并称首先保护教会财产。",
+          "sourceId": "ET5",
+          "locator": "Book II, Chapter V",
+          "url": "https://sourcebooks.fordham.edu/basis/bede-book2.asp"
+        },
+        {
+          "text": "归于该王的现传法条第4条规定自由人盗取王室财物的九倍偿付；第1条对教会人员/财产另列倍率。",
+          "sourceId": "ET6",
+          "locator": "Laws of Æthelberht §§1、4",
+          "url": "https://sourcebooks.web.fordham.edu/source/560-975dooms.asp"
+        }
+      ],
+      "quote": {
+        "text": "which, being written in English, are still kept and observed by them",
+        "translation": "比德说这些英语言法律在他写作时仍被保存和遵守；这是作者的见证说法。",
+        "sourceId": "ET5",
+        "locator": "Book II, Chapter V法律段",
+        "url": "https://sourcebooks.fordham.edu/basis/bede-book2.asp",
+        "kind": "primary_text"
+      },
+      "limitation": "616年只用于王卒事件；法律成立年未定，不能把网页所列王者年代或回顾段落改成616年颁法。比德教会史立场与法典传本层次须分开。",
+      "aliases": [
+        "Æthelberht",
+        "Ethelbert",
+        "埃塞尔伯特法"
+      ],
+      "polities": [
+        "肯特王国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY6",
+      "caseId": null,
+      "title": "奥托三世授地敕书出现Ostarrichi地名",
+      "regions": [
+        "奥匈帝国",
+        "德国"
+      ],
+      "placeId": "ey-bruchsal",
+      "placeLabel": "Bruchsal（末署）；授地另在今奥地利",
+      "placeRole": "原文末署签发城市",
+      "date": {
+        "value": "0996",
+        "precision": "year",
+        "sortYear": 996,
+        "display": "公元996年",
+        "original": "末署DCCCCXCVI、11月朔；布鲁赫萨尔Actum；只采公元年份",
+        "sourceIds": [
+          "ET7"
+        ]
+      },
+      "summary": "敕书将今Neuhofen一带的土地授予弗赖辛教会，并用Ostarrichi称呼区域；签发城与受赠土地分属今日德国和奥地利。",
+      "people": [
+        {
+          "name": "奥托三世",
+          "role": "敕书名义签发皇帝"
+        },
+        {
+          "name": "Gottschalk／Kotascalhus",
+          "role": "敕书所述弗赖辛主教、教会受赠方代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "授地段使用Ostarrichi、Niuvanhova及三十王室huba等用语，不能改述为现代国家的成立。",
+          "sourceId": "ET7",
+          "locator": "PDF第11页拉丁授地段",
+          "url": "https://austria-forum.org/attach/AEIOU/Ostarr%C3%AEchi/Wandruszka_Ostarrichi.pdf"
+        },
+        {
+          "text": "末署公元996年并记Actum (Bruoch)selle；授地与签发地必须分开。",
+          "sourceId": "ET7",
+          "locator": "PDF第11—12页拉丁篇末",
+          "url": "https://austria-forum.org/attach/AEIOU/Ostarr%C3%AEchi/Wandruszka_Ostarrichi.pdf"
+        }
+      ],
+      "quote": {
+        "text": "in regione vulgari vocabulo Ostarrîchi",
+        "translation": "在民间称为Ostarrichi的区域。",
+        "sourceId": "ET7",
+        "locator": "PDF第11页，授地段",
+        "url": "https://austria-forum.org/attach/AEIOU/Ostarr%C3%AEchi/Wandruszka_Ostarrichi.pdf",
+        "kind": "primary_text"
+      },
+      "limitation": "文书学讨论涉及空白文书、后加填写和现存印章等，本文保留其争议；不称“奥地利于996年建国”。地图点是Bruchsal而非土地边界。",
+      "aliases": [
+        "Ostarrichi",
+        "Ostarrîchi",
+        "奥斯特马克"
+      ],
+      "polities": [
+        "奥托王朝帝国",
+        "弗赖辛主教区"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY7",
+      "caseId": null,
+      "title": "小特许状把奥地利边区升为公国并规定继承",
+      "regions": [
+        "奥匈帝国",
+        "德国"
+      ],
+      "placeId": "ey-regensburg",
+      "placeLabel": "雷根斯堡（文书会盟/签发城）",
+      "placeRole": "敕书地点城市参照",
+      "date": {
+        "value": "1156",
+        "precision": "year",
+        "sortYear": 1156,
+        "display": "公元1156年",
+        "original": "敕书1156年；会盟Nativity of Mary与后续文书署日分开，只采年份",
+        "sourceIds": [
+          "ET8"
+        ]
+      },
+      "summary": "腓特烈一世在解决巴伐利亚争端时，将奥地利边区升为公国并授予亨利、狄奥多拉及男女后嗣相关权利。",
+      "people": [
+        {
+          "name": "腓特烈一世",
+          "role": "敕书签发皇帝"
+        },
+        {
+          "name": "亨利二世（Jasomirgott）",
+          "role": "奥地利公爵受封者"
+        },
+        {
+          "name": "狄奥多拉",
+          "role": "与亨利共同被列受封，其后嗣继承条款的当事人"
+        }
+      ],
+      "claims": [
+        {
+          "text": "文书明确区分巴伐利亚公国与奥地利边区，并将后者升格为公国。",
+          "sourceId": "ET8",
+          "locator": "开头争端解决与enfeoffment段",
+          "url": "https://avalon.law.yale.edu/medieval/austria.asp"
+        },
+        {
+          "text": "继承条文包括儿子或女儿，并规定无子女情况下选择继承人的安排。",
+          "sourceId": "ET8",
+          "locator": "children／whether sons or daughters段",
+          "url": "https://avalon.law.yale.edu/medieval/austria.asp"
+        }
+      ],
+      "quote": {
+        "text": "whether sons or daughters",
+        "translation": "无论儿子还是女儿；仅就该文书所列的继承安排而言。",
+        "sourceId": "ET8",
+        "locator": "继承条款",
+        "url": "https://avalon.law.yale.edu/medieval/austria.asp",
+        "kind": "primary_text"
+      },
+      "limitation": "这是帝国封建权利安排，不能解释为现代奥地利主权国家独立；原文规定与实际执行、1358/59年伪造的Maius分开。",
+      "aliases": [
+        "Privilegium Minus",
+        "小特许状"
+      ],
+      "polities": [
+        "神圣罗马帝国",
+        "奥地利公国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY8",
+      "caseId": null,
+      "title": "鲁道夫四世方面伪造大特许状以抬高奥地利地位",
+      "regions": [
+        "奥匈帝国"
+      ],
+      "placeId": "vienna",
+      "placeLabel": "奥地利公国／维也纳参照（非伪造作坊）",
+      "placeRole": "权利诉求涉及的公国城市参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 1358,
+        "toYear": 1359,
+        "sortYear": 1358,
+        "display": "公元1358—1359年",
+        "original": "据GHDI文书学编定实际伪造时段；伪署1156年9月17日不当作实际颁布日",
+        "sourceIds": [
+          "ET9"
+        ]
+      },
+      "summary": "伪造文本借腓特烈一世之名提出更广泛的奥地利公爵权利，能说明十四世纪权利主张的方式。",
+      "people": [
+        {
+          "name": "鲁道夫四世",
+          "role": "现代学术编者鉴定为委托伪造者；此身份不是伪文自述"
+        }
+      ],
+      "claims": [
+        {
+          "text": "GHDI明确把文书鉴为1358/59年伪造，并指明其冒称1156年帝国敕书。",
+          "sourceId": "ET9",
+          "locator": "Abstract、文末伪署",
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/forgery-in-favor-of-territorial-sovereignty-privilegium-maius-1358-59"
+        },
+        {
+          "text": "条3、5、8与15提出免于被强制出席帝国会议、领内司法支配及座次等要求。",
+          "sourceId": "ET9",
+          "locator": "§§3、5、8、15",
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/forgery-in-favor-of-territorial-sovereignty-privilegium-maius-1358-59"
+        }
+      ],
+      "quote": {
+        "text": "behind the electors",
+        "translation": "位列选侯之后；这是伪造文本所要求的座次。",
+        "sourceId": "ET9",
+        "locator": "§15",
+        "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/forgery-in-favor-of-territorial-sovereignty-privilegium-maius-1358-59",
+        "kind": "primary_text"
+      },
+      "limitation": "伪文是十四世纪政治诉求的原始证据，不是1156年真实授予这些权利的证据；地图仅作奥地利公国参照，实际制作地点未定。",
+      "aliases": [
+        "Privilegium Maius",
+        "大特许状"
+      ],
+      "polities": [
+        "哈布斯堡奥地利公国",
+        "神圣罗马帝国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY9",
+      "caseId": null,
+      "title": "尼特哈德保存两王及其部众的斯特拉斯堡誓词",
+      "regions": [
+        "法国"
+      ],
+      "placeId": "ey-strasbourg",
+      "placeLabel": "斯特拉斯堡（传文点名城）",
+      "placeRole": "盟誓城市参照",
+      "date": {
+        "value": "0842",
+        "precision": "year",
+        "sortYear": 842,
+        "display": "公元842年",
+        "original": "BnF作品目录核842年；Nithard III.5记2月14日；原历日期不未经转换作公历日",
+        "sourceIds": [
+          "ET10",
+          "ET11"
+        ]
+      },
+      "summary": "查理与路易分别以罗曼语和日耳曼语互誓；部众另承诺不支持违背誓约的君主。",
+      "people": [
+        {
+          "name": "秃头查理",
+          "role": "以日耳曼语宣誓的国王"
+        },
+        {
+          "name": "日耳曼人路易",
+          "role": "以罗曼语宣誓的国王"
+        },
+        {
+          "name": "尼特哈德",
+          "role": "在当时的纷争史中保存誓词的作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "III.5并存两种俗语誓词及各方部众的承诺，不只是拉丁叙事摘要。",
+          "sourceId": "ET10",
+          "locator": "PDF第1—2页誓词正文",
+          "url": "https://my.tlu.edu/ICS/icsfs/OathsStrasbourg2pg.pdf?target=80ca219b-a80c-47a0-838e-b59298595a86"
+        },
+        {
+          "text": "BnF将作品定年842年，并定位于Latin9768抄本；教学导言的843年不用。",
+          "sourceId": "ET11",
+          "locator": "Date de l’oeuvre；Note(s) sur l’oeuvre",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb120677260"
+        }
+      ],
+      "quote": {
+        "text": "Pro Deo amur et pro christian poblo et nostro commun saluament",
+        "translation": "为爱上帝、基督徒群体与我们共同的救全。",
+        "sourceId": "ET10",
+        "locator": "PDF第1页，路易的罗曼语誓词开头",
+        "url": "https://my.tlu.edu/ICS/icsfs/OathsStrasbourg2pg.pdf?target=80ca219b-a80c-47a0-838e-b59298595a86",
+        "kind": "primary_text"
+      },
+      "limitation": "属于加洛林王族内部盟誓，不等于现代法国与德国国家在此创立或按语言划出国界；现传抄本与当时写作层次分开。",
+      "aliases": [
+        "斯特拉斯堡誓言",
+        "Oaths of Strasbourg",
+        "Nithard"
+      ],
+      "polities": [
+        "加洛林诸王国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY10",
+      "caseId": null,
+      "title": "查士丁尼颁布《法学阶梯》并赋予法律效力",
+      "regions": [
+        "土耳其"
+      ],
+      "placeId": "ex-istanbul",
+      "placeLabel": "君士坦丁堡（序文末署）",
+      "placeRole": "法律文本署地城市参照",
+      "date": {
+        "value": "0533",
+        "precision": "year",
+        "sortYear": 533,
+        "display": "公元533年",
+        "original": "颁布序末署查士丁尼第三次执政官年11月21日；学术版对应533年",
+        "sourceIds": [
+          "ET12",
+          "ET21"
+        ]
+      },
+      "summary": "序文点名特里博尼安等编纂者，把教学入门书与皇帝的法律权威相连；其军功与公正宣称属于皇帝的自我表述。",
+      "people": [
+        {
+          "name": "查士丁尼一世",
+          "role": "颁布序名义签发皇帝"
+        },
+        {
+          "name": "特里博尼安",
+          "role": "皇帝委任的编纂者、前quaestor"
+        },
+        {
+          "name": "Theophilus／提奥菲鲁斯",
+          "role": "受命参与编纂的法学教授"
+        },
+        {
+          "name": "Dorotheus／多罗提乌斯",
+          "role": "受命参与编纂的法学教授"
+        }
+      ],
+      "claims": [
+        {
+          "text": "颁布序列三位受命编纂者，并说《阶梯》分为四卷，用于法律学习的起步。",
+          "sourceId": "ET12",
+          "locator": "Prooemium委任与四卷段",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just_proem_Moyle.htm"
+        },
+        {
+          "text": "皇帝明言审阅后给予该书宪令的法律效力，末署君士坦丁堡。",
+          "sourceId": "ET12",
+          "locator": "Prooemium授予效力段及末署",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just_proem_Moyle.htm"
+        },
+        {
+          "text": "拉丁序§6说赋予宪令效力，末署君士坦丁堡、查士丁尼第三次执政官年；页面编年533年。",
+          "sourceId": "ET21",
+          "locator": "Prooemium §6与末署",
+          "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/just_proem.htm"
+        }
+      ],
+      "quote": {
+        "text": "we have given them the fullest force of our constitutions",
+        "translation": "我们赋予它们宪令的充分效力；这是颁布文本规定。",
+        "sourceId": "ET12",
+        "locator": "Prooemium审阅与授予效力段",
+        "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just_proem_Moyle.htm",
+        "kind": "primary_text"
+      },
+      "limitation": "533年属于东罗马帝国，不是土耳其共和国；文本确立的规范效力不能证明各地贯彻一致，也不证明其所有内容首次创制于533年。同库说明教学使用始于11月、与《学说汇纂》配套的生效安排在12月；此处只作533年的颁布文本节点，不把两日期合为同日。",
+      "aliases": [
+        "Justinian",
+        "Institutiones",
+        "法学阶梯"
+      ],
+      "polities": [
+        "东罗马帝国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY11",
+      "caseId": null,
+      "title": "维拉杜安叙述第四次十字军攻取君士坦丁堡",
+      "regions": [
+        "土耳其"
+      ],
+      "placeId": "ex-istanbul",
+      "placeLabel": "君士坦丁堡（攻城叙事地点）",
+      "placeRole": "叙事事件城市参照",
+      "date": {
+        "value": "1204",
+        "precision": "year",
+        "sortYear": 1204,
+        "display": "公元1204年",
+        "original": "传文周一Palm Sunday后、编辑括注1204年4月12日；只采年份，不转换礼仪历日",
+        "sourceIds": [
+          "ET13"
+        ]
+      },
+      "summary": "参战者记述1204年攻城后进入城区、宫殿移交与分取财物；应与其为征服者辩护的叙述立场一并阅读。",
+      "people": [
+        {
+          "name": "Geoffroi de Villehardouin／维拉杜安",
+          "role": "参战者及这篇征服叙事的作者"
+        },
+        {
+          "name": "Boniface of Montferrat／蒙费拉的博尼法斯",
+          "role": "传文所述接受Bucoleon宫殿移交的侯爵"
+        }
+      ],
+      "claims": [
+        {
+          "text": "主文记攻入城墙后占据城区，并把时间放在1204年棕枝主日后的周一。",
+          "sourceId": "ET13",
+          "locator": "CRUSADERS TAKE A PART OF THE CITY，原译pp.61—64",
+          "url": "https://sourcebooks.fordham.edu/basis/villehardouin.asp"
+        },
+        {
+          "text": "Bucoleon移交段明确有保障内中人生命的条件；这不能推出全城居民皆未受害。",
+          "sourceId": "ET13",
+          "locator": "THE CRUSADERS ESTABLISH THEMSELVES IN THE CITY，pp.64—65",
+          "url": "https://sourcebooks.fordham.edu/basis/villehardouin.asp"
+        }
+      ],
+      "quote": {
+        "text": "Constantinople taken on the Monday after Palm Sunday",
+        "translation": "君士坦丁堡在棕枝主日之后的周一被攻取；此处用作者传述，不独立换算日历。",
+        "sourceId": "ET13",
+        "locator": "原译p.64",
+        "url": "https://sourcebooks.fordham.edu/basis/villehardouin.asp",
+        "kind": "primary_text"
+      },
+      "limitation": "原文属于征服阵营回忆，并非中立调查；财货数量、道德正当性和战后损害需交叉材料，不能由单一作者包办。",
+      "aliases": [
+        "Fourth Crusade",
+        "维拉杜安",
+        "1204年君士坦丁堡"
+      ],
+      "polities": [
+        "东罗马帝国",
+        "第四次十字军诸领主与威尼斯"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY12",
+      "caseId": null,
+      "title": "艾因哈德记查理曼在亚琛去世与下葬",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ey-aachen",
+      "placeLabel": "亚琛（传记所述过冬与葬地）",
+      "placeRole": "人物活动与葬礼城市参照",
+      "date": {
+        "value": "0814",
+        "precision": "year",
+        "sortYear": 814,
+        "display": "公元814年",
+        "original": "《查理曼传》§30记1月28日；§31所录墓铭明署814年；只采年份",
+        "sourceIds": [
+          "ET14"
+        ]
+      },
+      "summary": "传记以亚琛宫廷为背景记查理曼的末期、身后安排和葬礼，能与中国唐代宫廷和皇位继承材料对读。",
+      "people": [
+        {
+          "name": "查理曼",
+          "role": "传记所述法兰克国王与皇帝，814年去世"
+        },
+        {
+          "name": "艾因哈德",
+          "role": "《查理曼传》作者，宫廷相关见证者而非临终记录员"
+        }
+      ],
+      "claims": [
+        {
+          "text": "§30记查理曼回亚琛过冬、发病并于1月28日去世。",
+          "sourceId": "ET14",
+          "locator": "§30",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        },
+        {
+          "text": "§31转录葬碑所记814年并记在其所建教堂下葬；碑文是作者转述。",
+          "sourceId": "ET14",
+          "locator": "§31",
+          "url": "https://sourcebooks.fordham.edu/basis/einhard.asp"
+        }
+      ],
+      "quote": {
+        "text": "in the year of our Lord 814",
+        "translation": "在主历814年；此句为传记所录墓铭，不声称已核现存原碑。",
+        "sourceId": "ET14",
+        "locator": "§31所录墓铭",
+        "url": "https://sourcebooks.fordham.edu/basis/einhard.asp",
+        "kind": "primary_text"
+      },
+      "limitation": "死后成书的赞颂性传记对年龄和功绩的说法须另核；法兰克帝国不能等同现代德国民族国家。地图只取叙事明指城市。",
+      "aliases": [
+        "Charlemagne",
+        "Einhard",
+        "Aix-la-Chapelle"
+      ],
+      "polities": [
+        "加洛林法兰克帝国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY13",
+      "caseId": null,
+      "title": "贞德在鲁昂首次公开庭讯接受审问",
+      "regions": [
+        "法国"
+      ],
+      "placeId": "ey-rouen",
+      "placeLabel": "鲁昂城堡礼拜堂（原记录点名）",
+      "placeRole": "审判城市参照",
+      "date": {
+        "value": "1431",
+        "precision": "year",
+        "sortYear": 1431,
+        "display": "公元1431年",
+        "original": "审判记录记1431年2月21日星期三上午8时；保留原记，只采年份",
+        "sourceIds": [
+          "ET15"
+        ]
+      },
+      "summary": "首次公开庭讯涉及法庭授权、传唤与宣誓范围；读者可见审判如何把个人宗教经验纳入司法记录。",
+      "people": [
+        {
+          "name": "贞德／Jeanne d’Arc",
+          "role": "首次公开庭讯受审人"
+        },
+        {
+          "name": "Pierre Cauchon／皮埃尔·科雄",
+          "role": "博韦主教、定罪审判主持者"
+        },
+        {
+          "name": "Jean d’Estivet",
+          "role": "审判记录点名的promoter／控诉推动者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "记录的首次公开庭讯题记明确点名鲁昂城堡礼拜堂和1431年2月21日。",
+          "sourceId": "ET15",
+          "locator": "The First Public Session，原译p.31",
+          "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp"
+        },
+        {
+          "text": "记录先列王室交付及鲁昂管辖授权文书，然后记传唤与宣誓程序。",
+          "sourceId": "ET15",
+          "locator": "The First Public Session，原译pp.31—37",
+          "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp"
+        }
+      ],
+      "quote": {
+        "text": "the chapel royal of the castle of Rouen",
+        "translation": "鲁昂城堡的王室礼拜堂；这是记录叙述的开庭地点。",
+        "sourceId": "ET15",
+        "locator": "The First Public Session，原译p.31",
+        "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp",
+        "kind": "primary_text"
+      },
+      "limitation": "这是审判机关整理并转译、传抄的记录；控罪、审问者转述与贞德答话必须区分，不据此证明超自然声音真实存在。",
+      "aliases": [
+        "Joan of Arc",
+        "Jeanne d’Arc",
+        "贞德审判"
+      ],
+      "polities": [
+        "法兰西王国诸政治力量",
+        "英格兰在法占领政权"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY14",
+      "caseId": null,
+      "title": "苏莱曼回信法王并以军备修辞回应求援",
+      "regions": [
+        "土耳其",
+        "法国"
+      ],
+      "placeId": "ex-istanbul",
+      "placeLabel": "君士坦丁堡（信末署地）",
+      "placeRole": "外交书信署地城市参照",
+      "date": {
+        "value": "1526",
+        "precision": "year",
+        "sortYear": 1526,
+        "display": "公元1526年",
+        "original": "回历932年Rabīʿ II上旬；所读学术转载对应1526年；编目精确日不用",
+        "sourceIds": [
+          "ET16"
+        ]
+      },
+      "summary": "信中确认Frangipani带来的求援，使用皇帝军备常备的修辞，并把更多消息交由使者口述；不把它写成已经签订军事同盟。",
+      "people": [
+        {
+          "name": "苏莱曼一世",
+          "role": "书信署名发送者、奥斯曼苏丹"
+        },
+        {
+          "name": "弗朗索瓦一世",
+          "role": "书信称呼的法王与求援者"
+        },
+        {
+          "name": "Frangipani",
+          "role": "信中点名传递书面及口头消息的使者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "信件称收到Frangipani带来的求援及口头消息，并直接称呼法兰西国王。",
+          "sourceId": "ET16",
+          "locator": "Kayıt Özeti，Dergâh-ı selâtîn-penâhıma段",
+          "url": "https://dhlab.sabanciuniv.edu/index.php/tr/node/196"
+        },
+        {
+          "text": "末段用昼夜备马佩剑的表达，随即令收信人从使者处询问更多情况。",
+          "sourceId": "ET16",
+          "locator": "Kayıt Özeti，Eyle olsa段及末署",
+          "url": "https://dhlab.sabanciuniv.edu/index.php/tr/node/196"
+        }
+      ],
+      "quote": {
+        "text": "gece ve gündüz atımız eyerlenmiş ve kılıcımız kuşanılmışdır",
+        "translation": "昼夜我们的马都备鞍、刀剑都佩妥；这是奥斯曼外交修辞。",
+        "sourceId": "ET16",
+        "locator": "Kayıt Özeti，Eyle olsa段",
+        "url": "https://dhlab.sabanciuniv.edu/index.php/tr/node/196",
+        "kind": "primary_text"
+      },
+      "limitation": "原信上旬日期与数据库精确日区分；本次读的是大学所刊转写/法译而未核BnF原卷图像。文书没有在本段明确承诺具体军事行动。",
+      "aliases": [
+        "Süleyman",
+        "Soliman",
+        "Frangipani"
+      ],
+      "polities": [
+        "奥斯曼帝国",
+        "法兰西王国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY15",
+      "caseId": null,
+      "title": "安卡拉协定建立土耳其与欧共体的联系关系",
+      "regions": [
+        "土耳其",
+        "德国",
+        "法国"
+      ],
+      "placeId": "ex-ankara",
+      "placeLabel": "安卡拉（Final Act署地）",
+      "placeRole": "条约签署城市参照",
+      "date": {
+        "value": "1963-09-12",
+        "precision": "day",
+        "sortYear": 1963,
+        "display": "1963年9月12日",
+        "original": "Final Act明记twelfth day of September 1963；外交部土文12 Eylül 1963",
+        "sourceIds": [
+          "ET17",
+          "ET18"
+        ]
+      },
+      "summary": "协定提出分阶段建立关税同盟，并规定在条件具备后审议土耳其加入的可能性；联系关系与成为成员分开。",
+      "people": [
+        {
+          "name": "Feridun Cemal Erkin／费里敦·杰马尔·埃尔金",
+          "role": "土耳其外长、条约指定全权代表"
+        },
+        {
+          "name": "Maurice Couve de Murville／莫里斯·顾夫·德姆维尔",
+          "role": "法国外长、条约指定全权代表"
+        },
+        {
+          "name": "Gerhard Schröder／格哈德·施罗德",
+          "role": "联邦德国外长、条约指定全权代表；非1998年上任的同名总理"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1—2条建立联系关系并规定分阶段关税同盟目标。",
+          "sourceId": "ET17",
+          "locator": "Articles 1—2",
+          "url": "https://ab.gov.tr/_117_en.html"
+        },
+        {
+          "text": "第28条只要求条件进展后审议加入可能性；不表示1963年已成为共同体成员。",
+          "sourceId": "ET17",
+          "locator": "Article 28",
+          "url": "https://ab.gov.tr/_117_en.html"
+        },
+        {
+          "text": "Final Act明确签署地点安卡拉、日期1963年9月12日。",
+          "sourceId": "ET17",
+          "locator": "Final Act末署",
+          "url": "https://ab.gov.tr/_117_en.html"
+        }
+      ],
+      "quote": {
+        "text": "shall examine the possibility of the accession",
+        "translation": "应审议加入的可能性；这项义务不同于直接批准入会。",
+        "sourceId": "ET17",
+        "locator": "Article 28",
+        "url": "https://ab.gov.tr/_117_en.html",
+        "kind": "primary_text"
+      },
+      "limitation": "签署日与批准、生效及目标实际达成分开；网页英译副标题错写1日，采用文末署12日并交核土文。德国/法国因条约明确列为缔约方标注，非按欧共体今日成员倒推。",
+      "aliases": [
+        "Ankara Agreement",
+        "安卡拉联系协定"
+      ],
+      "polities": [
+        "土耳其共和国",
+        "欧洲经济共同体",
+        "法兰西共和国",
+        "德意志联邦共和国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EY16",
+      "caseId": null,
+      "title": "北约议定书规定土耳其受邀与加入的法律步骤",
+      "regions": [
+        "土耳其",
+        "英国"
+      ],
+      "placeId": "london",
+      "placeLabel": "伦敦（议定书程序地点）",
+      "placeRole": "国际文书城市参照",
+      "date": {
+        "value": "1951",
+        "precision": "year",
+        "sortYear": 1951,
+        "display": "公元1951年",
+        "original": "北约页面列22 October 1951；UNTC登记的缔结日期为17/10/1951；精确日差异未核，只采1951年",
+        "sourceIds": [
+          "ET19",
+          "ET20"
+        ]
+      },
+      "summary": "议定书规定先满足成员接受程序，再发邀请并交存加入书；对土耳其领土的防务覆盖也附有正式加入的条件。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1、3条把议定书生效、发出邀请及加入书交存分为不同法律步骤。",
+          "sourceId": "ET19",
+          "locator": "Articles 1、3",
+          "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1951/10/22/protocol-to-the-north-atlantic-treaty-on-the-accession-of-greece-and-turkey"
+        },
+        {
+          "text": "第2条以土耳其成为缔约方为条件，修改集体防务适用的地域表述。",
+          "sourceId": "ET19",
+          "locator": "Article 2",
+          "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1951/10/22/protocol-to-the-north-atlantic-treaty-on-the-accession-of-greece-and-turkey"
+        }
+      ],
+      "quote": {
+        "text": "on the date when it deposits its instruments of accession",
+        "translation": "在交存加入书之日；本条所引是议定书的加入条件，不是1951年已经完成。",
+        "sourceId": "ET19",
+        "locator": "Article 1",
+        "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1951/10/22/protocol-to-the-north-atlantic-treaty-on-the-accession-of-greece-and-turkey",
+        "kind": "primary_text"
+      },
+      "limitation": "议定书不是土耳其1951年已经入约的证据；北约网页22日与UNTC登记17日的差异未据原签名页解决，只录1951年。1952年加入书交存与正式成员日需另核保管通知；伦敦为UNTC登记缔结城市。",
+      "aliases": [
+        "Greece-Turkey Protocol",
+        "北约首次扩员"
+      ],
+      "polities": [
+        "北大西洋公约组织",
+        "土耳其共和国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "RY1",
+      "caseId": null,
+      "title": "阙特勤碑西面记录唐廷的纪念与政治修辞",
+      "regions": [
+        "蒙古",
+        "中国"
+      ],
+      "polities": [
+        "第二突厥汗国",
+        "唐朝"
+      ],
+      "placeId": "ry-khoshoo-tsaidam",
+      "placeLabel": "阙特勤碑 · 霍硕柴达木",
+      "placeRole": "铭文所在纪念遗址区域参照",
+      "date": {
+        "value": "0732",
+        "precision": "year",
+        "sortYear": 732,
+        "display": "732年",
+        "original": "释文论文将立碑年核为732年；不换算具体立碑日",
+        "sourceIds": [
+          "RT1"
+        ]
+      },
+      "summary": "碑的中文面纪念阙特勤，并以天下大同、君长分立的语言陈述唐廷所理解的政治关系。",
+      "people": [
+        {
+          "name": "阙特勤",
+          "role": "碑题所纪念者"
+        },
+        {
+          "name": "唐玄宗",
+          "role": "论文据碑题与史料著录的中文碑文作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "所据释文题为“故闕特勤碑”，碑面中文以天人相合与君长分立说明政治秩序。",
+          "sourceId": "RT1",
+          "locator": "第81页，碑题及开头数段",
+          "url": "https://dergipark.org.tr/en/download/article-file/136825"
+        },
+        {
+          "text": "碑位于今蒙古国霍硕柴达木，另三面为突厥文；732年是碑的年代，不是所叙全部历史事件的年代。",
+          "sourceId": "RT1",
+          "locator": "第79–80页，文物与年代说明",
+          "url": "https://dergipark.org.tr/en/download/article-file/136825"
+        }
+      ],
+      "quote": {
+        "text": "天人相合，寰寓大同",
+        "translation": "天与人相协调，天下归于大同；这是中文碑文的政治修辞。",
+        "sourceId": "RT1",
+        "locator": "第81页，中文碑文开头",
+        "url": "https://dergipark.org.tr/en/download/article-file/136825",
+        "kind": "primary_text"
+      },
+      "limitation": "按释文逐字保留“寰寓”，未改成常见的“寰宇”；仅引用中文面，唐廷赞颂立场须与突厥文另行比较。蒙古是现代地点入口，碑属于第二突厥汗国时代。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "阙特勤碑，西面中文",
+        "site": "霍硕柴达木（Khöshöö Tsaidam）",
+        "imageOrReportUrl": "https://dergipark.org.tr/en/download/article-file/136825",
+        "datingMethod": "铭文及历史纪年，由释文研究核为732年",
+        "datingLimitation": "仅核年份；未将文中回叙事件一律定为732年"
+      }
+    },
+    {
+      "id": "RY2",
+      "caseId": null,
+      "title": "俄蒙协定互认政府并安排驻使领",
+      "regions": [
+        "蒙古",
+        "俄罗斯"
+      ],
+      "polities": [
+        "蒙古人民政府（博克多汗仍在位时期）",
+        "俄罗斯社会主义联邦苏维埃共和国"
+      ],
+      "placeId": "rx-moscow",
+      "placeLabel": "莫斯科",
+      "placeRole": "协定末署签订城市参照",
+      "date": {
+        "value": "1921-11-05",
+        "precision": "day",
+        "sortYear": 1921,
+        "display": "1921年11月5日 · 签署",
+        "original": "Учинено в Москве, 5-го ноября 1921 г. по европейскому летоисчислению",
+        "sourceIds": [
+          "RT2"
+        ]
+      },
+      "summary": "两政府相互承认为本国唯一合法政府；协定安排在蒙古首都及科布多、乌里雅苏台、阿勒坦布拉格派遣使领，并将边界留待特别委员会处理。",
+      "people": [
+        {
+          "name": "苏赫巴托尔",
+          "role": "协定所列蒙古人民政府全权代表"
+        },
+        {
+          "name": "丹赞",
+          "role": "协定所列蒙古人民政府全权代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1–2条为俄蒙两方相互承认各自政府，不是对所有第三国发出约束的承认。",
+          "sourceId": "RT2",
+          "locator": "第1–2条",
+          "url": "https://istmat.org/node/46988"
+        },
+        {
+          "text": "第4条列蒙古首都及科布多、乌里雅苏台、阿勒坦布拉格使领安排；第6条另设边界委员会。",
+          "sourceId": "RT2",
+          "locator": "第4、6条",
+          "url": "https://istmat.org/node/46988"
+        }
+      ],
+      "quote": {
+        "text": "Народное Правительство Монголии",
+        "translation": "蒙古人民政府；协定用以指称蒙古一方的当时政府。",
+        "sourceId": "RT2",
+        "locator": "前言、代表名单",
+        "url": "https://istmat.org/node/46988",
+        "kind": "primary_text"
+      },
+      "limitation": "1921年不能提前称蒙古人民共和国；政府互认、国家承认、边界划定及第三国主张分别处理。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY3",
+      "caseId": null,
+      "title": "塔奈斯社团铭文列至高神祭司与成员",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "博斯普鲁斯王国境内的塔奈斯社团"
+      ],
+      "placeId": "ry-tanais",
+      "placeLabel": "塔奈斯遗址（今俄罗斯境内）",
+      "placeRole": "铭文目录所列出土地的遗址区域参照",
+      "date": {
+        "value": "0225",
+        "precision": "year",
+        "sortYear": 225,
+        "display": "公元225年",
+        "original": "目录225 AD；第30行有博斯普鲁斯纪年，未另换具体月日",
+        "sourceIds": [
+          "RT3"
+        ]
+      },
+      "summary": "这块希腊文铭文以至高神为奉献对象，列出祭司、社团职员和成员，并保留纪年行。",
+      "people": [
+        {
+          "name": "Χόφρασμος（Khofrasmos）",
+          "role": "第3–4行所列祭司，父名Phorgabakos"
+        }
+      ],
+      "claims": [
+        {
+          "text": "铭文第2–5行出现至高神、祭司Khofrasmos及社团召集人等称谓，后续列成员姓名。",
+          "sourceId": "RT3",
+          "locator": "第2–5行及成员名单",
+          "url": "https://epigraphy.packhum.org/text/184021"
+        },
+        {
+          "text": "目录将铭文定位塔奈斯并断为公元225年，第30行仍存纪年。",
+          "sourceId": "RT3",
+          "locator": "目录；第30行",
+          "url": "https://epigraphy.packhum.org/text/184021"
+        },
+        {
+          "text": "考古所公开专著第117页图28明确题为至高神社团奉献铭文CIRB1279，提供原物图像对应。",
+          "sourceId": "RT20",
+          "locator": "第116–117页；图28",
+          "url": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Θεῷ Ὑψίστῳ ἐπηκόωι",
+        "translation": "献给垂听祈求的至高神；短摘保留奉献用语。",
+        "sourceId": "RT3",
+        "locator": "第2行",
+        "url": "https://epigraphy.packhum.org/text/184021",
+        "kind": "primary_text"
+      },
+      "limitation": "现代俄罗斯仅指遗址所在地；公元225年的塔奈斯不能称俄罗斯国家。希腊文含补字和残损，未凭单一神名判定全城信仰。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "CIRB 1279 / IosPE II 447 / PH184021",
+        "site": "Tanais",
+        "imageOrReportUrl": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf#page=117",
+        "datingMethod": "铭文纪年与语料库目录断为225 AD；所刊原石图28明确标CIRB1279",
+        "datingLimitation": "引用PHI释文，并有原物图像出处；未做照片逐字复校，具体月日未换算"
+      }
+    },
+    {
+      "id": "RY4",
+      "caseId": null,
+      "title": "诺夫哥罗德残存私人书信询问对方为何不来",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "诺夫哥罗德土地（古罗斯诸地之一）"
+      ],
+      "placeId": "ry-novgorod",
+      "placeLabel": "诺夫哥罗德",
+      "placeRole": "特罗伊茨基发掘区所在城市参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 1080,
+        "toYear": 1140,
+        "sortYear": 1080,
+        "display": "约1080—1140年（多种断代的包络）",
+        "original": "以并列断代的包络展示：目录暂定1100–1120（可能前移）；地层1080年代至1100年代，偏1080年代；非地层断代偏12世纪前40年（1101–1140）",
+        "sourceIds": [
+          "RT4"
+        ]
+      },
+      "summary": "第752号书信残片显示写信者抱怨对方未前来，并要求回复；开头的人名和若干关键句已经缺失。",
+      "people": [],
+      "claims": [
+        {
+          "text": "文书被著录为私人书信，出自特罗伊茨基发掘区K宅地，现存两段残片。",
+          "sourceId": "RT4",
+          "locator": "目录：地点、保存状态与体裁",
+          "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/"
+        },
+        {
+          "text": "可读文字谈到没有前来、像兄弟般对待及请求答复；作者、对象和完整情境不能确定。",
+          "sourceId": "RT4",
+          "locator": "原文初段、末段及俄译",
+          "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/"
+        }
+      ],
+      "quote": {
+        "text": "въспиши жь ми про",
+        "translation": "请写信回复我关于……；后文残缺，不补写具体事项。",
+        "sourceId": "RT4",
+        "locator": "末段释文",
+        "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/",
+        "kind": "primary_text"
+      },
+      "limitation": "1080–1140是三套断代的完整包络，并非每一年概率相同。原发掘层位与语言学断代不完全一致；未知人物留空。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "Новгород №752",
+        "site": "Троицкий раскоп，усадьба К",
+        "imageOrReportUrl": "https://gramoty.ru/birchbark/document/show/novgorod/752/",
+        "datingMethod": "地层与古文字/语言学综合断代；目录暂定1100–1120，地层偏1080年代，非地层偏12世纪前40年",
+        "datingLimitation": "以1080–1140包络并列意见，不用中点当事件年；目录未量化的进一步早移可能不另造边界"
+      }
+    },
+    {
+      "id": "RY5",
+      "caseId": null,
+      "title": "阿空加瓜文化陶鼓出现在比亚阿莱马纳墓葬材料中",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "阿空加瓜文化社群（无可核定单一政权名）"
+      ],
+      "placeId": "ry-villa-alemana",
+      "placeLabel": "比亚阿莱马纳地区",
+      "placeRole": "3015号器物记录的出土地区参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 1000,
+        "toYear": 1450,
+        "sortYear": 1000,
+        "display": "约1000—1450年",
+        "original": "馆藏著录：Cultura Aconcagua，Período Intermedio Tardío，1000–1450 d. C.",
+        "sourceIds": [
+          "RT5"
+        ]
+      },
+      "summary": "编号3015的陶制打击乐器带火烧痕迹；馆方将其断为1000—1450年，并记载它出自1984年被移除的两座墓葬。",
+      "people": [],
+      "claims": [
+        {
+          "text": "3015号被馆方著录为阿空加瓜文化陶鼓，长33厘米、直径17.3厘米，表面平滑并有受火痕迹。",
+          "sourceId": "RT5",
+          "locator": "Tamboril，Nº inv. 3015",
+          "url": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica"
+        },
+        {
+          "text": "馆方记载器物1984年发现于Villa Alemana两座墓的清理中，同出阿空加瓜陶与带Diaguita纹样陶。",
+          "sourceId": "RT5",
+          "locator": "3015号出土说明",
+          "url": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica"
+        }
+      ],
+      "quote": {
+        "text": "Instrumento de percusión de cerámica alisada, con huellas de exposición al fuego.",
+        "translation": "这是现代馆方说明：表面磨平的陶制打击乐器，带暴露于火的痕迹。",
+        "sourceId": "RT5",
+        "locator": "Tamboril，Nº inv. 3015",
+        "url": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica",
+        "kind": "catalog_description"
+      },
+      "limitation": "短引属于现代馆藏说明，不是古人的话语。宽断代完整保留，不借中点虚构某年事件；现代智利国家尚未存在。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "Museo de Historia Natural de Valparaíso，Nº inv.3015",
+        "site": "Villa Alemana，两座墓葬",
+        "imageOrReportUrl": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica",
+        "datingMethod": "馆方的文化类型与时期断代1000–1450",
+        "datingLimitation": "未给本器物独立碳测年；1984发现非制作年代"
+      }
+    },
+    {
+      "id": "RY6",
+      "caseId": null,
+      "title": "智利1925年宪法颁布并规定信仰自由",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "智利共和国"
+      ],
+      "placeId": "santiago",
+      "placeLabel": "圣地亚哥",
+      "placeRole": "颁布命令题首城市参照",
+      "date": {
+        "value": "1925-09-18",
+        "precision": "day",
+        "sortYear": 1925,
+        "display": "1925年9月18日 · 颁布",
+        "original": "Santiago, 18 de setiembre de 1925",
+        "sourceIds": [
+          "RT6"
+        ]
+      },
+      "summary": "原始宪法保障良心自由及不违反道德、风俗与公共秩序的宗教实践；颁布日与公投、后续施行阶段分开。",
+      "people": [
+        {
+          "name": "阿图罗·阿莱桑德里",
+          "role": "原文末署的共和国总统"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第10条第2项规定良心自由和宗教实践，并保留道德、风俗与公共秩序条件。",
+          "sourceId": "RT6",
+          "locator": "第10条第2项",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=131386&idVersion=1925-09-18"
+        },
+        {
+          "text": "第十过渡条规定宪法改革在公报公布后30天起施行，不能把颁布与施行当同一日期。",
+          "sourceId": "RT6",
+          "locator": "第十过渡条",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=131386&idVersion=1925-09-18"
+        }
+      ],
+      "quote": {
+        "text": "la libertad de conciencia y el ejercicio libre de todos los cultos",
+        "translation": "良心自由以及各种宗教的自由实践；须连同原条文限制条件理解。",
+        "sourceId": "RT6",
+        "locator": "第10条第2项",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=131386&idVersion=1925-09-18",
+        "kind": "primary_text"
+      },
+      "limitation": "只用1925原始版；不能把条文上的自由保障概括为此后全部政治时期均已实现，也不提前并入后来的修宪内容。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY7",
+      "caseId": null,
+      "title": "科尔多瓦学生宣言要求通过代表参与大学治理",
+      "regions": [
+        "阿根廷"
+      ],
+      "polities": [
+        "阿根廷共和国"
+      ],
+      "placeId": "ry-cordoba",
+      "placeLabel": "科尔多瓦",
+      "placeRole": "宣言发布大学所在城市参照",
+      "date": {
+        "value": "1918-06-21",
+        "precision": "day",
+        "sortYear": 1918,
+        "display": "1918年6月21日",
+        "original": "21 de junio de 1918",
+        "sourceIds": [
+          "RT7"
+        ]
+      },
+      "summary": "科尔多瓦大学生联合会批评封闭的教学与权威制度，要求承认学生通过代表表达自身意见并参与大学治理的能力。",
+      "people": [
+        {
+          "name": "恩里克·F.巴罗斯",
+          "role": "宣言署名者"
+        },
+        {
+          "name": "奥拉西奥·巴尔德斯",
+          "role": "宣言署名者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "宣言自称科尔多瓦大学生联合会文件，向南美洲自由的人们发出呼吁。",
+          "sourceId": "RT7",
+          "locator": "标题及末段",
+          "url": "https://www.unc.edu.ar/sobre-la-unc/manifiesto-liminar"
+        },
+        {
+          "text": "宣言要求大学共同体通过代表表达意见，并反对把大学治理视为教授自我延续的专有权威。",
+          "sourceId": "RT7",
+          "locator": "Nuestro régimen universitario；La juventud ya no pide 两段",
+          "url": "https://www.unc.edu.ar/sobre-la-unc/manifiesto-liminar"
+        }
+      ],
+      "quote": {
+        "text": "Los dolores que nos quedan son las libertades que nos faltan.",
+        "translation": "我们尚存的痛苦，是仍然缺少的自由；这是学生宣言的动员语言。",
+        "sourceId": "RT7",
+        "locator": "开头第一段",
+        "url": "https://www.unc.edu.ar/sobre-la-unc/manifiesto-liminar",
+        "kind": "primary_text"
+      },
+      "limitation": "仅将原文署名者列为人物；不凭后世惯称把未署名作者角色强加于原件。政策落实需另查大学法令与会议记录。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY8",
+      "caseId": null,
+      "title": "康熙命勒昭莫多碑文，回叙两年前对噶尔丹的战事",
+      "regions": [
+        "蒙古",
+        "中国"
+      ],
+      "polities": [
+        "清朝",
+        "准噶尔部噶尔丹势力（碑文回叙1696年）"
+      ],
+      "placeId": null,
+      "placeLabel": "1698年命勒碑文的行营地点待核",
+      "placeRole": "文书动作地点待核，仅在列表对读",
+      "date": {
+        "value": "1698",
+        "precision": "year",
+        "sortYear": 1698,
+        "display": "1698年 · 命勒碑文",
+        "original": "康熙三十七年戊寅，冬十月乙巳；此处标命勒时间，碑文中康熙三十五年为1696年回叙",
+        "sourceIds": [
+          "RT8"
+        ]
+      },
+      "summary": "实录在1698年条下记命勒昭莫多碑文；文中以胜利修辞回叙1696年清军与噶尔丹的战斗。",
+      "people": [
+        {
+          "name": "康熙帝",
+          "role": "命勒碑文的清朝皇帝，碑文称“御笔勒铭”"
+        },
+        {
+          "name": "噶尔丹",
+          "role": "碑文所述清军讨伐对象，称厄鲁特噶尔丹"
+        }
+      ],
+      "claims": [
+        {
+          "text": "此条位于康熙三十七年，命勒是1698年的文书动作；碑文本身以三十五年开头回叙战事。",
+          "sourceId": "RT8",
+          "locator": "卷189，冬十月乙巳命勒条",
+          "url": "https://zh.wikisource.org/zh-hant/康熙朝實錄/卷之一百八十九"
+        },
+        {
+          "text": "碑文点名昭莫多战地与噶尔丹，并以刻石颂功结束；其“尽歼”等用语属于清廷战功陈述。",
+          "sourceId": "RT8",
+          "locator": "命勒昭莫多碑文全文",
+          "url": "https://zh.wikisource.org/zh-hant/康熙朝實錄/卷之一百八十九"
+        }
+      ],
+      "quote": {
+        "text": "磨崖刻石、丕振武功",
+        "translation": "刻石纪功、弘扬武功；这是清廷的胜利纪念修辞。",
+        "sourceId": "RT8",
+        "locator": "昭莫多碑文末句",
+        "url": "https://zh.wikisource.org/zh-hant/康熙朝實錄/卷之一百八十九",
+        "kind": "primary_text"
+      },
+      "limitation": "不把1696年战事和1698年命勒合为同一天；未用现代宗莫德城市坐标冒充昭莫多战场或1698年行营。蒙古标签指回叙战区的现代地理入口。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "locationStatus": "unlocated",
+      "locationNote": "原文可辨昭莫多战区，未核1698年命勒时行营坐标；现代同名城市不能直接代作古战场。"
+    },
+    {
+      "id": "RY9",
+      "caseId": null,
+      "title": "联合国大会决定接纳蒙古人民共和国为会员国",
+      "regions": [
+        "蒙古"
+      ],
+      "polities": [
+        "蒙古人民共和国"
+      ],
+      "placeId": "rx-new-york",
+      "placeLabel": "纽约 · 联合国大会",
+      "placeRole": "决议通过会议所在城市参照",
+      "date": {
+        "value": "1961-10-27",
+        "precision": "day",
+        "sortYear": 1961,
+        "display": "1961年10月27日 · 入会决定",
+        "original": "1043rd plenary meeting, 27 October 1961",
+        "sourceIds": [
+          "RT9"
+        ]
+      },
+      "summary": "大会在收到10月25日安理会建议并审议申请后，决定接纳蒙古人民共和国为联合国会员国。",
+      "people": [],
+      "claims": [
+        {
+          "text": "决议的执行段决定接纳蒙古人民共和国为联合国会员国。",
+          "sourceId": "RT9",
+          "locator": "1630（XVI），执行段",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=A/RES/1630(XVI)&t=pdf"
+        },
+        {
+          "text": "序言所记安理会建议为10月25日，末署大会行动为10月27日，二者是不同阶段。",
+          "sourceId": "RT9",
+          "locator": "1630（XVI），序言及会议署日",
+          "url": "https://documents.un.org/api/symbol/access?l=en&s=A/RES/1630(XVI)&t=pdf"
+        }
+      ],
+      "quote": {
+        "text": "Decides to admit the Mongolian People's Republic to membership in the United Nations.",
+        "translation": "决定接纳蒙古人民共和国为联合国会员国。",
+        "sourceId": "RT9",
+        "locator": "1630（XVI），执行段",
+        "url": "https://documents.un.org/api/symbol/access?l=en&s=A/RES/1630(XVI)&t=pdf",
+        "kind": "primary_text"
+      },
+      "limitation": "入会决议证明联合国会员资格的此项决定，不是对蒙古独立起始日期或所有国家双边承认日期的统一裁定。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY10",
+      "caseId": null,
+      "title": "《往年纪事》980年条叙述罗格沃洛德统治波洛茨克",
+      "regions": [
+        "白俄罗斯"
+      ],
+      "polities": [
+        "波洛茨克的罗斯王公势力（编年史所述）"
+      ],
+      "placeId": "ry-polotsk",
+      "placeLabel": "波洛茨克",
+      "placeRole": "纪事点名的王公统治城市参照",
+      "date": {
+        "value": "0980",
+        "precision": "year",
+        "sortYear": 980,
+        "display": "纪事归于980年",
+        "original": "纪事6488（980）年条；使用校译本对照年，不称同时代记录",
+        "sourceIds": [
+          "RT10"
+        ]
+      },
+      "summary": "纪事称罗格沃洛德在波洛茨克掌权，并将罗格涅达写为其女；这是后世编纂的王朝婚姻与冲突叙事。",
+      "people": [
+        {
+          "name": "罗格沃洛德",
+          "role": "纪事所述在波洛茨克掌权者"
+        },
+        {
+          "name": "罗格涅达",
+          "role": "同段写为罗格沃洛德之女"
+        }
+      ],
+      "claims": [
+        {
+          "text": "6488年条将罗格沃洛德与波洛茨克的统治联系，并列其女罗格涅达。",
+          "sourceId": "RT10",
+          "locator": "6488（980）年条，Рогволод／Рогнеда段",
+          "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2"
+        }
+      ],
+      "quote": {
+        "text": "держал власть свою в Полоцке",
+        "translation": "在波洛茨克掌握其权力；引自现代俄译，不冒充10世纪原拼写。",
+        "sourceId": "RT10",
+        "locator": "6488（980）年条",
+        "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+        "kind": "primary_text"
+      },
+      "limitation": "白俄罗斯是波洛茨克所在地的现代地区入口；不把后世王朝叙事直接作为现代国家建国证明。980是年条的归年，不等于全部情节已有同时代独立核证。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY11",
+      "caseId": null,
+      "title": "《往年纪事》988年叙事记基辅的集体受洗",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "基辅罗斯王公势力"
+      ],
+      "placeId": "rx-kyiv",
+      "placeLabel": "基辅 · 第聂伯河",
+      "placeRole": "纪事明列受洗活动城市与河流的城市参照",
+      "date": {
+        "value": "0988",
+        "precision": "year",
+        "sortYear": 988,
+        "display": "纪事归于988年",
+        "original": "纪事6496（988）年条，返基辅毁偶像与受洗叙事；不换算具体日",
+        "sourceIds": [
+          "RT10"
+        ]
+      },
+      "summary": "纪事在988年叙事下写弗拉基米尔返基辅毁弃偶像，随后与教士前往第聂伯河并召集城市居民受洗。",
+      "people": [
+        {
+          "name": "弗拉基米尔",
+          "role": "纪事所述召集基辅居民并与教士前往河边的王公"
+        }
+      ],
+      "claims": [
+        {
+          "text": "此段明写基辅、毁偶像及第聂伯河受洗，将王公命令与宗教转变相连。",
+          "sourceId": "RT10",
+          "locator": "6496（988）年条，返基辅后次日到第聂伯河段",
+          "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2"
+        }
+      ],
+      "quote": {
+        "text": "вышел Владимир с попами",
+        "translation": "弗拉基米尔与教士走出；上下文地点为第聂伯河。",
+        "sourceId": "RT10",
+        "locator": "6496（988）年条，次日前往河边段",
+        "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+        "kind": "primary_text"
+      },
+      "limitation": "文本有赞颂基督教胜利的教会立场；不据此声称现代俄白乌全境于同一天完成宗教改变。此记录仅据具体基辅场景进入乌克兰。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY12",
+      "caseId": null,
+      "title": "《往年纪事》1051年条记雅罗斯拉夫任命伊拉里昂",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "基辅罗斯王公势力"
+      ],
+      "placeId": "rx-kyiv",
+      "placeLabel": "基辅 · 圣索菲亚教堂",
+      "placeRole": "纪事所述任命礼及伊拉里昂活动城市的城市参照",
+      "date": {
+        "value": "1051",
+        "precision": "year",
+        "sortYear": 1051,
+        "display": "纪事归于1051年",
+        "original": "纪事6559（1051）年条；使用校译本对照年",
+        "sourceIds": [
+          "RT10"
+        ]
+      },
+      "summary": "1051年条开头写雅罗斯拉夫召集主教，在圣索菲亚设置伊拉里昂为罗斯都主教；后文联系基辅附近教会活动。",
+      "people": [
+        {
+          "name": "雅罗斯拉夫",
+          "role": "纪事所述召集主教并作出任命的王公"
+        },
+        {
+          "name": "伊拉里昂",
+          "role": "此年条被任为罗斯都主教者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "6559年条开头将雅罗斯拉夫、伊拉里昂、主教集会与圣索菲亚联系。",
+          "sourceId": "RT10",
+          "locator": "6559（1051）年条开头及随后的伊拉里昂叙事",
+          "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2"
+        }
+      ],
+      "quote": {
+        "text": "Поставил Ярослав Илариона русским митрополитом",
+        "translation": "雅罗斯拉夫设置伊拉里昂为罗斯都主教；“罗斯”不等于现今俄罗斯国籍。",
+        "sourceId": "RT10",
+        "locator": "6559（1051）年条首句",
+        "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+        "kind": "primary_text"
+      },
+      "limitation": "本条仅陈述编年史的教职任命记载，不能由“罗斯都主教”反推现代三个国家的边界或宗教管辖。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY13",
+      "caseId": null,
+      "title": "《往年纪事》862年条保存招请王公与留里克的叙事",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "北方罗斯诸社群（编年史叙述）"
+      ],
+      "placeId": "ry-novgorod",
+      "placeLabel": "诺夫哥罗德",
+      "placeRole": "同一年条后续叙事中的留里克居留城市参照",
+      "date": {
+        "value": "0862",
+        "precision": "year",
+        "sortYear": 862,
+        "display": "纪事862年条（含后续回叙）",
+        "original": "纪事6370（862）年条；同条先叙拉多加，继称两年后留里克转往伊尔门及诺夫哥罗德，不能把后续动作全断为862",
+        "sourceIds": [
+          "RT10"
+        ]
+      },
+      "summary": "此年条把招请王公、留里克在拉多加居留及其后转往诺夫哥罗德串成起源叙事，须与后世编年框架一并阅读。",
+      "people": [
+        {
+          "name": "留里克",
+          "role": "编年史招请王公叙事中三兄弟的长兄，继而统治诺夫哥罗德"
+        }
+      ],
+      "claims": [
+        {
+          "text": "6370年条先称留里克居于拉多加，随后叙两兄弟去世及他转至诺夫哥罗德。",
+          "sourceId": "RT10",
+          "locator": "6370（862）年条，三兄弟与留里克后续段",
+          "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2"
+        }
+      ],
+      "quote": {
+        "text": "Поищем сами себе князя",
+        "translation": "让我们为自己寻找一位王公；引自纪事安排的对话。",
+        "sourceId": "RT10",
+        "locator": "6370（862）年条开头",
+        "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+        "kind": "primary_text"
+      },
+      "limitation": "不能称862年为已被同时代原件证明的俄罗斯建国日。地图使用年条后续叙事明确出现的诺夫哥罗德，而不声称招请发生在该城；现代地区入口限俄罗斯。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY14",
+      "caseId": null,
+      "title": "欧芙罗西涅十字架铭文记奉献者与工匠拉扎尔·博格沙",
+      "regions": [
+        "白俄罗斯"
+      ],
+      "polities": [
+        "波洛茨克公国"
+      ],
+      "placeId": "ry-polotsk",
+      "placeLabel": "波洛茨克 · 救世主修道院",
+      "placeRole": "铭文所述受献教堂及历史所在地的城市参照",
+      "date": {
+        "value": "1161",
+        "precision": "year",
+        "sortYear": 1161,
+        "display": "1161年",
+        "original": "奉献铭文6669年；数据库据铭文纪年及古文字核为1161年",
+        "sourceIds": [
+          "RT11"
+        ]
+      },
+      "summary": "奉献铭文将十字架与欧芙罗西涅及救世主教堂联系，并禁止转移；另一铭文为工匠拉扎尔、别号博格沙祈求帮助。",
+      "people": [
+        {
+          "name": "欧芙罗西涅",
+          "role": "奉献铭文所记将十字架置于救世主教堂的人"
+        },
+        {
+          "name": "拉扎尔·博格沙",
+          "role": "工匠铭文称为制作此十字架者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "奉献铭文标6669年，陈述欧芙罗西涅将十字架置于救世主教堂，并限制移走、出售等处分。",
+          "sourceId": "RT11",
+          "locator": "ID961，奉献铭文及译文",
+          "url": "https://epigrafika.ru/epigraphy/inscription/show/961"
+        },
+        {
+          "text": "工匠铭文将拉扎尔、别号博格沙写为十字架制作者。",
+          "sourceId": "RT12",
+          "locator": "ID969，工匠铭文及现代俄译",
+          "url": "https://epigrafika.ru/epigraphy/inscription/show/969"
+        }
+      ],
+      "quote": {
+        "text": "Лазарю по прозвищу Богша",
+        "translation": "拉扎尔，别号博格沙；这是数据库对铭文的现代俄译。",
+        "sourceId": "RT12",
+        "locator": "ID969，Перевод",
+        "url": "https://epigrafika.ru/epigraphy/inscription/show/969",
+        "kind": "primary_text"
+      },
+      "limitation": "原件现下落不明；依据研究数据库保存的旧照出处与校释，不冒称现场看过原件。现代白俄罗斯地理入口不等于12世纪国家名称。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "欧芙罗西涅十字架铭文，epigrafika IDs961、969；Рыбаков 1964 №27",
+        "site": "波洛茨克救世主—欧芙罗西涅修道院",
+        "imageOrReportUrl": "https://epigrafika.ru/epigraphy/inscription/show/969",
+        "datingMethod": "奉献铭文6669年与古文字研究相互核证，目录1161年",
+        "datingLimitation": "原物失踪，传承依赖旧照片与释文；非1997年复制品"
+      }
+    },
+    {
+      "id": "RY15",
+      "caseId": null,
+      "title": "布列斯特圣经原刊目录保留1563年的波兰语译本信息",
+      "regions": [
+        "白俄罗斯"
+      ],
+      "polities": [
+        "立陶宛大公国（与波兰处联合君主关系）"
+      ],
+      "placeId": "ry-brest",
+      "placeLabel": "布列斯特（当时称Brześć Litewski）",
+      "placeRole": "原刊目录明列的出版城市参照",
+      "date": {
+        "value": "1563",
+        "precision": "year",
+        "sortYear": 1563,
+        "display": "1563年 · 原刊",
+        "original": "原刊目录：Wydane 1563；不采用机器占位日期1563-01-01",
+        "sourceIds": [
+          "RT13"
+        ]
+      },
+      "summary": "科尔尼克图书馆数字化的Cim.F.4057著录1563年在布列斯特发行的波兰语圣经新约部分，并列米科瓦伊·拉齐维乌“黑”为出版者。",
+      "people": [
+        {
+          "name": "米科瓦伊·拉齐维乌“黑”",
+          "role": "目录所列出版者；此处不扩写为全部翻译的作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "此数字原刊目录列1563年、Brześć Litewski及馆藏号Cim.F.4057。",
+          "sourceId": "RT13",
+          "locator": "Wydane、Miejsce wydania、Sygnatura",
+          "url": "https://www.wbc.poznan.pl/dlibra/publication/1686/edition/2746?language=pl"
+        },
+        {
+          "text": "题名说明新译为波兰语；目录的Wydawca栏列Radziwiłł Mikołaj “Czarny”。",
+          "sourceId": "RT13",
+          "locator": "Tytuł及Wydawca",
+          "url": "https://www.wbc.poznan.pl/dlibra/publication/1686/edition/2746?language=pl"
+        }
+      ],
+      "quote": {
+        "text": "nowo na Polski ięzyk",
+        "translation": "新译为波兰语；取自馆藏目录转录的原刊题名。",
+        "sourceId": "RT13",
+        "locator": "Tytuł",
+        "url": "https://www.wbc.poznan.pl/dlibra/publication/1686/edition/2746?language=pl",
+        "kind": "catalog_description"
+      },
+      "limitation": "未把1563年的立陶宛大公国提前称为1569年以后成立的波兰立陶宛联邦；语言、出版地和现代国界分别陈述。原刊数字图像尚未逐页校读。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "PAN Biblioteka Kórnicka，Cim.F.4057；WBC edition2746",
+        "site": "Brześć Litewski（原刊出版地）",
+        "imageOrReportUrl": "https://www.wbc.poznan.pl/dlibra/publication/1686/edition/2746?language=pl",
+        "datingMethod": "原刊出版年与馆藏著录1563",
+        "datingLimitation": "仅核年；机器元数据1月1日占位不作日级事件日期"
+      }
+    },
+    {
+      "id": "RY16",
+      "caseId": null,
+      "title": "特伦珀土丘水獭形烟斗保留动物造型与修复记录",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "霍普韦尔文化社群（现代考古分类，无可核单一政权）"
+      ],
+      "placeId": "ry-tremper",
+      "placeLabel": "特伦珀土丘 · 俄亥俄州",
+      "placeRole": "博物馆说明列出的考古出土地点区域参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 100,
+        "toYear": 400,
+        "sortYear": 100,
+        "display": "约公元100—400年",
+        "original": "器物目录明确100–400 A.D.；不使用概括整个Hopewell文化的前100—500年以免裁剪原范围",
+        "sourceIds": [
+          "RT14"
+        ]
+      },
+      "summary": "馆藏水獭造型烟斗出自特伦珀土丘，动物口含鱼、尾巴伸至台座；现件部分烟钵与台座边缘经过修复。",
+      "people": [],
+      "claims": [
+        {
+          "text": "供稿机构将此器物断为公元100–400年，出土地点为朴次茅斯以北约5英里的Tremper Mound。",
+          "sourceId": "RT14",
+          "locator": "标题下断代；正文出土说明",
+          "url": "https://artsandculture.google.com/asset/otter-effigy-pipe/8gF6uz9U0K9JhA?hl=en"
+        },
+        {
+          "text": "说明记录口含鱼的水獭造型、Ohio pipestone材质及烟钵左部、台座边缘修复。",
+          "sourceId": "RT14",
+          "locator": "正文形态、材质与修复段",
+          "url": "https://artsandculture.google.com/asset/otter-effigy-pipe/8gF6uz9U0K9JhA?hl=en"
+        }
+      ],
+      "quote": {
+        "text": "The otter is shown standing with a fish in mouth and its tail extended on the platform.",
+        "translation": "现代馆方说明：水獭站立，口中有鱼，尾巴延伸到台座上。",
+        "sourceId": "RT14",
+        "locator": "正文第一段",
+        "url": "https://artsandculture.google.com/asset/otter-effigy-pipe/8gF6uz9U0K9JhA?hl=en",
+        "kind": "catalog_description"
+      },
+      "limitation": "没有古代作者或统治者的可核人名，人物留空；采用器物自身100–400年著录，未把后来的美国国家名倒置为古代政权。断代未附该器物直接碳测年。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "Ohio Memory数字记录p267401coll32/id/10081；Otter Effigy Pipe",
+        "site": "Tremper Mound，Scioto County，Ohio",
+        "imageOrReportUrl": "https://artsandculture.google.com/asset/otter-effigy-pipe/8gF6uz9U0K9JhA?hl=en",
+        "datingMethod": "供稿博物馆器物著录100–400 A.D.；该页未说明具体测年方法",
+        "datingLimitation": "不能冒称本件已有直接碳测年；部分结构已修复，制作者未知"
+      }
+    },
+    {
+      "id": "RY17",
+      "caseId": null,
+      "title": "米姆布雷斯陶碗馆藏记录保留跨世纪断代与地理归属",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "米姆布雷斯文化社群（现代考古分类，无可核单一政权）"
+      ],
+      "placeId": null,
+      "placeLabel": "今新墨西哥州（具体制作或出土点未著录）",
+      "placeRole": "原文未定位活动地点，仅在列表对读",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 901,
+        "toYear": 1200,
+        "sortYear": 901,
+        "display": "约10—12世纪（901—1200年）",
+        "original": "器物1978.412.120的馆方断代10th–12th century，完整展开为901–1200；不把世纪中点冒充制作年",
+        "sourceIds": [
+          "RT15"
+        ]
+      },
+      "summary": "编号1978.412.120的陶碗被馆方归于米姆布雷斯文化、10—12世纪和今新墨西哥地区；器物号、材质与开放照片相互对应。",
+      "people": [],
+      "claims": [
+        {
+          "text": "馆方著录文化为Mimbres，编号1978.412.120，年代10—12世纪。",
+          "sourceId": "RT15",
+          "locator": "Culture、Date、Object Number",
+          "url": "https://www.metmuseum.org/art/collection/search/310572"
+        },
+        {
+          "text": "材质栏为陶与颜料，地理归属仅到今新墨西哥；页面提供这件器物的开放图像。",
+          "sourceId": "RT15",
+          "locator": "Geography、Medium及图像链接",
+          "url": "https://www.metmuseum.org/art/collection/search/310572"
+        }
+      ],
+      "quote": {
+        "text": "United States, New Mexico",
+        "translation": "现代馆方地理归属：美国、新墨西哥；不是对古代主权的陈述。",
+        "sourceId": "RT15",
+        "locator": "Geography",
+        "url": "https://www.metmuseum.org/art/collection/search/310572",
+        "kind": "catalog_description"
+      },
+      "limitation": "人物未知，留空；未把现藏纽约作为古代制作地。世纪范围完整保留，未凭文化名称推定单一政权；原文未给具体出土点或本件直接测年。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "locationStatus": "unlocated",
+      "locationNote": "馆藏页仅标今New Mexico，未明具体出土遗址或制作地点；不把现藏纽约标作古代活动地点。",
+      "artifact": {
+        "identifier": "The Metropolitan Museum of Art，1978.412.120；object310572",
+        "site": "馆方仅著录New Mexico，具体遗址未明",
+        "imageOrReportUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310572/675560/main-image",
+        "datingMethod": "馆方目录断为10th–12th century，世纪区间展开为901–1200；页面未说明独立测年方法",
+        "datingLimitation": "不能冒称本件已有直接碳测年；未给明确考古层位或出土点"
+      }
+    },
+    {
+      "id": "RY18",
+      "caseId": null,
+      "title": "米切尔遗址木柱的新测年保留两组伐木候选年",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "卡霍基亚区域的密西西比文化社群（Mitchell礼仪中心）"
+      ],
+      "placeId": "ry-mitchell-site",
+      "placeLabel": "米切尔考古遗址 · 伊利诺伊州",
+      "placeRole": "原研究木柱出土遗址的区域参照",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 1122,
+        "toYear": 1132,
+        "sortYear": 1122,
+        "display": "约1122—1132年（候选年包络）",
+        "original": "原报告：最佳树轮匹配1124；统计上不能排除1122–1126及1129–1132。以两段完整包络1122–1132展示，不称1127/1128同受支持",
+        "sourceIds": [
+          "RT16"
+        ]
+      },
+      "summary": "研究对1961年发现的Mitchell Log逐轮测定放射性碳并匹配993/994年宇宙射线事件，将伐木候选保留为1122—1126及1129—1132年。",
+      "people": [],
+      "claims": [
+        {
+          "text": "研究对象为Mitchell遗址中央广场出土的木柱残段，约3.5米长，发现时间为1961年。",
+          "sourceId": "RT16",
+          "locator": "Introduction；图1及对象说明",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333783"
+        },
+        {
+          "text": "结果最佳匹配1124年，但1122–1126与1129–1132在统计上不能被排除；两区间应完整呈现。",
+          "sourceId": "RT16",
+          "locator": "Results，cutting dates及χ²检验段",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333783"
+        }
+      ],
+      "quote": {
+        "text": "cutting dates ranging from 1122–1126 and 1129–1132 cannot be ruled out statistically.",
+        "translation": "现代研究结论：统计上不能排除1122—1126及1129—1132年这些伐木候选。",
+        "sourceId": "RT16",
+        "locator": "Results，年轮14C匹配及伐木年段",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333783",
+        "kind": "research_report"
+      },
+      "limitation": "此断代用于木材被砍伐的候选年，不将1961年的发现日倒置为古代事件。1122–1132是显示包络，不是连续每年具有相同支持；原研究作者不列为12世纪人物。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false,
+      "artifact": {
+        "identifier": "Mitchell Log；Mitchell site，Illinois；DOI10.1371/journal.pone.0333783",
+        "site": "Mitchell遗址，卡霍基亚核心以北约10公里",
+        "imageOrReportUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333783",
+        "datingMethod": "逐年树轮14C、993/994太阳粒子事件匹配及χ²比较；最佳1124",
+        "datingLimitation": "统计上不能排除1122–1126和1129–1132；包络不是相同概率的连续区间"
+      }
+    },
+    {
+      "id": "RY19",
+      "caseId": null,
+      "title": "罗斯福首次就职演说把克服恐惧作为政治动员",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "美利坚合众国"
+      ],
+      "placeId": "washington",
+      "placeLabel": "华盛顿 · 国会大厦东门廊",
+      "placeRole": "官方仪式记录明列的演说地点城市参照",
+      "date": {
+        "value": "1933-03-04",
+        "precision": "day",
+        "sortYear": 1933,
+        "display": "1933年3月4日",
+        "original": "March 4, 1933；East Portico, U.S. Capitol, Washington, DC",
+        "sourceIds": [
+          "RT17"
+        ]
+      },
+      "summary": "罗斯福在首次就职演说开头以克服恐惧为主题，要求公众以理解与支持响应领导，在危机中从退却转为前进。",
+      "people": [
+        {
+          "name": "富兰克林·D.罗斯福",
+          "role": "官方仪式记录所列就职总统与演说者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "官方记录将第37次就职典礼定位1933年3月4日、华盛顿国会大厦东门廊。",
+          "sourceId": "RT17",
+          "locator": "Date及Location",
+          "url": "https://www.inaugural.senate.gov/37th-inaugural-ceremonies/"
+        },
+        {
+          "text": "所刊开头批评使努力瘫痪的恐惧，并表达对人民支持领导的期待。",
+          "sourceId": "RT17",
+          "locator": "INAUGURAL ADDRESS，开头段",
+          "url": "https://www.inaugural.senate.gov/37th-inaugural-ceremonies/"
+        }
+      ],
+      "quote": {
+        "text": "the only thing we have to fear is fear itself",
+        "translation": "我们唯一必须恐惧的是恐惧本身；演说用以动员公众。",
+        "sourceId": "RT17",
+        "locator": "INAUGURAL ADDRESS，开头段",
+        "url": "https://www.inaugural.senate.gov/37th-inaugural-ceremonies/",
+        "kind": "primary_text"
+      },
+      "limitation": "演说与后来的法案、行政措施及经济效果是不同证据层次；不据此单段声称大萧条已经结束。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY20",
+      "caseId": null,
+      "title": "巴尔迪维亚致查理五世书信自述发现与殖民企图",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "西班牙王权下的智利殖民征服势力（Nueva Estremadura）"
+      ],
+      "placeId": "ry-la-serena",
+      "placeLabel": "拉塞雷纳",
+      "placeRole": "书信题首原署发信城市参照",
+      "date": {
+        "value": "1545",
+        "precision": "year",
+        "sortYear": 1545,
+        "display": "1545年（原署9月4日）",
+        "original": "La Serena, 4 septiembre de 1545；未核儒略历到公历换算，只采用1545年",
+        "sourceIds": [
+          "RT18"
+        ]
+      },
+      "summary": "巴尔迪维亚从拉塞雷纳写给皇帝，陈述为王权发现与殖民土地的愿望，并以有利居住的土地形象争取支持。",
+      "people": [
+        {
+          "name": "佩德罗·德·巴尔迪维亚",
+          "role": "书信发信者及征服、移民行动的自述者"
+        },
+        {
+          "name": "查理五世",
+          "role": "题名所列书信收件皇帝"
+        }
+      ],
+      "claims": [
+        {
+          "text": "扫描题首写发信地La Serena、收件皇帝Carlos V及1545年原署日期。",
+          "sourceId": "RT18",
+          "locator": "扫描第0页／印页26，题首",
+          "url": "https://www.memoriachilena.cl/archivos2/pdfs/MC0000801.pdf"
+        },
+        {
+          "text": "第40页自述愿为君主发现、殖民土地；第43页赞语是殖民领袖向王权呈报的立场。",
+          "sourceId": "RT18",
+          "locator": "印页40、43／扫描第14、17页",
+          "url": "https://www.memoriachilena.cl/archivos2/pdfs/MC0000801.pdf"
+        }
+      ],
+      "quote": {
+        "text": "no deseo sino descobrir y poblar tierras a vuestra Majestad",
+        "translation": "我只愿为陛下发现并殖民土地；保留原刊旧拼写descobrir。",
+        "sourceId": "RT18",
+        "locator": "印页40／扫描第14页",
+        "url": "https://www.memoriachilena.cl/archivos2/pdfs/MC0000801.pdf",
+        "kind": "primary_text"
+      },
+      "limitation": "不将西班牙征服者的宣传语当作当地原住民声音，也不以“发现”抹除此前居民。1545年不提前赋予未经本信核定的王室正式总督任命日期。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RY21",
+      "caseId": null,
+      "title": "奥尔雷克契约规定议事程序并保护基辅等城市权利",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "扎波罗热军（流亡酋长与长老的契约安排）"
+      ],
+      "placeId": "rx-kyiv",
+      "placeLabel": "基辅（第13条明列城市）",
+      "placeRole": "条文明列的受保护城市，非文书签署地",
+      "date": {
+        "value": "1710",
+        "precision": "year",
+        "sortYear": 1710,
+        "display": "1710年",
+        "original": "文书原署1710年4月5日；未核儒略历/公历换算，只用年；本刊交代在本德尔附近订立",
+        "sourceIds": [
+          "RT19"
+        ]
+      },
+      "summary": "契约要求酋长与军政长老等共同议事，规定年度会议，并确认基辅及其他有市政机构的城市应保有既得权利与特许。",
+      "people": [
+        {
+          "name": "皮利普·奥尔雷克",
+          "role": "原件署名、新选出的扎波罗热军酋长"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第6条要求在公共事务中与议事者协商，并安排每年圣诞、复活节及圣母庇护节三次议会。",
+          "sourceId": "RT19",
+          "locator": "第6条，印页160–161／扫描第15–16页",
+          "url": "https://old.archives.gov.ua/Publicat/AU/AU_3_4_2010/14.pdf"
+        },
+        {
+          "text": "第13条明列首府基辅及其他乌克兰城市的市政机构，并确认合法赋予的权利和特许应保持。",
+          "sourceId": "RT19",
+          "locator": "第13条，印页164／扫描第19页",
+          "url": "https://old.archives.gov.ua/Publicat/AU/AU_3_4_2010/14.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Городъ столεчный Кіεвъ",
+        "translation": "首府基辅；取自旧乌克兰语释文，保留ε与旧拼写。",
+        "sourceId": "RT19",
+        "locator": "第13条，印页164",
+        "url": "https://old.archives.gov.ua/Publicat/AU/AU_3_4_2010/14.pdf",
+        "kind": "primary_text"
+      },
+      "limitation": "这是流亡政治共同体的契约与未来安排，不能据条文声称签署者当时实际统治基辅或所有条款已实施。地图点是第13条对象，不是本德尔签署地点；不称“世界第一部宪法”。",
+      "parties": [],
+      "aliases": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "MY1",
+      "caseId": null,
+      "title": "《后汉书》把张衡造候风地动仪系于阳嘉元年",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "my-luoyang",
+      "placeLabel": "京师（洛阳城市参照）",
+      "placeRole": "传记中朝廷与后续仪器故事的京师参照，不称制作工场已定位",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 132,
+        "display": "约132年 · 阳嘉元年",
+        "original": "阳嘉元年；机构年号表对应132年，未核完整农历年界。原文后接“尝一龙机发”并未另署日期，不能把验证故事也定在132年。",
+        "sourceIds": [
+          "MT1",
+          "MT5"
+        ]
+      },
+      "summary": "传记描述器物形制与报告地动方向的用途；造仪的署年与后面无署年的故事分别保存。",
+      "people": [
+        {
+          "name": "张衡",
+          "role": "传记所述造仪者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "“阳嘉元年”只直接修饰“复造候风地动仪”，是此条的原始署年依据。",
+          "sourceId": "MT1",
+          "locator": "阳嘉元年造仪段首",
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷59"
+        },
+        {
+          "text": "后续故事称京师未觉而数日后陇西驿报，但原文用“尝”引起，未给发生年份。",
+          "sourceId": "MT1",
+          "locator": "“尝一龙机发”至“地动陇西”",
+          "url": "https://zh.wikisource.org/zh-hant/後漢書/卷59"
+        }
+      ],
+      "quote": {
+        "text": "陽嘉元年，復造候風地動儀",
+        "translation": "在阳嘉元年，又制作候风地动仪；这里不将后叙故事也绑定为同年。",
+        "sourceId": "MT1",
+        "locator": "造仪段首",
+        "url": "https://zh.wikisource.org/zh-hant/後漢書/卷59",
+        "kind": "primary_text"
+      },
+      "limitation": "材料是约三世纪后编成的传记文字；仪器原物、机械结构和现代复原性能未检验。地图不能据故事标绘已知震中或精确作坊。",
+      "polities": [
+        "东汉"
+      ],
+      "aliases": [
+        "张衡",
+        "地动仪",
+        "陽嘉"
+      ]
+    },
+    {
+      "id": "MY2",
+      "caseId": null,
+      "title": "沈括在《梦溪笔谈》中记毕昇的胶泥活板方法",
+      "regions": [
+        "中国"
+      ],
+      "placeId": null,
+      "placeLabel": "未定位（原段未给毕昇活动地点）",
+      "placeRole": "不以作者晚年居地或毕昇后世籍贯代替技术活动地点",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "sortYear": 1041,
+        "fromYear": 1041,
+        "toYear": 1048,
+        "display": "约1041—1048年 · 庆历中",
+        "original": "原文“庆历中”；按机构年号表保留1041—1048的通行纪年范围，不取1045等中点。未核年号农历年界，范围为近似纪年对照。",
+        "sourceIds": [
+          "MT2",
+          "MT5"
+        ]
+      },
+      "summary": "笔记叙述胶泥刻字、火烧、铁板排字与两板交替，且将少量与大量印刷的便利程度区分。",
+      "people": [
+        {
+          "name": "毕昇",
+          "role": "笔记点名的布衣及活板制作者"
+        },
+        {
+          "name": "沈括",
+          "role": "记述方法与字印流传的笔记作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "原文只给“庆历中”这一时段，称毕昇用胶泥刻字，每字为一印，火烧令坚。",
+          "sourceId": "MT2",
+          "locator": "卷十八，庆历中段",
+          "url": "https://zh.wikisource.org/wiki/夢溪筆談_(四庫全書本)/卷18"
+        },
+        {
+          "text": "作者描述常用两块铁板交替排印，并把少量与数十百千本的便利程度作区分；这是作者对方法的陈述，不是市场产量统计。",
+          "sourceId": "MT2",
+          "locator": "“若止印三二本”至“第二板已具”",
+          "url": "https://zh.wikisource.org/wiki/夢溪筆談_(四庫全書本)/卷18"
+        }
+      ],
+      "quote": {
+        "text": "慶厯中有布衣畢昇又為活板",
+        "translation": "庆历年间，有平民毕昇又制作活板；原句没有具体年份。",
+        "sourceId": "MT2",
+        "locator": "卷十八活板段起首",
+        "url": "https://zh.wikisource.org/wiki/夢溪筆談_(四庫全書本)/卷18",
+        "kind": "primary_text"
+      },
+      "limitation": "书中方法描述不等于已取得毕昇字印实物，也不能据其回忆判定世界范围的发明先后。断代保持整个年号范围，活动地点暂缺。",
+      "polities": [
+        "北宋"
+      ],
+      "aliases": [
+        "毕昇",
+        "毕升",
+        "沈括",
+        "活字印刷",
+        "胶泥"
+      ],
+      "locationStatus": "unlocated",
+      "locationNote": "原段未记技术活动地点；暂不放地图点，仍可在时间与中国对读列表查阅。"
+    },
+    {
+      "id": "MY3",
+      "caseId": null,
+      "title": "宋应星在《天工开物》自序中说明篇目排序与写作定位",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "my-fengxin",
+      "placeLabel": "奉新（作者署名地名参照）",
+      "placeRole": "只据文末“奉新宋应星”参照地名，不证明写作或刊印地",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1637,
+        "display": "约1637年 · 崇祯丁丑孟夏",
+        "original": "自序末署“崇祯丁丑孟夏月”；丁丑对应1637年，只作排序参照，未换算具体月份或日期。",
+        "sourceIds": [
+          "MT3"
+        ]
+      },
+      "summary": "自序用“贵五谷而贱金玉”解释篇目次序，并自称本书与功名进取无关，呈现作者如何组织与定位技术知识。",
+      "people": [
+        {
+          "name": "宋应星",
+          "role": "自序署名作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "自序明确说卷分前后出于“贵五谷而贱金玉之义”。",
+          "sourceId": "MT3",
+          "locator": "“卷分前后”句",
+          "url": "https://zh.wikisource.org/zh/天工開物/自序"
+        },
+        {
+          "text": "篇末将本书与功名进取分开，并署崇祯丁丑孟夏、奉新宋应星。",
+          "sourceId": "MT3",
+          "locator": "末段与署名纪年",
+          "url": "https://zh.wikisource.org/zh/天工開物/自序"
+        }
+      ],
+      "quote": {
+        "text": "此書于功名進取毫不相關也",
+        "translation": "本书与追求功名的进取之途无关；这是作者对写作定位的自述。",
+        "sourceId": "MT3",
+        "locator": "自序末段",
+        "url": "https://zh.wikisource.org/zh/天工開物/自序",
+        "kind": "primary_text"
+      },
+      "limitation": "本条记录自序的知识秩序与署名；不以一篇自序证明当时中国全部生产技术、读者规模或其后传播影响。未核初刊原叶。",
+      "polities": [
+        "明朝"
+      ],
+      "aliases": [
+        "宋应星",
+        "天工开物",
+        "崇祯丁丑"
+      ]
+    },
+    {
+      "id": "MY4",
+      "caseId": null,
+      "title": "868年《金刚经》印本题记称王玠为二亲敬造普施",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "my-mogao",
+      "placeLabel": "敦煌莫高窟（藏经洞发现地参照）",
+      "placeRole": "现存印本的发现来源参照，非原文署写或印刷地点",
+      "date": {
+        "value": "0868",
+        "precision": "year",
+        "sortYear": 868,
+        "display": "868年 · 咸通九年",
+        "original": "原卷“咸通九年四月十五日”；馆方对应11 May 868，但该西历日制本轮未核，故只采用868年，不录未经核定的公历日。",
+        "sourceIds": [
+          "MT4"
+        ]
+      },
+      "summary": "题记保留纪年、具名奉造者和为父母普施的目的，可以把印本实物、宗教奉造和文字传播联系起来阅读。",
+      "people": [
+        {
+          "name": "王玠",
+          "role": "题记所记为二亲敬造普施者，不据此称刻工或印工"
+        }
+      ],
+      "claims": [
+        {
+          "text": "原卷局部题记可直接读出“咸通九年四月十五日王玠为二亲敬造普施”。",
+          "sourceId": "MT4",
+          "locator": "原卷局部照片末署一行",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/"
+        },
+        {
+          "text": "馆方将该卷编号为Or.8210/P.2，并将来源置于敦煌藏经洞；发现地与868年印刷地分开。",
+          "sourceId": "MT4",
+          "locator": "The Diamond Sūtra说明及题记英译",
+          "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/"
+        }
+      ],
+      "quote": {
+        "text": "王玠為二親敬造普施",
+        "translation": "王玠为双亲恭敬奉造，供普遍施送；只把题记具名者的身份解释到奉造者。",
+        "sourceId": "MT4",
+        "locator": "原卷局部末署",
+        "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+        "kind": "primary_text"
+      },
+      "limitation": "本条已核原卷题记照片与馆方完整英译，补上旧题记缺口；印刷作坊、工匠身份与原历日到公历的换算仍未核定，不用“有纪年印本”推导印刷术发明年份。",
+      "polities": [
+        "唐朝"
+      ],
+      "aliases": [
+        "王玠",
+        "金刚经",
+        "咸通九年",
+        "Or.8210/P.2",
+        "敦煌"
+      ]
     }
   ],
   "places": [
@@ -4913,7 +9027,7 @@
     },
     {
       "id": "edo-bay",
-      "label": "江户湾 · 小柴近海",
+      "label": "东京湾／江户湾（海域参照）",
       "coordinates": [
         139.8595,
         35.4815
@@ -4927,7 +9041,7 @@
       ],
       "coordinateSource": "https://www.marineregions.org/gazetteer.php?p=details&id=9086",
       "coordinateLabel": "Marine Regions地名录 · Tokyo Bay，MRGID9086",
-      "note": "以现代东京湾地名录的海域参照点与范围示意。史料指小柴近海军舰上，军舰确切锚位未核；示意环不是实测精度或历史岸线。",
+      "note": "现代海域参照点，来自东京湾地理记录；1858年小柴近海与1945年东京湾记录各自保留地点角色，不表示两次船舰锚地相同或已经测定。",
       "shortLabel": "江户湾"
     },
     {
@@ -5505,6 +9619,378 @@
       "coordinateSource": "https://www.wikidata.org/wiki/Q60",
       "coordinateLabel": "Wikidata Q60 · 城市坐标 40°42′46″N 74°0′22″W",
       "note": "作为收函机构联合国秘书处所在城市的参照，不表示信函在纽约签署，也不以城市主点代表联合国建筑。"
+    },
+    {
+      "id": "ay-asuka",
+      "label": "飞鸟 · 明日香村参照",
+      "coordinates": [
+        135.820722,
+        34.471306
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Asuka,_Nara",
+      "coordinateLabel": "已打开明日香村条目的现代村落坐标",
+      "note": "只取飞鸟地区的现代村落参照点，不表示小垦田宫宫址；政权地点关联据《日本书纪》推古十一年迁宫的上下文。"
+    },
+    {
+      "id": "ay-delhi",
+      "label": "德里 · 新德里城市参照",
+      "coordinates": [
+        77.1323165071,
+        28.6566562885
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://ungegn.un.org/dashboard/cities/details?id=100",
+      "coordinateLabel": "UNGEGN · New Delhi城市地名录",
+      "note": "现代都会城市参照，坐标源名称为New Delhi；不表示中古德里城界、总督府建筑或甘地写信地点。"
+    },
+    {
+      "id": "ay-gyeongju",
+      "label": "庆州 · 新罗王都地区参照",
+      "coordinates": [
+        129.217,
+        35.85
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Gyeongju",
+      "coordinateLabel": "已打开庆州条目的现代城市坐标",
+      "note": "现代庆州城市参照，不表示国学建筑位置，也不回投现代国界。"
+    },
+    {
+      "id": "ay-kaifeng",
+      "label": "开封 · 北宋东京城市参照",
+      "coordinates": [
+        114.345,
+        34.795
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Kaifeng",
+      "coordinateLabel": "已打开开封条目的现代城市坐标",
+      "note": "城市参照，不表示制置三司条例司或皇宫建筑位置。"
+    },
+    {
+      "id": "ay-cairo",
+      "label": "开罗 · 会议城市参照",
+      "coordinates": [
+        31.23583,
+        30.04444
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Cairo",
+      "coordinateLabel": "已打开开罗条目的现代城市坐标",
+      "note": "会议城市参照；不表示公报在此发布或存在签字仪式。"
+    },
+    {
+      "id": "ay-angkor-borei",
+      "label": "吴哥波雷 · 现代乡镇参照",
+      "coordinates": [
+        104.9749,
+        10.9968
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Angkor_Borei_Commune",
+      "coordinateLabel": "已打开Angkor Borei Commune条目坐标",
+      "note": "K600出土地区参照，不是吴哥城，不等于石座发现点。"
+    },
+    {
+      "id": "ay-vatphou",
+      "label": "Vat Phou · 占巴塞文化景观参照",
+      "coordinates": [
+        105.8222222222,
+        14.8483333333
+      ],
+      "precision": "site_reference",
+      "coordinateSource": "https://whc.unesco.org/en/list/481/maps/",
+      "coordinateLabel": "UNESCO property481：N14 50 54 E105 49 20",
+      "note": "文化景观参照点；碑来自Vat Luang Kau，不将本点称为原碑发现点或主寺实测点。"
+    },
+    {
+      "id": "ay-jian",
+      "label": "集安 · 高句丽碑现存地参照",
+      "coordinates": [
+        126.194,
+        41.1253
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Ji'an,_Jilin",
+      "coordinateLabel": "已打开吉林集安市条目的现代城市坐标",
+      "note": "集安城市参照；碑现存中国吉林的事实与古代政权历史归属裁断分开。"
+    },
+    {
+      "id": "ey-hotbank",
+      "label": "Hotbank长城第38号堡区域",
+      "coordinates": [
+        -2.35723,
+        55.00766
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://www.geograph.org.uk/photo/3215619",
+      "coordinateLabel": "Geograph照片3215619 · WGS84主题位置",
+      "note": "近现代照片给出的WGS84主题位置，作为第38号堡附近区域参照；RIB1638具体发现点有争议，坐标不定位原碑原位。"
+    },
+    {
+      "id": "ey-lyon",
+      "label": "里昂",
+      "coordinates": [
+        4.84789,
+        45.74906
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2996944/lyon.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "现代城市参照点；不是铜表原置建筑或出土位置的精确坐标。"
+    },
+    {
+      "id": "ey-rhine-weser",
+      "label": "莱茵河—威悉河之间的叙事区域",
+      "coordinates": [
+        8.3,
+        52.1
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/56*.html",
+      "coordinateLabel": "史文地理叙述所选区域示意点 · 非遗址定点",
+      "note": "依据Dio56.18将军队被引离莱茵河、往Cherusci和Visurgis方向的叙述人工选取宽泛区域示意点；坐标只是检索区域，不代表已证实战场、军队路线或Kalkriese遗址。"
+    },
+    {
+      "id": "ey-carnuntum",
+      "label": "卡农图姆古城区域",
+      "coordinates": [
+        16.8613889,
+        48.1133333
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q508815",
+      "coordinateLabel": "Wikidata Q508815古城参照点（仅作地理定位）",
+      "note": "已打开读坐标48°6′48″N、16°51′41″E；古城区域参照，不是奉献碑原位；历史归属另据根特大学原碑数据库。"
+    },
+    {
+      "id": "ey-canterbury",
+      "label": "坎特伯雷",
+      "coordinates": [
+        1.07992,
+        51.27904
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2653877/canterbury.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "肯特王与教会活动的城市参照；不能定位法典颁布建筑或埃塞尔伯特确切去世地点。"
+    },
+    {
+      "id": "ey-bruchsal",
+      "label": "布鲁赫萨尔",
+      "coordinates": [
+        8.59804,
+        49.12426
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2943560/bruchsal.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "996年敕书末署Bruochselle的现代城市参照；授地在今奥地利Neuhofen an der Ybbs，地图点是签发城而非被赠土地。"
+    },
+    {
+      "id": "ey-regensburg",
+      "label": "雷根斯堡",
+      "coordinates": [
+        12.10161,
+        49.01513
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2849483/regensburg.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "1156年敕书所述会盟与签发城参照；不代表14世纪伪造Maius的实际制作地点。"
+    },
+    {
+      "id": "ey-strasbourg",
+      "label": "斯特拉斯堡",
+      "coordinates": [
+        7.74553,
+        48.58392
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2973783/strasbourg.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "誓词传文点名城镇；现代城市参照，不定位842年宣誓场地。"
+    },
+    {
+      "id": "ey-aachen",
+      "label": "亚琛",
+      "coordinates": [
+        6.08342,
+        50.77664
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/3247449/aachen.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "艾因哈德明确叙述查理曼过冬与葬礼的城镇参照；非宫殿房间或原墓位置精确点。"
+    },
+    {
+      "id": "ey-rouen",
+      "label": "鲁昂",
+      "coordinates": [
+        1.09932,
+        49.44313
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.geonames.org/2982652/rouen.html",
+      "coordinateLabel": "GeoNames城市地名录",
+      "note": "庭审记录点名鲁昂城堡礼拜堂；图上采用城市参照，不把现代点当成保存下来的审判房间。"
+    },
+    {
+      "id": "ry-khoshoo-tsaidam",
+      "label": "霍硕柴达木碑群",
+      "coordinates": [
+        102.84111,
+        47.56056
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://en.wikipedia.org/w/index.php?title=Orkhon_inscriptions&oldid=1376902341",
+      "coordinateLabel": "Orkhon inscriptions地点坐标47°33′38″N 102°50′28″E",
+      "note": "遗址区域参照；坐标取现代地名记录，不代表已测定碑文每一面的空间位置。"
+    },
+    {
+      "id": "ry-tanais",
+      "label": "塔奈斯遗址",
+      "coordinates": [
+        39.335,
+        47.26889
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Tanais",
+      "coordinateLabel": "塔奈斯遗址地名坐标47°16′8″N 39°20′6″E",
+      "note": "铭文目录所列古城出土地的区域参照；不表示具体发现探方。"
+    },
+    {
+      "id": "ry-novgorod",
+      "label": "诺夫哥罗德",
+      "coordinates": [
+        31.266667,
+        58.533333
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://ungegn.un.org/dashboard/cities/details?id=1702",
+      "coordinateLabel": "UNGEGN城市地名录 · Velikij Novgorod",
+      "note": "城市级参照，不表示第752号桦树皮书信的具体探方位置。"
+    },
+    {
+      "id": "ry-villa-alemana",
+      "label": "比亚阿莱马纳",
+      "coordinates": [
+        -71.37333,
+        -33.04222
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/w/index.php?title=Villa_Alemana&oldid=1375486544",
+      "coordinateLabel": "Villa Alemana城市坐标33°02′32″S 71°22′24″W",
+      "note": "现代城市参照出土地区，不将此19世纪城市的建立时间或名称倒置到阿空加瓜时代。"
+    },
+    {
+      "id": "ry-cordoba",
+      "label": "科尔多瓦",
+      "coordinates": [
+        -64.183333333333,
+        -31.416666666667
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q44210",
+      "coordinateLabel": "Wikidata Q44210 · 城市坐标31°25′S 64°11′W",
+      "note": "大学宣言发生城市参照，非原件现藏位置。"
+    },
+    {
+      "id": "ry-polotsk",
+      "label": "波洛茨克",
+      "coordinates": [
+        28.7856,
+        55.4879
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/2730648/htmlPopup?f=html",
+      "coordinateLabel": "NGA GNS，Polatsk，UFI−1948152；Lat55.4879、Lon28.7856",
+      "note": "城市级参照；NGA目录字段可读于搜索缓存，直接页面访问超时。不是十字架现藏位置。"
+    },
+    {
+      "id": "ry-brest",
+      "label": "布列斯特",
+      "coordinates": [
+        23.7208,
+        52.1017
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://ungegn.un.org/dashboard/cities/details?crM49=112&id=3139",
+      "coordinateLabel": "UNGEGN，Брэст/Brest；坐标源为白俄罗斯国家财产委员会",
+      "note": "出版城市的现代参照，不将现代国界或城市拼写倒置为1563年政权名称。"
+    },
+    {
+      "id": "ry-tremper",
+      "label": "特伦珀土丘",
+      "coordinates": [
+        -83.0098973,
+        38.8017418
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://www.topozone.com/ohio/scioto-oh/summit/tremper-mound/",
+      "coordinateLabel": "TopoZone的USGS West Portsmouth地形图地名坐标，38.8017418°N、83.0098973°W",
+      "note": "考古土丘区域参照；已打开的地名页列出坐标，不表示烟斗具体出土探方。"
+    },
+    {
+      "id": "ry-mitchell-site",
+      "label": "米切尔考古遗址",
+      "coordinates": [
+        -90.06861,
+        38.70417
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Mitchell_Archaeological_Site_(Mitchell,_Illinois)",
+      "coordinateLabel": "Mitchell Archaeological Site地名坐标38°42′15″N90°4′7″W；NRHP78001168",
+      "note": "遗址区域参照；木柱原报告另有发现位置图1，不把现代地名坐标冒称木柱基坑实测点。"
+    },
+    {
+      "id": "ry-la-serena",
+      "label": "拉塞雷纳",
+      "coordinates": [
+        -71.25199,
+        -29.90267
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://ungegn.un.org/dashboard/cities/details?id=2998",
+      "coordinateLabel": "UNGEGN，La Serena；坐标源Instituto Geografico Militar de Chile",
+      "note": "书信原署城市的现代城市参照，不表示1545年发信具体建筑。"
+    },
+    {
+      "id": "my-luoyang",
+      "label": "洛阳（城市参照）",
+      "coordinates": [
+        112.42444444444445,
+        34.65861111111111
+      ],
+      "coordinateSource": "https://www.wikidata.org/wiki/Q187136",
+      "coordinateLabel": "Wikidata洛阳现代城市点",
+      "precision": "city_reference",
+      "note": "只作原书京师叙事的现代城市参照，非汉代城址、制作工场或地震震中。"
+    },
+    {
+      "id": "my-fengxin",
+      "label": "奉新（署名地名参照）",
+      "coordinates": [
+        115.16666666666667,
+        28.733333333333334
+      ],
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1336081",
+      "coordinateLabel": "Wikidata奉新县地区点",
+      "precision": "area_reference",
+      "note": "自序在作者署名前写奉新，点位只参照该地名；未证明写作、雕版或刊印地址。"
+    },
+    {
+      "id": "my-mogao",
+      "label": "莫高窟（发现地参照）",
+      "coordinates": [
+        94.81667,
+        40.13333
+      ],
+      "coordinateSource": "https://whc.unesco.org/en/list/440/",
+      "coordinateLabel": "UNESCO世界遗产440号坐标",
+      "precision": "area_reference",
+      "note": "世界遗产地的机构参照点，非第17窟测量点，也不是868年印刷作坊。题记原卷出自藏经洞，现代伦敦藏地不回投868年。"
     }
   ],
   "sources": [
@@ -6463,9 +10949,727 @@
       "humanReviewed": false,
       "parallelUrl": "https://www.pku.edu.cn/detail/905.html",
       "parallelLabel": "日期及地点补证：北京大学官方校史"
+    },
+    {
+      "id": "AT1",
+      "title": "《日本书纪》卷二十二·推古天皇纪",
+      "url": "https://zh.wikisource.org/wiki/日本書紀/卷第廿二",
+      "kind": "720年后编史书的现代汉文转录",
+      "locator": "推古十二年四月及十五年七月条；十六年条作为用称上下文",
+      "checked": "已打开并读十二年所载十七条、十五年派使句与十六年使者往来段，核对原文‘大唐’用称、使者及通事。",
+      "limitation": "非604或607年的当日原件；本轮未核古写本异文、底本或历日换算。‘大唐’保留原书用称，不当作607年政权名称。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT2",
+      "title": "日本Instrument of Surrender，1945年9月2日",
+      "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+      "kind": "美国国家档案馆原件展示及全文转录",
+      "locator": "第1—2段、东京湾署日行、盟国接受签栏",
+      "checked": "已实际打开并读NARA全文转录，核对投降对象、东京湾署地、9月2日及HSU YUNG-CH'ANG中国代表身份；未把仅有入口的原件影像宣称为已逐笔审读。",
+      "limitation": "NARA转录含签字时间行的差异及姓名拼写，记录只取明确共同的日期、地点与代表身份。不是中国本土各受降仪式的记录。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT3",
+      "title": "甘地1930年5月4日致欧文勋爵信",
+      "url": "https://www.gandhi-manibhavan.org/educational-resources/letter-to-lord-irwin.html",
+      "kind": "甘地纪念馆所收一手书信的现代转录",
+      "locator": "开头拟往Dharasana段、非暴力段、署名前最后段及M. K. Gandhi署名",
+      "checked": "已打开并读全文，核对May 4, 1930题署、盐税及私人制盐禁令、非暴力陈述与署名。",
+      "limitation": "页面未列原稿藏号或《全集》卷页；保留当事人书信立场，拟议行动不充作已实施。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT4",
+      "title": "《三国史记》卷八·神文王本纪",
+      "url": "https://zh.wikisource.org/wiki/三國史記/卷08",
+      "kind": "1145年后编史书的现代汉文转录",
+      "locator": "神文王二年六月条；篇首神文王名政明段",
+      "checked": "已打开并读神文王篇首、元年与二年连续条，核对‘六月，立国学。置卿一人’。",
+      "limitation": "非七世纪原始行政档案；本轮未对校古本影像及完整历日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT5",
+      "title": "Declaration of Independence (March 1, 1919)，Han-Kyo Kim英译",
+      "url": "https://afe.easia.columbia.edu/main_pop/ps/ps_korea-march-first-declaration.htm",
+      "kind": "哥伦比亚大学许可转载的原始宣言英译",
+      "locator": "Sources of Korean Tradition，卷2（2000），337—339页；Longer Selection及Three Open Pledges",
+      "checked": "已打开并读Longer Selection全文及三项公开誓约，核对自主、民族平等、公共秩序用语与英译版本说明。",
+      "limitation": "现代英译选本而非1919年韩文原印；网页导言的公园朗读叙述不能代替具体签署场所考证。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT6",
+      "title": "《故唐律疏议》四部丛刊本·序所收进表",
+      "url": "https://zh.wikisource.org/wiki/故唐律疏議_(四部叢刊本)/序",
+      "kind": "唐代进表经后世刻本、近代影印传承的现代转录",
+      "locator": "进表“乃制太尉……无忌……勣”及“撰律疏三十卷”句、末署“永徽四年十一月十九日进”",
+      "checked": "已打开并读进表人名段、三十卷完成句与表末署年，区分夹注。",
+      "limitation": "本轮未对校唐代写本；四部丛刊影印与本次转录都晚于进表年代，未核西历日转换。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT7",
+      "title": "《宋史》卷327·王安石传",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷327",
+      "kind": "元代编纂的宋代史书现代转录",
+      "locator": "熙宁二年二月段及紧接的“相继并兴”“青苗法者”段",
+      "checked": "已打开并读熙宁元年、二年及后续连续正文，核对参政、条例司、共同领事者与青苗制度描述。",
+      "limitation": "不是1069年诏令原件；史书的多项新法总述跨年，不能把总述全归同一日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT8",
+      "title": "《元史》卷81·选举志一·科目",
+      "url": "https://zh.wikisource.org/wiki/元史/卷081",
+      "kind": "后修官史保存的元代诏书及制度条目转录",
+      "locator": "皇庆二年十月奏、十一月诏及“考试程式”“天下选合格者三百人”条",
+      "checked": "已打开并读原诏、不同考试程式及会试100人四类各25人条，核对“皇庆三年”是诏内将来计划。",
+      "limitation": "未对读元代原诏或元典章早刻；不将原诏未来所称皇庆三年当作诏令本身年代。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT9",
+      "title": "《明史》卷6·成祖本纪二·永乐五年条",
+      "url": "https://zh.wikisource.org/wiki/明史/卷6",
+      "kind": "清代官史保存的明代纪事现代转录",
+      "locator": "永乐五年五月甲子、六月癸未及癸卯条",
+      "checked": "已打开并读永乐四年末至五年六月连续正文，核对张辅领军、设司及访人才命令；不采用未核的永乐大典候选。",
+      "limitation": "后编官史的朝廷叙事，非越方同步文书或明代敕书原件；未做当日历法转换。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT10",
+      "title": "《国朝宫史》卷31·康熙字典一部及圣祖御制序",
+      "url": "https://zh.wikisource.org/wiki/國朝宮史/31",
+      "kind": "清宫书目与御序的后世传本现代转录",
+      "locator": "康熙字典一部首段及所收圣祖仁皇帝御制序",
+      "checked": "已打开并读书目校刊年、册数及御序全文，核对旧籍范围、引证与五阅岁成书自述。",
+      "limitation": "后世宫史保存的序文；未对读1716年武英殿初印，也未查底本字形异文。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT11",
+      "title": "Cairo Conference 1943公报，1943年12月1日发布",
+      "url": "https://avalon.law.yale.edu/wwii/cairo.asp",
+      "kind": "耶鲁法学院Avalon收录的战时公报转录",
+      "locator": "标题Released December 1, 1943；全文第2主体段与最后段",
+      "checked": "已打开并读全文，核对发布时间、领土措辞、朝鲜in due course以及无条件投降目标。",
+      "limitation": "页面未给原件签栏或馆藏号，本文是公报转录；未将其等同签字条约或已实施的领土移交。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT12",
+      "title": "中华人民共和国宪法（1954年）全文",
+      "url": "https://news.12371.cn/2015/03/18/ARTI1426665514681575.shtml",
+      "kind": "机构公开的历史宪法全文转录",
+      "locator": "通过日期题署；第2条；第76、77条",
+      "checked": "已打开并读通过日期、总纲第1—3条及第76、77条等诉讼段，核对历史文本版本。",
+      "limitation": "现代机构转录；未对校1954年全国人大会议原件，不能作现行法律指南。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT13",
+      "title": "《后汉书》卷85·倭·建武中元二年条",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷85",
+      "kind": "5世纪编纂史书的现代转录",
+      "locator": "倭条，建武中元二年奉贡朝贺、赐印绶句",
+      "checked": "已打开并读倭条前后文及建武中元二年句，核对自称大夫与赐印绶措辞。",
+      "limitation": "后修史书且原句无地点月日；本轮未核实物金印拓片，不以其补成本句。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT14",
+      "title": "《后汉书》卷86·南蛮传·征侧段",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷86",
+      "kind": "5世纪官史对1世纪事件的现代转录",
+      "locator": "建武十二年条后“至十六年”征侧段",
+      "checked": "已打开并读建武十二、十六、十八年及次年四月连续文字，核对姐妹起兵与马援出兵不属同年。",
+      "limitation": "后编官史的单方叙述；未核越方碑铭、出土当时文书或西历换算。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT15",
+      "title": "《梁书》卷3·武帝本纪下·大同七至八年条",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷03",
+      "kind": "唐初官史对梁代交州事件的现代转录",
+      "locator": "大同七年末“是岁”句及大同八年三月句",
+      "checked": "已打开并读大同七、八、九、十年连续段，核对起事、翌年征讨与544年署置百官的区别。",
+      "limitation": "非李贲方面原告示；未对校早期刻本或完整西历年界。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT16",
+      "title": "《宋书》卷97·南夷·扶南国条",
+      "url": "https://zh.wikisource.org/wiki/宋書/卷97",
+      "kind": "5世纪末官史外交纪事的现代转录",
+      "locator": "扶南国：太祖元嘉十一、十二、十五年一句",
+      "checked": "已打开并读扶南国完整条及前后林邑、诃罗陁段，未将邻国材料混入扶南。",
+      "limitation": "原条极简；未核同年当地铭文、使节姓名、都城或贡物，也未做年界转换。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT17",
+      "title": "K600 Tuol Vat Komnou石座铭文，DHARMA重编",
+      "url": "https://dharmalekha.info/texts/INSCIK00600",
+      "kind": "原始石刻的现代铭文学释读、罗马字转写及法译",
+      "locator": "北面第1—2行、东面第1—4行；Cœdès《Inscriptions du Cambodge》卷2第21—23页；EFEO拓本1054",
+      "checked": "已打开并读原文转写、逐面法译、编号说明及版本书目，核对Śaka 533、Māgha月及捐献单位。",
+      "limitation": "现代数字版Kunthea Chhom重编，非本轮现场读石；有损字及译者补读。未核星历与西历日转换。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT18",
+      "title": "K365 Vat Luang Kau碑，DHARMA释读版",
+      "url": "https://dharmalekha.info/texts/INSCIK00365",
+      "kind": "原始梵文石刻的现代校勘释读及法译",
+      "locator": "A15—16、B8、C5—8；DHARMA书体说明；Cœdès1956《BEFEO》48(1)209—220页为初刊",
+      "checked": "已打开并读数字版书体断代、原文转写A/B/C相关行及法译第8—10节、初刊与重编说明。",
+      "limitation": "数字版基于Cœdès初刊并有后续改读；页面标题与CE书体范围须区分，未现场核碑、未从颂词推政权国界。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT19",
+      "title": "Ibn Battuta, Travels in Asia and Africa 1325—1354，Gibb选译，第205—206页",
+      "url": "https://www.heroesandlegends.com.au/wp-content/uploads/2022/08/2015.62617.Ibn-Battuta-Travels-In-Asia-And-Africa-1325-1354_text.pdf",
+      "kind": "14世纪口述游记经1929英译、1953印本的公开扫描",
+      "locator": "原书第205—206页；PDF第226—227页（从1计）；版权页First published1929、Third impression1953",
+      "checked": "已打开完整扫描，读版权页与第205—206页初见、波斯语欢迎、法官任命段及译者日期注；未只用教学摘要。",
+      "limitation": "公开镜像非原稿；文本由旅行者回忆并经Ibn Juzayy整理，英译为节选，OCR有错字，教历换算仅取译注公元年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT20",
+      "title": "国史编纂委员会·广开土王陵碑校勘释文及原碑编目",
+      "url": "https://db.history.go.kr/id/gskh_001_0010_0010_0020",
+      "kind": "原始碑刻的现代机构校勘释读",
+      "locator": "gskh_001_0010_0010_0020；第一面6行、第四面7—9行；编目长寿王三年414",
+      "checked": "已实际打开并读原碑编目、校勘所据版本说明、第一面6行及第四面守墓户与禁卖条，核对330家分母。",
+      "limitation": "未现场读石或独立复核各拓本；现代释文含异读与损字，不能把争议句直接当现代领土证据。",
+      "humanReviewed": false,
+      "parallelUrl": "https://db.history.go.kr/ancient/level.do?levelId=gskh_001_0010_0010_0010",
+      "parallelLabel": "原碑所在地、断年与研究说明"
+    },
+    {
+      "id": "AT21",
+      "title": "Trude Jacobsen, In Search of the Khmer Bhikkhunī（2013）所引IMA2",
+      "url": "https://jocbs.org/index.php/jocbs/article/viewFile/44/71",
+      "kind": "原始铭文学研究转引古代碑文译文",
+      "locator": "Journal of the Oxford Centre for Buddhist Studies4(2013)75—87页，重点80页及注24；IMA2第1—10行",
+      "checked": "已打开论文并读第80页原文转引、1577断年、1499 Śaka牛年及注24版本链；不是仅据检索摘要。",
+      "limitation": "现代英译引文经Lewitz1970法译，不是直接古高棉文释读；原石与1970图版尚待独立复核，不用现代作者分析充当古代原话。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT22",
+      "title": "Paul Lévy, Le voyage de Wuysthoff au Laos（1944）所摘译1641—1642日记",
+      "url": "https://s36fe41ac926ee063.jimcontent.com/download/version/1462391417/module/13447310224/name/Wuysthoff%20au%20Laos%20%281641-1642%29.pdf",
+      "kind": "原始旅行日记经1944研究摘译与现代转录传承",
+      "locator": "原载Indochine illustrée1944-06-15；现代转录PDF第1页首段、第3页11月16日引文",
+      "checked": "已打开并读题署、1641出发日期、万象接待段及日记11月16日引文，区分Paul Lévy说明和引号内日记文字。",
+      "limitation": "非原荷文手稿或完整日记；现代电子转录有补注与图版，未独立校1944报刊原页。原日历日制不确定，故只用事件年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AT23",
+      "title": "大都会博物馆藏品2023.585：Dish with bird in clouds",
+      "url": "https://www.metmuseum.org/art/collection/search/828473",
+      "kind": "原始遗存的机构器物编目与开放数据断代",
+      "locator": "对象828473；藏品号2023.585；正文首段、Artwork Details；同馆API数值1500—1533",
+      "checked": "已打开并读器物说明、编号、出水来源、材质和产地不确定性；另实际读取同馆公开API并核对objectID及1500—1533数值，不按“世纪初”自行捏定终年。",
+      "limitation": "现代馆方断代与归属意见，不是器物自铭纪年；本轮未自行做陶瓷考古类型学鉴定。",
+      "humanReviewed": false,
+      "parallelUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/828473",
+      "parallelLabel": "同馆开放API：1500—1533数值断代"
+    },
+    {
+      "id": "AT24",
+      "title": "Annuaire statistique de l’Indochine，第八卷1937—1938，Hanoi1939，Tableau I第15—16页",
+      "url": "https://seadelt.net/Asset/Source/Document_ID-249_No-01.pdf",
+      "kind": "1939年殖民统计年鉴原始印本的公开扫描",
+      "locator": "原书第15—16页，第二章Tableau I；扫描PDF第13页右半、第14页左半；题名页署Hanoi1939",
+      "checked": "已下载并实际逐页查看原始扫描题名页和表I第15—16页，核对编制机关、刊年、人口单位Milliers、柬埔寨3.046及老挝1.012总数、1931普查行与地方行政估计方法注。",
+      "limitation": "题名页署Gouvernement général de l’Indochine、Direction des services économiques、Service de la statistique générale；Hanoi，Imprimerie d’Extrême-Orient，1939。所读公开扫描由SEADELT提供，未追核被扫描纸本馆藏签号；保持原编制机关的殖民行政视角。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET1",
+      "title": "哈德良长城奉献铭文 RIB 1638",
+      "url": "https://romaninscriptionsofbritain.org/inscriptions/1638",
+      "kind": "古代铭文 · 学术释文与考证",
+      "locator": "RIB 1638；Latin Text第1—4行；Dating、Provenance、Commentary",
+      "checked": "已读拉丁释文、英译、断代依据及出土地争议；铭文属帝国时期原始证据。",
+      "limitation": "原石未现场复核；122—约126年是据Platorius Nepos任期的学术断代，不是铭文自刻公元年；出土位置为推定Hotbank，旧说38/39号堡有争议。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET2",
+      "title": "里昂克劳狄铜表 CIL XIII 1668",
+      "url": "https://heurist.huma-num.fr/heurist/judaism_and_rome/tpl/public-record/165",
+      "kind": "青铜铭文 · 研究项目所刊原文释读",
+      "locator": "CIL XIII 1668=ILS 212=FIRA I 43；释文第45—48、66—69行；Date、Original Location",
+      "checked": "已读原碑拉丁释文、原址说明及公元48年断代；页面标明据Fabia 1929等版本。",
+      "limitation": "铜表原上部已失，不能当作完整演讲；与塔西佗文学传文属于不同见证；未现场辨读铜表。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET3",
+      "title": "卡西乌斯·狄奥《罗马史》56.18—24",
+      "url": "https://penelope.uchicago.edu/Thayer/e/roman/texts/cassius_dio/56*.html",
+      "kind": "古代史家叙事 · Loeb 1924英译转载",
+      "locator": "Book LVI开篇执政官年表；56.18.3—5、19、21.5、22",
+      "checked": "已读9—14年执政官年表与瓦鲁斯败战叙述。",
+      "limitation": "作者距事件约二百年；转载声明尚未校对；这是罗马精英事后叙事，不能据此确定现代战场坐标或精确伤亡人数。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET4",
+      "title": "卡农图姆工匠社团奉献碑 AE 1966, 00286",
+      "url": "https://gdrg.ugent.be/guilddocuments/2985",
+      "kind": "古代铭文 · 根特大学社团碑文数据库",
+      "locator": "GuildDocuments 2985；标准拉丁释文与英译；Dedication、Dating",
+      "checked": "已读奉献者/社团职衔、执政官纪年及X Kalendas Septembres日期。",
+      "limitation": "皇帝姓名部分遭铲除，数据库用补读符号恢复；Faustinianus氏族名存在释读/关联条目差异，本文不擅补；公元219年据数据库换算，古历日不作公历日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET5",
+      "title": "比德《英吉利教会史》卷二第五章",
+      "url": "https://sourcebooks.fordham.edu/basis/bede-book2.asp",
+      "kind": "早期中世纪史书 · 英译数字文本",
+      "locator": "Book II, Chapter V；开篇616年、末段埃塞尔伯特葬地与法律",
+      "checked": "已读616年去世纪年、肯特王身份、英语言司法法令及教会财产条款记述。",
+      "limitation": "比德在八世纪回溯七世纪史事，具有教会史立场；616年是王卒年，不是该法典颁布年，不能把回顾段落移作当年立法记录。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET6",
+      "title": "归于肯特王埃塞尔伯特的法律",
+      "url": "https://sourcebooks.web.fordham.edu/source/560-975dooms.asp",
+      "kind": "早期法典 · 近代英译转载",
+      "locator": "The Laws of Æthelberht；前言及第1、4、9条",
+      "checked": "已读前言及教会、国王、自由人财产赔偿条款。",
+      "limitation": "页面560—616为归属王者的编年标题，不能直接当法典颁布年；传本远晚于原法形成，本文不伪造单一立法年份。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET7",
+      "title": "996年Ostarrichi敕书拉丁文本与文书学讨论",
+      "url": "https://austria-forum.org/attach/AEIOU/Ostarr%C3%AEchi/Wandruszka_Ostarrichi.pdf",
+      "kind": "皇帝敕书 · 学术论文刊原文",
+      "locator": "Adam Wandruszka，Ostarrichi；PDF第11—13页拉丁文本/德译；第2—4页传本讨论",
+      "checked": "已读敕书授地、Ostarrichi用语、历年及Bruchsal末署；同时读印章、空白文书与签署痕迹讨论。",
+      "limitation": "不是“奥地利国家成立证明”；现存印章、可能空白文书后填等问题须区别讨论；未现场验材质与笔迹。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.bundeskanzleramt.gv.at/bundeskanzleramt/besuchen-sie-uns/gang-der-geschichte/996.html",
+      "parallelLabel": "奥地利总理府996年敕书介绍（已读；仅核地名、受赠者与Neuhofen地理对应，不代替原文）"
+    },
+    {
+      "id": "ET8",
+      "title": "奥地利小特许状 Privilegium Minus",
+      "url": "https://avalon.law.yale.edu/medieval/austria.asp",
+      "kind": "皇帝敕书 · Yale Avalon所收近代英译",
+      "locator": "Frederick I，1156年敕书；Henderson 1896，源引Doeberl IV p.88",
+      "checked": "已读雷根斯堡争端安排、奥地利升公国、亨利与狄奥多拉及男女后嗣继承条文。",
+      "limitation": "采用法令规定的文本证据；实际执行、后世解释另需材料；只采1156年，会盟节期与敕书署日分开，未把古历日直作公历日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET9",
+      "title": "1358/59年伪造的大特许状 Privilegium Maius",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/forgery-in-favor-of-territorial-sovereignty-privilegium-maius-1358-59",
+      "kind": "伪造政治文书 · 德国历史研究所刊译与鉴伪说明",
+      "locator": "条1、3—5、8、15—18及伪署结尾；据Weinrich 1983 pp.394—403；Thomas A. Brady Jr译",
+      "checked": "已读编辑鉴伪说明及伪造文本；实际制作按1358—1359年入图，伪署1156年单列。",
+      "limitation": "此件是十四世纪权利诉求的原始材料，不能证明1156年实际授予这些权利；制造年代来自现代文书学编定，本文未独立完成笔迹/印章鉴伪。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET10",
+      "title": "尼特哈德《虔诚者路易诸子纷争》中的斯特拉斯堡誓词",
+      "url": "https://my.tlu.edu/ICS/icsfs/OathsStrasbourg2pg.pdf?target=80ca219b-a80c-47a0-838e-b59298595a86",
+      "kind": "当代史书保存誓词 · 教学版原文与英译",
+      "locator": "Nithard III.5；两页PDF，第1页罗曼语誓词、第2页日耳曼语与军队誓词；所指BnF Latin 9768 ff.12—13",
+      "checked": "已读罗曼语、日耳曼语誓词及随从不支持违誓君主的承诺。",
+      "limitation": "教学PDF导言错写843年；不取该错年，纪年另核BnF目录ET11；未将十世纪抄本当作842年现场签名原件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET11",
+      "title": "法国国家图书馆斯特拉斯堡誓词作品目录",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb120677260",
+      "kind": "馆藏目录 · 原始作品年代与传本定位",
+      "locator": "FRBNF12067726；Date de l’oeuvre、Note(s) sur l’oeuvre；BnF Latin 9768",
+      "checked": "已读842年作品日期、2月14日、四份誓词、人物与抄本号；只用于目录与年代佐证。",
+      "limitation": "这是现代馆藏元数据，不是誓词本身；未据该目录声称两种现代民族国家于842年成立。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET12",
+      "title": "查士丁尼《法学阶梯》颁布序",
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Anglica/just_proem_Moyle.htm",
+      "kind": "帝国法律文本 · 格勒诺布尔大学罗马法文库",
+      "locator": "Institutiones，Prooemium；J. B. Moyle 1913第5版；委任三位法学家、授予法律效力及末署",
+      "checked": "已读颁布序全篇；末署君士坦丁堡、查士丁尼第三任执政官年11月21日；同库拉丁版标533年。",
+      "limitation": "英译本非亲署原件；只采533年，古历11月21日保留在原纪年；皇帝自述治理公正是政治表述，不是实施效果证明。",
+      "humanReviewed": false,
+      "parallelUrl": "https://droitromain.univ-grenoble-alpes.fr/Corpus/iust_institut.html",
+      "parallelLabel": "Krüger拉丁校勘本"
+    },
+    {
+      "id": "ET13",
+      "title": "维拉杜安《征服君士坦丁堡》",
+      "url": "https://sourcebooks.fordham.edu/basis/villehardouin.asp",
+      "kind": "参战者叙事 · 1908英译转载",
+      "locator": "Geoffroi de Villehardouin，Marzials译；CRUSADERS TAKE A PART OF THE CITY、THE CRUSADERS ESTABLISH THEMSELVES IN THE CITY；原译pp.61—65",
+      "checked": "已读1204年攻城、周一入城、次日宫殿移交和取财叙述；取主文，未把另引Robert de Clari当作作者正文。",
+      "limitation": "法兰西出身参战统帅的回忆具有自我辩护立场；叙述中的数量与道德正当化不直接采信；只采1204年，未转换复活节相对日期为公历日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET14",
+      "title": "艾因哈德《查理曼传》30—31章",
+      "url": "https://sourcebooks.fordham.edu/basis/einhard.asp",
+      "kind": "宫廷相关作者传记 · 早期中世纪原文英译",
+      "locator": "Vita Karoli Magni §§30—31；亚琛过冬、去世与同日下葬、传记所录墓铭",
+      "checked": "已读亚琛场景、1月28日、814年墓铭所记；亦核§14宫廷位于亚琛。",
+      "limitation": "作者熟悉宫廷但成书在查理曼死后，带有赞颂目的；墓铭是传记转述，未核现存原铭；只采814年，不将儒略历1月28日未经转换作公历日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET15",
+      "title": "贞德1431年定罪审判记录",
+      "url": "https://sourcebooks.fordham.edu/basis/joanofarc-trial.asp",
+      "kind": "审判文书 · W. P. Barrett 1932全本英译",
+      "locator": "The First Public Session，1431年2月21日，原译pp.31—37；前言pp.vii—viii关于法语笔录转拉丁记录",
+      "checked": "已读首次公开庭讯的日期、鲁昂城堡礼拜堂、法庭传唤、宣誓范围争执；已读传本整理说明。",
+      "limitation": "庭审记录由控审机关整理，不能把控罪直接当贞德所为；法语分钟记录后经拉丁整理并有认证抄本，网页为1932译本转载；只用1431年，保留原历月日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET16",
+      "title": "苏莱曼致法王弗朗索瓦一世信1526年",
+      "url": "https://dhlab.sabanciuniv.edu/index.php/tr/node/196",
+      "kind": "外交书信 · 萨班哲大学项目刊法译与奥斯曼文拉丁转写",
+      "locator": "CHARRI01000116；Kaydın Metni、Kayıt Özeti；据Charrière，Négociations de la France dans le Levant，1853卷1",
+      "checked": "已读致受信人、Frangipani传信、军备修辞和文末回历932年Rabīʿ II上旬及君士坦丁堡署地。",
+      "limitation": "数据库精确日20.01.1526不能从原署“上旬”推出，故只录1526年；法译OCR的回历数字受损，另以同页奥斯曼转写核原年；未直接辨读BnF藏卷，不能称其全文已现场核验。",
+      "humanReviewed": false,
+      "witnessUrl": "https://gallica.bnf.fr/ark:/12148/btv1b52508208f",
+      "witnessLabel": "BnF Supplément turc 1638数字卷（本次访问403，未核原卷图像）"
+    },
+    {
+      "id": "ET17",
+      "title": "土耳其—欧洲经济共同体安卡拉协定",
+      "url": "https://ab.gov.tr/_117_en.html",
+      "kind": "政府刊条约英译全文",
+      "locator": "Article 1—2、28—33；全权代表名单、Final Act末署1963年9月12日",
+      "checked": "已读联系关系、分阶段关税同盟目标、未来加入可能性条款、代表与末署。",
+      "limitation": "网页副标题误写1 September，正文Final Act明确twelfth day；采用正文并另以土耳其外交部文本ET18交核；英语为官方网页译文，原约第33条列荷/法/德/意/土文为同等作准文本。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET18",
+      "title": "土耳其外交部所刊1963年安卡拉协定",
+      "url": "https://www.mfa.gov.tr/turkiye-ile-avrupa-ekonomik-toplulugu-arasinda-bir-ortaklik-yaratan-anlasma-_ankara-anlasmasi_-12-eylul-1963-.tr.mfa",
+      "kind": "政府刊条约土耳其语文本",
+      "locator": "Madde 2、28、33；末署Ankara，12 Eylül 1963",
+      "checked": "已实际打开土文全文，核Madde 2、28、33及Son Senet末署Ankara’da 12 Eylül 1963；全权代表名单已交核。",
+      "limitation": "这是政府网页所刊原约土文；与官方英译交核，不把签署等同批准、生效或已加入共同体。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET19",
+      "title": "准许希腊与土耳其加入的北约议定书1951年",
+      "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/1951/10/22/protocol-to-the-north-atlantic-treaty-on-the-accession-of-greece-and-turkey",
+      "kind": "国际组织刊条约文本",
+      "locator": "Protocol，Articles 1—4；1951年",
+      "checked": "已读全部四条：受邀、交存加入书、生效程序及土耳其领土纳入第六条的条件。",
+      "limitation": "议定书阶段不等于土耳其当日已入约；北约网页22 October与UNTC登记17 October不同，未核原签名页，本条只记1951年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET20",
+      "title": "联合国条约集希土加入北约议定书登记项",
+      "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280153633",
+      "kind": "条约保管与登记元数据",
+      "locator": "UNTC，Registration No.541；UNTS126 p.350；Places/dates of conclusion、EIF information",
+      "checked": "已实际打开并读到London 17/10/1951及议定书1952年2月15日生效；本条只用于签发城市、年份与日期差异提示。",
+      "limitation": "登记所列17日与北约网页22日不一致；未完整核对签名页及保管通知，精确签署日不确定；议定书生效日不等于土耳其正式成为成员日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ET21",
+      "title": "查士丁尼《法学阶梯》颁布序拉丁校勘文",
+      "url": "https://droitromain.univ-grenoble-alpes.fr/Corpus/just_proem.htm",
+      "kind": "帝国法律文本 · 拉丁校勘释文",
+      "locator": "Krüger版Prooemium §§3—6及末署；格勒诺布尔大学罗马法文库",
+      "checked": "已实际打开拉丁正文；核三位受命者、宪令效力及末署Constantinopoli、Iustiniano tertium consule；页面编年533年。",
+      "limitation": "现代校勘文本，不是533年亲署原件；颁布与实行日期仍应分开。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT1",
+      "title": "阙特勤碑西面中文原文及重释（Tuba Yalınkılıç，2013）",
+      "url": "https://dergipark.org.tr/en/download/article-file/136825",
+      "kind": "铭文研究原刊 · 照片、中文释文及土耳其文翻译",
+      "locator": "《Uluslararası Türkçe Edebiyat Kültür Eğitim Dergisi》2/2，2013，第79–85页；第80页碑面照片，第81–84页中文释文",
+      "checked": "已读铭文释文、立碑年、地点与作者著录；第81页保留原释文用字“寰寓”。",
+      "limitation": "实际引铭文中文，而非把论文摘要当古代话语；仅核732年。西面为唐廷的纪念叙述，不能替代另三面的突厥文声音。",
+      "humanReviewed": false,
+      "imageUrl": "https://dergipark.org.tr/en/download/article-file/136825"
+    },
+    {
+      "id": "RT2",
+      "title": "1921年俄蒙建立友好关系协定",
+      "url": "https://istmat.org/node/46988",
+      "kind": "有官方汇编出处的原始协定转录",
+      "locator": "《Собрание узаконений и распоряжений правительства за 1921 г.》第77号，第655项；1944年汇编第1059–1061页，第1–6条及末署",
+      "checked": "已读协定条文、全权代表名单、驻使领与边界条款；公历署日1921年11月5日。",
+      "limitation": "网站转录保留个别拼写讹误；不把互认政府扩写为中华民国也已承认蒙古独立。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT3",
+      "title": "Tanais 至高神社团铭文 CIRB 1279",
+      "url": "https://epigraphy.packhum.org/text/184021",
+      "kind": "PHI Greek Inscriptions · 希腊铭文学术语料转录",
+      "locator": "CIRB 1279 = IosPE II 447，PH184021；第1–5、30行；目录日期225 AD",
+      "checked": "已读希腊文全文、行号、塔奈斯出土地与225年目录纪年。",
+      "limitation": "转录保留缺损、补字和存疑记号；未校石刻照片，不由“至高神”称呼推定唯一确定的宗教归属。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT20",
+      "title": "塔奈斯CIRB1279原石图像：Завойкина，2013，图28",
+      "url": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf",
+      "kind": "俄罗斯科学院考古所公开专著 · 所刊原物图像",
+      "locator": "Н. В. Завойкина，《Боспорские фиасы: между полисом и монархией》，2013；第116页论CIRB1279，第117页图28（PDF第115、116页）",
+      "checked": "已读专著的1279号、225年与图28对象的明确对应及图题；配套主文用PHI古希腊文转录，不以现代论述冒充铭文。",
+      "limitation": "本来源仅补原物图像与对象对应；未据图逐个字母复校PHI补字，也未另断言图28是照片还是描图。完整1965年原刊80MB超出网页解析限，未冒称已读该原刊。",
+      "humanReviewed": false,
+      "imageUrl": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf#page=117"
+    },
+    {
+      "id": "RT4",
+      "title": "诺夫哥罗德桦树皮书信第752号",
+      "url": "https://gramoty.ru/birchbark/document/show/novgorod/752/",
+      "kind": "高等经济大学、俄罗斯科学院斯拉夫学研究所 · 出土文书数据库",
+      "locator": "Новгород №752；Троицкий раскоп，усадьба К；释文及现代俄译；ДНД₂ A11、НГБ X",
+      "checked": "已读原文分词释文、两段残片、俄译及三套断代：暂定1100–1120，地层1080–1100年代（偏1080年代），非地层偏12世纪前40年。",
+      "limitation": "本书信无完整作者与收信人姓名；暂定年代可能向前移动，不能改造成1100年某日的爱情故事。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT5",
+      "title": "瓦尔帕莱索自然史博物馆考古藏品：3015号陶鼓",
+      "url": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica",
+      "kind": "智利公共博物馆 · 编号文物、馆藏照片及著录",
+      "locator": "Tamboril，Nº inv. 3015；1000–1450 d. C.；Villa Alemana出土说明及照片",
+      "checked": "已读3015号器物尺寸、材质、断代、1984年两座墓葬中发现的记录；页面附该器物照片。",
+      "limitation": "馆方按Aconcagua文化与晚中间期断代，未给此器物直接碳测年；1984年是发现时间，不是制作时间。",
+      "humanReviewed": false,
+      "imageUrl": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica"
+    },
+    {
+      "id": "RT6",
+      "title": "智利1925年宪法原始版本",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=131386&idVersion=1925-09-18",
+      "kind": "智利国会图书馆 LeyChile · 指定历史原始版本",
+      "locator": "1925年9月18日题首；第10条第2项；第43条；第十过渡条；总统及部长署名",
+      "checked": "已读原始版的公布命令、信仰自由条款、施行条款与阿莱桑德里署名。",
+      "limitation": "版本固定为1925-09-18；公投、颁布与施行分别处理，过渡条规定公报公布后30天施行。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT7",
+      "title": "科尔多瓦大学改革《开篇宣言》",
+      "url": "https://www.unc.edu.ar/sobre-la-unc/manifiesto-liminar",
+      "kind": "阿根廷科尔多瓦国立大学 · 原始宣言转录与图像",
+      "locator": "Manifiesto de la Federación Universitaria de Córdoba；1918年6月21日；开头、自治代表权段、日期及署名栏",
+      "checked": "已读正文、学生对大学权威与参与治理的要求，以及日期和署名；页面并有原件图像链接。",
+      "limitation": "使用当事学生宣言的批判语言；它不是对全部大学现状的中性统计，也不能证明要求已立即全部落实。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT8",
+      "title": "《清圣祖实录》卷189：命勒昭莫多碑文",
+      "url": "https://zh.wikisource.org/zh-hant/康熙朝實錄/卷之一百八十九",
+      "kind": "清朝官修实录的有卷次转录",
+      "locator": "卷189，康熙三十七年戊寅，冬十月乙巳，“命勒昭莫多碑文曰”条；碑文内回叙康熙三十五年",
+      "checked": "已读卷首纪年与命勒全文；记录动作属1698年，碑文回叙的战事属1696年。",
+      "limitation": "这是官修实录转录，并非已校原碑照片；清廷颂功修辞有明确立场。未换算原朔日、干支日为公历。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT9",
+      "title": "联合国大会第1630（XVI）号决议：接纳蒙古人民共和国",
+      "url": "https://documents.un.org/api/symbol/access?l=en&s=A/RES/1630(XVI)&t=pdf",
+      "kind": "联合国原始决议扫描及文字",
+      "locator": "A/RES/1630(XVI)，1961年10月27日，第1043次全体会议；GAOR第16届补编17（A/5100），第64页，1630段",
+      "checked": "已读决议标题、安理会25日建议的序言、接纳决定与27日会议署日。",
+      "limitation": "汇编出版于1962年不改变决议行动日1961年10月27日；不得与1667（XVI）坦噶尼喀入会混淆。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT10",
+      "title": "《往年纪事》：O. V. Tvorogov校订与现代俄译",
+      "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/biblioteka-literatury-drevnej-rusi-tom-1/2",
+      "kind": "有底本说明的编年史学术校译转录",
+      "locator": "《Библиотека литературы Древней Руси》第1卷，“Повесть временных лет”；6370（862）、6488（980）、6496（988）、6559（1051）年条",
+      "checked": "已读底本说明及四个年条；本译依伊帕季耶夫抄本（БАН 16.4.4），以赫列布尼科夫抄本等订补，非冒称某一现存9世纪原件。",
+      "limitation": "成书于12世纪初而存本更晚，包含王朝、宗教和传说性叙事；采用编者所列公元年份，不作未经核定的日历换算。本组四条引文合计不超过25个俄文词。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT11",
+      "title": "波洛茨克欧芙罗西涅十字架的奉献铭文",
+      "url": "https://epigrafika.ru/epigraphy/inscription/show/961",
+      "kind": "古罗斯铭文研究数据库 · 原释文、译文与旧照片出处",
+      "locator": "铭文ID961；1161年，Спасо-Евфросиньевский монастырь；奉献铭文6669年行及禁转移条；Рыбаков 1964，第32–33页，第27号",
+      "checked": "已读古文字释文、6669年原纪年与现代俄译、地点及参考文献。",
+      "limitation": "原十字架在二战期间失踪；以旧照片与学术释文传承核证，不能用1997年复制品当原件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT12",
+      "title": "波洛茨克欧芙罗西涅十字架的工匠铭文",
+      "url": "https://epigrafika.ru/epigraphy/inscription/show/969",
+      "kind": "古罗斯铭文研究数据库 · 工匠铭文、译文与旧照片",
+      "locator": "铭文ID969；工匠Лазорь Богъша铭文；旧照注明Алексеев 1957、И. А. Шляпкин照片；Рыбаков 1964，第32–33页，第27号",
+      "checked": "已读逐行释文和俄译，见保存旧照片的刊物出处；目录断为1161年。",
+      "limitation": "短引明确取数据库的现代俄译；原拼写与现代拼写不是同一种转录层次。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT13",
+      "title": "1563年布列斯特圣经：科尔尼克图书馆原刊数字化目录",
+      "url": "https://www.wbc.poznan.pl/dlibra/publication/1686/edition/2746?language=pl",
+      "kind": "PAN Biblioteka Kórnicka · 有原刊数字对象与索书号的馆藏目录",
+      "locator": "索书号Cim.F.4057；发行1563，Brześć Litewski；题名、新约部分、出版者与数字化对象著录",
+      "checked": "已读原刊题名的目录转录、地点、年份、馆藏号、出版者和数字对象格式；未逐页校验DjVu。",
+      "limitation": "目录中机器日期1563-01-01不是可确认的印行日，只采用1563年。短引为馆方所录原题名，标为馆藏说明。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT14",
+      "title": "霍普韦尔水獭造型烟斗：Ohio History Connection数字馆藏",
+      "url": "https://artsandculture.google.com/asset/otter-effigy-pipe/8gF6uz9U0K9JhA?hl=en",
+      "kind": "博物馆供稿的编号数字文物记录与图像",
+      "locator": "Otter Effigy Pipe，100–400 A.D.；Ohio Memory p267401coll32/id/10081；出土地与修复说明",
+      "checked": "已读供稿机构、器物断代、Tremper Mound出土说明、材质尺寸及修复部位；页面有器物图像。",
+      "limitation": "数字记录ID不冒称博物馆藏品入藏号；馆藏地Columbus与出土地Tremper Mound不同。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT15",
+      "title": "大都会艺术博物馆1978.412.120号米姆布雷斯陶碗",
+      "url": "https://www.metmuseum.org/art/collection/search/310572",
+      "kind": "博物馆原始藏品著录、编号与开放图像",
+      "locator": "Bowl；Object Number1978.412.120；Date10th–12th century；Geography与Medium；藏品图像链接",
+      "checked": "已读器物号、完整世纪断代、地理归属、材质尺寸与该件明确对应的馆方开放图像链接。",
+      "limitation": "馆方只列新墨西哥地理归属，没有明确具体出土遗址；文化/器型断代不冒称直接碳测年，也不把1964年购藏当制作年。",
+      "humanReviewed": false,
+      "imageUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/310572/675560/main-image",
+      "parallelUrl": "https://commons.wikimedia.org/wiki/File:Bowl_MET_1978.412.120.jpeg"
+    },
+    {
+      "id": "RT16",
+      "title": "Mitchell遗址木柱的年轮与放射性碳原始测年报告",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333783",
+      "kind": "PLOS ONE原始考古研究报告 · 数据、图像与方法",
+      "locator": "Kessler等，“Age and origin of a Cahokian wooden monument at the Mitchell site, Illinois, USA”，2025；Abstract、Results、图1及年轮/14C结果段",
+      "checked": "已读研究对象、1961发现背景、图1、逐年树轮14C与993/994事件匹配，以及两个不能排除的伐木候选区间。",
+      "limitation": "最佳匹配1124年不等于唯一可证明的伐木年；应完整保留1122–1126及1129–1132两段候选，不能缩成某一中点年。",
+      "humanReviewed": false,
+      "imageUrl": "https://doi.org/10.1371/journal.pone.0333783.g001"
+    },
+    {
+      "id": "RT17",
+      "title": "富兰克林·罗斯福1933年首次就职演说",
+      "url": "https://www.inaugural.senate.gov/37th-inaugural-ceremonies/",
+      "kind": "美国国会就职典礼联合委员会 · 演说原文与仪式记录",
+      "locator": "37th Inaugural Ceremonies；Date、Location、President及INAUGURAL ADDRESS开头",
+      "checked": "已读1933年3月4日、国会大厦东门廊、总统姓名，以及所刊演说开头的恐惧与领导支持段。",
+      "limitation": "本记录只据已读开头，未把页面之外的整篇演说内容自动扩写为条文，也不把动员修辞当成经济恢复结果。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT18",
+      "title": "佩德罗·德·巴尔迪维亚致查理五世信，原署1545年9月4日",
+      "url": "https://www.memoriachilena.cl/archivos2/pdfs/MC0000801.pdf",
+      "kind": "智利国家图书馆Memoria Chilena · 书信学术版本扫描",
+      "locator": "“Al Emperador Carlos V. La Serena, 4 septiembre de 1545”，扫描第0–25页，对应印页26–51；第40页及43页",
+      "checked": "已读书信题首、署地、署年，以及第40页发现与殖民自述、第43页招徕迁居的土地赞语。",
+      "limitation": "这是后世书信编选版本扫描，非1545亲署原件；未核书手与全部手稿传承。原署日处儒略历时期，未核换算，仅给年级日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RT19",
+      "title": "1710年奥尔雷克契约的旧乌克兰语原件释文",
+      "url": "https://old.archives.gov.ua/Publicat/AU/AU_3_4_2010/14.pdf",
+      "kind": "乌克兰档案机关期刊 · 原件首次发表与校释",
+      "locator": "О. Б. Вовк，“Конституція Пилипа Орлика: оригінал та його історія”，《Архіви України》2010第3–4期，第145–166页；第6条约160–161页、第13条164页；РГАДА ф.124, оп.2, 1710, д.12",
+      "checked": "已读原件身份、数字副本来源与编辑凡例，原文第6条议事安排、第13条基辅城市权利及新任酋长署名说明。",
+      "limitation": "本刊据RGADA于2009年提供的数字副本发表旧乌克兰语原件，保留旧字形但现代化标点与大小写、展开缩写；不同于后人转译的拉丁版本。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MT1",
+      "title": "《后汉书》卷五十九·张衡列传",
+      "url": "https://zh.wikisource.org/zh-hant/後漢書/卷59",
+      "kind": "后编史书的现代转录",
+      "locator": "“阳嘉元年，复造候风地动仪”段",
+      "checked": "已读造仪署年、仪器形制和后接“尝一龙机发”叙事，区分署年与未署年的后续故事。",
+      "limitation": "范晔后编史书，不是132年工场记录；未核古写本或原始器物，不能据此证明现代复原器性能。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MT2",
+      "title": "《梦溪笔谈》四库全书本卷十八·技艺：活板",
+      "url": "https://zh.wikisource.org/wiki/夢溪筆談_(四庫全書本)/卷18",
+      "kind": "宋代笔记的清代传本现代转录",
+      "locator": "“庆历中有布衣毕昇又为活板”至“其印为群从所得”段",
+      "checked": "已读胶泥刻字、火烧、铁板排字、两板更替及毕昇死后字印流传段；原文只称“庆历中”，不取中间某年。",
+      "limitation": "所据为四库本的文字层，未逐字校宋本或原印影像；作者叙事与第一人称保存说法不能证明全球优先权或市场规模。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MT3",
+      "title": "宋应星《天工开物》自序",
+      "url": "https://zh.wikisource.org/zh/天工開物/自序",
+      "kind": "署名自序的现代文字转录",
+      "locator": "“卷分前后”段及文末“崇祯丁丑孟夏月奉新宋应星”",
+      "checked": "已读篇目排序的自述理由、与功名进取无关的表述及署名纪年；保留丁丑孟夏，不推算日。",
+      "limitation": "未核1637初刊原叶或不同版本异文；自序能证明作者的自我定位，不直接证明书的传播或实际技术效果。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MT4",
+      "title": "大英图书馆Or.8210/P.2《金刚经》题记原卷局部及机构释文",
+      "url": "https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/buddhism-on-the-ground/buddhist-texts-the-diamond-sutra/",
+      "kind": "原卷局部照片，辅以馆方完整题记英译",
+      "locator": "页面The Diamond Sūtra题记说明；照片末行“咸通九年四月十五日王玠为二亲敬造普施”",
+      "checked": "已打开并实际查看Or.8210-P.2-colophon照片，读出原署日期、王玠及为二亲敬造普施；另读馆方完整题记英译、藏经洞发现信息。",
+      "limitation": "馆方列11 May 868，但本轮未核该西历日制；只用868年，不补作公历日。局部题记不能确定刻工、印刷地点或印刷术起源。",
+      "humanReviewed": false,
+      "witnessUrl": "https://idp.bl.uk/wp-content/uploads/2023/08/Or.8210-P.2-colophon-760x1024.jpg",
+      "witnessLabel": "已核题记原卷局部照片"
+    },
+    {
+      "id": "MT5",
+      "title": "中国科学院自然科学史研究所：中国历代年号索引表",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "kind": "现代机构年号对照工具，非历史事件原件",
+      "locator": "〔东汉〕阳嘉132—135；〔宋〕庆历1041—1048",
+      "checked": "已打开并核阳嘉与庆历起讫；仅用于原典年号对照。",
+      "limitation": "年号年份对照不是逐日历算；未据表证明原农历月份与公历年界完全一致。",
+      "humanReviewed": false
     }
   ],
-  "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。",
+  "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。 新增器物明确区分古代铭文、现代馆藏说明及原始研究报告；范围断代保留完整上下界，地点未知则不放置地图点。",
   "selection": "时间框架为公元前10年至公元2000年。保留原1852—1868样本，分时代补入已核读原始材料；按地区、时段显示收录数，不将导航范围等同逐年逐国完备的全球通史。",
   "basemap": {
     "title": "Natural Earth 1:110m Land",
@@ -7001,16 +12205,8 @@
   ],
   "coverage": {
     "complete": false,
-    "note": "时间导航覆盖2010个历史年份；已收材料不等于逐年逐地区完备的历史。",
+    "note": "时间导航仍为公元前10年至2000年、无0年。矩阵统计已收材料涉及的地区与时代；范围跨期不等于多次事件，有材料不等于历史已完备。",
     "gaps": [
-      {
-        "label": "868年王玠《金刚经》印本题记",
-        "reason": "大英图书馆IDP馆藏Or.8210/P.2页面已打开，868年代与敦煌发现地可核；题记原图／完整逐字文字本轮未读到。牛津Cabinet页面502，不能把检索摘要里的日级换算当成已读原文。",
-        "urls": [
-          "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
-          "https://www.cabinet.ox.ac.uk/worlds-earliest-dated-printed-book-diamond-sutra-868-ce"
-        ]
-      },
       {
         "label": "1186年Ta Prohm碑K.273",
         "reason": "仅找到后人讨论与版次线索，未打开并对读Cœdès1906碑文及译文，未补造原文、人数或条款。",
@@ -7029,11 +12225,6 @@
         "urls": [
           "https://egazette.gov.in/WriteReadData/1949/E-2358-1949-0000-109779.pdf"
         ]
-      },
-      {
-        "label": "老挝1800年以前的在地原始文献",
-        "reason": "本批没有取得可核篇章、原纪年及版本的早期老文／碑刻材料；未用后世建国传说补造精确事件。",
-        "urls": []
       },
       {
         "label": "1918年奥地利政体法正式公报终稿",
@@ -7057,12 +12248,12 @@
       },
       {
         "label": "美国、智利、阿根廷 · 公元前10年至欧洲接触前",
-        "reason": "本轮未取得可逐字核读、可精确定位年代的当地古代原始材料；不以现代国家名称填充古代文明，也不将考古文化简介伪装成当时文献。",
+        "reason": "已以美国RY16—RY18、智利RY5补入可追溯的具体器物或测年研究；全部保留原断代范围与未知制作者。阿根廷欧洲接触前、智利更早阶段仍缺闭环材料，不能从少数器物推定完整历史。",
         "urls": []
       },
       {
         "label": "白俄罗斯、乌克兰 · 古代至中世纪",
-        "reason": "本轮未完成有可靠版本传承的古罗斯原始文本核读；俄罗斯法典未因泛俄语境而自动扩展到这两个现代地区。",
+        "reason": "本轮RY10—RY14补入波洛茨克与基辅的中古纪事、铭文；纪事为后编传承，原刻及版本限制逐条保留。两地区公元500年以前仍缺正式收录材料，不用泛斯拉夫叙事替代。",
         "urls": []
       },
       {
@@ -7096,7 +12287,175 @@
         "label": "补充中国材料的版本核验",
         "reason": "CS2原藏号、影印对应的初印或报载版本未核；影印无可见署日，仅采用1919年。",
         "urls": []
+      },
+      {
+        "label": "亚洲材料：待续核",
+        "reason": "越南1651年罗德词典候选只核到馆藏及出版元数据；Gallica和Google原文未成功取得，未列为已完成记录。",
+        "urls": []
+      },
+      {
+        "label": "亚洲材料：待续核",
+        "reason": "柬埔寨1577年IMA2采用2013年原始研究所引译文，传承到1970年Lewitz法译；本轮未独立打开原碑照片与1970年首版页图，AY22和AT21明确保留此限制。",
+        "urls": []
+      },
+      {
+        "label": "亚洲材料：待续核",
+        "reason": "老挝K365仅能采用释读者的5—6世纪公元断代范围401—600；不人为缩到500或硬定具体年。",
+        "urls": []
+      },
+      {
+        "label": "亚洲材料：待续核",
+        "reason": "资料仍为示例性补缺，不能据25条声称亚洲各地区各时代均穷尽覆盖；所有来源humanReviewed均为false。",
+        "urls": []
+      },
+      {
+        "label": "瓦鲁斯败战精确地点",
+        "reason": "Dio文本只有宽泛地域，未将Kalkriese或其他遗址当作唯一确点；区域图点仅示意。",
+        "urls": []
+      },
+      {
+        "label": "埃塞尔伯特法律制定年",
+        "reason": "改按比德明确的616年王卒事件及法律回顾呈现，不造法典颁行日。",
+        "urls": []
+      },
+      {
+        "label": "苏莱曼1526年原卷图像",
+        "reason": "Gallica返回403；已读大学所刊奥斯曼转写和法译，保留原卷入口。",
+        "urls": []
+      },
+      {
+        "label": "原石/敕书实物与人工史学复核",
+        "reason": "所有humanReviewed均false；线上释文/影像不能替代现场材料学与人工释读复核。",
+        "urls": []
+      },
+      {
+        "label": "1951年北约议定书精确署日",
+        "reason": "北约网页22 October与UNTC缔结元数据17 October不一；仅展示两方均支持的1951年，保留各自入口，不自行圆通差异。",
+        "urls": []
+      },
+      {
+        "label": "白俄罗斯 · 古代（前10—500）",
+        "reason": "本轮未闭环到具有文物号、原始报告/图像及可保留完整断代的原始材料；不将泛斯拉夫材料自动套为白俄罗斯事件。",
+        "urls": []
+      },
+      {
+        "label": "乌克兰 · 古代（前10—500）",
+        "reason": "已读PHI SEG45:985赫尔松涅索斯174年希腊文（https://epigraphy.packhum.org/text/339722），但未闭环到该石的原照片或1995年原发表报告，暂不入正式records；不能仅靠现代综述补图像要求。",
+        "urls": []
+      },
+      {
+        "label": "智利 · 古代（前10—500）、早期中古（501—1000）",
+        "reason": "本轮可靠闭环器物3015为1000–1450，保留跨时期区间；没有把它改断为更早年份。更早遗物须继续核器物号、图像和年代依据。",
+        "urls": []
+      },
+      {
+        "label": "阿根廷 · 古代（前10—500）、早期中古（501—1000）、晚期中古（1001—1500）",
+        "reason": "候选Ciénaga器物原馆方断代有前200—850年，超出本项目起点，不裁剪为前10—850。其他文物未闭环原图与断代依据，不用现代国家叙事替代。",
+        "urls": []
+      },
+      {
+        "label": "阿根廷 · 近世（1501—1800）",
+        "reason": "已打开阿尔梅里亚大学1573年科尔多瓦建城文书图像目录（https://www2.ual.es/ideimand/portfolio-items/acta-de-fundacion-de-cordoba-argentina-1573-libro-i-de-actas-de-cabildo/），另读民间全文转录，但未完成原件影像与完整转录逐段互校，暂不据此入正式记录。",
+        "urls": []
+      },
+      {
+        "label": "蒙古 · 1946—2000",
+        "reason": "已补1961年入会决议；没有将2001修订版误作1992宪法原始版。蒙古1992原始版仍可单独续核。",
+        "urls": []
+      },
+      {
+        "label": "美国 · 古代（前10—500）、早期中古（501—1000）、晚期中古（1001—1500）",
+        "reason": "已分别以具体烟斗、米姆布雷斯陶碗与木柱原研究补入；跨期器物不证明区间每年发生同一事件，制作者未知。另已读SLAM112:1944号陶碗c.970–1020及Eby Ranch商人来源记录（https://www.slam.org/collection/objects/36325/），但没有完成对应照片核查，改用图像对应明确的Met1978.412.120，不混淆两件器物的断代或出土地。",
+        "urls": []
+      }
+    ],
+    "resolvedGaps": [
+      {
+        "label": "868年王玠《金刚经》印本题记",
+        "previousReason": "大英图书馆IDP馆藏Or.8210/P.2页面已打开，868年代与敦煌发现地可核；题记原图／完整逐字文字本轮未读到。牛津Cabinet页面502，不能把检索摘要里的日级换算当成已读原文。",
+        "resolution": "MY4/MT4已核Or.8210/P.2题记原卷照片及完整机构英译；保留868年精度，公历日制仍待核。",
+        "recordIds": [
+          "MY4"
+        ],
+        "sourceIds": [
+          "MT4"
+        ],
+        "urls": [
+          "https://idp.bl.uk/wp-content/uploads/2023/08/Or.8210-P.2-colophon-760x1024.jpg"
+        ]
+      },
+      {
+        "label": "老挝1800年以前的在地原始文献",
+        "previousReason": "本批没有取得可核篇章、原纪年及版本的早期老文／碑刻材料；未用后世建国传说补造精确事件。",
+        "resolution": "AY19引K365铭文，保留401—600断代；AY23引1641年荷兰使者日记摘译。未声称本土文献系统已齐备或转译传承全部闭环。",
+        "recordIds": [
+          "AY19",
+          "AY23"
+        ],
+        "sourceIds": [
+          "AT18",
+          "AT22"
+        ],
+        "urls": []
       }
     ]
-  }
+  },
+  "readingGuides": [
+    {
+      "id": "dispatch-607",
+      "title": "607年前后：派使与来使，两部史书如何叙述？",
+      "chinaRecordId": "AX4",
+      "otherRecordId": "AY2",
+      "question": "分别找出两书给使者、通事、目的地和国书所用的词；哪些细节只见于其中一书？",
+      "relationBasis": "两条各保留原年号的607年排序参照；比较的是后编史书中的同一轮外交往来。",
+      "reading": "《日本书纪》派使句点名小野妹子与通事鞍作福利，目的地用“大唐”；《隋书》在隋大业语境下保存来使与国书叙事。称谓差异与记述角度本身是证据，不能把607年的隋改成唐。",
+      "boundary": "两书都是后来编纂的历史文本，未核亲署国书或具体航海日。相合的年号参照与后世文本不能单独证明两记述完全独立，也不能补出失载原信。",
+      "sourceIds": [
+        "AT1",
+        "AS4"
+      ]
+    },
+    {
+      "id": "authority-1945",
+      "title": "1945年9月2日：受降文书与独立宣言的权威从何而来？",
+      "chinaRecordId": "AY3",
+      "otherRecordId": "AX14",
+      "question": "两份文本分别由谁署名、以谁的名义发言，又要求承认什么？",
+      "relationBasis": "两份文书均有1945年9月2日的日级日期；中国参照为徐永昌代表中华民国接受日本投降的签栏，地点在东京湾。",
+      "reading": "受降文书通过日本签署、盟国接受的程序规定军事投降；越南独立宣言以民族与人民的政治权利提出国家独立主张。两种文本的授权者、对象和法律政治动作不同。",
+      "boundary": "中国参照属于有中国代表参与的国际文书，不是中国境内受降仪式。相同日期不证明互相承认、共同签署、直接因果，也不能证明各地军队在当日已全部解除武装。",
+      "sourceIds": [
+        "AT2",
+        "AS14"
+      ]
+    },
+    {
+      "id": "students-1918-1919",
+      "title": "1918—1919年：科尔多瓦与北京学生向谁提出什么要求？",
+      "chinaRecordId": "CX2",
+      "otherRecordId": "RY7",
+      "question": "分别标出宣言的发言者、所呼吁的公众、被批评的权威与要求采取的行动。",
+      "relationBasis": "相邻年份的学生公共宣言对读：阿根廷材料有1918年6月21日，所读北京影印仅采用1919年精度。",
+      "reading": "科尔多瓦宣言将大学权威与学生通过代表参与治理列为争议；北京宣言把青岛、山东和国家主权作为危机，并呼吁工商各界行动。共同体的规模与诉求对象不同，学生身份只是比较的起点。",
+      "boundary": "两文书表达特定署名群体的立场，不能代指全部学生或人民。年代接近不能证明思想传播关系；宣言的要求与政策实际落实须分开验证。",
+      "sourceIds": [
+        "RT7",
+        "CS2"
+      ]
+    },
+    {
+      "id": "declarations-1919",
+      "title": "1919年：朝鲜独立宣言与北京学界宣言的政治主体",
+      "chinaRecordId": "CX2",
+      "otherRecordId": "AY6",
+      "question": "两份宣言如何表述独立、主权、人民与对外呼吁，其政治处境有什么差别？",
+      "relationBasis": "同属1919年的政治宣言；朝鲜记录所读为现代英译，北京记录所读为机构公布的印刷件影印，保留版本差异。",
+      "reading": "朝鲜独立宣言以国家独立、民族自主和平等提出要求，并约束行动方式；北京学界宣言围绕国家领土与主权危机动员工商各界。比较须先识别各自宣称代表谁及面向谁。",
+      "boundary": "两者的殖民统治与国家政治处境不同。宣言主张不等于已取得独立或已解决外交危机；同年不能独自证明共同组织或直接影响关系。",
+      "sourceIds": [
+        "AT5",
+        "CS2"
+      ]
+    }
+  ]
 }
