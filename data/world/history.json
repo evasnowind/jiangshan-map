@@ -10301,6 +10301,392 @@
         "刑部",
         "司法"
       ]
+    },
+    {
+      "id": "BA1",
+      "caseId": null,
+      "title": "Falls Creek南岩棚13号地面保存217年建筑用木采伐证据",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "Falls Creek的Basketmaker II社群（考古分类；具体政权及自称未明）"
+      ],
+      "placeId": null,
+      "placeLabel": "Falls Creek South Shelter · 13号地面（今科罗拉多州杜兰戈以北）",
+      "placeRole": "原研究报告明确的建筑用木出土单元；未核地图坐标，仅在列表对读",
+      "locationStatus": "unlocated",
+      "locationNote": "原报告第26页定位到Hidden Valley西侧、杜兰戈以北约5英里的南岩棚；未取得可复核坐标，不以现藏研究室或任意城市中心替代遗址。",
+      "date": {
+        "value": "0217",
+        "precision": "year",
+        "sortYear": 217,
+        "display": "217年 · 13号地面建筑用木采伐年度",
+        "original": "报告第28页列IF-814-25（217r）、IF-814-16（217rB）、IF-814-34（217B）；第10页将B、r等识为砍伐年标识。这里记录该组建筑用木的217年批次；第31页的同年建造说是作者基于聚集和层序的解释。不是全遗址始建年；本条仅采用年精度，不补月日。",
+        "sourceIds": [
+          "BS1"
+        ]
+      },
+      "summary": "13号地面有三件同系217年的砍伐年样本，两件带树皮标识。Dean据此推定该地面建造于217年，并把518年样本判为后期混入。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第28页在South Shelter, Floor 13下列IF-814-25=217r、IF-814-16=217rB、IF-814-34=217B；第10页解释B为树皮，B、r等用于判断砍伐年。",
+          "sourceId": "BS1",
+          "locator": "第28页DATES表：South Shelter, Floor 13；第10页EXPLANATION OF SYMBOLS",
+          "url": "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf"
+        },
+        {
+          "text": "作者依据砍伐年的聚集及13号在12、11号之下的层序，明确推断13号地面建于217年；另把518年样本判断为不真正属于13号的Basketmaker III混入材料。",
+          "sourceId": "BS1",
+          "locator": "第31页COMMENTS，South Shelter段",
+          "url": "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf"
+        }
+      ],
+      "quote": {
+        "text": "The good clustering of cutting dates clearly indicates that Floor 13 was built in A.D. 217.",
+        "translation": "作者认为，砍伐年的明显聚集说明13号地面建于217年。这是研究者的施工解释，须与样本年轮观察分别理解。",
+        "sourceId": "BS1",
+        "locator": "第31页，South Shelter及Floors 11、12、13段",
+        "url": "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf",
+        "kind": "research_report"
+      },
+      "limitation": "本轮读到1975年实验室重新分析报告的全文索引，未视觉校读PDF页图，也未取得1954年原发掘报告及样本实物。报告说明遗址扰层、样本归属与记录混乱、上层重用材风险；217年只指这一组用木，施工同年为作者解释。没有可核古代人名；现代美国只是地理入口。",
+      "artifact": {
+        "identifier": "原报告Map Reference 14；South Shelter Floor 13；IF-814-25、IF-814-16、IF-814-34",
+        "site": "Falls Creek Rock Shelters，Hidden Valley，La Plata County，Colorado；原报告第26页",
+        "imageOrReportUrl": "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf",
+        "datingMethod": "实验室重审考古木材树轮序列；三件砍伐年在217年聚集，两个B样本保留树皮；作者据层序作建筑解释。",
+        "datingLimitation": "未把任意单件木材死亡年等同施工年；不采用518年混入样本，不把13号单元推为整个岩棚的始建时间。"
+      },
+      "parties": [],
+      "aliases": [
+        "Falls Creek",
+        "南岩棚",
+        "South Shelter",
+        "Floor 13",
+        "Basketmaker II",
+        "217",
+        "树轮"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "CA1",
+      "caseId": null,
+      "title": "《三国志》将曹操作铜爵台系于建安十五年冬",
+      "regions": [
+        "中国"
+      ],
+      "polities": [
+        "东汉（曹操掌政时期）"
+      ],
+      "placeId": null,
+      "locationStatus": "unlocated",
+      "placeLabel": "本纪此句未署具体工址",
+      "placeRole": "建台动作的具体工址未据此句核定，仅在列表对读",
+      "locationNote": "未用推定都城或现代铜雀台景点充作原句的已核工址；地点可在取得地理文献或遗址证据后补充。",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 210,
+        "display": "约210年 · 建安十五年冬",
+        "original": "原句属建安十五年冬。210仅依建安起年作排序参照，未核年界；后面裴注引令的十二月己亥不移作建台日期。",
+        "sourceIds": [
+          "CP1",
+          "CP4"
+        ]
+      },
+      "summary": "武帝纪以简短编年句记录作铜爵台，保存曹操时期建筑活动的文字见证。",
+      "people": [
+        {
+          "name": "曹操",
+          "role": "本纪叙事主体；“作”不等于本人作为工匠施工"
+        }
+      ],
+      "claims": [
+        {
+          "text": "建安十五年条在求贤令之后记“冬，作銅爵臺”；原句未列建造规模、工匠或用材数量。",
+          "sourceId": "CP1",
+          "locator": "建安十五年冬条",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+        }
+      ],
+      "quote": {
+        "text": "冬，作銅爵臺。",
+        "translation": "冬季，建造铜爵台；采用所读转录的“爵”字，不据后世称名改写原引文。",
+        "sourceId": "CP1",
+        "locator": "武帝纪建安十五年冬条",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+        "kind": "primary_text"
+      },
+      "limitation": "后编史书的建筑记年，不是现存木构测年或工地账；没有据此补出工匠身份、开工确日、完整工期或实际工址。原署年界待核。",
+      "aliases": [
+        "曹操",
+        "铜爵台",
+        "铜雀台",
+        "建安十五年",
+        "建筑"
+      ]
+    },
+    {
+      "id": "CA2",
+      "caseId": null,
+      "title": "《吴越备史》记开平四年始筑捍海塘及竹笼、木石工法",
+      "regions": [
+        "中国"
+      ],
+      "polities": [
+        "吴越（钱镠时期，文献采用后梁开平纪年）"
+      ],
+      "placeId": "ca-hangzhou",
+      "placeLabel": "钱塘江沿岸（杭州城市参照）",
+      "placeRole": "据钱塘、候潮与通江门等地名作城市级参照，不定位某一段910年塘基",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 910,
+        "display": "约910年 · 开平四年八月",
+        "original": "原编年明列庚午开平四年八月；以开平907起年作910排序参照，未换算完整西历年界或八月日期。后续工法回述未另署完工日。",
+        "sourceIds": [
+          "CP2",
+          "CP4"
+        ]
+      },
+      "summary": "编年条记始筑捍海塘，后接竹笼盛石、巨材支护及建门的叙述；史书中的工程动作、材料和神异解释分别看待。",
+      "people": [
+        {
+          "name": "钱镠",
+          "role": "武肃王下所叙吴越王，文中命令用木石筑护的主体；不是可据此确认的工匠"
+        }
+      ],
+      "claims": [
+        {
+          "text": "八月条记始筑捍海塘，并叙候潮、通江等城门；不是每段工程均在当月完成的统计。",
+          "sourceId": "CP2",
+          "locator": "庚午开平四年八月条",
+          "url": "https://zh.wikisource.org/zh-hans/吳越備史/卷2"
+        },
+        {
+          "text": "后段叙运巨石、竹笼盛装和植巨材支护，是文本所记的材料安排；射潮及潮头转向不据此写成已证因果。",
+          "sourceId": "CP2",
+          "locator": "八月条后“初定其基”回述",
+          "url": "https://zh.wikisource.org/zh-hans/吳越備史/卷2"
+        }
+      ],
+      "quote": {
+        "text": "王乃命运巨石，盛以竹笼，植巨材捍之",
+        "translation": "王命令搬运大石装入竹笼，并立大木加以支护；保留转录的叙述性质。",
+        "sourceId": "CP2",
+        "locator": "开平四年八月筑塘条后回述",
+        "url": "https://zh.wikisource.org/zh-hans/吳越備史/卷2",
+        "kind": "primary_text"
+      },
+      "limitation": "王朝史传承文本，未校原叶、现场残存或木材样本；材料安排不直接证明实际数量、每期施工时长或水工效果。射潮与神祠叙事不当作实测原因，地图仅作现代城市参照。",
+      "aliases": [
+        "钱镠",
+        "吴越",
+        "捍海塘",
+        "开平四年",
+        "竹笼",
+        "木石",
+        "钱塘"
+      ]
+    },
+    {
+      "id": "CA3",
+      "caseId": null,
+      "title": "庆历六年《岳阳楼记》回述滕子京重修楼阁",
+      "regions": [
+        "中国"
+      ],
+      "polities": [
+        "北宋"
+      ],
+      "placeId": "ca-yueyang",
+      "placeLabel": "巴陵／岳阳（记文所述楼阁的城市参照）",
+      "placeRole": "原文所述建筑的城市参照，不是范仲淹作文地点或现楼构件年代",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1046,
+        "display": "约1046年 · 庆历六年九月十五日署文",
+        "original": "篇首起庆历四年，末署“時六年九月十五日”；1046为作文署年的排序参照，未换算完整年界及历日。首段“越明年”重修与末署作文日分开，不把1046当楼阁全部重修年。",
+        "sourceIds": [
+          "CP3",
+          "CP4"
+        ]
+      },
+      "summary": "范仲淹记文回述滕子京重修、增旧制与刻诗赋，再说明受托作文；记文日期与所记工程日期分别保留。",
+      "people": [
+        {
+          "name": "范仲淹",
+          "role": "记文作者；原文没有自述具体作文地点，不由景物描写断言现场测绘"
+        },
+        {
+          "name": "滕子京",
+          "role": "原文谪守巴陵郡后主持重修的叙事对象；不据此认作唯一设计者或木匠"
+        }
+      ],
+      "claims": [
+        {
+          "text": "首段将滕子京谪守、越明年重修、增旧制、刻诗赋与委托作文相连，表明叙述和实际工程是不同层次的证据。",
+          "sourceId": "CP3",
+          "locator": "首段“慶曆四年春”至“屬予作文以記之”",
+          "url": "https://zh.wikisource.org/wiki/岳陽樓記"
+        },
+        {
+          "text": "篇末署“時六年九月十五日”；采用作文署年，未将此日改作重修开工或完工日。",
+          "sourceId": "CP3",
+          "locator": "篇末署日",
+          "url": "https://zh.wikisource.org/wiki/岳陽樓記"
+        }
+      ],
+      "quote": {
+        "text": "時六年九月十五日。",
+        "translation": "时在庆历六年九月十五日；这是本文署日，保留原历法。",
+        "sourceId": "CP3",
+        "locator": "篇末署日，联系篇首庆历纪年",
+        "url": "https://zh.wikisource.org/wiki/岳陽樓記",
+        "kind": "primary_text"
+      },
+      "limitation": "文字转录已读，原叶、工地账与宋代建筑实物未核。文中政绩、情感与古仁人理想不是施工测量或效果证明；城市地图点只对应叙述对象，不能把现存楼身当1046年木材。",
+      "aliases": [
+        "范仲淹",
+        "滕子京",
+        "岳阳楼记",
+        "岳阳楼",
+        "庆历六年",
+        "建筑记文"
+      ]
+    },
+    {
+      "id": "US1",
+      "caseId": null,
+      "title": "Pueblo Bonito梁材样本保留919年采伐日期",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "Pueblo Bonito社群（祖先普韦布洛为现代考古称谓）"
+      ],
+      "placeId": "us-pueblo-bonito",
+      "placeLabel": "Pueblo Bonito（用木所在建筑遗址参照）",
+      "placeRole": "木材所关联建筑遗址的区域参照，不表示采伐森林或已核精确房间坐标",
+      "date": {
+        "value": "0919",
+        "precision": "year",
+        "sortYear": 919,
+        "display": "919年 · 实验室所报建筑用木采伐年",
+        "original": "Specimens表PB-30至PB-34的外轮年919、端部L；标志说明在没有+或++时支持采伐日期。只采用该层证据，不将919定为整座聚落建立或房屋安装年。",
+        "sourceIds": [
+          "CR2",
+          "CR3"
+        ]
+      },
+      "summary": "样本卡转录把PB-30至PB-34列为919L、Room320的小型主梁；保留的是实验室采伐纪年，安装与建筑年另需证据。",
+      "people": [],
+      "claims": [
+        {
+          "text": "PB-30至PB-34均列919L，建筑栏同写Room320, small primary；这是样本记录中的年值与位置，不据五个编号统计独立树木。",
+          "sourceId": "CR2",
+          "locator": "Specimens表Excel行51—55，含标题行",
+          "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx"
+        },
+        {
+          "text": "标志原页把L列为可指采伐日期的外缘标志，仍须没有+或++；v或vv不能同样处理。",
+          "sourceId": "CR3",
+          "locator": "PDF第1页Date Symbols及cutting dates说明",
+          "url": "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf"
+        }
+      ],
+      "quote": {
+        "text": "PB-30 | 919 | L | Room 320, small primary",
+        "translation": "按原表所选列顺序转录：样本号、外轮年、端部标志、建筑位置。这是研究数据，不是古代文字；L的释义另核CR3。",
+        "sourceId": "CR2",
+        "locator": "Specimens表Excel行51；选取TRL_ID、OuterDate、OuterDateType及Architectural type_unit四列，以竖线分列",
+        "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+        "kind": "research_report"
+      },
+      "limitation": "原工作簿与标志页已核，纸质样本卡、年轮图和实物未复核。旧Judd表只核索引文字，未校页图；919v不升级，935/936和320/320a的版本差异保留。不据编号数、同年值或Comments空白推统一采购行动。 实验室采伐日期标记未细核生长/休眠季节，不据此确定月日。当地古代人物姓名未得，研究人员姓名不充作古代工匠。",
+      "artifact": {
+        "identifier": "PB-30、PB-31、PB-32、PB-33、PB-34；Specimens行51—55",
+        "site": "Pueblo Bonito，Chaco Canyon；原表建筑归属",
+        "imageOrReportUrl": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+        "datingMethod": "样本卡转录的外轮年与L端部标志，参照研究档案标志原页；无+或++修饰。",
+        "datingLimitation": "不从采伐年直接推出安装、备料、搬运、复用、施工或全城建立年；样本号不直接等于独立木数。"
+      },
+      "aliases": [
+        "Pueblo Bonito",
+        "919",
+        "树轮",
+        "建筑用木",
+        "采伐"
+      ]
+    },
+    {
+      "id": "US2",
+      "caseId": null,
+      "title": "Pueblo Bonito299号房用木保留1030年采伐日期",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "Pueblo Bonito社群（祖先普韦布洛为现代考古称谓）"
+      ],
+      "placeId": "us-pueblo-bonito",
+      "placeLabel": "Pueblo Bonito（用木所在建筑遗址参照）",
+      "placeRole": "木材所关联建筑遗址的区域参照，不表示采伐森林或已核精确房间坐标",
+      "date": {
+        "value": "1030",
+        "precision": "year",
+        "sortYear": 1030,
+        "display": "1030年 · 实验室所报建筑用木采伐年",
+        "original": "Specimens表PB-581、CNM-2636的外轮年1030，均有L且无+或++；采用实验室样本采伐年度。不采用同年但为vv的PB-111或位置loose的PB-774来填充建筑关系。",
+        "sourceIds": [
+          "CR2",
+          "CR3"
+        ]
+      },
+      "summary": "PB-581、CNM-2636均列1030L，原表位置分别写299号房第一层顶棚、第一层屋顶主梁；安装和整房施工年份仍不由此确定。",
+      "people": [],
+      "claims": [
+        {
+          "text": "PB-581的1030L、Room299第一层顶棚，CNM-2636的1030L、Room299第一层屋顶主梁，均直接核自原xlsx单元格；没有将它们未经去重算成两棵树。",
+          "sourceId": "CR2",
+          "locator": "Specimens表Excel行588、1280",
+          "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx"
+        },
+        {
+          "text": "L端部标志支持采伐日期，不能把一个末轮日期直接改写为房屋竣工日；原表两行无+或++。",
+          "sourceId": "CR3",
+          "locator": "PDF第1页，L与cutting dates、+/++限定",
+          "url": "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf"
+        }
+      ],
+      "quote": {
+        "text": "CNM-2636 | 1030 | L | Room 299, story 1, roof primary",
+        "translation": "按原表所选列顺序转录：样本号、外轮年、端部标志、建筑位置。这是研究数据，不是古代文字；L的释义另核CR3。",
+        "sourceId": "CR2",
+        "locator": "Specimens表Excel行1280；选取TRL_ID、OuterDate、OuterDateType及Architectural type_unit四列，以竖线分列",
+        "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+        "kind": "research_report"
+      },
+      "limitation": "原工作簿已直接读取，纸卡、原木及施工层序未复核，两个编号是否独立木件未判定。2005年锶同位素论文表2目前只读到原PDF检索摘录，未拿它冒充已读全文，也不据同位素数值确定采伐森林。 实验室采伐日期标记未细核生长/休眠季节，不据此确定月日。当地古代人物姓名未得，研究人员姓名不充作古代工匠。",
+      "artifact": {
+        "identifier": "PB-581、CNM-2636；Specimens行588、1280",
+        "site": "Pueblo Bonito，Chaco Canyon；原表建筑归属",
+        "imageOrReportUrl": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+        "datingMethod": "样本卡转录的外轮年与L端部标志，参照研究档案标志原页；无+或++修饰。",
+        "datingLimitation": "不从采伐年直接推出安装、备料、搬运、复用、施工或全城建立年；样本号不直接等于独立木数。"
+      },
+      "aliases": [
+        "Pueblo Bonito",
+        "1030",
+        "树轮",
+        "建筑用木",
+        "采伐"
+      ]
     }
   ],
   "places": [
@@ -11342,6 +11728,42 @@
       "coordinateSource": "https://en.wikipedia.org/wiki/Panticapaeum",
       "coordinateLabel": "Pantikapaion遗址坐标45°21′3″N36°28′7″E，已打开地名页坐标栏",
       "note": "语料原地著录为Pantikapaion(Kerch)；此点为遗址区域参照，不表示像座精确发现探方或现藏地点。"
+    },
+    {
+      "id": "ca-hangzhou",
+      "label": "杭州 · 钱塘江工程城市参照",
+      "coordinates": [
+        120.153,
+        30.267
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Hangzhou",
+      "coordinateLabel": "已打开Hangzhou坐标栏，30.267°N、120.153°E；现代城市参照",
+      "note": "坐标是现代城市参照，历史关联据《吴越备史》钱塘、候潮、通江等名；不表示910年某段海塘、潮头位置、当时岸线或木材产地。"
+    },
+    {
+      "id": "ca-yueyang",
+      "label": "岳阳 · 记文建筑城市参照",
+      "coordinates": [
+        113.1289,
+        29.3564
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Yueyang",
+      "coordinateLabel": "已打开Yueyang城市坐标栏，29.3564°N、113.1289°E；不是古楼工地测量",
+      "note": "只参照原文巴陵与岳阳楼所在城市，不表示范仲淹写作地点、1046年楼阁构件、宋代岸线或现存楼身的建造年代。"
+    },
+    {
+      "id": "us-pueblo-bonito",
+      "label": "Pueblo Bonito · 遗址区域参照",
+      "coordinates": [
+        -107.961,
+        36.061
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://irma.nps.gov/DataStore/FileSource/Get/2237429?filename=CHCU_ETV_report_final_121216.pdf",
+      "coordinateLabel": "NPS2016原景观调查Table1第14行观测点36.06082/-107.96092，世界地图取约数",
+      "note": "这是现代Threatening Rock景观观测点作遗址区域参照，未核坐标基准；不是320/299号房坐标、建筑中心、具体树木或919/1030年采伐森林。"
     }
   ],
   "sources": [
@@ -13419,9 +13841,420 @@
       "checked": "已读档案页面正文，核样本来源信息不全、重复或分析差异、木材复用，以及二十世纪修复中异址木材流转的明确提醒。另核数据库入口说明纸卡转录和两套数据库尚待对账。",
       "limitation": "档案的一般提醒不能证明每一件带确年木材都曾复用，也不能否定树轮单年精度；本批只因没有完成重要施工事件的样本关联核验而保留美国三格的纪年缺口。",
       "humanReviewed": false
+    },
+    {
+      "id": "LS1",
+      "title": "Christine Hawixbrock：The Vat Phou museum and the archaeological collections of Champasak（原报告2013，公开英译版）",
+      "url": "https://www.vatphu-champasak-laos.com/pdfs/christine%20hawixbrock%20mep.2017.09.11-a.pdf",
+      "kind": "调查者的馆藏与考古资料原报告之公开英译PDF",
+      "locator": "英译PDF第7页The inscriptions段；第22页K477/VP I150段。题页指原法文载BEFEO97–98(2010–2011)，2013，第271—314页",
+      "checked": "已实际打开报告正文并下载39页英译PDF；读第7页牛像铭文资料、第22页K477资料，并查看这两页的完整页图。原报告正文与页图已读；不是仅摘要，也未声称通读全部39页。",
+      "readScope": {
+        "mode": "full_text_sections_and_page_images",
+        "textLocators": [
+          "PDF第1页版本说明",
+          "PDF第7页The inscriptions",
+          "PDF第22页K477段"
+        ],
+        "imagesViewed": [
+          "PDF第7页页图",
+          "PDF第22页页图"
+        ],
+        "abstractOnly": false
+      },
+      "limitation": "本轮未对校法文原刊。报告的约590断代是转述Claude Jacques的研究判断，并非牛像铭文自署日期；K477被排在哪个论述小节不能代替石刻本身纪年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "LS2",
+      "title": "DHARMA K1173：侯艾萨华石牛台座铭文",
+      "url": "https://dharmalekha.info/texts/INSCIK01173",
+      "kind": "EFEO拓本1699等所据梵文原铭的现代校勘释读与译文",
+      "locator": "第1—3行/三颂；第2颂登极名、第3颂为叔父立石牛；Palaeographic description与Bibliography",
+      "checked": "已打开并读完整三颂原文、法英译及书体/底本说明。核Citrasena/Mahendravarman与Kr̥tāntapāśa关系；三颂没有可用的绝对纪年。数字版版本2026-11-10，末修2026-09-17。",
+      "readScope": {
+        "mode": "complete_inscription_edition_and_translation",
+        "textLocators": [
+          "三颂全部原文",
+          "全部列出译文",
+          "书体与底本说明"
+        ],
+        "imagesViewed": [],
+        "abstractOnly": false
+      },
+      "limitation": "读取现代释读，未自行核拓本照片。书体说明是七世纪，页面标题另写第六Śaka世纪，均不能被转成某一个事件年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "LS3",
+      "title": "DHARMA K1174：侯艾萨华纪念父亲的石牛台座铭文",
+      "url": "https://dharmalekha.info/texts/INSCIK01174",
+      "kind": "EFEO拓本1700/1701所据梵文原铭的现代校勘释读与译文",
+      "locator": "第1—3行/三颂；第3颂pituś śrī-vīravarmmaṇaḥ、石牛奉献；书体说明",
+      "checked": "已打开并读完整三颂、译文和拓本来源，核父亲Vīravarman及Citrasena登极名；没有从人物身份推造纪年。数字版版本2026-10-07，末修2026-09-17。",
+      "readScope": {
+        "mode": "complete_inscription_edition_and_translation",
+        "textLocators": [
+          "三颂全部原文",
+          "全部列出译文",
+          "书体与底本说明"
+        ],
+        "imagesViewed": [],
+        "abstractOnly": false
+      },
+      "limitation": "原文残缺处有补读，书体断代为七世纪。本轮未看原拓照片，不能独立核全部字。与K1173有共用句式，不把二者算成互相独立的年代证明。",
+      "humanReviewed": false
+    },
+    {
+      "id": "LS4",
+      "title": "DHARMA K1059：Phu Pae六颂毗湿奴奉献铭文",
+      "url": "https://dharmalekha.info/texts/INSCIK01059",
+      "kind": "原始铭文学研究的现代逐行校勘本与所据英译",
+      "locator": "全部六行/六颂；第3—6颂人物授号与Nārāyaṇa的vedī；Goodall2021第9—15页出处说明",
+      "checked": "已打开并读完整六颂原文和Goodall英译，核Bhavavarman、Jayavarman与Jayantakurājaka关系及建立vedī的陈述；核无可用年号/年月，书体说明为七世纪。数字版版本2026-10-27，末修2026-09-17。",
+      "readScope": {
+        "mode": "complete_inscription_edition_and_translation",
+        "textLocators": [
+          "六颂全部原文",
+          "六颂英译",
+          "书体、初刊说明"
+        ],
+        "imagesViewed": [],
+        "abstractOnly": false
+      },
+      "limitation": "人物及君主身份的现代解释不能代替事件原署年。Goodall2021原发表PDF访问因体积或站点限制未取得；本轮实际读的是其公开校勘版，不将原PDF搜索索引首段称作全文已读。",
+      "humanReviewed": false
+    },
+    {
+      "id": "LS5",
+      "title": "Shewan等：Dating the megalithic culture of Laos（PLOS ONE16(3)，2021，e0247167）",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247167",
+      "kind": "石缸遗址发掘及放射性碳/OSL科学测年的原始研究论文正文",
+      "locator": "Materials and methods；Results—Radiocarbon dating；Results—OSL dating，Table1/3前后解释；Discussion末段",
+      "checked": "已打开期刊论文正文，实际读方法、放射性碳与OSL结果及讨论对应段，核ANU62931、ANU62918/62919和1240—660BC置缸推断。不是只读摘要；未逐项重算表格或取得全部补充原始数据。",
+      "readScope": {
+        "mode": "full_text_methods_results_and_discussion_sections",
+        "textLocators": [
+          "方法段",
+          "Results两种测年段",
+          "Table1与Table3附近解释",
+          "Discussion置缸年代段"
+        ],
+        "imagesViewed": [],
+        "abstractOnly": false
+      },
+      "limitation": "科学测年提供概率范围，不是原人署写的事件年；土层、木炭、骨骼与石缸放置不是同一种被测事件。作者对扰动和旧木炭效应的限制不能省掉。",
+      "humanReviewed": false
+    },
+    {
+      "id": "SS1",
+      "title": "Cieza de León《Crónica del Perú》第二部：智利与图库曼回述",
+      "url": "https://dev.gutenberg.org/cache/epub/25255/pg25255-images.html",
+      "kind": "早期殖民时期史书的1880年刊本现代文字转录",
+      "locator": "1880年Marcos Jiménez de la Espada编本，CAP. LX智利/Maule段；CAP. LXII的Tucuman、Chiriguanaes与Chile行程段",
+      "checked": "实际打开并读西班牙语转录正文，核本版章节：LX为Tupac向智利行军，LXII为Guayna Capac行程；后者经Tucuman遣将、向Chile前进并叙相对停留时长。未读作者手稿影像，也未核其他版本章节异同。",
+      "limitation": "作者晚于所叙前哥伦布事件，正文明确使用传闻、讲述和追忆；这些地方段落未给可采用的当地绝对事件年。Tucuman为广域称谓，不等于今阿根廷一处已定位遗址；不能把Chiriguanaes自动标在阿根廷。篇内1550年指殖民时期对照见闻，不能倒用作古代战役年。",
+      "quote": {
+        "text": "en las cuales dicen que llegaron al rio de Maule",
+        "translation": "在那些地方，据他们说曾到达Maule河。保留叙述中的传闻语气。",
+        "kind": "primary_text",
+        "locator": "CAP. LX，Yendo victorioso开头段",
+        "url": "https://dev.gutenberg.org/cache/epub/25255/pg25255-images.html"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "SS2",
+      "title": "Sarmiento de Gamboa《History of the Incas》：智利段与所署王朝年表",
+      "url": "https://www.yorku.ca/inpar/sarmiento_markham.pdf",
+      "kind": "1572年殖民史书的1907年Markham英译本PDF",
+      "locator": "章L、印本第126页；章LIV、第133页的1258年；末附Certificate、印本第168页（PDF第126、133、168页）",
+      "checked": "实际读PDF文字层：章L叙Tupac进入Chile、Coquimbo和Maule；章LIV将其死亡署1258；末附认证文书署1572-02-29，说明按Toledo命令搜集和编史。未读西班牙语手稿原叶；截图缓存失败，不能称已经图像校字。",
+      "limitation": "智利段没有绝对年，边界设施叙述还保存不同说法。作者的王朝年度不是当地纪年铭文；原著的1258年不能与现代常见王朝年表拼接后倒推智利战役。编纂服务于殖民政治论证，认证程序也不等于今天的独立事实复核。",
+      "quote": {
+        "text": "as others say a wall",
+        "translation": "另一些人则说是一道墙。译文保存了边界设施记述的不一致。",
+        "kind": "primary_text",
+        "locator": "章L，印本第126页，Maule边界设施段；所引为Markham英译，不是西班牙语原字",
+        "url": "https://www.yorku.ca/inpar/sarmiento_markham.pdf"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "SS3",
+      "title": "Ferrara等2024：Rongorongo木板的直接放射性碳测年",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837134/",
+      "doi": "10.1038/s41598-024-53063-7",
+      "kind": "原始器物采样与AMS测量研究报告",
+      "locator": "Scientific Reports14:2794；Table1的P003/Échancrée/TabletD（BRA6127、ETH125844.1.1）；Table2；Discussion与Methods的树种、增量模型及terminus post quem说明",
+      "checked": "本轮实际读到PMC全文、表1/2、讨论和方法段。D板木材样本474±13BP；木材未经增量模型的95.4%范围1438—1462；加入估计生长距离后，所谓伐木年95.4%范围1483—1520。稍后刷新PMC出现验证码，Nature原站重定向失败；没有因此改称只读摘要，也不声称读了手工刻写层的独立测年。",
+      "limitation": "文中B/C/D没有清晰可识别年轮，D的约50年外向生长修正为估计模型。D采用的非本地木材鉴定及其来源仍有讨论；漂木、旧材或复用使木材年不等于Rapa Nui刻写年。1483—1520跨1500，不能截成1483—1500；不据1438—1462给当地文字发明确年。",
+      "quote": {
+        "text": "the inscription on the tablets may be more recent",
+        "translation": "木板上的刻写可能更晚。这里比较的是刻写与木材的年代。",
+        "kind": "research_report",
+        "locator": "Discussion，wood age与manufacturing/writing不一致、terminus post quem段",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837134/"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "SS4",
+      "title": "Sieczkowska-Jacyna等2026：Llullaillaco墓葬短命植物组合测年",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172",
+      "doi": "10.1111/arcm.70172",
+      "kind": "原始AMS、稳定同位素与贝叶斯年代模型研究报告",
+      "locator": "§2.1—2.2；§3.2的UGAMS-66476/66477/66478；Fig.3—4；§4校准与解释限制",
+      "checked": "实际读出版社全文文字与图注：M6古柯叶393±22BP、M7木薯412±21BP、M8玉米358±20BP；模型先验下界约1410、上界1532。选定南北半球曲线混合方案下，墓葬估计1462—1507年（95.4%HPD）、1479—1502（68.3%），均值1489±11。未独立运行OxCal代码或阅读全部补充文件。",
+      "limitation": "短命植物降低老木问题，但植物来源不完全确定，校准曲线混合和先验会影响结果；这不是纯粹与历史假设无关的年表。1489均值不是单年事件；不删掉1501—1507，不由王朝年表给墓中人物命名或确定哪位君主下令，祭祀动机仍属解释。",
+      "quote": {
+        "text": "between 1462 and 1507",
+        "translation": "在1462至1507年之间。需连同图4的95.4%后验区间和模型条件理解。",
+        "kind": "research_report",
+        "locator": "§3.2与Fig.4；不是原纪年文书",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "SS5",
+      "title": "Morales与Garrido2025/2026：Las Turquesas墓地男性遗存AMS与创伤观察",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059",
+      "doi": "10.1002/oa.70059",
+      "kind": "原始古病理与AMS研究论文的作者摘要",
+      "locator": "Abstract第1—3段；UGAMS73501；SupportingInformation目录的FigureS1说明",
+      "checked": "实际读出版社作者摘要和资料可用性/补充文件目录：相邻墓地成年男性1140±20BP，摘要给894—1016AD；CT损伤被解释为与重物撞击/矿道岩崩一致。全文入口与补充DOCX未能取回，未读CT原图、完整校准图或采样细节，摘要未署该区间的概率水平。",
+      "limitation": "仅摘要核读；不能补写95.4%或具体采样组织，不能由相符创伤断言死于一次已知年矿难。894—1016跨1000，保持完整；这不是Chuquicamata的Copper Man对象。古人姓名及矿工身份的确定程度不能由研究者姓名或报道标题补足。",
+      "quote": {
+        "text": "1140 ± 20 bp (UGAMS 73501), calibrated to 894–1016 ad",
+        "translation": "UGAMS73501的常规放射性碳年龄1140±20BP，作者摘要所给校准区间894—1016年。",
+        "kind": "research_report",
+        "locator": "Abstract第1段；数学空格规范化，数字与单位未改",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "SS6",
+      "title": "González Godoy、Westfall与Castells2017：Las Turquesas矿址发掘与测年",
+      "url": "https://www.scielo.cl/pdf/eatacam/n56/aop0717.pdf",
+      "doi": "10.4067/S0718-10432017005000007",
+      "kind": "原发掘团队的地层、器物及测年研究报告",
+      "locator": "EstudiosAtacameños56:225—251；第235页Formativo；第237页L7/Beta-196861；第239—240页B3-B4/Beta-196246；第242页UCTL1716的解释",
+      "checked": "实际读PDF文字层及SciELO全文相应段落：L7、terrace2石构存储空间的木炭1200±60BP，文报校准680—980；terrace1、B3-B4、深0.60m凹式火塘木炭530±50BP，文报1310—1370。亦核陶片类型跨时延续、扰动及约前500—600年Formativo归属。未读2004内部报告、实验室原证书或完成再校准；PDF截图缓存失败。",
+      "limitation": "两笔木炭测年是人类活动背景中的样本年代，未由本文这些段落核出校准概率与木炭树种/端部；老木与复用不能排除。不可把范围中点写事件确年、把火塘样本当全矿初建年，或只取正sigma迁就Inca预设年表。前500—600文化范围跨项目下界，不裁成前10—600入库。",
+      "quote": {
+        "text": "cal. 680-980 DC",
+        "translation": "文报的公元680—980年校准范围；测的是L7存储空间所出木炭。",
+        "kind": "research_report",
+        "locator": "印本第237页，Beta-196861段；PDF第13页文字层",
+        "url": "https://www.scielo.cl/pdf/eatacam/n56/aop0717.pdf"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "BS1",
+      "title": "Jeffrey S. Dean《Tree-Ring Dates from Colorado W: Durango Area》（1975）",
+      "url": "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf",
+      "parallelUrl": "https://ltrr.arizona.edu/content/tree-ring-dates-colorado-w-durango-area",
+      "kind": "树轮实验室对考古木材的原始重新分析报告；大学公开扫描件的全文索引",
+      "locator": "第9—10页日期和符号；第26页遗址与采集传承；第28页Floor 13样本表；第30—31页解释",
+      "checked": "2026-11-21实际打开大学书目落地页，确认作者、年份与PDF链接；通过该扫描件的搜索结果打开5655行全文，逐段读第9—10、26、28、30—31页。核到三件217年标识、层序、施工推断及518样本排除。PDF直连重取返回404，截图未返回可读页图，因此只称已读全文索引，不称已视觉校原页。",
+      "limitation": "这是1975年对藏存样本的原始实验室再分析，并非1938年现场记录本或1954年发掘出版物。原书自述样本分藏、标签和出土归属混乱。全文索引的双栏表顺序交错；本批仅采用三件具同年标识且与第31页解释相合的样本，仍待页图、原发掘记录和实物独立校核。",
+      "humanReviewed": false
+    },
+    {
+      "id": "BS2",
+      "title": "В. М. Ляўко、В. М. Сідаровіч《Рымскія манеты з гарадзішча і селішча каля в. Кардон у Беларускім Падзвінні》（2017）",
+      "url": "https://www.academia.edu/41681813/Ляўко_Сідаровіч_Рымскія_манеты_з_гарадзішча_і_селішча_каля_в_Кардон_у_Беларускім_Падзвінні",
+      "kind": "2016年考古出土钱币的原始发表研究；2017年第4期第43—49页的网络全文转写",
+      "locator": "《Весці НАН Беларусі. Серыя гуманітарных навук》2017年第4期，第44页Kardon-16/№53；第45页探方1/方格20/层2/№28及图1；第46—47页输入年代及中世纪再流通的竞争解释",
+      "checked": "2026-11-21实际打开全文，读摘要、两枚钱币目录及出土单元、第46—47页关于输入途径和更晚入层的讨论，核对刊物页码标记和图1、2说明。读到的是原论文的网络转写及图注，未视觉校读钱币照片或发掘剖面。",
+      "limitation": "作者提供正规发掘中的在地单元，胜于无背景的偶然拾得；但163—164、69—79是铸币年代，作者并未据此给当地输入、使用或埋藏分配单年。原文保留3—4世纪输入与8/9—10世纪更晚入层的可能，不能强定为古代事件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "USLS1",
+      "title": "LTRR机构书目：Tree-Ring Dates from Arizona C-D，Bannister、Dean、Robinson（1968）",
+      "url": "https://ltrr.arizona.edu/content/tree-ring-dates-arizona-c-d-eastern-grand-canyon-tsegi-canyon-kayenta-area",
+      "kind": "原研究机构书目元数据与原扫描入口；不是样本表原页",
+      "locator": "题名、Year of Publication1968、Authors、Publisher/City、PDF链接40",
+      "checked": "已实际打开机构书目页，核作者、1968、University of Arizona及Tucson；所链_1968_0.pdf原件未取得，不能据书目宣称已核p31样本。",
+      "readScope": {
+        "mode": "catalog_full_entry_only",
+        "fullReportRead": false,
+        "pageImagesViewed": [],
+        "searchExcerptsOnly": false
+      },
+      "limitation": "大学书目证明版本与公开入口，不独立证明采伐年份、房间归属或整个村庄的开始年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "USLS2",
+      "title": "同一1968原报告的Citeseer镜像：目前只读到搜索索引摘录",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=a50e05f5a07849ecec0abf281543f6a73782596b&repid=rep1&type=pdf",
+      "kind": "原报告镜像的搜索索引摘录；原PDF正文及页图未取得",
+      "locator": "索引含原书第4—5页Explanation of Symbols、第31页Betatakin表；封面机构库标识10150/220353",
+      "checked": "只实际读到搜索索引展示的这些原报告段落；直接打开与下载PDF均超时。已区分p31双栏OCR顺序不等于房间归属，没有把索引摘录写成原页已读。",
+      "readScope": {
+        "mode": "search_index_excerpts_only",
+        "fullReportRead": false,
+        "pageImagesViewed": [],
+        "searchExcerptsOnly": true,
+        "excerptLocators": [
+          "封面机构库标识",
+          "原书第4页provenience/标号说明",
+          "原书第5页外轮符号说明",
+          "原书第31页Betatakin索引摘录"
+        ]
+      },
+      "limitation": "索引可作为定位线索，尚不满足本任务原页、方法与确切位置闭环要求；其OCR丢失双栏布局，不能猜BK234或BK231位于哪个房间。",
+      "humanReviewed": false
+    },
+    {
+      "id": "USLS3",
+      "title": "Handle注册元数据：10150/220353",
+      "url": "https://hdl.handle.net/api/handles/10150/220353",
+      "kind": "永久标识注册元数据；仅为原报告机构库入口定位",
+      "locator": "responseCode1；URL值https://repository.arizona.edu/handle/10150/220353",
+      "checked": "已用公开Handle接口读取完整234字节JSON，核注册目标；机构库本身返回502，未读到机构库原扫描。Citeseer封面索引另记2016-05-17下载该条目。",
+      "readScope": {
+        "mode": "persistent_identifier_metadata_only",
+        "fullReportRead": false,
+        "pageImagesViewed": [],
+        "searchExcerptsOnly": false
+      },
+      "limitation": "定位元数据不是树轮研究结果；原PDF具体bitstream尚未取得。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CP1",
+      "title": "《三国志》卷1武帝纪：建安十五年冬作铜爵台",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+      "kind": "后编纪传史的现代文字转录",
+      "locator": "武帝纪建安十五年春求贤令后，“冬，作銅爵臺”句；前后十四、十六年编年",
+      "checked": "已读连续编年上下文，明确作台句属建安十五年冬；与其后裴注所引十二月己亥自述分开，不将注中日子移作建台日。",
+      "limitation": "未校早期刊本原叶或建筑遗存。短句不列工匠、工期、用材或详细工址；曹操为本纪叙事主体，不能据此称其亲自设计或施工。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CP2",
+      "title": "《吴越备史》卷2：开平四年八月始筑捍海塘",
+      "url": "https://zh.wikisource.org/zh-hans/吳越備史/卷2",
+      "kind": "吴越王朝史后编传承文本的现代转录",
+      "locator": "武肃王下，庚午开平四年八月条及“运巨石，盛以竹笼，植巨材”段",
+      "checked": "已读开平三年、庚午四年、八月筑塘与随后回述；核竹笼盛石、巨材支护、候潮/通江城门。依开平起年907，四年为约910，未沿用未核的911说法。",
+      "limitation": "所读是转录，未校原叶或遗址。射潮、祠祀与潮头转向属于王朝史的叙事，不能当已经证明的水动力因果；筑塘与立门的叙述也不等于各段工程均于同月竣工。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CP3",
+      "title": "范仲淹《岳阳楼记》：重修回述与庆历六年署日",
+      "url": "https://zh.wikisource.org/wiki/岳陽樓記",
+      "kind": "署名记文的现代文字转录",
+      "locator": "首段庆历四年、越明年、重修与属予作文；末署“時六年九月十五日”",
+      "checked": "已读完整记文，核滕子京、重修及受托作文的叙述、末署六年九月十五日；结合篇首庆历与年号表作1046排序。未采用网页页眉未经本轮换历复算的公历日。",
+      "limitation": "未校宋刊原叶、初稿或楼阁构件。记文署日是作文时间，首段重修属回述，不能移成同一日；“政通人和、百废具兴”是文本评价，不是独立经济或施工统计。原文没有自署作文地点。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CP4",
+      "title": "中国历代年号索引表：建安、开平与庆历",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "kind": "中国科学院自然科学史研究所所载年号对照工具",
+      "locator": "东汉建安196—220；后梁开平907—911；北宋庆历1041—1048",
+      "checked": "本轮核三个起年，建安十五、开平四、庆历六分别对应排序参照210、910、1046；没有将纪年句旁后人的公历日换算直接写入确日。",
+      "limitation": "仅用于年级参照，不提供完整农历年界、月份及历日转换。三条中国材料均保留原纪年和空西历日期，不参加严格同年/同日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CR1",
+      "title": "Neil M. Judd, The Architecture of Pueblo Bonito (1964)",
+      "url": "https://repository.si.edu/items/263cf6db-65ea-4b72-9f06-d79f7ea18911",
+      "indexedOriginalUrl": "https://repository.si.edu/bitstream/handle/10088/26121/smithsonianmisce1471964smit_Pueblo.pdf",
+      "kind": "原发掘者建筑报告；本轮仅核机构元数据与原PDF的检索索引文字",
+      "metadata": {
+        "author": "Judd, Neil Merton",
+        "year": 1964,
+        "series": "Smithsonian Miscellaneous Collections",
+        "volume": 147,
+        "number": 1,
+        "institution": "Smithsonian Institution",
+        "persistentHandle": "http://hdl.handle.net/10088/26121"
+      },
+      "locator": "印页38，TREE-RING DATES FROM PUEBLO BONITO—Concluded及紧随表后的OldBonitian样本段；另有印页29层叠建筑上下文索引线索",
+      "checked": "实际打开Smithsonian书目页；用原PDF限定检索读到印页38的表转写及下段正文。旧PDF直开404，未获得原书页图、完整PDF文字层或原实验室样本卡。本轮未重复根代理已经失败的大文件下载。",
+      "readingLevel": "indexed_primary_text_excerpt_only_for_report_contents",
+      "limitation": "检索索引不是经过本轮图像校对的原表；横向Masonrytype列位置、引号重复标记和所有楼层关系未校。不能把全文已读、页图已读或原始测量已重现写入来源状态。",
+      "quote": {
+        "text": "Seven of these dates are identical, A.D. 919.",
+        "translation": "这些日期中有七个相同，都是公元919年。这是作者对当时样本的总述，未据此抹平新版端部标志差异。",
+        "kind": "research_report",
+        "locator": "印页38，表后OldBonitian样本段；本轮经原PDF检索索引文字读到，未校原页图",
+        "url": "https://repository.si.edu/bitstream/handle/10088/26121/smithsonianmisce1471964smit_Pueblo.pdf"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "CR2",
+      "existingRepositorySourceId": "UP1",
+      "title": "LTRR2015 Chaco树轮数据库：Pueblo Bonito919与1030年样本行",
+      "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+      "kind": "原树轮实验室样本卡的研究人员数字转录；已读本地原xlsx副本",
+      "locator": "Specimens表，PB-30至PB-34为Excel行51—55；JPB-106至117有关样本为行6294—6305；行号含标题行；1030年PB-581、CNM-2636为Excel行588、1280",
+      "bytes": 464070,
+      "sha256": "1c2f8564f16a7d7e3fe6f917f93a3daa9886d21ecad87f28ff30da9d30216811",
+      "checked": "本轮直接只读打开原工作簿，逐列核对样本号、外轮年、端部标志、建筑位置、采样年与备注，并与存留文字转录交叉检查。另核PB-581和CNM-2636的1030L、Room299第一层顶棚/屋顶主梁；同年但为vv或散置的样本未纳入这一建筑关联。",
+      "readingLevel": "original_downloaded_workbook_cells_read_directly",
+      "limitation": "本轮没有重新下载线上文件或核纸质样本卡、年轮照片与原测量序列；2015为所给档案版本称呼。多个编号或同号a/b/c可为同一木材的不同截面/取样，Comments空白不等于已经完成去重。Room320a中的a也不能未经平面图校对解释为独立楼层。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CR3",
+      "existingRepositorySourceId": "UP2",
+      "title": "TREE RING DATABASE KEY：端部日期标志原页",
+      "url": "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
+      "kind": "研究数据库技术释义；页面注明定义取自Lekson主编1983原报告",
+      "locator": "PDF第1页，DateSymbolsUsedwithOutsideDate、cuttingdates与+/++的限定；页脚Lekson1983书目信息",
+      "bytes": 83291,
+      "sha256": "c3cf43e66b28e153135ae68f29502b787042f103f47abec2879e7df1604492be",
+      "checked": "本轮实际查看既有本地PNG原页图，并从本地PDF第1页独立提取文字核对：B/G/L/c/r在没有+或++时支持采伐日期；v仅估计离真实外缘差很少年数。在线本轮403，所核为上轮下载保留的本地副本。",
+      "readingLevel": "local_pdf_page_image_and_text_checked",
+      "limitation": "这里的L指去皮梁表面的特征性包浆/光滑，不是书写纪年。释义按B、G、L、c、r给出递减置信度；可靠的末轮/采伐日期仍不能直接识别安装或建造年。原页写小写c，xlsx的JPB107/113写大写C，本轮原样保存，不凭大小写另定精度。",
+      "quote": {
+        "text": "The symbols B, G, L, c, and r indicate cutting dates",
+        "translation": "B、G、L、c、r这些标志用于指示采伐日期；原页下一限定要求没有+或++，且置信程度按其顺序递减。",
+        "kind": "research_report",
+        "locator": "PDF第1页，下方cuttingdates说明段；所引短句未包含同句后半的置信度与+/++限定，释义已补明",
+        "url": "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf"
+      },
+      "humanReviewed": false
+    },
+    {
+      "id": "CR4",
+      "title": "Meyer等2016：Chaco Culture NHP景观调查原始观测点表",
+      "url": "https://irma.nps.gov/DataStore/FileSource/Get/2237429?filename=CHCU_ETV_report_final_121216.pdf",
+      "kind": "美国国家公园管理局原景观调查报告，仅作现代空间参照",
+      "metadata": {
+        "authors": [
+          "Mark E. Meyer",
+          "Ksienya A. Taylor",
+          "Robert G. Sullivan",
+          "Jim Von Haden",
+          "Dabney Ford"
+        ],
+        "year": 2016,
+        "title": "Enjoy the View—visual resources inventory report: Chaco Culture National Historical Park",
+        "reportNumber": "NPS/CHCU/NRR—2016/1353"
+      },
+      "locator": "印页3、Table1、No.14；§2.2ViewSelection；Figure1（印页4）；题名与作者页",
+      "checked": "本轮实际打开报告，读Table1第14行PuebloBonito(ThreateningRock)：纬度36.0608200、经度-107.960920；读§2.2确认其为现代景观盘点观测点，非古代伐木点。核题名、作者、2016年及报告号。",
+      "readingLevel": "report_text_and_table_read",
+      "limitation": "坐标对应遗址内/旁的ThreateningRock景观观测点，不是Room320/325的测量坐标，不是建筑中心或木材采伐森林。所查表未标水平基准，不假称已核WGS84；只能在世界地图上作约略区域参照，页面小数位不代表古代事件定位精度。",
+      "humanReviewed": false
     }
   ],
-  "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。 新增器物明确区分古代铭文、现代馆藏说明及原始研究报告；范围断代保留完整上下界，地点未知则不放置地图点。",
+  "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。 新增器物明确区分古代铭文、现代馆藏说明及原始研究报告；范围断代保留完整上下界，地点未知则不放置地图点。 树轮材料按外缘标志及建筑单元核查，区分样本采伐年度、备料/复用与研究者所推施工年；原报告索引、原页、原样本卡和实物各自注明核读状态。",
   "selection": "时间框架为公元前10年至公元2000年。保留原1852—1868样本，分时代补入已核读原始材料；按地区、时段显示收录数，不将导航范围等同逐年逐国完备的全球通史。",
   "basemap": {
     "title": "Natural Earth 1:110m Land",
@@ -13957,7 +14790,7 @@
   ],
   "coverage": {
     "complete": false,
-    "note": "时间范围仍为前10年至2000年、无0年。140格中129格有纪年材料，11格仍只有完整范围材料；本轮核查原16格，只在5格加得合格纪年证据。原署年未换算不等于确定西历年，原有16条范围材料不收窄。有样本不等于逐年或全地区完整；人物、地点、版本和原发表缺口继续保留。",
+    "note": "时间框架仍为前10年至2000年、无0年。本轮原11个仅范围格中，美国三个时代格补入实验室所报建筑用木采伐年度；132格有纪年材料、8格仍仅范围，0格完全空白仅表示各有样本。全部16条旧范围完整保留；采伐年度不等于建城或安装年，原署中国年未换算，人物、原页、实物和全时代完整性均继续有缺口。",
     "gaps": [
       {
         "label": "1186年Ta Prohm碑K.273",
@@ -14270,45 +15103,187 @@
         ]
       },
       {
-        "label": "美国 · 前10—500纪年事件缺口",
-        "reason": "原RY16器物仍保留目录范围；Chaco样本表不覆盖美国全境，没有从该表未命中推出此格不存在确年材料。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "label": "本轮核查 · 智利 · ancient",
+        "reason": "本轮矿址原报告给的早期文化归属约前500—600，且提示更早可能性；没有将其裁成项目前10年起的事件，也没有定到原纪年。既有器物断代维持。 待补：项目范围内、与具体人类活动直接关联的可复核样本链或在地原纪年；文化分期本身不足。",
         "sourceIds": [
-          "UP1",
-          "UP2",
-          "UP3"
+          "SS6"
         ],
         "urls": [
-          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
-          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
-          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+          "https://www.scielo.cl/pdf/eatacam/n56/aop0717.pdf"
         ]
       },
       {
-        "label": "美国 · 501—1000纪年事件缺口",
-        "reason": "JPB-104 a-c为828r，PB-450为928rLB；这些年度数据保留在UP1台账，不把它们改写为城市建立或房屋初建年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "label": "本轮核查 · 智利 · medieval-early",
+        "reason": "本轮新增原测量链索引，仍只有范围；没有单年人类事件。保持既有RY5的1000—1450完整范围，其与此格仅在1000边界相交不能改称1000年事件。 待补：SS5全文/补充图的采样与校准细节；SS6木炭物种、端部及地层/活动关联闭环。",
         "sourceIds": [
-          "UP1",
-          "UP2",
-          "UP3"
+          "SS5",
+          "SS6"
         ],
         "urls": [
-          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
-          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
-          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+          "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059",
+          "https://www.scielo.cl/pdf/eatacam/n56/aop0717.pdf"
         ]
       },
       {
-        "label": "美国 · 1001—1500纪年事件缺口",
-        "reason": "PB-198为1024B、Room100北墙屋顶主梁；尚未完成具体施工相位与木材复用史的原报告核验，不能仅据树皮年给整个建筑定年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "label": "本轮核查 · 智利 · medieval-late",
+        "reason": "回述、样本年代和区间被分开保存，没有获核定的新单年事件；木板刻写时刻、矿难以及征服日期均未被这些材料直接锁定。 待补：可独立核对的在地纪年或事件—样本关联，不能靠王朝年表、木材年龄或范围中点替代。",
         "sourceIds": [
-          "UP1",
-          "UP2",
-          "UP3"
+          "SS1",
+          "SS2",
+          "SS3",
+          "SS5",
+          "SS6"
+        ],
+        "urls": [
+          "https://dev.gutenberg.org/cache/epub/25255/pg25255-images.html",
+          "https://www.yorku.ca/inpar/sarmiento_markham.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10837134/",
+          "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059",
+          "https://www.scielo.cl/pdf/eatacam/n56/aop0717.pdf"
+        ]
+      },
+      {
+        "label": "本轮核查 · 阿根廷 · ancient",
+        "reason": "本轮没有新增已核的当地单年候选；不是宣布该时期没有人类历史。既有Candelaria对象范围不改，不把上轮馆藏复查重复算成本轮新成果。 待补：具地点、样本编号、完整校准/定年方法与人类事件关联的原报告；未获得前保持确年缺口。",
+        "sourceIds": [],
+        "urls": []
+      },
+      {
+        "label": "本轮核查 · 阿根廷 · medieval-early",
+        "reason": "本轮没有新增单年原纪年；阿瓜达既有对象600—900范围维持，不将文化名、入藏号或范围中点作人物/事件年。 待补：新的可追溯原测量与在地活动关联，或能读出纪年的当地载体。",
+        "sourceIds": [],
+        "urls": []
+      },
+      {
+        "label": "本轮核查 · 阿根廷 · medieval-late",
+        "reason": "Llullaillaco的新植物组合模型值得入证据台账，但其完整区间越过1500，仍不能新造确年。Cieza的图库曼回述未给地方绝对年。旧对象及模型范围不覆盖写。 待补：原样本/模型复跑、先验敏感性及独立地方文献；即使模型复现也不能把后验均值改作确年。",
+        "sourceIds": [
+          "SS1",
+          "SS4"
+        ],
+        "urls": [
+          "https://dev.gutenberg.org/cache/epub/25255/pg25255-images.html",
+          "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172"
+        ]
+      },
+      {
+        "label": "本轮核查 · 老挝古代 · Vat Phu大碑K477（VP I150）",
+        "reason": "所读原报告未给可用的原署纪年，四面字迹近乎磨灭；不能把发现年1901当古代事件年，也不能仅因与K365形似就认定同年。 缺少能读出的事件纪年及具名行动者；本轮没有取得新的完整释文，不能作为确年记录填格。 核读范围：已读原报告正文并看第22页页图。",
+        "sourceIds": [
+          "LS1"
+        ],
+        "urls": [
+          "https://www.vatphu-champasak-laos.com/pdfs/christine%20hawixbrock%20mep.2017.09.11-a.pdf"
+        ]
+      },
+      {
+        "label": "本轮核查 · 老挝古代 · 侯艾萨华K1173/K1174石牛奉献铭文",
+        "reason": "原文三颂没有绝对纪年；DHARMA书体说七世纪，Hawixbrock转述Jacques约590。二者都不是原署年，且不支持前500。 不把现代约590断代、七世纪书体或国王统治期转换成单一事件年，更不能倒移至500以前。 核读范围：两件的全部三颂释文及译文均已读。",
+        "sourceIds": [
+          "LS1",
+          "LS2",
+          "LS3"
+        ],
+        "urls": [
+          "https://dharmalekha.info/texts/INSCIK01173",
+          "https://www.vatphu-champasak-laos.com/pdfs/christine%20hawixbrock%20mep.2017.09.11-a.pdf",
+          "https://dharmalekha.info/texts/INSCIK01174"
+        ]
+      },
+      {
+        "label": "本轮核查 · 老挝古代 · Phu Pae K1059的具名奉献",
+        "reason": "完整六颂未给可用绝对纪年；七世纪为现代书体断代，Bhavavarman/Jayavarman人名也不能缩成事件年。 人物明确仍不足以取得本格所需纪年，且现有断代属于更晚时期。 核读范围：已读全部六颂及全部英译。",
+        "sourceIds": [
+          "LS4"
+        ],
+        "urls": [
+          "https://dharmalekha.info/texts/INSCIK01059"
+        ]
+      },
+      {
+        "label": "本轮核查 · 老挝古代 · 石缸原野Site2置缸与周围墓葬测年",
+        "reason": "原文推断Site2置缸范围1240—660BC；ANU62931木炭355—105calBC；正文列两骨样1046—1219calAD与772—950calAD。各范围完整保留，不裁剪到-10或500；也不混成一个人的活动年代。 不是有原纪年的重要人物/事件材料，置缸和墓葬日期也不能互换；完整区间不能人为裁成前10—500。 核读范围：已读方法、结果及讨论正文对应段。",
+        "sourceIds": [
+          "LS5"
+        ],
+        "urls": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0247167"
+        ]
+      },
+      {
+        "label": "本轮核查 · 老挝古代 · 侯艾萨华2新发掘金片线索与Nauleau2025原报告",
+        "reason": "未取得原报告全文，不能判断金片是否有年号、只是神名或只能地层断代。 原报告访问未闭环，暂不入records；不把二手研究提及或检索题录当成已读发掘报告。 核读范围：已核DOI302跳转到原发表13950；实际打开正式页只得到Anubis访问校验页，未得到报告正文或金片图。DOI直接读取亦超时；没有原文已读结论。",
+        "sourceIds": [],
+        "urls": [
+          "https://journals.openedition.org/baefe/13950"
+        ]
+      },
+      {
+        "label": "本轮核查 · 白俄罗斯古代 · Kardon在地年代",
+        "reason": "Kardon2017是新增原始发表证据，含两枚2016年正规发掘钱币的单元号；但铸币年代不等于本地事件，作者还保留中世纪入层可能。既有RZ1墓地170—270使用期不改，不以中点220补格。 待补：须取得与明确在地人类行为共存且独立定年的封闭层、墓葬或木构单元；若用树轮，需完整外缘、多个同年样本、采伐或施工关联及原报告，而非仅有币面纪年。",
+        "sourceIds": [
+          "BS2"
+        ],
+        "urls": [
+          "https://www.academia.edu/41681813/Ляўко_Сідаровіч_Рымскія_манеты_з_гарадзішча_і_селішча_каля_в_Кардон_у_Беларускім_Падзвінні"
+        ]
+      },
+      {
+        "label": "美国217年建筑材料的原页与工址",
+        "reason": "BS1全文索引已读；原扫描页图、1954年发掘原报告、纸卡与实物尚待核。518年混入样本不纳入217，地图坐标未核继续不放点。",
+        "sourceIds": [
+          "BS1"
+        ],
+        "urls": [
+          "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf"
+        ]
+      },
+      {
+        "label": "美国919年材料的版本与安装年代",
+        "reason": "Judd旧表仅读索引文字，未校原页；919v不升级，935/936、320/320a及大小写C/c保留；采伐年度不确认备料、安装、复用或统一采购行动，样本号未按独立木数去重。",
+        "sourceIds": [
+          "CR1",
+          "CR2",
+          "CR3"
+        ],
+        "urls": [
+          "https://repository.si.edu/items/263cf6db-65ea-4b72-9f06-d79f7ea18911",
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf"
+        ]
+      },
+      {
+        "label": "美国1030年材料与Betatakin后续候选",
+        "reason": "PB-581/CNM-2636的1030L和299号房位置已直接核列；相同编号是否取自独立木件、安装与施工仍待核。Betatakin原扫描未读通，不能由双栏OCR推房间；1267rL、1269rB与1276+rB只作候选，带+者不当无误差采伐年。Dean1969原著未读，不据现代摘要写迁入或建村年。",
+        "sourceIds": [
+          "CR2",
+          "CR3",
+          "USLS1",
+          "USLS2",
+          "USLS3"
         ],
         "urls": [
           "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
           "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
-          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+          "https://ltrr.arizona.edu/content/tree-ring-dates-arizona-c-d-eastern-grand-canyon-tsegi-canyon-kayenta-area",
+          "https://citeseerx.ist.psu.edu/document?doi=a50e05f5a07849ecec0abf281543f6a73782596b&repid=rep1&type=pdf",
+          "https://hdl.handle.net/api/handles/10150/220353"
+        ]
+      },
+      {
+        "label": "中国建筑参照的原叶与文书阶段",
+        "reason": "三条均只据已读转录保留原署年，未校早期原叶及原构件；210作台、910筑塘、1046作文不能都当成开工或竣工。建安十五年裴注的十二月己亥不移作建台日；射潮和文学政绩表述不作工程效果证明。",
+        "sourceIds": [
+          "CP1",
+          "CP2",
+          "CP3",
+          "CP4"
+        ],
+        "urls": [
+          "https://zh.wikisource.org/wiki/三國志/卷01",
+          "https://zh.wikisource.org/zh-hans/吳越備史/卷2",
+          "https://zh.wikisource.org/wiki/岳陽樓記",
+          "https://agri-history.ihns.ac.cn/history/historic%20table.htm"
         ]
       }
     ],
@@ -14393,6 +15368,50 @@
         ],
         "urls": [
           "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf"
+        ]
+      },
+      {
+        "label": "美国 · 前10—500纪年事件缺口",
+        "previousReason": "原RY16器物仍保留目录范围；Chaco样本表不覆盖美国全境，没有从该表未命中推出此格不存在确年材料。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "resolution": "新增一个有限的建筑用木采伐纪年样本；没有缩小旧器物范围，也没有补全施工、古人姓名或整个时代。原页与实物等剩余核查仍单列。",
+        "recordIds": [
+          "BA1"
+        ],
+        "sourceIds": [
+          "BS1"
+        ],
+        "urls": [
+          "https://ltrr.arizona.edu/sites/ltrr.arizona.edu/files/bibliodocs/Dean%2C%20Jeffrey_Tree-Ring%20Dates%20from%20Colorado%20W%20Durango%20Area_1975.pdf"
+        ]
+      },
+      {
+        "label": "美国 · 501—1000纪年事件缺口",
+        "previousReason": "JPB-104 a-c为828r，PB-450为928rLB；这些年度数据保留在UP1台账，不把它们改写为城市建立或房屋初建年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "resolution": "新增一个有限的建筑用木采伐纪年样本；没有缩小旧器物范围，也没有补全施工、古人姓名或整个时代。原页与实物等剩余核查仍单列。",
+        "recordIds": [
+          "US1"
+        ],
+        "sourceIds": [
+          "CR2",
+          "CR3"
+        ],
+        "urls": [
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx"
+        ]
+      },
+      {
+        "label": "美国 · 1001—1500纪年事件缺口",
+        "previousReason": "PB-198为1024B、Room100北墙屋顶主梁；尚未完成具体施工相位与木材复用史的原报告核验，不能仅据树皮年给整个建筑定年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "resolution": "新增一个有限的建筑用木采伐纪年样本；没有缩小旧器物范围，也没有补全施工、古人姓名或整个时代。原页与实物等剩余核查仍单列。",
+        "recordIds": [
+          "US2"
+        ],
+        "sourceIds": [
+          "CR2",
+          "CR3"
+        ],
+        "urls": [
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx"
         ]
       }
     ]
@@ -14588,6 +15607,53 @@
       "sourceIds": [
         "MT3",
         "AP2"
+      ]
+    },
+    {
+      "id": "construction-210-217",
+      "title": "约210与217年：史书作台与木材测年各记什么？",
+      "chinaRecordId": "CA1",
+      "otherRecordId": "BA1",
+      "question": "哪些日期来自编年文字，哪些来自木材外缘与层序？史书主语、施工推断与未知工匠怎样区分？",
+      "relationBasis": "建安十五年以约210排序，木材样本采伐年为217，相距约七年；中国年界未核，不作严格同年。",
+      "reading": "《三国志》以“作”记曹操时期的铜爵台；南岩棚用木以三件同年标志、两件树皮与层序支持217，施工同年是Dean的解释。文字中的领导者与材料中的实际工作者不是同一种身份依据。",
+      "boundary": "台阁与岩棚住居的用途、规模和权力关系不同；未知工匠不补名，不由施工推断给整个遗址定始建年，也不由相近年代推技术接触或社会排名。",
+      "sourceIds": [
+        "BS1",
+        "CP1",
+        "CP4"
+      ]
+    },
+    {
+      "id": "construction-910-919",
+      "title": "约910与919年：木石工法叙述与梁材采伐纪年",
+      "chinaRecordId": "CA2",
+      "otherRecordId": "US1",
+      "question": "王朝史怎样叙述工程材料，样本表怎样保存采伐日期？材料的采伐、备料、安装与神异解释能否直接合并？",
+      "relationBasis": "开平四年以约910排序，梁材记录919年，相距约九年；不是同年工程或相同施工阶段。",
+      "reading": "《吴越备史》记竹笼、巨石、巨材及王的命令；原工作簿保存PB30—34的919L与房间归属。可比较材料安排如何留下文字与实物证据，木材日期与史书工程叙述各自只能支持有限主张。",
+      "boundary": "不以射潮故事解释水工效果，不把919当Pueblo Bonito建城或安装年；样本号不等于独立木数，不推共同采购制度、林地、劳力规模或跨洋传播。",
+      "sourceIds": [
+        "CP2",
+        "CP4",
+        "CR2",
+        "CR3"
+      ]
+    },
+    {
+      "id": "construction-1030-1046",
+      "title": "1030与约1046年：用木年、作文署年与重修叙述",
+      "chinaRecordId": "CA3",
+      "otherRecordId": "US2",
+      "question": "样本采伐年、记文署日、记文回述的工程年分别对应什么动作？具名作者、主持者与未知工匠应怎样列？",
+      "relationBasis": "木材采伐年度1030与记文约1046相距约16年；这不是两项建筑同年开工。中国原署历日未换算。",
+      "reading": "299号房的两条记录给1030L和用木位置；范仲淹记文署庆历六年，并回述滕子京重修、刻诗赋和委托作文。对读采伐证据与文学记文的时间层次，而不把两种材料都当作工地日志。",
+      "boundary": "1030不证明安装或整房竣工，《岳阳楼记》署日也不等于修楼日；政绩与情感表述不作施工统计，现楼不当宋代原构，未知古代木匠仍不补造。",
+      "sourceIds": [
+        "CR2",
+        "CR3",
+        "CP3",
+        "CP4"
       ]
     }
   ]
