@@ -15,18 +15,45 @@
     )).map(region => region.name);
   }
 
-  function isExactDate(value) {
-    if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
-    const date = new Date(value + 'T00:00:00Z');
-    return Number.isFinite(date.getTime()) && date.toISOString().slice(0, 10) === value;
+  // Signed years are historical BCE/CE years, not ISO astronomical years.
+  // The cursor uses a proleptic Gregorian calendar; sources keep their own calendar.
+  function yearToIndex(year) { return year < 0 ? year : year - 1; }
+  function indexToYear(index) { return index < 0 ? index : index + 1; }
+  function yearValue(year) { return (year < 0 ? '-' : '') + String(Math.abs(year)).padStart(4, '0'); }
+  function formatYear(year) { return (year < 0 ? '公元前' : '公元') + Math.abs(year) + '年'; }
+  function yearOfDate(value) {
+    const match = typeof value === 'string' && /^(-?\d{4})(?:-|$)/.exec(value);
+    const year = match ? Number(match[1]) : NaN;
+    return Number.isInteger(year) && year !== 0 ? year : null;
   }
+  function parseDate(value) {
+    const match = typeof value === 'string' && /^(-?\d{4})-(\d{2})-(\d{2})$/.exec(value);
+    if (!match) return null;
+    const year = yearOfDate(value), month = Number(match[2]), day = Number(match[3]);
+    if (year === null || month < 1 || month > 12) return null;
+    const astronomical = year < 0 ? year + 1 : year;
+    const leap = astronomical % 4 === 0 && (astronomical % 100 !== 0 || astronomical % 400 === 0);
+    const months = [31, leap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    if (day < 1 || day > months[month - 1]) return null;
+    return { year, month, day, astronomical, months };
+  }
+  function isExactDate(value) { return Boolean(parseDate(value)); }
+  function dateForYear(year, previous) {
+    const value = yearValue(year) + '-' + (previous || '0001-01-01').slice(-5);
+    return isExactDate(value) ? value : yearValue(year) + '-02-28';
+  }
+  function formatDate(value) {
+    const date = parseDate(value);
+    return date ? formatYear(date.year) + date.month + '月' + date.day + '日' : '';
+  }
+  function eraForState(data, state) { return (data.eras || []).find(era => era.id === state.eraId); }
 
   function normalizeState(input, data) {
     const defaults = data.defaultState;
     const caseId = input.caseId === 'all' || data.cases.some(c => c.id === input.caseId)
       ? input.caseId : defaults.caseId;
-    const date = isExactDate(input.date) && Number(input.date.slice(0, 4)) >= data.period.startYear &&
-      Number(input.date.slice(0, 4)) <= data.period.endYear ? input.date : defaults.date;
+    const date = isExactDate(input.date) && yearOfDate(input.date) >= data.period.startYear &&
+      yearOfDate(input.date) <= data.period.endYear ? input.date : defaults.date;
     const regions = resolveRegions(input.regions, data);
     const selected = data.records.find(record => record.id === input.recordId &&
       (caseId === 'all' || record.caseId === caseId));
@@ -36,6 +63,7 @@
       caseId,
       mode: MODES.includes(input.mode) ? input.mode : defaults.mode,
       date,
+      eraId: caseId === 'all' && (data.eras || []).some(era => era.id === input.eraId) ? input.eraId : 'all',
       regions,
       query: typeof input.query === 'string' ? input.query.slice(0, 120) : '',
       recordId: selected?.id || null,
@@ -48,6 +76,8 @@
       const primary = visible.find(record => record.id === state.recordId);
       if (state.mode === 'topic' && primary?.date.precision === 'day') state.date = primary.date.value;
       else if (state.mode === 'topic' && primary?.date.precision === 'year') state.date = primary.date.value + '-01-01';
+      // This cursor is a sorting reference, never a fabricated event date.
+      else if (state.mode === 'topic' && primary?.date.precision === 'regnal_year') state.date = yearValue(primary.date.sortYear) + '-01-01';
     }
     return state;
   }
@@ -56,6 +86,7 @@
     const params = new URLSearchParams(search);
     return normalizeState({
       caseId: params.get('case'), mode: params.get('mode'), date: params.get('date'),
+      eraId: params.get('era'),
       regions: params.has('regions') ? params.get('regions').split(',') : undefined,
       query: params.get('q'), recordId: params.get('event'), compareId: params.get('compare')
     }, data);
@@ -63,6 +94,7 @@
 
   function writeState(state, data) {
     const params = new URLSearchParams({ case: state.caseId, mode: state.mode, date: state.date });
+    if (state.eraId && state.eraId !== 'all') params.set('era', state.eraId);
     if (state.regions.length !== regionNames(data).length) params.set('regions', state.regions.join(','));
     if (state.query.trim()) params.set('q', state.query.trim());
     if (state.recordId) params.set('event', state.recordId);
@@ -70,14 +102,17 @@
     return '?' + params.toString();
   }
 
-  function matchesTime(record, state) {
-    if (state.mode === 'topic') return true;
-    if (record.date.precision === 'year' && /^\d{4}$/.test(record.date.value || ''))
-      return state.mode === 'year' && record.date.value === state.date.slice(0, 4);
+  function matchesTime(record, state, data) {
+    if (state.mode === 'topic') {
+      const era = data && eraForState(data, state);
+      return !era || record.date.sortYear >= era.from && record.date.sortYear <= era.to;
+    }
+    if (record.date.precision === 'year' && /^-?\d{4}$/.test(record.date.value || ''))
+      return state.mode === 'year' && yearOfDate(record.date.value) === yearOfDate(state.date);
     // A regnal year is not an inferred Gregorian year, month or day.
     if (record.date.precision !== 'day' || !isExactDate(record.date.value)) return false;
     return state.mode === 'day' ? record.date.value === state.date
-      : record.date.value.slice(0, 4) === state.date.slice(0, 4);
+      : yearOfDate(record.date.value) === yearOfDate(state.date);
   }
 
   function normalizeText(text) { return text.normalize('NFKC').toLocaleLowerCase(); }
@@ -89,21 +124,20 @@
     return normalizeText([
       record.title, record.placeLabel, record.summary, record.regions.join(' '),
       ...(record.aliases || []), ...(record.polities || []), ...(record.parties || []),
-      ...(data ? data.regions.filter(region => record.regions.includes(region.name)).flatMap(region => region.aliases || []) : []),
+      ...(data ? data.regions.filter(region => record.regions.includes(region.name)).flatMap(region => region.searchAliases || []) : []),
       ...record.people.map(p => p.name + ' ' + p.role)
     ].join(' ')).includes(query);
   }
 
   function visibleRecords(data, state) {
     return data.records.filter(record => (state.caseId === 'all' || record.caseId === state.caseId) &&
-      matchesTime(record, state) && matchesFilters(record, state, data)).sort((a, b) =>
+      matchesTime(record, state, data) && matchesFilters(record, state, data)).sort((a, b) =>
       a.date.sortYear - b.date.sortYear || (a.date.value || '').localeCompare(b.date.value || '') || a.id.localeCompare(b.id));
   }
 
   function regionContexts(data, region, state) {
-    const from = state.mode === 'topic' ? data.period.startYear : Number(state.date.slice(0, 4));
-    const to = state.mode === 'topic' ? data.period.endYear : from;
-    return region.contexts.filter(context => context.from <= to && context.to >= from);
+    const year = yearOfDate(state.date);
+    return region.contexts.filter(context => context.from <= year && context.to >= year);
   }
 
   function clusterPlaces(records, places) {
@@ -118,18 +152,25 @@
   }
 
   function daysBetween(a, b) {
-    if (!isExactDate(a) || !isExactDate(b)) return null;
-    return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 86400000);
+    function ordinal(value) {
+      const date = parseDate(value);
+      if (!date) return null;
+      const previous = date.astronomical - 1;
+      return 365 * previous + Math.floor(previous / 4) - Math.floor(previous / 100) + Math.floor(previous / 400)
+        + date.months.slice(0, date.month - 1).reduce((sum, days) => sum + days, 0) + date.day - 1;
+    }
+    const from = ordinal(a), to = ordinal(b);
+    return from === null || to === null ? null : to - from;
   }
 
   function relationLabel(a, b) {
     if (a.date.precision === 'regnal_year' || b.date.precision === 'regnal_year')
       return '主题对读 · 日期精度不同';
-    const years = [a.date.value?.slice(0, 4), b.date.value?.slice(0, 4)];
+    const years = [yearOfDate(a.date.value), yearOfDate(b.date.value)];
     const days = daysBetween(a.date.value, b.date.value);
     if (days === 0) return '同日 · 文献对读';
     if (years[0] === years[1]) return days === null ? '同年 · 含年级精度' : '同年 · 相隔' + Math.abs(days) + '天';
-    return '跨年对读 · ' + years.join(' / ');
+    return '跨年对读 · ' + years.map(year => year < 100 ? formatYear(year) : String(year)).join(' / ');
   }
 
   function project(coordinates) {
@@ -172,6 +213,7 @@
     } catch (_) { return null; }
   }
 
-  return { MODES, regionNames, resolveRegions, regionContexts, isExactDate, normalizeState, readState, writeState, matchesTime,
+  return { MODES, regionNames, resolveRegions, regionContexts, yearToIndex, indexToYear, yearValue, yearOfDate, formatYear,
+    formatDate, dateForYear, eraForState, isExactDate, normalizeState, readState, writeState, matchesTime,
     matchesFilters, visibleRecords, clusterPlaces, spatialClusters, clusterAction, daysBetween, relationLabel, project, safeSourceUrl };
 });

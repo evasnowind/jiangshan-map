@@ -197,7 +197,7 @@ main {
 }
 .case-buttons {
   display:grid;
-  grid-template-columns:.8fr repeat(3,1fr);
+  grid-template-columns:.8fr repeat(4,minmax(0,1fr));
   gap:.65rem;
   margin-bottom:1.25rem;
 }
@@ -1113,3 +1113,36 @@ select:focus-visible {
     grid-template-columns: repeat(3,minmax(0,1fr));
   }
 }
+
+/* Epoch navigation and historical BCE/CE controls. */
+.era-controls { margin: 1.4rem 0; padding: 1.1rem; border: 1px solid var(--line); border-radius: 10px; background: var(--paper); }
+.era-heading { display:flex; gap:1rem; align-items:baseline; justify-content:space-between; }
+.era-heading h2 { font-size:1.1rem; white-space:nowrap; }
+.era-heading p { font-size:.875rem; margin:0 0 .7rem; }
+.era-buttons { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.55rem; }
+.era-button { display:flex; align-items:flex-start; flex-direction:column; gap:.2rem; padding:.65rem .8rem; text-align:left; border:1px solid var(--line); border-radius:6px; background:white; min-width:0; }
+.era-button strong { font-size:.9375rem; }
+.era-button span { font-size:.875rem; color:var(--muted); }
+.era-button[aria-pressed="true"] { border-color:var(--red); box-shadow:inset 0 0 0 1px var(--red); background:#f4f8f6; }
+.era-button[aria-pressed="true"] .era-total { color:var(--ink); }
+.era-controls .filter-note { margin:.7rem 0 0; font-size:.875rem; }
+.date-row { display:grid; grid-template-columns:auto minmax(80px,1fr); gap:.8rem; }
+.date-row .era-label,.date-row .year-label,.date-row .date-label { display:flex; align-items:center; gap:.5rem; font-size:.875rem; grid-column:auto; }
+.date-row .date-label { grid-column:1 / -1; }
+#calendar-era,#year-input,#exact-date { font:inherit; border:1px solid var(--line); border-radius:5px; padding:.4rem; background:white; min-height:40px; max-width:100%; }
+#calendar-era { appearance:none; padding-right:1.8rem; background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%); background-position:calc(100% - 14px) 50%,calc(100% - 9px) 50%; background-size:5px 5px; background-repeat:no-repeat; }
+#year-input { width:7rem; min-width:0; }
+#exact-date { width:7rem; }
+#exact-date:disabled { opacity:.55; }
+@media(max-width:720px) {
+  .era-controls { padding:.8rem; }
+  .era-heading { display:block; }
+  .era-buttons { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .date-row { grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+  .date-row>label:first-child { grid-column:1 / -1; }
+  #year-range { grid-column:1 / -1; width:100%; }
+  .date-row .era-label,.date-row .year-label { flex-direction:column; align-items:flex-start; gap:.3rem; }
+}
+@media print { .era-controls { display:none; } }
+
+@media(max-width:720px) { .overview-button { grid-column:1 / -1; } }

@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="1852—1868年，覆盖东亚、欧洲、南亚、东南亚与美洲多个地区的历史地图。按当时政权阅读事件、人物和可追溯文献，并与中国材料对读。" />
+  <meta name="description" content="公元前10年至公元2000年，按时代阅读东亚、欧洲、南亚、东南亚与美洲多个地区的历史地图。按当时政权阅读事件、人物和可追溯文献，并与中国材料对读。" />
   <title>世界同期 · 江山时序</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/world_history.css?v=955e0e5a" />
-  <script defer src="js/world_history_core.js?v=e751e4b7"></script>
-  <script id="world-history-script" defer src="js/world_history.js?v=f9d595e8" data-records-src="data/world/history.json?v=55885516"></script>
+  <link rel="stylesheet" href="css/world_history.css?v=58359c26" />
+  <script defer src="js/world_history_core.js?v=d7ee2ebf"></script>
+  <script id="world-history-script" defer src="js/world_history.js?v=f30f618e" data-records-src="data/world/history.json?v=f927b393"></script>
 </head>
 <body>
   <a class="skip-link" href="#comparison">跳到历史对照</a>
@@ -18,12 +18,13 @@
   </header>
   <main>
     <div class="introduction">
-      <div><p id="period-label" class="eyebrow">1852—1868 · 多地区历史</p><h1>在同一段时间里，读懂不同的世界。</h1><p>从地图找到事件，再把人物、条文与时代放在一起读。</p></div>
+      <div><p id="period-label" class="eyebrow">公元前10年—公元2000年 · 多地区历史</p><h1>在同一段时间里，读懂不同的世界。</h1><p>从地图找到事件，再把人物、条文与时代放在一起读。</p></div>
       <p id="sample-note" class="sample-note">地区史事与原文对读</p>
     </div>
     <div id="load-status" role="status">正在载入历史记录与世界底图…</div>
     <div id="reader" hidden>
       <section class="case-selector" aria-label="选择对照专题"><div id="case-buttons" class="case-buttons"></div></section>
+      <section id="era-controls" class="era-controls" aria-labelledby="era-title"><div class="era-heading"><h2 id="era-title">按时代浏览</h2><p id="coverage-note" class="muted"></p></div><div id="era-buttons" class="era-buttons"></div><p class="filter-note">数字为当前地区与搜索条件下的已收录记录。空白表示尚未收录；各时代名称只作导航，不代表全球经历相同阶段。</p></section>
       <section class="workspace" aria-label="历史地图与时间筛选">
         <div class="map-column">
           <div class="map-heading"><div><p class="eyebrow">世界地图</p><h2 id="time-heading"></h2></div><span id="visible-count" role="status" aria-live="polite"></span></div>
@@ -34,8 +35,8 @@
             <p class="map-legend"><span class="legend-ring" aria-hidden="true"></span>地理参照点 / 海域示意 · 数字为地点聚合</p>
           </div>
           <div class="time-controls">
-            <div class="mode-row"><fieldset id="time-modes"><legend>时间范围</legend><label><input type="radio" name="mode" value="day" />同日</label><label><input type="radio" name="mode" value="year" />同年</label><label><input type="radio" name="mode" value="topic" />专题全时段</label></fieldset><button id="case-reset" type="button">回到本组时间</button></div>
-            <div class="date-row"><label for="year-range">年份 <output id="year-output" for="year-range"></output></label><input id="year-range" type="range" min="1852" max="1868" step="1" /><label class="date-label" for="exact-date">日期<input id="exact-date" type="date" min="1852-01-01" max="1868-12-31" /></label></div>
+            <div class="mode-row"><fieldset id="time-modes"><legend>时间范围</legend><label><input type="radio" name="mode" value="day" />同日</label><label><input type="radio" name="mode" value="year" />同年</label><label><input type="radio" name="mode" value="topic" />所选时代</label></fieldset><button id="case-reset" type="button">回到本组时间</button></div>
+            <div class="date-row"><label for="year-range">年份 <output id="year-output" for="year-range"></output></label><input id="year-range" type="range" min="-10" max="1999" step="1" /><label class="era-label" for="calendar-era">纪年<select id="calendar-era"><option value="ce">公元</option><option value="bce">公元前</option></select></label><label class="year-label" for="year-input">年份数值<input id="year-input" type="number" min="1" max="2000" step="1" /></label><label class="date-label" for="exact-date">月日<input id="exact-date" type="text" inputmode="numeric" placeholder="MM-DD" maxlength="5" pattern="[0-9]{2}-[0-9]{2}" aria-describedby="time-note" /></label></div>
             <p id="time-note" class="muted"></p>
           </div>
         </div>

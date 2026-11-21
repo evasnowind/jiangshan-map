@@ -1,9 +1,9 @@
 {
-  "schemaVersion": 2,
-  "researchDate": "2026-11-20",
+  "schemaVersion": 3,
+  "researchDate": "2026-11-21",
   "period": {
-    "startYear": 1852,
-    "endYear": 1868
+    "startYear": -10,
+    "endYear": 2000
   },
   "defaultState": {
     "caseId": "all",
@@ -64,6 +64,24 @@
         "作者和政府的不同权威",
         "原署年、刊本年与西历日期"
       ]
+    },
+    {
+      "id": "counting",
+      "title": "户口与公民",
+      "subtitle": "约公元2年 / 14年 · 汉与罗马",
+      "relation": "相近时代 · 两种统计口径",
+      "relationType": "same_era",
+      "defaultMode": "topic",
+      "defaultDate": "0014-01-01",
+      "question": "两个登记数字，能直接比较国家总人口吗？",
+      "intro": "对读《汉书·地理志》所存户口与奥古斯都《功业录》第8节的罗马公民数。它们的年代、材料性质和计数对象不同，先确定数字在说什么，再讨论比较。",
+      "conclusion": "《汉书》合计登记的户与口；《功业录》自述的是罗马公民登记数。两者不能直接作为两国全境总人口排名，也不能只看数字大小推断国家治理能力。",
+      "boundary": "汉代材料以元始二年作排序参照，篇末汇总只称截至孝平；不捏造统计日。《功业录》是统治者的功业自述，公民计数的具体年龄、性别范围仍需专门研究。长安是行政中心参照，安卡拉是重要铭刻传本所在地，都不是完整登记覆盖面。",
+      "dimensions": [
+        "户、口与公民的不同计数对象",
+        "后编史书和统治者自述的材料差异",
+        "统计年代、记述年代及地理参照"
+      ]
     }
   ],
   "records": [
@@ -122,7 +140,8 @@
       ],
       "polities": [
         "清朝"
-      ]
+      ],
+      "parties": []
     },
     {
       "id": "W13",
@@ -414,7 +433,9 @@
       "polities": [
         "清朝",
         "美利坚合众国"
-      ]
+      ],
+      "parties": [],
+      "aliases": []
     },
     {
       "id": "E2",
@@ -483,7 +504,8 @@
       "polities": [
         "德川幕府",
         "美利坚合众国"
-      ]
+      ],
+      "parties": []
     },
     {
       "id": "W1",
@@ -1188,7 +1210,8 @@
       ],
       "polities": [
         "明治新政府"
-      ]
+      ],
+      "parties": []
     },
     {
       "id": "E3",
@@ -1256,7 +1279,8 @@
       "polities": [
         "清朝",
         "美利坚合众国"
-      ]
+      ],
+      "parties": []
     },
     {
       "id": "E4",
@@ -1320,7 +1344,3558 @@
       ],
       "polities": [
         "美利坚合众国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "MX1",
+      "caseId": null,
+      "title": "2000：美国签署对华正常贸易关系授权法",
+      "regions": [
+        "中国",
+        "美国"
+      ],
+      "placeId": "washington",
+      "placeLabel": "华盛顿（仪式注明白宫南草坪）",
+      "placeRole": "文书签署仪式所在城市参照",
+      "date": {
+        "value": "2000-10-10",
+        "precision": "day",
+        "sortYear": 2000,
+        "display": "公元2000年10月10日",
+        "original": "公法批准日期October 10, 2000；白宫稿记同日下午4:52 EDT。",
+        "sourceIds": [
+          "MS1",
+          "MS2"
+        ]
+      },
+      "summary": "克林顿在白宫签署对华正常贸易关系授权法。法律为后续总统决定与宣布待遇提供框架，并把待遇生效设为不得早于中国加入WTO生效日。",
+      "people": [
+        {
+          "name": "威廉·克林顿",
+          "role": "美国总统；当天仪式的签署者与发言者（白宫逐字稿）"
+        }
+      ],
+      "claims": [
+        {
+          "text": "公法106-286的批准日期为2000年10月10日；§101(a)授权总统作出所列决定并宣布对中国产品给予正常贸易关系待遇。",
+          "sourceId": "MS1",
+          "locator": "页首；§101(a)，114 Stat.880–881",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-106publ286/html/PLAW-106publ286.htm"
+        },
+        {
+          "text": "§102(a)规定这种待遇不得早于中国入世生效日开始；讲话亦明说中国仍须完成入世谈判，不能把签署日写成入世日。",
+          "sourceId": "MS1",
+          "locator": "§102(a)，114 Stat.882；并校MS2总统讲话",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-106publ286/html/PLAW-106publ286.htm"
+        },
+        {
+          "text": "白宫原稿把仪式定位为The South Lawn，并列美国总统的现场讲话；地图仍只使用华盛顿城市参照点。",
+          "sourceId": "MS2",
+          "locator": "新闻稿页首与THE PRESIDENT段",
+          "url": "https://clintonwhitehouse4.archives.gov/textonly/library/hot_releases/October_10_2000_6.html"
+        }
+      ],
+      "quote": {
+        "text": "For China must still complete its WTO accession negotiations",
+        "translation": "因为中国仍须完成其加入世界贸易组织的谈判。",
+        "sourceId": "MS2",
+        "locator": "THE PRESIDENT：I guess I ought to point out起句的下一句节录",
+        "url": "https://clintonwhitehouse4.archives.gov/textonly/library/hot_releases/October_10_2000_6.html"
+      },
+      "limitation": "本记录终点止于2000年的授权与签署。法律、批准、入世和待遇实际生效是不同事件；不推导入世后的经济效果。",
+      "polities": [
+        "中华人民共和国",
+        "美利坚合众国"
+      ],
+      "parties": [
+        "美国（立法与签署）",
+        "中国（法案涉及对象）"
+      ],
+      "aliases": [
+        "PNTR",
+        "克林顿",
+        "正常贸易关系",
+        "WTO"
       ]
+    },
+    {
+      "id": "AX1",
+      "caseId": null,
+      "title": "《汉书》记元延三年岷山崩",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "ax-chengdu",
+      "placeLabel": "蜀郡（以成都参照）",
+      "placeRole": "史书所指行政区域参照，非灾害发生点",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": -10,
+        "display": "约公元前10年 · 元延三年正月",
+        "original": "汉成帝元延三年春正月丙寅；西历前10年仅作年号对照排序，未核历日换算，不参与精确西历同年匹配",
+        "sourceIds": [
+          "AS1"
+        ]
+      },
+      "summary": "《汉书》将蜀郡岷山崩、江水阻断三日收入元延三年正月条。",
+      "people": [],
+      "claims": [
+        {
+          "text": "正文记“蜀郡岷山崩”，并称江水阻断三日、江水竭；不据此补造震级、死伤或精确灾点。",
+          "sourceId": "AS1",
+          "locator": "元延三年春正月丙寅条",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷010"
+        }
+      ],
+      "quote": {
+        "text": "蜀郡岷山崩，雍江三日，江水竭",
+        "translation": "史书记岷山崩，使江水阻塞三日；“雍”为原文用字。",
+        "sourceId": "AS1",
+        "locator": "卷十《成帝纪》；元延元年、二年之后的“三年春正月丙寅”条",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷010"
+      },
+      "limitation": "保留年号年精度及null日期值，sortYear=-10只供时代排序。地图用蜀郡行政中心参照，不能当成震中。",
+      "aliases": [
+        "漢成帝",
+        "元延三年",
+        "岷山"
+      ],
+      "polities": [
+        "西汉"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX2",
+      "caseId": "counting",
+      "title": "《汉书》元始二年版籍与户口总数",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "ax-changan",
+      "placeLabel": "长安（汉廷行政中心参照）",
+      "placeRole": "登记体系所属政治中心；不是统计覆盖面",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 2,
+        "display": "公元2年前后 · 元始二年版籍",
+        "original": "汉平帝元始二年；京兆尹条明署该年，篇末汇总称“讫于孝平”；不是精确统计日",
+        "sourceIds": [
+          "AS2"
+        ]
+      },
+      "summary": "《地理志》逐郡国列户、口，篇末合计12,233,062户、59,594,978口。",
+      "people": [],
+      "claims": [
+        {
+          "text": "京兆尹条署元始二年，列195,702户、682,468口，并在所属县中列长安。",
+          "sourceId": "AS2",
+          "locator": "各郡上·京兆尹首条",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷028下"
+        },
+        {
+          "text": "篇末“讫于孝平”总计列103郡国，并列12,233,062户、59,594,978口。",
+          "sourceId": "AS2",
+          "locator": "《论》首段",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷028下"
+        },
+        {
+          "text": "这里的分母是登记“民户／口”；与罗马公民数比较前须先分清口径，不能当成两国全境总人口的同口径排名。",
+          "sourceId": "AS2",
+          "locator": "《论》首段；“民户”“口”统计用语",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷028下"
+        }
+      ],
+      "quote": {
+        "text": "民戶千二百二十三萬三千六十二",
+        "translation": "登记民户合计12,233,062户；户与口是不同计数单位。",
+        "sourceId": "AS2",
+        "locator": "卷二十八《地理志》“京兆尹，元始二年户……”；《论》“讫于孝平……民户……”段",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷028下"
+      },
+      "limitation": "date保留年号年精度，以公元2年作为常用版籍年代的排序参照。长安点不代表登记区域边界；不得用该总数覆盖今日中国国界。",
+      "aliases": [
+        "汉平帝",
+        "人口",
+        "户籍",
+        "元始二年"
+      ],
+      "polities": [
+        "西汉"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX3",
+      "caseId": null,
+      "title": "法显将天竺行旅见闻写入竹帛",
+      "regions": [
+        "中国",
+        "印度"
+      ],
+      "placeId": "ax-jiankang",
+      "placeLabel": "建康（归国后写作背景参照）",
+      "placeRole": "记述与整理背景，非印度所见地点的统一定位",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 414,
+        "display": "约414年 · 自署甲寅",
+        "original": "正文末署“是岁甲寅”；其后另有“晋义熙十二年”追问行旅识语，二者分层。本轮未核甲寅传统年与完整西历年界，414仅为通常纪年对照的排序参照。",
+        "sourceIds": [
+          "AS3"
+        ]
+      },
+      "summary": "法显称为使他人同其闻见，把寻求经律的行旅写入竹帛；后附识语又记追问并详载经历。",
+      "people": [
+        {
+          "name": "法显",
+          "role": "旅行者；正文以求法行旅者身份自述"
+        }
+      ],
+      "claims": [
+        {
+          "text": "作者自述从长安出发并归国，解释写记是为了让后来者同其闻见。",
+          "sourceId": "AS3",
+          "locator": "篇末“法显发长安”至“是岁甲寅”",
+          "url": "https://zh.wikisource.org/wiki/佛國記"
+        },
+        {
+          "text": "其后附识另署晋义熙十二年，称重问行旅并劝令详载；它是文本整理层的另一纪年。",
+          "sourceId": "AS3",
+          "locator": "篇末义熙十二年识语",
+          "url": "https://zh.wikisource.org/wiki/佛國記"
+        }
+      ],
+      "quote": {
+        "text": "故將竹帛疏所經歷",
+        "translation": "把所经历的事情记在竹帛上。",
+        "sourceId": "AS3",
+        "locator": "篇末“法显发长安……故将竹帛疏所经历……是岁甲寅”；下接“晋义熙十二年”识语",
+        "url": "https://zh.wikisource.org/wiki/佛國記"
+      },
+      "limitation": "414仅作甲寅年的通常纪年对照排序；未核完整西历年界，保留regnal_year与null日期值，不参与精确西历同年匹配。不是所有天竺所见都发生于该年；印度是所记地区入口，地图点为归国后记述背景。",
+      "aliases": [
+        "佛國記",
+        "法顯傳"
+      ],
+      "polities": [
+        "东晋",
+        "天竺诸地"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX4",
+      "caseId": null,
+      "title": "《隋书》所录倭国书与来学佛法者",
+      "regions": [
+        "中国",
+        "日本"
+      ],
+      "placeId": "ax-changan",
+      "placeLabel": "大兴／长安（隋廷参照）",
+      "placeRole": "国书接收方政治中心参照",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 607,
+        "display": "约607年 · 大业三年",
+        "original": "隋大业三年；未核这一传统年的完整西历起讫及送达日，607仅为年号对照排序参照。",
+        "sourceIds": [
+          "AS4"
+        ]
+      },
+      "summary": "《隋书》记倭王遣使并携沙门来学佛法，国书自称“日出处天子”。",
+      "people": [
+        {
+          "name": "多利思比孤",
+          "role": "《隋书》大业三年条所称倭王"
+        }
+      ],
+      "claims": [
+        {
+          "text": "大业三年条记倭王派使者，兼有数十名沙门来学佛法。",
+          "sourceId": "AS4",
+          "locator": "《倭国》大业三年段",
+          "url": "https://zh.wikisource.org/wiki/隋書/卷81"
+        },
+        {
+          "text": "所录国书用“日出处天子”致书“日没处天子”；隋帝阅后不悦是该史书的记述。",
+          "sourceId": "AS4",
+          "locator": "同段国书及帝答语",
+          "url": "https://zh.wikisource.org/wiki/隋書/卷81"
+        }
+      ],
+      "quote": {
+        "text": "日出處天子致書日没處天子無恙",
+        "translation": "国书用日出、日没之地的天子称号互致问候。",
+        "sourceId": "AS4",
+        "locator": "卷81《倭国》“大业三年，其王多利思比孤遣使朝贡”段",
+        "url": "https://zh.wikisource.org/wiki/隋書/卷81"
+      },
+      "limitation": "607仅作大业三年的通常年号对照排序；本轮未核完整西历年界，保留regnal_year与null日期值。不把该国书读成中日平等外交关系已经获双方共同承认；大兴城市点不是原件保存地。",
+      "aliases": [
+        "遣隋使",
+        "大业三年"
+      ],
+      "polities": [
+        "隋朝",
+        "倭国（《隋书》所称）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX5",
+      "caseId": null,
+      "title": "摩伽陀王使者赴唐的史书记载",
+      "regions": [
+        "中国",
+        "印度"
+      ],
+      "placeId": "ax-changan",
+      "placeLabel": "长安（唐廷接收方参照）",
+      "placeRole": "使节往来的接收方政治中心参照",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 641,
+        "display": "约641年 · 贞观十五年",
+        "original": "唐贞观十五年；未核这一传统年的完整西历起讫，641仅供对照排序。后文李义表回访未另署具体年日，不能全部压为该年。",
+        "sourceIds": [
+          "AS5"
+        ]
+      },
+      "summary": "《旧唐书》记尸罗逸多自称摩伽陀王并遣使赴唐，继叙唐方答使。",
+      "people": [
+        {
+          "name": "尸罗逸多",
+          "role": "史书所称摩伽陀王、派使者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "贞观十五年，史书称尸罗逸多自称摩伽陀王并遣使朝贡。",
+          "sourceId": "AS5",
+          "locator": "《天竺国》贞观十五年句",
+          "url": "https://zh.wikisource.org/wiki/舊唐書/卷198"
+        },
+        {
+          "text": "同段后续记唐方派卫尉丞李义表报使，并记天竺使者献火珠、郁金香、菩提树；这些后续没有逐件精确日期。",
+          "sourceId": "AS5",
+          "locator": "同段太宗答书、李义表报使及献物句",
+          "url": "https://zh.wikisource.org/wiki/舊唐書/卷198"
+        }
+      ],
+      "quote": {
+        "text": "尸羅逸多自稱摩伽陀王，遣使朝貢",
+        "translation": "史书称尸罗逸多以摩伽陀王名义派遣使者。",
+        "sourceId": "AS5",
+        "locator": "卷198《天竺国》“贞观十五年，尸罗逸多自称摩伽陀王”段",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷198"
+      },
+      "limitation": "641仅作贞观十五年的通常年号对照排序；未核完整西历年界，保留regnal_year与null日期值。原年号只锚定首次明确署年的派使句。印度是天竺／摩伽陀的现代地区检索入口，不等同今日国界。",
+      "aliases": [
+        "天竺",
+        "贞观十五年",
+        "尸羅逸多"
+      ],
+      "polities": [
+        "唐朝",
+        "摩伽陀王国（史书所称）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX6",
+      "caseId": null,
+      "title": "李太祖迁都大罗并改称升龙",
+      "regions": [
+        "越南"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "大罗／升龙（今河内参照）",
+      "placeRole": "迁入都城的现代城市参照",
+      "date": {
+        "value": "1010",
+        "precision": "year",
+        "sortYear": 1010,
+        "display": "1010年 · 顺天元年",
+        "original": "李太祖顺天元年庚戌；正文将迁都记于秋七月。年级推断采用顺天元年通常对应1010年的年号对照，且农历七月处年中后段，避开岁首可能跨西历年的区段，故以1010为事件年；未做日级历表换算。",
+        "sourceIds": [
+          "AS6"
+        ]
+      },
+      "summary": "《大越史记全书》保存迁都诏理由，并记秋七月从华闾迁往大罗、改名升龙。",
+      "people": [
+        {
+          "name": "李太祖",
+          "role": "该纪所称皇帝、下迁都手诏者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "所录手诏称大罗地势广平、交通汇聚，并以长久建都为迁都理由。",
+          "sourceId": "AS6",
+          "locator": "顺天元年迁都手诏",
+          "url": "https://www.shidianguji.com/zh/book/7597351255165370377/chapter/1lpz7buqg312i"
+        },
+        {
+          "text": "秋七月条记从华闾迁往大罗，并将城名改为升龙。",
+          "sourceId": "AS6",
+          "locator": "顺天元年秋七月条",
+          "url": "https://www.shidianguji.com/zh/book/7597351255165370377/chapter/1lpz7buqg312i"
+        }
+      ],
+      "quote": {
+        "text": "朕欲因此地利以定厥居",
+        "translation": "君主在诏中说要凭借此地的地理条件确定都城。",
+        "sourceId": "AS6",
+        "locator": "本纪卷二，庚戌顺天元年；“帝以华闾城湫隘”迁都手诏及“秋七月”段",
+        "url": "https://www.shidianguji.com/zh/book/7597351255165370377/chapter/1lpz7buqg312i"
+      },
+      "limitation": "区分诏书给出的理由与工程实际效果；1010为事件年代，现读传本及识读文本均晚出。 1010为注明依据的年级推断：通常年号对照加上正文秋七月的定位，非核完整年界或日历换算。",
+      "aliases": [
+        "遷都詔",
+        "升龙",
+        "大羅"
+      ],
+      "polities": [
+        "李朝大瞿越"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX7",
+      "caseId": null,
+      "title": "《御成败式目》规定神社与寺院职责",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "ax-kamakura",
+      "placeLabel": "镰仓（幕府政治中心参照）",
+      "placeRole": "法令制定方政治中心参照",
+      "date": {
+        "value": "1232",
+        "precision": "year",
+        "sortYear": 1232,
+        "display": "1232年 · 贞永元年",
+        "original": "传本题“贞永元年八月日”，校注又作“十日”；转录页题头并列1232年。年级推断据此年号对照及农历八月的年中后段定位，避开岁首跨西历年区段；不据异文换算公历日。",
+        "sourceIds": [
+          "AS7"
+        ]
+      },
+      "summary": "镰仓幕府法令开篇要求修理神社、维持祭祀，并处理怠于寺院职役者。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条要求地头、神主维持神社祭祀，并区分小修与大修上报。",
+          "sourceId": "AS7",
+          "locator": "第1条“可修理神社専祭祀事”",
+          "url": "https://ja.wikisource.org/wiki/御成敗式目"
+        },
+        {
+          "text": "第2条要求修造寺塔、勤行佛事，并令更换贪取寺用而不履职责者。",
+          "sourceId": "AS7",
+          "locator": "第2条“可修造寺塔勤行佛事等事”",
+          "url": "https://ja.wikisource.org/wiki/御成敗式目"
+        }
+      ],
+      "quote": {
+        "text": "至自今以後者可守此狀也",
+        "translation": "自今以后应遵守此状；引文为原汉文去除训点后的连续文字。",
+        "sourceId": "AS7",
+        "locator": "题记及第1、2条；底本塙保己一编《群书类从》第十五辑，经济杂志社，明治27年，NDL pid1879792，コマ6起",
+        "url": "https://ja.wikisource.org/wiki/御成敗式目"
+      },
+      "limitation": "这两条展示法令规定，不证明所有领地都照章执行；日级传本有异文，仅使用年份。 1232为注明依据的年级推断：转录页题头年号对照加农历八月定位；日数有异文，未做日级历表换算。",
+      "aliases": [
+        "御成敗式目",
+        "貞永式目"
+      ],
+      "polities": [
+        "镰仓幕府"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX8",
+      "caseId": null,
+      "title": "周达观随使抵达真腊",
+      "regions": [
+        "中国",
+        "柬埔寨"
+      ],
+      "placeId": "ax-angkor",
+      "placeLabel": "真腊王城（吴哥城遗址参照）",
+      "placeRole": "作者访问的王城地区参照，不是入境港口",
+      "date": {
+        "value": "1296",
+        "precision": "year",
+        "sortYear": 1296,
+        "display": "1296年 · 元贞丙申",
+        "original": "正文《总叙》称元贞乙未六月奉使、次年丙申二月开洋，秋七月始至。年级推断据元贞元年乙未通常对照1295、次年丙申为1296，且抵达在农历七月，避开岁首跨西历年区段；七月不当作公历7月，未做日级换算。",
+        "sourceIds": [
+          "AS8"
+        ]
+      },
+      "summary": "周达观自述随元朝使团出海，秋七月才到达真腊，并据在地闻见写记。",
+      "people": [
+        {
+          "name": "周达观",
+          "role": "自述随元使赴真腊的作者、观察者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "作者说奉命随使，次年丙申二月从明州、温州出海，途中逆风，秋七月才至真腊。",
+          "sourceId": "AS8",
+          "locator": "《总叙》末段",
+          "url": "https://zh.wikisource.org/wiki/真臘風土記"
+        },
+        {
+          "text": "作者自限“其风土国事之详，虽不能尽知”，可据其记述探索城市生活，但不能视为当地全体居民自述。",
+          "sourceId": "AS8",
+          "locator": "《总叙》末句",
+          "url": "https://zh.wikisource.org/wiki/真臘風土記"
+        }
+      ],
+      "quote": {
+        "text": "秋七月始至",
+        "translation": "到秋季的农历七月才抵达；不是公历7月的精确到达日。",
+        "sourceId": "AS8",
+        "locator": "正文《总叙》“元贞之乙未六月”至“大德丁酉六月回舟”段；《城郭》段",
+        "url": "https://zh.wikisource.org/wiki/真臘風土記"
+      },
+      "limitation": "1296锚定抵达行程，书中其他主题观察可能跨1296—1297；吴哥城只作现代遗址参照。 1296为注明依据的年级推断：正文乙未、次年丙申连续年序和秋七月抵达定位；并未核公历具体月日。",
+      "aliases": [
+        "真臘風土記",
+        "Zhou Daguan"
+      ],
+      "polities": [
+        "元朝",
+        "真腊／高棉王国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX9",
+      "caseId": null,
+      "title": "《世宗实录》记《训民正音》成",
+      "regions": [
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ax-seoul",
+      "placeLabel": "汉城（今首尔参照）",
+      "placeRole": "朝鲜王朝宫廷文书背景参照",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1446,
+        "display": "1446年前后 · 世宗二十八年九月",
+        "original": "世宗二十八年九月二十九日甲午第4条／明正统十一年；正文作“是月”，不把日栏等同完成日",
+        "sourceIds": [
+          "AS9"
+        ]
+      },
+      "summary": "实录在“是月”条收录《训民正音》御制及郑麟趾序，称新制二十八字以便日用。",
+      "people": [
+        {
+          "name": "世宗",
+          "role": "御制所署君主、新字创制者"
+        },
+        {
+          "name": "郑麟趾",
+          "role": "本条所录序文作者、礼曹判书"
+        }
+      ],
+      "claims": [
+        {
+          "text": "御制称本国语音与汉字不能相通，说明新制二十八字是希望容易习得、便于日用。",
+          "sourceId": "AS9",
+          "locator": "“御制曰：国之语音……”",
+          "url": "https://sillok.history.go.kr/id/kda_12809029_004"
+        },
+        {
+          "text": "郑麟趾序追述癸亥冬创制，与本条1446年“成”的书籍／说明文本层次应分开。",
+          "sourceId": "AS9",
+          "locator": "“礼曹判书郑麟趾序曰”之“癸亥冬”段",
+          "url": "https://sillok.history.go.kr/id/kda_12809029_004"
+        }
+      ],
+      "quote": {
+        "text": "新制二十八字",
+        "translation": "新创制二十八个字母；不是今天常用字母数的现代统计。",
+        "sourceId": "AS9",
+        "locator": "kda_12809029_004；卷113，世宗28年9月29日甲午第4条；太白山史库本36册113卷36叶B，国编影印本4册702页",
+        "url": "https://sillok.history.go.kr/id/kda_12809029_004"
+      },
+      "limitation": "仅保存原年号月，日期值null；两个现代地区入口共用朝鲜王朝一条记录，不重复制造两国事件。",
+      "aliases": [
+        "訓民正音",
+        "Hunminjeongeum"
+      ],
+      "polities": [
+        "朝鲜王朝"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX10",
+      "caseId": null,
+      "title": "巴布尔自述帕尼帕特布阵与交战",
+      "regions": [
+        "印度"
+      ],
+      "placeId": "ax-panipat",
+      "placeLabel": "帕尼帕特（城市参照）",
+      "placeRole": "战事所涉城市参照，不是战线",
+      "date": {
+        "value": "1526",
+        "precision": "year",
+        "sortYear": 1526,
+        "display": "1526年 · 伊斯兰历932年",
+        "original": "正文属932 AH年记，交战署Rajab月8日星期五；英译旁注作April 20，未核历，不写成公历日",
+        "sourceIds": [
+          "AS10"
+        ]
+      },
+      "summary": "巴布尔记以城镇、车辆和屏障组织阵地，并从统帅视角叙述与易卜拉欣军交战。",
+      "people": [
+        {
+          "name": "巴布尔",
+          "role": "回忆录自述者、交战一方统帅"
+        },
+        {
+          "name": "易卜拉欣",
+          "role": "文中所称对方苏丹、交战统帅"
+        }
+      ],
+      "claims": [
+        {
+          "text": "作者记阵地一侧靠帕尼帕特城，其余处用车辆、屏障、壕沟和树枝防护。",
+          "sourceId": "AS10",
+          "locator": "(t)与(u)阵地段，叶264b",
+          "url": "https://www.gutenberg.org/files/44608/44608-0.txt"
+        },
+        {
+          "text": "战斗记述按己方右翼、左翼、中军和包抄部队展开；“半日击败敌军”是作者自述，不是双方一致战报。",
+          "sourceId": "AS10",
+          "locator": "(w) Battle of Pānī-pat，叶266—267",
+          "url": "https://www.gutenberg.org/files/44608/44608-0.txt"
+        }
+      ],
+      "quote": {
+        "text": "our other sides must be protected by carts and mantelets",
+        "translation": "其余几侧须用车辆与防护屏障掩护；这是所读英文译文的短引。",
+        "sourceId": "AS10",
+        "locator": "932 AH年记；(t)至(w)帕尼帕特段，尤其(w) Battle of Pānī-pat；边注原稿叶264b—267",
+        "url": "https://www.gutenberg.org/files/44608/44608-0.txt"
+      },
+      "limitation": "只用1526年排序，不将译者旁注April20直接当成已核公历日；不选取自述伤亡数作现代中立统计。",
+      "aliases": [
+        "Baburnama",
+        "Pānī-pat",
+        "Panipat"
+      ],
+      "polities": [
+        "巴布尔政权",
+        "德里洛迪王朝"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX11",
+      "caseId": null,
+      "title": "幕府向长崎奉行下达出海禁令",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "ax-nagasaki",
+      "placeLabel": "长崎（文书受令城市）",
+      "placeRole": "幕府命令的受令地参照",
+      "date": {
+        "value": "1635",
+        "precision": "year",
+        "sortYear": 1635,
+        "display": "1635年",
+        "original": "教学选录题名The Edict of1635；未读到原日文落款，不补造日级日期",
+        "sourceIds": [
+          "AS11"
+        ]
+      },
+      "summary": "1635年幕府命令选录禁止日本船只出海，并严惩擅自出国和久居海外后归来者。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1款禁止日本船前往外国，第2款禁止日本人出国并规定秘密出国的惩罚。",
+          "sourceId": "AS11",
+          "locator": "选录第1、2款",
+          "url": "https://afe.easia.columbia.edu/ps/japan/tokugawa_edicts_foreigners.pdf"
+        },
+        {
+          "text": "第3款严惩海外居留后返回者，第4款要求调查传教士宗教活动。",
+          "sourceId": "AS11",
+          "locator": "选录第3、4款",
+          "url": "https://afe.easia.columbia.edu/ps/japan/tokugawa_edicts_foreigners.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Japanese ships are strictly forbidden to leave for foreign countries.",
+        "translation": "严禁日本船只前往外国；为所读英译条款短引。",
+        "sourceId": "AS11",
+        "locator": "PDF第1—2页，选录第1—4款；David J. Lu编Japan:A Documentary History(1997)，第221—222页",
+        "url": "https://afe.easia.columbia.edu/ps/japan/tokugawa_edicts_foreigners.pdf"
+      },
+      "limitation": "不能把这几款推为日本与所有外界完全断绝往来，更不把1639年的安排倒填为1635年条款。",
+      "aliases": [
+        "锁国",
+        "Tokugawa",
+        "长崎奉行"
+      ],
+      "polities": [
+        "德川幕府"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX12",
+      "caseId": null,
+      "title": "正祖朝建奎章阁并设掌书官",
+      "regions": [
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ax-seoul",
+      "placeLabel": "汉城 · 昌德宫背景参照",
+      "placeRole": "实录明确所指宫苑所在城市参照",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1776,
+        "display": "1776年前后 · 正祖即位年九月",
+        "original": "正祖即位年九月二十五日癸巳第2条／清乾隆四十一年；未换公历日",
+        "sourceIds": [
+          "AS12"
+        ]
+      },
+      "summary": "实录记在昌德宫禁苑北建奎章阁，奉藏御制等文书，并设置提学、直提学等掌书官。",
+      "people": [
+        {
+          "name": "正祖",
+          "role": "实录所记新即位君主、命建阁并设官者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "首句记阁建于昌德宫禁苑之北，并列提学、直提学、直阁、待教等职。",
+          "sourceId": "AS12",
+          "locator": "首句“建奎章阁……”",
+          "url": "https://sillok.history.go.kr/id/kva_10009025_002"
+        },
+        {
+          "text": "本条称三月动工，此时完工；奉藏御制、御笔等，并区分华本与东本图籍收藏处。",
+          "sourceId": "AS12",
+          "locator": "“三月经始”及阅古观、西库段",
+          "url": "https://sillok.history.go.kr/id/kva_10009025_002"
+        }
+      ],
+      "quote": {
+        "text": "建奎章閣于昌德宮禁苑之北",
+        "translation": "在昌德宫禁苑北面建奎章阁。",
+        "sourceId": "AS12",
+        "locator": "kva_10009025_002；卷2，即位年9月25日癸巳第2条；太白山史库本2册2卷41叶A，国编影印本44册629页",
+        "url": "https://sillok.history.go.kr/id/kva_10009025_002"
+      },
+      "limitation": "朝鲜、韩国现代入口共用一条王朝记录；保留农历年号日期，不写1776-09-25。",
+      "aliases": [
+        "奎章阁",
+        "Kyujanggak"
+      ],
+      "polities": [
+        "朝鲜王朝"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX13",
+      "caseId": null,
+      "title": "《大日本帝国宪法》颁布",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "ax-tokyo",
+      "placeLabel": "东京（国家机关城市参照）",
+      "placeRole": "颁布文书的政治中心参照",
+      "date": {
+        "value": "1889-02-11",
+        "precision": "day",
+        "sortYear": 1889,
+        "display": "1889年2月11日",
+        "original": "明治二十二年二月十一日；机构文献库并列February11,1889",
+        "sourceIds": [
+          "AS13"
+        ]
+      },
+      "summary": "宪法列天皇统合主权与依法行使权力，并规定立法须经帝国议会同意。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第4条称天皇为国家元首并统合主权，同时按宪法行使权力；第5条规定立法经帝国议会同意。",
+          "sourceId": "AS13",
+          "locator": "第4、5条",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c02.html"
+        },
+        {
+          "text": "第29条将言论、著作、出版、集会、结社自由限定在法律范围内；不能省略该限制。",
+          "sourceId": "AS13",
+          "locator": "第29条",
+          "url": "https://www.ndl.go.jp/constitution/e/etc/c02.html"
+        }
+      ],
+      "quote": {
+        "text": "The Emperor exercises the legislative power with the consent of the Imperial Diet.",
+        "translation": "天皇在帝国议会同意下行使立法权；所引为历史英译。",
+        "sourceId": "AS13",
+        "locator": "颁布敕语、署年及第4、5、29、33条；日期亦核World and Japan文献库18890211.O1E.html",
+        "url": "https://www.ndl.go.jp/constitution/e/etc/c02.html"
+      },
+      "limitation": "该条记录颁布，敕语另把施行与首次议会召开相连；不把1889颁布当成当年议会已实际开会。",
+      "aliases": [
+        "明治宪法",
+        "Meiji Constitution"
+      ],
+      "polities": [
+        "日本帝国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX14",
+      "caseId": null,
+      "title": "胡志明宣读越南独立宣言",
+      "regions": [
+        "越南"
+      ],
+      "placeId": "ax-hanoi",
+      "placeLabel": "河内 · 巴亭广场（城市参照）",
+      "placeRole": "官方转录说明的宣读地点，坐标仅到城市",
+      "date": {
+        "value": "1945-09-02",
+        "precision": "day",
+        "sortYear": 1945,
+        "display": "1945年9月2日",
+        "original": "官方转载题名及说明02/9/1945；网页发布于2025年，二者分开",
+        "sourceIds": [
+          "AS14"
+        ]
+      },
+      "summary": "宣言由临时政府宣布越南享有自由、独立权利，并宣布脱离对法国的殖民关系。",
+      "people": [
+        {
+          "name": "胡志明",
+          "role": "官方转载说明的起草者、代表临时政府宣读者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "开头引美国1776宣言，并把人的平等权利扩展解释到民族权利。",
+          "sourceId": "AS14",
+          "locator": "开篇引文及“Suy rộng ra”段",
+          "url": "https://caa.gov.vn/hoat-dong-nganh/tuyen-ngon-doc-lap-02-9-1945-20250819142510145.htm"
+        },
+        {
+          "text": "临时政府宣布脱离对法国的关系、废除相关特权；结尾宣告自由、独立权利。",
+          "sourceId": "AS14",
+          "locator": "“Bởi thế cho nên”段及结尾",
+          "url": "https://caa.gov.vn/hoat-dong-nganh/tuyen-ngon-doc-lap-02-9-1945-20250819142510145.htm"
+        }
+      ],
+      "quote": {
+        "text": "Nước Việt Nam có quyền hưởng tự do và độc lập",
+        "translation": "越南有权享有自由与独立；此为越文原句短引。",
+        "sourceId": "AS14",
+        "locator": "TOÀN VĂN BẢN TUYÊN NGÔN ĐỘC LẬP；开头引述权利宣言段、临时政府断绝关系段、结尾宣告段",
+        "url": "https://caa.gov.vn/hoat-dong-nganh/tuyen-ngon-doc-lap-02-9-1945-20250819142510145.htm"
+      },
+      "limitation": "记录的是公开宣布及文本主张，不以宣言单独证明当日对全部现代越南国土的有效控制。",
+      "aliases": [
+        "Tuyên ngôn Độc lập"
+      ],
+      "polities": [
+        "越南民主共和国临时政府"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX15",
+      "caseId": null,
+      "title": "《日本国宪法》公布",
+      "regions": [
+        "日本"
+      ],
+      "placeId": "ax-tokyo",
+      "placeLabel": "东京（国家机关城市参照）",
+      "placeRole": "公布文书政治中心参照",
+      "date": {
+        "value": "1946-11-03",
+        "precision": "day",
+        "sortYear": 1946,
+        "display": "1946年11月3日",
+        "original": "众议院所载Promulgated November3,1946；第100条另定公布六个月后施行",
+        "sourceIds": [
+          "AS15"
+        ]
+      },
+      "summary": "宪法序言宣布主权属于人民，第9条规定放弃以战争或武力威胁解决国际争端。",
+      "people": [],
+      "claims": [
+        {
+          "text": "序言称主权属于人民，与1889年宪法的主权表述可做文本对照。",
+          "sourceId": "AS15",
+          "locator": "序言首段",
+          "url": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/en/constitution.htm"
+        },
+        {
+          "text": "第9条放弃以战争及武力威胁作为解决国际争端的手段；第100条另列施行时间规则。",
+          "sourceId": "AS15",
+          "locator": "第9条、第100条",
+          "url": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/en/constitution.htm"
+        }
+      ],
+      "quote": {
+        "text": "sovereign power resides with the people",
+        "translation": "主权属于人民；所引为该官方英文文本。",
+        "sourceId": "AS15",
+        "locator": "页首公布日期；序言；第9条、第100条",
+        "url": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/en/constitution.htm"
+      },
+      "limitation": "1946-11-03是公布日，不能把它直接写成施行日；法条与实际制度运行分开。",
+      "aliases": [
+        "日本国憲法",
+        "Constitution of Japan"
+      ],
+      "polities": [
+        "日本国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX16",
+      "caseId": null,
+      "title": "英国《印度独立法》获御准",
+      "regions": [
+        "印度",
+        "英国"
+      ],
+      "placeId": "london",
+      "placeLabel": "伦敦（英国议会所在城市）",
+      "placeRole": "制定该法的议会城市参照，不是印度庆典地点",
+      "date": {
+        "value": "1947-07-18",
+        "precision": "day",
+        "sortYear": 1947,
+        "display": "1947年7月18日",
+        "original": "10&11Geo.6,c.30；法首页署18thJuly1947；第1条另定1947-08-15为设立自治领之日",
+        "sourceIds": [
+          "AS16"
+        ]
+      },
+      "summary": "法律规定从8月15日起设印度、巴基斯坦两个独立自治领，并赋予各自立法机关完整立法权。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条规定1947年8月15日起设两个独立自治领，分别称India与Pakistan。",
+          "sourceId": "AS16",
+          "locator": "第1条，PDF第1页",
+          "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/pdfs/ukpga_19470030_en.pdf"
+        },
+        {
+          "text": "第6条赋各自治领立法机关完整立法权，并规定英国以后法令不得自行延伸适用。",
+          "sourceId": "AS16",
+          "locator": "第6条第1、4款，PDF第4页",
+          "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/pdfs/ukpga_19470030_en.pdf"
+        }
+      ],
+      "quote": {
+        "text": "two independent Dominions shall be set up in India",
+        "translation": "将在印度地区设立两个独立自治领；注意原文Dominions并非共和国。",
+        "sourceId": "AS16",
+        "locator": "10&11Geo.6,c.30；PDF第1页第1、2条；PDF第4页第6条",
+        "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/pdfs/ukpga_19470030_en.pdf"
+      },
+      "limitation": "事件锚定法令御准，不把7月18日和8月15日混成同一行动；现代印度入口不等于法令所称India地理范围。",
+      "aliases": [
+        "印度分治",
+        "Indian Independence Act"
+      ],
+      "polities": [
+        "大不列颠及北爱尔兰联合王国",
+        "印度自治领（法令所设）",
+        "巴基斯坦自治领（法令所设）"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX17",
+      "caseId": null,
+      "title": "中英关于香港问题的联合声明签署",
+      "regions": [
+        "中国",
+        "英国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（文书落款）",
+      "placeRole": "签署城市，非香港行政交接地点",
+      "date": {
+        "value": "1984-12-19",
+        "precision": "day",
+        "sortYear": 1984,
+        "display": "1984年12月19日",
+        "original": "落款Done in duplicate at Beijing on19December1984；第8款另规定批准书交换后生效",
+        "sourceIds": [
+          "AS17"
+        ]
+      },
+      "summary": "双方文本分别宣布1997年7月1日起恢复／交还香港，并约定过渡期及联络安排。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1、2款分别表述中国恢复行使主权及英国交还香港，约定日期同为1997年7月1日。",
+          "sourceId": "AS17",
+          "locator": "第1、2款",
+          "url": "https://www.cmab.gov.hk/en/issues/jd2.htm"
+        },
+        {
+          "text": "第4款规定过渡期英国负责香港行政，第5款设置联合联络小组，第8款规定批准后生效。",
+          "sourceId": "AS17",
+          "locator": "第4、5、8款",
+          "url": "https://www.cmab.gov.hk/en/issues/jd2.htm"
+        }
+      ],
+      "quote": {
+        "text": "with effect from 1 July 1997",
+        "translation": "自1997年7月1日起；这是文本约定的未来日期。",
+        "sourceId": "AS17",
+        "locator": "联合声明第1、2、4、5、8款及北京署年",
+        "url": "https://www.cmab.gov.hk/en/issues/jd2.htm"
+      },
+      "limitation": "1984锚定签署；1997条款是约定的未来行为，不在1984地图中当成已经完成的交接。",
+      "aliases": [
+        "Sino-British Joint Declaration",
+        "香港"
+      ],
+      "polities": [
+        "中华人民共和国",
+        "大不列颠及北爱尔兰联合王国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX18",
+      "caseId": null,
+      "title": "1991年老挝宪法界定国家与政治制度",
+      "regions": [
+        "老挝"
+      ],
+      "placeId": "ax-vientiane",
+      "placeLabel": "万象（文本题页）",
+      "placeRole": "宪法通过会议所在城市参照",
+      "date": {
+        "value": "1991",
+        "precision": "year",
+        "sortYear": 1991,
+        "display": "1991年 · 万象会议文本",
+        "original": "题页Adopted by第六次人民最高会议第二届立法会议，Vientiane,13—15August1991；本版本不足以单独确定14日",
+        "sourceIds": [
+          "AS18"
+        ]
+      },
+      "summary": "1991年宪法文本规定统一的多民族国家、第3条党的领导核心与第4条选举原则。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条称老挝为拥有主权、统一且不可分的多民族国家。",
+          "sourceId": "AS18",
+          "locator": "第1条，PDF第2页",
+          "url": "https://www.icj.org/wp-content/uploads/2013/07/Laos-Constitution-1991-eng.pdf"
+        },
+        {
+          "text": "第3条规定老挝人民革命党为政治制度的领导核心；第4条列普遍、平等、直接选举与秘密投票原则。",
+          "sourceId": "AS18",
+          "locator": "第3、4条，PDF第2页",
+          "url": "https://www.icj.org/wp-content/uploads/2013/07/Laos-Constitution-1991-eng.pdf"
+        }
+      ],
+      "quote": {
+        "text": "with the Lao People's Revolutionary Party as its leading nucleus",
+        "translation": "以老挝人民革命党为领导核心；为1991英译条文短引。",
+        "sourceId": "AS18",
+        "locator": "12页PDF题页及第1—4条；序言另追述1975建国",
+        "url": "https://www.icj.org/wp-content/uploads/2013/07/Laos-Constitution-1991-eng.pdf"
+      },
+      "limitation": "法律规定不等于实际选举已符合某种现代评价；序言1975叙事也不是1975当日的记录。本条仅用1991年精度。",
+      "aliases": [
+        "Laos Constitution1991",
+        "老挝宪法"
+      ],
+      "polities": [
+        "老挝人民民主共和国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX19",
+      "caseId": null,
+      "title": "柬埔寨全面政治解决协定签署",
+      "regions": [
+        "柬埔寨",
+        "中国",
+        "日本",
+        "印度",
+        "老挝",
+        "越南",
+        "法国",
+        "英国"
+      ],
+      "placeId": "paris",
+      "placeLabel": "巴黎（文书落款）",
+      "placeRole": "签署地；与所涉柬埔寨地区分开",
+      "date": {
+        "value": "1991-10-23",
+        "precision": "day",
+        "sortYear": 1991,
+        "display": "1991年10月23日",
+        "original": "协定落款23October1991；UNTS卷1663,I-28613，英文本第56页脚注记按第30条签署生效",
+        "sourceIds": [
+          "AS19"
+        ]
+      },
+      "summary": "协定邀请联合国设立柬埔寨过渡时期权力机构，并安排过渡期、选举与难民自愿返回。",
+      "people": [
+        {
+          "name": "诺罗敦·西哈努克",
+          "role": "协定序言所称柬埔寨最高全国委员会主席"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第2条邀请安理会设立兼具民事、军事组成的UNTAC；第1条界定过渡期。",
+          "sourceId": "AS19",
+          "locator": "英文本第58—59页，第1、2条",
+          "url": "https://treaties.un.org/doc/publication/unts/volume%201663/v1663.pdf"
+        },
+        {
+          "text": "附件4第7项要求遣返自愿、在充分知情下决定，个人选择境内目的地，并维护家庭团聚。",
+          "sourceId": "AS19",
+          "locator": "附件4第7项，英文本第90页",
+          "url": "https://treaties.un.org/doc/publication/unts/volume%201663/v1663.pdf"
+        }
+      ],
+      "quote": {
+        "text": "free and fair elections",
+        "translation": "自由、公平的选举；这是协定规定的目标与程序。",
+        "sourceId": "AS19",
+        "locator": "UNTS卷1663,I-28613；英文本第56—59页，序言、第1—4条；附件4第7项（第90页）",
+        "url": "https://treaties.un.org/doc/publication/unts/volume%201663/v1663.pdf"
+      },
+      "limitation": "跨地区入口仅表示协定原文列名的参与方，不表示事件发生在全部这些地区。柬埔寨由最高全国委员会代表，不能把当时政权简化为单一已统一政府。",
+      "aliases": [
+        "巴黎和平协定",
+        "UNTAC"
+      ],
+      "polities": [
+        "柬埔寨最高全国委员会及协定所列签署国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "AX20",
+      "caseId": null,
+      "title": "南北领导人签署六一五共同宣言",
+      "regions": [
+        "韩国",
+        "朝鲜"
+      ],
+      "placeId": "ax-pyongyang",
+      "placeLabel": "平壤（宣言序言）",
+      "placeRole": "峰会及宣言关联城市",
+      "date": {
+        "value": "2000-06-15",
+        "precision": "day",
+        "sortYear": 2000,
+        "display": "2000年6月15日",
+        "original": "宣言签署栏June15,2000；韩国政府网页发布栏June17,2000，二者区分",
+        "sourceIds": [
+          "AS20"
+        ]
+      },
+      "summary": "金大中与金正日在平壤会谈后，就统一讨论、人道问题与交流合作作五项共同表述。",
+      "people": [
+        {
+          "name": "金大中",
+          "role": "宣言签署者，大韩民国总统"
+        },
+        {
+          "name": "金正日",
+          "role": "宣言签署者，朝鲜国防委员会委员长"
+        }
+      ],
+      "claims": [
+        {
+          "text": "序言记大韩民国总统金大中与朝鲜国防委员会委员长金正日在平壤于6月13—15日举行会谈。",
+          "sourceId": "AS20",
+          "locator": "序言首段",
+          "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=1692"
+        },
+        {
+          "text": "第1项主张自主及民族共同努力讨论统一；第3项列离散家属互访等人道事项，第4、5项列交流及后续对话。",
+          "sourceId": "AS20",
+          "locator": "第1、3、4、5项",
+          "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=1692"
+        }
+      ],
+      "quote": {
+        "text": "resolve the question of reunification independently",
+        "translation": "自主解决统一问题；为这一政府英译版本的短引。",
+        "sourceId": "AS20",
+        "locator": "文书序言、第1—5项及末尾签署栏；政府转载页发布于2000-06-17",
+        "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=1692"
+      },
+      "limitation": "2000年可明确区分两个现代国家，与1446、1776年共用王朝史料的情形不同；不将计划访问首尔写成已发生。",
+      "aliases": [
+        "六一五共同宣言",
+        "June15JointDeclaration"
+      ],
+      "polities": [
+        "大韩民国",
+        "朝鲜民主主义人民共和国"
+      ],
+      "parties": []
+    },
+    {
+      "id": "EX1",
+      "caseId": "counting",
+      "title": "《功业录》记罗马公民清查493.7万人",
+      "regions": [
+        "土耳其"
+      ],
+      "placeId": "ex-ankara",
+      "placeLabel": "安卡拉（古安居拉）",
+      "placeRole": "重要铭刻传本所在地；不是帝国普查办理点",
+      "date": {
+        "value": "0014",
+        "precision": "year",
+        "sortYear": 14,
+        "display": "公元14年",
+        "original": "原文以Sextus Pompeius与Sextus Apuleius任执政官纪年；公元14年对应据Loeb 1924第8节注37。只核到年，不虚设月日。",
+        "sourceIds": [
+          "ES1"
+        ]
+      },
+      "summary": "奥古斯都自述与提比略共同执行第三次清查，记入登记簿的罗马公民为493.7万人。这是资格群体的清查数，不是帝国全部居民数。",
+      "people": [
+        {
+          "name": "奥古斯都",
+          "role": "文书自述者；主持三次清查的罗马统治者",
+          "sourceId": "ES1",
+          "locator": "篇名与§8"
+        },
+        {
+          "name": "提比略·凯撒",
+          "role": "第8节所称儿子及第三次清查的同事；本条不把此角色写成已继位皇帝",
+          "sourceId": "ES1",
+          "locator": "§8第三次清查段"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第8节自述三次公民清查，第三次以提比略·凯撒为同事，列出的登记数为4,937,000名罗马公民。",
+          "sourceId": "ES1",
+          "locator": "§8，第三次清查段；印本第358—359页",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html"
+        },
+        {
+          "text": "原文给出两位执政官姓名；现代公元14年的对年来自本版注37，不能假装铭文本身使用公元纪年。",
+          "sourceId": "ES1",
+          "locator": "§8注37",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html"
+        },
+        {
+          "text": "数字的对象写作Roman citizens；安卡拉神庙保存的是文书铭刻传本。地点不能解释为当地人口调查点或总人口覆盖边界。",
+          "sourceId": "ES1",
+          "locator": "§8及版本首页传本说明",
+          "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html"
+        }
+      ],
+      "quote": {
+        "text": "In this lustrum 4,937,000 Roman citizens were entered on the census roll.",
+        "translation": "在这次清查中，493.7万名罗马公民被记入登记簿。",
+        "sourceId": "ES1",
+        "locator": "§8第三次清查段，英译；印本第359页",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html"
+      },
+      "limitation": "罗马公民登记数不能与包括非公民和奴隶在内的帝国总人口混同；也不能不经口径讨论就与汉代户口数相除。安卡拉是传本点，铭刻具体时间不等同于公元14年的清查时间。",
+      "polities": [
+        "罗马帝国（元首制）"
+      ],
+      "parties": [],
+      "aliases": [],
+      "statistics": {
+        "value": 4937000,
+        "unit": "登记的罗马公民",
+        "sourceId": "ES1",
+        "locator": "§8",
+        "scope": "公民身份群体；不等于帝国总人口；不擅定所有年龄/性别纳入范围"
+      }
+    },
+    {
+      "id": "EX2",
+      "caseId": null,
+      "title": "约翰王颁出1215年大宪章",
+      "regions": [
+        "英国"
+      ],
+      "placeId": "ex-runnymede",
+      "placeLabel": "兰尼米德",
+      "placeRole": "宪章落款草地的地区参照；不精确定位封印现场",
+      "date": {
+        "value": "1215",
+        "precision": "year",
+        "sortYear": 1215,
+        "display": "1215年",
+        "original": "原署约翰王统治第17年6月15日；保留中世纪英格兰原署日期，仅用1215年，不作公历日换算。",
+        "sourceIds": [
+          "ES2"
+        ]
+      },
+      "summary": "大宪章把特定王权行为纳入法律与同侪判断的约束，并承诺不出售、拒绝或延误权利与正义。",
+      "people": [
+        {
+          "name": "约翰",
+          "role": "文首自称英格兰国王的宪章颁出者",
+          "sourceId": "ES2",
+          "locator": "序言Johannes Dei gratia rex Angliae"
+        }
+      ],
+      "claims": [
+        {
+          "text": "序言称约翰为英格兰国王；末署地点为温莎与斯泰恩斯之间的兰尼米德草地。",
+          "sourceId": "ES2",
+          "locator": "序言与Suffix B落款",
+          "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/!all"
+        },
+        {
+          "text": "第39条针对free man，要求剥夺自由等行为具有同侪合法判断或国土法律的依据。",
+          "sourceId": "ES2",
+          "locator": "第39条",
+          "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/!all"
+        },
+        {
+          "text": "第40条承诺不出售、不拒绝或拖延权利与正义。",
+          "sourceId": "ES2",
+          "locator": "第40条",
+          "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/!all"
+        }
+      ],
+      "quote": {
+        "text": "We will not sell, or deny, or delay right or justice to anyone.",
+        "translation": "我们不会向任何人出售、拒绝或拖延权利与正义。",
+        "sourceId": "ES2",
+        "locator": "第40条，项目英译",
+        "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/!all"
+      },
+      "limitation": "本条仅说明1215文本的承诺及其对象，不能推出全部居民已获得现代宪法权利，也不直接证明其后执行程度。",
+      "polities": [
+        "英格兰王国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX3",
+      "caseId": null,
+      "title": "金玺诏书规范罗马人之王选举",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ex-nuremberg",
+      "placeLabel": "纽伦堡",
+      "placeRole": "所引诏书部分的帝国宫廷会议与落款城市",
+      "date": {
+        "value": "1356",
+        "precision": "year",
+        "sortYear": 1356,
+        "display": "1356年",
+        "original": "前言记1356年、1月罗马式纪日及在位年；未统一转换儒略历/格里高利历，只存年。",
+        "sourceIds": [
+          "ES3"
+        ]
+      },
+      "summary": "诏书以帝国法文书规定选帝侯到法兰克福选举罗马人之王，采用多数决定，并安排未完成选举时的约束。",
+      "people": [
+        {
+          "name": "查理四世",
+          "role": "发布诏书的神圣罗马皇帝，同时以波希米亚国王身份拥有选帝资格",
+          "sourceId": "ES3",
+          "locator": "篇名及前言"
+        }
+      ],
+      "claims": [
+        {
+          "text": "前言中查理既以皇帝身份也以波希米亚国王的选帝资格发布法律；所引部分明确落款纽伦堡。",
+          "sourceId": "ES3",
+          "locator": "前言及1356年落款",
+          "url": "https://avalon.law.yale.edu/medieval/golden.asp"
+        },
+        {
+          "text": "第II章规定选帝侯或使者在法兰克福宣誓后选举，直至多数选出罗马人之王、未来皇帝。",
+          "sourceId": "ES3",
+          "locator": "第II章第1—3款",
+          "url": "https://avalon.law.yale.edu/medieval/golden.asp"
+        },
+        {
+          "text": "满三十日仍未选定者须以面包和水为食，直至完成选举；多数结果按全体一致对待。",
+          "sourceId": "ES3",
+          "locator": "第II章第3—4款",
+          "url": "https://avalon.law.yale.edu/medieval/golden.asp"
+        }
+      ],
+      "quote": {
+        "text": "a king, namely, of the Romans and prospective emperor",
+        "translation": "即罗马人之王及未来的皇帝。",
+        "sourceId": "ES3",
+        "locator": "第II章第3款，英译",
+        "url": "https://avalon.law.yale.edu/medieval/golden.asp"
+      },
+      "limitation": "这是帝国内选帝侯制度，不是现代德国公民选举；“德国”是现代地理入口，不能写为1356年统一德国宪法。",
+      "polities": [
+        "神圣罗马帝国",
+        "波希米亚王国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX4",
+      "caseId": null,
+      "title": "路德以《九十五条论题》提出赎罪券辩论",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ex-wittenberg",
+      "placeLabel": "维滕贝格",
+      "placeRole": "原文拟议公开辩论的地点",
+      "date": {
+        "value": "1517",
+        "precision": "year",
+        "sortYear": 1517,
+        "display": "1517年",
+        "original": "文献项目标1517年10月31日；本条保留年，未作早期近代历法日换算，也不以此证明钉门情节。",
+        "sourceIds": [
+          "ES4"
+        ]
+      },
+      "summary": "论题反对把购买赎罪券等同救赎确定性，区分真正悔改、善行与教会对赎罪券的权力。",
+      "people": [
+        {
+          "name": "马丁·路德",
+          "role": "原文序言中的论题提出者、圣神学教师与拟议讨论主持者",
+          "sourceId": "ES4",
+          "locator": "原文序言"
+        }
+      ],
+      "claims": [
+        {
+          "text": "序言拟在维滕贝格由神学教师马丁·路德主持讨论；无法到场者可以书面参与。",
+          "sourceId": "ES4",
+          "locator": "原文序言",
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517"
+        },
+        {
+          "text": "第36条称真正悔改的基督徒即使没有赎罪券，也有获得全部罪责与刑罚赦免的权利。",
+          "sourceId": "ES4",
+          "locator": "第36条",
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517"
+        },
+        {
+          "text": "第43条认为帮助穷人优于购买赎罪券；第62条将福音而非赎罪券财利称为教会真正宝藏。",
+          "sourceId": "ES4",
+          "locator": "第43、62条",
+          "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517"
+        }
+      ],
+      "quote": {
+        "text": "The true treasure of the Church is the Most Holy Gospel of the glory and the grace of God.",
+        "translation": "教会真正的宝藏是上帝荣耀与恩典的至圣福音。",
+        "sourceId": "ES4",
+        "locator": "第62条，1915年英译",
+        "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517"
+      },
+      "limitation": "不能把论题直接等同后来完整的新教制度或宗教自由宣言；钉门与传播速度须用其他史料另证。",
+      "polities": [
+        "神圣罗马帝国",
+        "萨克森选侯国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX5",
+      "caseId": null,
+      "title": "南特敕令安排改革宗信仰者的居住与礼拜条件",
+      "regions": [
+        "法国"
+      ],
+      "placeId": "ex-nantes",
+      "placeLabel": "南特",
+      "placeRole": "1598年敕令落款城市；巴黎登记为翌年阶段",
+      "date": {
+        "value": "1598",
+        "precision": "year",
+        "sortYear": 1598,
+        "display": "1598年",
+        "original": "正文落款1598年4月；本传本卷首和末尾登记另署1599年2月25日。只用年，不补确日。",
+        "sourceIds": [
+          "ES5"
+        ]
+      },
+      "summary": "敕令容许特定改革宗信仰者在王国居住而不因信仰被强迫，但公共礼拜受指定地点等条件约束。",
+      "people": [
+        {
+          "name": "亨利四世",
+          "role": "卷首所称法国及纳瓦拉国王、敕令署名Henri/Henry的颁法者",
+          "sourceId": "ES5",
+          "locator": "卷首f.2r与末署f.54r"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第VI条允许所称改革宗臣民在王国各城镇居住，不因宗教被迫违背良心，仍须遵守敕令其余规定。",
+          "sourceId": "ES5",
+          "locator": "第VI条，f.8v—9r",
+          "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001-0063"
+        },
+        {
+          "text": "第XIII条禁止在敕令准许地点之外进行所列改革宗公共宗教活动；这不是无条件的普遍礼拜自由。",
+          "sourceId": "ES5",
+          "locator": "第XIII条",
+          "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001-0063"
+        },
+        {
+          "text": "卷首称亨利为法国及纳瓦拉国王；末署南特1598年4月，而巴黎登记文字为1599年。",
+          "sourceId": "ES5",
+          "locator": "卷首f.2r及末署f.54r—55",
+          "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001-0063"
+        }
+      ],
+      "quote": {
+        "text": "sans estre enquis, vexés, molestés ni adstraints",
+        "translation": "不受盘问、烦扰、侵扰或强迫；须连同其宗教语境及敕令条件阅读。",
+        "sourceId": "ES5",
+        "locator": "第VI条，字形现代化层",
+        "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001-0063"
+      },
+      "limitation": "不能把敕令概括为现代政教分离或所有宗教一律自由；1598敕令、1599登记刊本以及之后废止是不同阶段。",
+      "polities": [
+        "法兰西王国",
+        "纳瓦拉王国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX6",
+      "caseId": null,
+      "title": "明斯特和约规定和平及帝国诸邦的有限结盟权",
+      "regions": [
+        "法国",
+        "德国",
+        "奥匈帝国"
+      ],
+      "placeId": "ex-munster",
+      "placeLabel": "明斯特",
+      "placeRole": "本份条约落款与缔结城市",
+      "date": {
+        "value": "1648",
+        "precision": "year",
+        "sortYear": 1648,
+        "display": "1648年",
+        "original": "末署1648年10月24日；序言另并列若干N.S./O.S.日期。本条不把未核历法标签的末署日期自动转换为统一公历日。",
+        "sourceIds": [
+          "ES6"
+        ]
+      },
+      "summary": "皇帝与法国及盟友的和约承诺和平，并确认帝国等级的权利和结盟条件。它没有把帝国内一切权力一概改造成现代完全主权国家。",
+      "people": [
+        {
+          "name": "斐迪南三世",
+          "role": "序言所列神圣罗马皇帝及奥地利大公一方的君主",
+          "sourceId": "ES6",
+          "locator": "序言"
+        },
+        {
+          "name": "Abel Servien",
+          "role": "序言列为法国君主方面的全权及法国王国大臣",
+          "sourceId": "ES6",
+          "locator": "序言法国全权名单"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第I条约定皇帝、奥地利家族及其盟友与法国国王及其盟友之间的和平与友好。",
+          "sourceId": "ES6",
+          "locator": "第I条",
+          "url": "https://avalon.law.yale.edu/17th_century/westphal.asp"
+        },
+        {
+          "text": "第LXIV条确认帝国选侯、诸侯与等级的既有权利及领地权利。",
+          "sourceId": "ES6",
+          "locator": "第LXIV条",
+          "url": "https://avalon.law.yale.edu/17th_century/westphal.asp"
+        },
+        {
+          "text": "第LXV条容许帝国等级与外国结盟，但不得反对皇帝、帝国、公共和平及本条约，并不得损害其对皇帝与帝国的誓约。",
+          "sourceId": "ES6",
+          "locator": "第LXV条",
+          "url": "https://avalon.law.yale.edu/17th_century/westphal.asp"
+        }
+      ],
+      "quote": {
+        "text": "provided, nevertheless, such Alliances be not against the Emperor, and the Empire",
+        "translation": "但这类同盟不得针对皇帝及帝国。",
+        "sourceId": "ES6",
+        "locator": "第LXV条，历史英译",
+        "url": "https://avalon.law.yale.edu/17th_century/westphal.asp"
+      },
+      "limitation": "奥地利区域当时不是1804年后奥地利帝国，更不是1867年奥匈；本份条约的有限结盟权不能直接推成现代国际体系的单一起点。",
+      "polities": [
+        "神圣罗马帝国",
+        "哈布斯堡王朝领地",
+        "法兰西王国"
+      ],
+      "parties": [
+        "神圣罗马皇帝及盟友",
+        "法国国王及盟友"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "EX7",
+      "caseId": null,
+      "title": "英格兰权利法案约束君主并确认议会权利",
+      "regions": [
+        "英国"
+      ],
+      "placeId": "london",
+      "placeLabel": "伦敦·威斯敏斯特",
+      "placeRole": "原文所称议会集会地的城市参照",
+      "date": {
+        "value": "1689",
+        "precision": "year",
+        "sortYear": 1689,
+        "display": "1689年",
+        "original": "网站标1689；原文2月13日等写1688 [old style date]。保留年级，不把旧式年首/月日无条件转作公历日。",
+        "sourceIds": [
+          "ES7"
+        ]
+      },
+      "summary": "法案反对未经议会同意的停法和征税，规定议员选举应自由及议会内言论受保护，同时安排William与Mary的王位。",
+      "people": [
+        {
+          "name": "威廉",
+          "role": "法案确认的共同君主；原文说明共同在位期间王权行使的安排",
+          "sourceId": "ES7",
+          "locator": "William and Mary王位段"
+        },
+        {
+          "name": "玛丽",
+          "role": "法案确认的共同君主，相关子嗣列入继承安排",
+          "sourceId": "ES7",
+          "locator": "William and Mary王位段"
+        }
+      ],
+      "claims": [
+        {
+          "text": "王权未经议会同意暂停法律、以及未经议会授权征税被宣布为非法。",
+          "sourceId": "ES7",
+          "locator": "权利宣告：suspending laws及levying money两段",
+          "url": "https://avalon.law.yale.edu/17th_century/england.asp"
+        },
+        {
+          "text": "议员选举应自由；议会内言论、辩论及议事不应在议会外法院或场所被追究。",
+          "sourceId": "ES7",
+          "locator": "权利宣告：election及freedom of speech两段",
+          "url": "https://avalon.law.yale.edu/17th_century/england.asp"
+        },
+        {
+          "text": "法案将William和Mary认定为共同君主，并保留新教及继承方面的限制，不能说是现代人人平等法案。",
+          "sourceId": "ES7",
+          "locator": "William/Mary王位段及宗教继承排除段",
+          "url": "https://avalon.law.yale.edu/17th_century/england.asp"
+        }
+      ],
+      "quote": {
+        "text": "That election of members of Parliament ought to be free",
+        "translation": "议会议员的选举应当自由。",
+        "sourceId": "ES7",
+        "locator": "权利宣告的议员选举段",
+        "url": "https://avalon.law.yale.edu/17th_century/england.asp"
+      },
+      "limitation": "议会言论保障不是一切场合的无限言论自由；1689时尚非1707年后大不列颠王国，更非今日联合王国宪制的全部。",
+      "polities": [
+        "英格兰王国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX8",
+      "caseId": null,
+      "title": "制宪议会通过《人权与公民权宣言》",
+      "regions": [
+        "法国"
+      ],
+      "placeId": "ex-versailles",
+      "placeLabel": "凡尔赛",
+      "placeRole": "1789年议会与王室政治现场的城市参照",
+      "date": {
+        "value": "1789",
+        "precision": "year",
+        "sortYear": 1789,
+        "display": "1789年",
+        "original": "机构导读记8月20—26日逐条通过，10月5日获国王认可；本条用年概括这两个明确不同的阶段。",
+        "sourceIds": [
+          "ES8"
+        ]
+      },
+      "summary": "宣言将自由与权利平等、一般意志及权力分立写入政治原则，同时为宗教意见的外在表达保留公共秩序条件。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条宣称人生而且始终在权利上自由平等；第6条将法律说成一般意志的表达。",
+          "sourceId": "ES8",
+          "locator": "第1、6条",
+          "url": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"
+        },
+        {
+          "text": "第10条保障包括宗教在内的意见，但其表达不得扰乱法律规定的公共秩序。",
+          "sourceId": "ES8",
+          "locator": "第10条",
+          "url": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"
+        },
+        {
+          "text": "第16条将权利保障及权力分立视为宪制的必要条件。",
+          "sourceId": "ES8",
+          "locator": "第16条",
+          "url": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"
+        }
+      ],
+      "quote": {
+        "text": "Les hommes naissent et demeurent libres et égaux en droits.",
+        "translation": "人生而且始终在权利上自由、平等。",
+        "sourceId": "ES8",
+        "locator": "第1条，法文",
+        "url": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen"
+      },
+      "limitation": "只比较宣言的规范文本，不直接推断1789年女性、殖民地居民或其他群体已得到同等政治权利；通过与王认可不同日。",
+      "polities": [
+        "法兰西王国（革命中的制宪阶段）"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX9",
+      "caseId": null,
+      "title": "御园敕令提出生命财产保障及税役改革",
+      "regions": [
+        "土耳其"
+      ],
+      "placeId": "ex-istanbul",
+      "placeLabel": "伊斯坦布尔（君士坦丁堡）",
+      "placeRole": "敕令宣读与要求公布的首都城市参照",
+      "date": {
+        "value": "1839",
+        "precision": "year",
+        "sortYear": 1839,
+        "display": "1839年",
+        "original": "读本著录颁于1839年11月3日；本轮不将奥斯曼/欧洲多历署日未经核定统一为公历日，故只收1839年。",
+        "sourceIds": [
+          "ES9"
+        ]
+      },
+      "summary": "敕令提出保障臣民生命、名誉与财产，整顿税收和征兵；承诺惠及穆斯林和其他米利特臣民，但仍援引沙里亚法。",
+      "people": [],
+      "claims": [
+        {
+          "text": "正文列出生命名誉财产保障、规则化税收及征兵训练维持制度三项目标。",
+          "sourceId": "ES9",
+          "locator": "印本第337页，正文三项目标[1]—[3]",
+          "url": "https://idreader.cas.bg/files/ID-Reader-vol1-Late-Enlighten.pdf"
+        },
+        {
+          "text": "未经依沙里亚公开审理判定不应处死；臣民包括穆斯林及其他米利特成员，都应享有所列王家恩准。",
+          "sourceId": "ES9",
+          "locator": "印本第338页，正文司法及适用对象段",
+          "url": "https://idreader.cas.bg/files/ID-Reader-vol1-Late-Enlighten.pdf"
+        },
+        {
+          "text": "末段要求在伊斯坦布尔及帝国各地公布敕令，并通知驻伊斯坦布尔的友邦使节。",
+          "sourceId": "ES9",
+          "locator": "印本第339页，正文末段",
+          "url": "https://idreader.cas.bg/files/ID-Reader-vol1-Late-Enlighten.pdf"
+        }
+      ],
+      "quote": {
+        "text": "shall benefit from these royal concessions without exception",
+        "translation": "应无例外地享有这些王家恩准；语境明确包括穆斯林与其他米利特臣民。",
+        "sourceId": "ES9",
+        "locator": "印本第338页，正文适用对象段",
+        "url": "https://idreader.cas.bg/files/ID-Reader-vol1-Late-Enlighten.pdf"
+      },
+      "limitation": "不把改革意向直接称为已实现的普遍平等、世俗宪法或全面废除旧税役制度；原文与译本都需保留宗教法律语境。",
+      "polities": [
+        "奥斯曼帝国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX10",
+      "caseId": null,
+      "title": "奥斯曼宪法规定臣民身份与国家宗教",
+      "regions": [
+        "土耳其"
+      ],
+      "placeId": "ex-istanbul",
+      "placeLabel": "伊斯坦布尔（君士坦丁堡）",
+      "placeRole": "宪法第2条所定首都的城市参照",
+      "date": {
+        "value": "1876",
+        "precision": "year",
+        "sortYear": 1876,
+        "display": "1876年",
+        "original": "印本标题并列7th Zilbridje 1293与11/23 December 1876；保留其多历署法，只收1876年，不将11日或23日混成同一历法日期。",
+        "sourceIds": [
+          "ES10"
+        ]
+      },
+      "summary": "宪法不分宗教将帝国臣民统称奥斯曼人，同时确定伊斯兰教的国家宗教地位，并对获承认宗教活动给予有条件保障。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第2条将君士坦丁堡列为首都；第8条不分信仰将帝国臣民称为奥斯曼人，身份取得和丧失依法律。",
+          "sourceId": "ES10",
+          "locator": "第2、8条",
+          "url": "https://en.wikisource.org/wiki/Ottoman_constitution_of_1876"
+        },
+        {
+          "text": "第11条规定伊斯兰教为国家宗教，并在公共秩序和良好风俗条件下保护获承认宗教的活动。",
+          "sourceId": "ES10",
+          "locator": "第11条",
+          "url": "https://en.wikisource.org/wiki/Ottoman_constitution_of_1876"
+        },
+        {
+          "text": "第17条宣称奥斯曼人在法律面前平等；第18条又以掌握官方语言土耳其语为担任公职的条件。",
+          "sourceId": "ES10",
+          "locator": "第17—18条",
+          "url": "https://en.wikisource.org/wiki/Ottoman_constitution_of_1876"
+        }
+      ],
+      "quote": {
+        "text": "All the subjects of the Empire are without distinction called Ottomans no matter what religion they profess.",
+        "translation": "帝国臣民无论信奉何种宗教，一概被称为奥斯曼人。",
+        "sourceId": "ES10",
+        "locator": "第8条，同期英译",
+        "url": "https://en.wikisource.org/wiki/Ottoman_constitution_of_1876"
+      },
+      "limitation": "不能称作土耳其共和国宪法或无条件政教分离；所述法律资格和保障不自动证明各地实际执行。",
+      "polities": [
+        "奥斯曼帝国"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX11",
+      "caseId": null,
+      "title": "德意志奥地利政体法案提出共和国与男女选举权",
+      "regions": [
+        "奥匈帝国"
+      ],
+      "placeId": "vienna",
+      "placeLabel": "维也纳",
+      "placeRole": "提出法案的临时国民议会所在城市参照",
+      "date": {
+        "value": "1918",
+        "precision": "year",
+        "sortYear": 1918,
+        "display": "1918年",
+        "original": "原始提案题首为“vom .... 1918”，未填写月日；本条只记录提案，保留1918年精度。官方史料所述11月12日通过属于另一个可区分的阶段。",
+        "sourceIds": [
+          "ES11"
+        ]
+      },
+      "summary": "国家理事会提交的法案以共和国、与德意志共和国的关系和男女选举权重组国家制度；提案中的政治目标不能当作全部已实现。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条提议德意志奥地利为民主共和国，公共权力由人民设立。",
+          "sourceId": "ES11",
+          "locator": "PDF第1页，第1条",
+          "url": "https://www.parlament.gv.at/dokument/PN/I-PN/8/imfname_639200.pdf"
+        },
+        {
+          "text": "第2条把其说成德意志共和国的组成部分，属于提案中的政治关系主张，不能据此宣称已完成合并。",
+          "sourceId": "ES11",
+          "locator": "PDF第1页，第2条",
+          "url": "https://www.parlament.gv.at/dokument/PN/I-PN/8/imfname_639200.pdf"
+        },
+        {
+          "text": "第9条拟按比例代表制和不分性别的一般、平等、直接、秘密投票选出制宪议会。",
+          "sourceId": "ES11",
+          "locator": "PDF第2页，第9条",
+          "url": "https://www.parlament.gv.at/dokument/PN/I-PN/8/imfname_639200.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Deutschösterreich ist eine demokratische Republik.",
+        "translation": "德意志奥地利是一个民主共和国。",
+        "sourceId": "ES11",
+        "locator": "PDF第1页，第1条（原始提案）",
+        "url": "https://www.parlament.gv.at/dokument/PN/I-PN/8/imfname_639200.pdf"
+      },
+      "limitation": "本条主体是提案，不是终稿颁布或实际合并。地区检索沿用旧目录标签“奥匈帝国”，但当时建制提案不得称作奥匈政权。",
+      "polities": [
+        "德意志奥地利共和国建制提案",
+        "哈布斯堡君主国解体后的过渡政权"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX12",
+      "caseId": null,
+      "title": "艾伯特签署魏玛宪法",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ex-schwarzburg",
+      "placeLabel": "施瓦茨堡",
+      "placeRole": "宪法末署签署城市",
+      "date": {
+        "value": "1919-08-11",
+        "precision": "day",
+        "sortYear": 1919,
+        "display": "1919年8月11日",
+        "original": "末署Schwarzburg, August 11, 1919；此为签署日期，第181条另规定以公布日生效。",
+        "sourceIds": [
+          "ES12"
+        ]
+      },
+      "summary": "宪法把德意志国规定为共和国，并为议会选举规定男女普选、平等直接秘密投票和比例代表原则。",
+      "people": [
+        {
+          "name": "弗里德里希·艾伯特",
+          "role": "宪法末署的Reich President，签署者",
+          "sourceId": "ES12",
+          "locator": "末署The Reich President / EBERT"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条称德意志国为共和国，政治权力来自人民。",
+          "sourceId": "ES12",
+          "locator": "第1条",
+          "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-3937"
+        },
+        {
+          "text": "第22条规定符合年龄条件的男女通过一般、平等、直接、秘密投票按比例代表原则选出议员。",
+          "sourceId": "ES12",
+          "locator": "第22条",
+          "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-3937"
+        },
+        {
+          "text": "末署施瓦茨堡1919年8月11日，署名者为帝国总统艾伯特；第181条规定以公布日期生效。",
+          "sourceId": "ES12",
+          "locator": "第181条与末署",
+          "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-3937"
+        }
+      ],
+      "quote": {
+        "text": "Political authority emanates from the people.",
+        "translation": "政治权力来自人民。",
+        "sourceId": "ES12",
+        "locator": "第1条，英译",
+        "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-3937"
+      },
+      "limitation": "不以宪法权利文字代替实际政治和司法实践；德国Reich在此是共和政体的国号，不应仅按中文“帝国”字面误作君主制。",
+      "polities": [
+        "德意志国（魏玛共和国）"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX13",
+      "caseId": null,
+      "title": "洛桑和约签署并规定和平与少数群体保护",
+      "regions": [
+        "土耳其",
+        "英国",
+        "法国"
+      ],
+      "placeId": "ex-lausanne",
+      "placeLabel": "洛桑",
+      "placeRole": "和约末署签署城市；位于瑞士而非土耳其",
+      "date": {
+        "value": "1923-07-24",
+        "precision": "day",
+        "sortYear": 1923,
+        "display": "1923年7月24日",
+        "original": "末署Done at Lausanne, the 24th July, 1923；第1及143条另定生效条件。",
+        "sourceIds": [
+          "ES13"
+        ]
+      },
+      "summary": "和约以生效为恢复和平的节点，并规定保护土耳其境内居民的生命自由和特定少数群体待遇。签署时土方名义是大国民议会政府。",
+      "people": [
+        {
+          "name": "Ismet Pasha（伊斯梅特帕夏）",
+          "role": "序言列为土耳其大国民议会政府外交部长与全权代表",
+          "sourceId": "ES13",
+          "locator": "序言土方全权名单",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty----preamble.en.mfa"
+        },
+        {
+          "name": "Horace Rumbold",
+          "role": "序言列为英国方面全权、驻君士坦丁堡高级专员",
+          "sourceId": "ES13",
+          "locator": "序言英国全权名单",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty----preamble.en.mfa"
+        }
+      ],
+      "claims": [
+        {
+          "text": "序言列土耳其大国民议会政府为一方，伊斯梅特帕夏为其外交部长及全权；文书采用这一当时名义，不替换为后来的共和国政府名义。",
+          "sourceId": "ES13",
+          "locator": "序言土方全权名单",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty----preamble.en.mfa"
+        },
+        {
+          "text": "第1条从和约生效起重建和平，不能将7月24日签署日与全部条款生效日混同。",
+          "sourceId": "ES13",
+          "locator": "第1条",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-part-i_-political-clauses.en.mfa"
+        },
+        {
+          "text": "第38条承诺不分出生、国籍、语言、种族或宗教，保护土耳其所有居民的生命与自由，宗教活动另受公共秩序和风俗条件约束。",
+          "sourceId": "ES13",
+          "locator": "第38条",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-part-i_-political-clauses.en.mfa"
+        }
+      ],
+      "quote": {
+        "text": "The Turkish Government undertakes to assure full and complete protection of life and liberty",
+        "translation": "土耳其政府承诺充分、完整保护生命与自由；后文明确对象为境内所有居民。",
+        "sourceId": "ES13",
+        "locator": "第38条，首句节录",
+        "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-part-i_-political-clauses.en.mfa"
+      },
+      "limitation": "不以文本承诺证明实际执行，也不把居民保护、土耳其国籍和非穆斯林少数群体资格混为一谈。",
+      "polities": [
+        "土耳其大国民议会政府",
+        "大英帝国",
+        "法兰西第三共和国"
+      ],
+      "parties": [
+        "大英帝国",
+        "法国",
+        "意大利",
+        "日本",
+        "希腊",
+        "罗马尼亚",
+        "塞尔维亚—克罗地亚—斯洛文尼亚王国",
+        "土耳其大国民议会政府"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "EX14",
+      "caseId": null,
+      "title": "基本法在波恩颁署",
+      "regions": [
+        "德国"
+      ],
+      "placeId": "ex-bonn",
+      "placeLabel": "波恩",
+      "placeRole": "基本法末署颁署城市",
+      "date": {
+        "value": "1949-05-23",
+        "precision": "day",
+        "sortYear": 1949,
+        "display": "1949年5月23日",
+        "original": "1949原文部分末署Bonn am Rhein / on May 23, 1949；1956修正另列，不回填其内容。",
+        "sourceIds": [
+          "ES14"
+        ]
+      },
+      "summary": "基本法以人的尊严及权利约束国家，并将联邦共和国规定为民主的社会联邦国家。其原始语境是战后西部建制与尚待实现的统一。",
+      "people": [
+        {
+          "name": "康拉德·阿登纳",
+          "role": "末署的议会委员会主席（President of the Parliamentary Council）",
+          "sourceId": "ES14",
+          "locator": "1949末署"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1(1)条规定人的尊严不可侵犯，尊重与保护它是国家权力的义务。",
+          "sourceId": "ES14",
+          "locator": "1949部分第1(1)条",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/ghdi:document-2858"
+        },
+        {
+          "text": "第20条规定民主的社会联邦国家、人民主权及立法行政司法受宪法或法律约束。",
+          "sourceId": "ES14",
+          "locator": "1949部分第20条",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/ghdi:document-2858"
+        },
+        {
+          "text": "末署波恩1949年5月23日，阿登纳署为议会委员会主席；不能把此时角色写成代表已统一德国的总理。",
+          "sourceId": "ES14",
+          "locator": "1949部分末署",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/ghdi:document-2858"
+        }
+      ],
+      "quote": {
+        "text": "The dignity of man is inviolable.",
+        "translation": "人的尊严不可侵犯。",
+        "sourceId": "ES14",
+        "locator": "1949部分第1(1)条，英译",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/ghdi:document-2858"
+      },
+      "limitation": "没有将其选段冒称整部1949公报；西德建制、后续1956修正及1990统一是不同阶段。",
+      "polities": [
+        "德意志联邦共和国（西德）"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX15",
+      "caseId": null,
+      "title": "舒曼宣言提出法德煤钢共同管理",
+      "regions": [
+        "法国",
+        "德国"
+      ],
+      "placeId": "paris",
+      "placeLabel": "巴黎",
+      "placeRole": "法国外交部时钟厅发布地的城市参照",
+      "date": {
+        "value": "1950-05-09",
+        "precision": "day",
+        "sortYear": 1950,
+        "display": "1950年5月9日",
+        "original": "欧盟机构文本导言与法国外交部会址史料同记1950年5月9日；与1951年巴黎条约和1952年生效分开。",
+        "sourceIds": [
+          "ES15"
+        ]
+      },
+      "summary": "法国政府建议把法德煤钢生产置于共同高级机构下，并向其他欧洲国家开放，以经济共同利益作为和平与更紧密合作的起点。",
+      "people": [
+        {
+          "name": "罗贝尔·舒曼",
+          "role": "发表声明的法国外交部长",
+          "sourceId": "ES15",
+          "locator": "欧盟机构导言；法国外交部会址史料",
+          "url": "https://www.diplomatie.gouv.fr/fr/le-ministere/lieux-emblematiques/le-quai-d-orsay"
+        }
+      ],
+      "claims": [
+        {
+          "text": "声明建议将法德煤钢生产整体置于共同高级机构，并向其他欧洲国家开放。",
+          "sourceId": "ES15",
+          "locator": "Full text: It proposes段",
+          "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en"
+        },
+        {
+          "text": "声明把共同生产带来的相互依存称为让法德战争不仅不可想象、而且在物质上不可能的安排；这是文本目标，不是研究已证明的效果。",
+          "sourceId": "ES15",
+          "locator": "Full text: The solidarity in production段",
+          "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en"
+        },
+        {
+          "text": "法国外交部史料记舒曼作为外交部长于巴黎时钟厅在1950年5月9日发表声明。",
+          "sourceId": "ES15",
+          "locator": "会址史料的1950年段落",
+          "url": "https://www.diplomatie.gouv.fr/fr/le-ministere/lieux-emblematiques/le-quai-d-orsay"
+        }
+      ],
+      "quote": {
+        "text": "not merely unthinkable, but materially impossible",
+        "translation": "不仅不可想象，而且在物质上不可能；这里是声明对法德战争的政策目标表述。",
+        "sourceId": "ES15",
+        "locator": "Full text: The solidarity in production段",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en"
+      },
+      "limitation": "不把政策提案或宣言措辞当作共同体成立、生效及历史和平的充分因果证明。",
+      "polities": [
+        "法兰西第四共和国",
+        "德意志联邦共和国（西德）"
+      ],
+      "parties": [],
+      "aliases": []
+    },
+    {
+      "id": "EX16",
+      "caseId": null,
+      "title": "奥地利国家条约在维也纳签署",
+      "regions": [
+        "奥匈帝国",
+        "英国",
+        "法国"
+      ],
+      "placeId": "vienna",
+      "placeLabel": "维也纳",
+      "placeRole": "1955公报题首所记条约签署城市",
+      "date": {
+        "value": "1955-05-15",
+        "precision": "day",
+        "sortYear": 1955,
+        "display": "1955年5月15日",
+        "original": "公报第725页题首记1955年5月15日在维也纳签署；公报发行另为7月30日，批准和生效也应分别识别。",
+        "sourceIds": [
+          "ES16"
+        ]
+      },
+      "summary": "条约以独立民主奥地利为对象，规定恢复其主权地位，并对与德国的政治或经济合并作限制。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条规定盟国及关联国承认奥地利被恢复为主权、独立、民主国家。",
+          "sourceId": "ES16",
+          "locator": "第1条，官方结构化全文",
+          "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000265"
+        },
+        {
+          "text": "第4条禁止奥地利与德国的政治或经济合并，并规定防止相关合并的义务。",
+          "sourceId": "ES16",
+          "locator": "第4条，官方结构化全文",
+          "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000265"
+        },
+        {
+          "text": "1955年公报题首明确条约于5月15日在维也纳签署，公报发行日期为7月30日；两者不是同一阶段。",
+          "sourceId": "ES16",
+          "locator": "公报第725页题首",
+          "url": "https://ris.bka.gv.at/Dokumente/BgblPdf/1955_152_0/1955_152_0.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Die Alliierten und Assoziierten Mächte anerkennen, daß Österreich als ein souveräner, unabhängiger und demokratischer Staat wiederhergestellt ist.",
+        "translation": "盟国及关联国承认，奥地利已被恢复为主权、独立、民主国家。",
+        "sourceId": "ES16",
+        "locator": "第1条，官方结构化转录",
+        "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000265"
+      },
+      "limitation": "旧检索入口“奥匈帝国”仅沿用目录兼容；1955年实际政体是奥地利共和国。签署不能直接等同条约生效或全部驻军已离境。",
+      "polities": [
+        "奥地利共和国",
+        "联合王国",
+        "法兰西第四共和国",
+        "苏联",
+        "美国"
+      ],
+      "parties": [
+        "奥地利",
+        "苏联",
+        "英国",
+        "美国",
+        "法国"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "EX17",
+      "caseId": null,
+      "title": "二加四条约签署，安排统一德国的外部法律条件",
+      "regions": [
+        "德国",
+        "英国",
+        "法国",
+        "俄罗斯"
+      ],
+      "placeId": "rx-moscow",
+      "placeLabel": "莫斯科",
+      "placeRole": "条约末署签署城市",
+      "date": {
+        "value": "1990-09-12",
+        "precision": "day",
+        "sortYear": 1990,
+        "display": "1990年9月12日",
+        "original": "电报所附条约末署Moscow, this twelfth day of September 1990；第9条另以最后批准/接受书交存为生效条件，不写成签署当日即全部生效。",
+        "sourceIds": [
+          "ES17"
+        ]
+      },
+      "summary": "两德与四国签署最终解决条约，界定统一德国的领土和边界，规定终止四国关于柏林及德国整体的权利责任和统一德国的主权。",
+      "people": [
+        {
+          "name": "Hans-Dietrich Genscher（根舍）",
+          "role": "电报第8段所称联邦德国外交部长，条约署名代表联邦德国",
+          "sourceId": "ES17",
+          "locator": "电报第8段及所附条约署名"
+        },
+        {
+          "name": "Lothar de Maizière（德梅齐埃）",
+          "role": "电报第14段所称民主德国总理，条约署名代表民主德国",
+          "sourceId": "ES17",
+          "locator": "电报第14段及所附条约署名"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第1条规定统一德国包括联邦德国、民主德国及整个柏林，边界具有最终性，不再提出领土要求。",
+          "sourceId": "ES17",
+          "locator": "电报第41段附条约，第1条",
+          "url": "https://nsarchive.gwu.edu/media/16139/ocr"
+        },
+        {
+          "text": "第7条规定四国终止关于柏林及德国整体的权利责任，统一德国因而对内外事务拥有完全主权。",
+          "sourceId": "ES17",
+          "locator": "电报第41段附条约，第7条",
+          "url": "https://nsarchive.gwu.edu/media/16139/ocr"
+        },
+        {
+          "text": "第9条以最后批准或接受书交存为生效条件；末署1990年9月12日莫斯科是签署节点。",
+          "sourceId": "ES17",
+          "locator": "电报第41段附条约，第9条及末署",
+          "url": "https://nsarchive.gwu.edu/media/16139/ocr"
+        }
+      ],
+      "quote": {
+        "text": "The united Germany shall have accordingly full sovereignty over its internal and external affairs.",
+        "translation": "统一德国因此将对其内部与外部事务拥有完全主权。",
+        "sourceId": "ES17",
+        "locator": "电报第41段附条约，第7(2)条",
+        "url": "https://nsarchive.gwu.edu/media/16139/ocr"
+      },
+      "limitation": "本条不是1990年10月3日统一日记录，也不把签署等同其后条约生效；俄罗斯地区入口此处实际代表的是苏联参与阶段。",
+      "polities": [
+        "德意志联邦共和国",
+        "德意志民主共和国",
+        "法兰西第五共和国",
+        "联合王国",
+        "苏联",
+        "美国"
+      ],
+      "parties": [
+        "联邦德国",
+        "民主德国",
+        "法国",
+        "苏联",
+        "英国",
+        "美国"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "EX18",
+      "caseId": null,
+      "title": "贝尔法斯特协议确定同意原则与身份选择",
+      "regions": [
+        "英国"
+      ],
+      "placeId": "ex-belfast",
+      "placeLabel": "贝尔法斯特",
+      "placeRole": "英爱政府间协议末署签署城市",
+      "date": {
+        "value": "1998-04-10",
+        "precision": "day",
+        "sortYear": 1998,
+        "display": "1998年4月10日",
+        "original": "政府间协议末署在Belfast于10 April 1998签署；第4条另列生效前提和通知程序。",
+        "sourceIds": [
+          "ES18"
+        ]
+      },
+      "summary": "协议认可北爱多数同意的宪制原则，并确认其定义范围内人们自认英国人、爱尔兰人或两者兼具及持有双重国籍的权利。",
+      "people": [
+        {
+          "name": "Tony Blair（托尼·布莱尔）",
+          "role": "政府间协议署名中代表英国政府的获授权签约人",
+          "sourceId": "ES18",
+          "locator": "British-Irish Agreement末署"
+        },
+        {
+          "name": "Bertie Ahern（伯蒂·埃亨）",
+          "role": "政府间协议署名中代表爱尔兰政府的获授权签约人",
+          "sourceId": "ES18",
+          "locator": "British-Irish Agreement末署"
+        }
+      ],
+      "claims": [
+        {
+          "text": "宪制问题1(i)—(iv)将北爱地位变化置于多数民众同意的条件下，并分别规定南北自决与政府履行义务。",
+          "sourceId": "ES18",
+          "locator": "Constitutional Issues 1(i)—(iv)",
+          "url": "https://cain.ulster.ac.uk/events/peace/docs/agreement.htm"
+        },
+        {
+          "text": "1(vi)认可规定对象可自认及被接受为爱尔兰人、英国人或两者兼具；政府间协议Annex 2对该对象另作出生和父母资格定义。",
+          "sourceId": "ES18",
+          "locator": "Constitutional Issues 1(vi)及British-Irish Agreement Annex 2",
+          "url": "https://cain.ulster.ac.uk/events/peace/docs/agreement.htm"
+        },
+        {
+          "text": "政府间协议末署贝尔法斯特1998年4月10日；第4条规定立法、公投、机构立法及完成通知等生效条件。",
+          "sourceId": "ES18",
+          "locator": "British-Irish Agreement第4条及末署",
+          "url": "https://cain.ulster.ac.uk/events/peace/docs/agreement.htm"
+        }
+      ],
+      "quote": {
+        "text": "to identify themselves and be accepted as Irish or British, or both",
+        "translation": "可以自认并被接受为爱尔兰人、英国人，或两者兼具。",
+        "sourceId": "ES18",
+        "locator": "Constitutional Issues 1(vi)",
+        "url": "https://cain.ulster.ac.uk/events/peace/docs/agreement.htm"
+      },
+      "limitation": "不将身份原则等同所有现居居民自动获双护照；签署不等同协议所有制度当日开始运行，也不证明冲突自此完全终结。",
+      "polities": [
+        "联合王国",
+        "爱尔兰共和国"
+      ],
+      "parties": [
+        "英国政府",
+        "爱尔兰政府",
+        "北爱尔兰多方谈判参与者"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "RX1",
+      "caseId": null,
+      "title": "贵由致教皇书要求亲来臣服",
+      "regions": [
+        "蒙古"
+      ],
+      "polities": [
+        "蒙古帝国"
+      ],
+      "placeId": "rx-karakorum",
+      "placeLabel": "哈拉和林附近（汗廷方位参照）",
+      "placeRole": "接见使节的汗廷所在区域参照；未定位1246年营帐",
+      "date": {
+        "value": "1246",
+        "precision": "year",
+        "sortYear": 1246,
+        "display": "1246年 · 原署回历644年哲马迪后月末",
+        "original": "In the last days of Jumada II of the year six hundred and forty-four；只取已核年份",
+        "sourceIds": [
+          "RS1"
+        ]
+      },
+      "summary": "蒙古大汗贵由回应罗马教皇来函，要求教皇与诸王亲来臣服，并拒绝按对方建议接受洗礼。",
+      "people": [
+        {
+          "name": "贵由",
+          "role": "发信的蒙古大汗"
+        },
+        {
+          "name": "英诺森四世",
+          "role": "书信所致的罗马教皇"
+        }
+      ],
+      "claims": [
+        {
+          "text": "信中将教皇来函作为答复对象，并要求教皇与诸王亲来致敬臣服。",
+          "sourceId": "RS1",
+          "locator": "书信第一至三段",
+          "url": "https://human.libretexts.org/Courses/Saint_Mary%27s_College_%28Notre_Dame_IN%29/Humanistic_Studies/The_Mongols%3A_Self-Perception_Letters_and_Rhetoric_and_Modern_Legacies/02%3A_Letters_and_Rhetoric_between_East_and_West_%281240s_CE%29"
+        },
+        {
+          "text": "信中称不理解洗礼要求，并把不遵从其命令者视为敌人；这是汗廷立场的表达。",
+          "sourceId": "RS1",
+          "locator": "书信洗礼段及末段",
+          "url": "https://human.libretexts.org/Courses/Saint_Mary%27s_College_%28Notre_Dame_IN%29/Humanistic_Studies/The_Mongols%3A_Self-Perception_Letters_and_Rhetoric_and_Modern_Legacies/02%3A_Letters_and_Rhetoric_between_East_and_West_%281240s_CE%29"
+        }
+      ],
+      "quote": {
+        "text": "This is an order sent to the great Pope so that he might know and understand it.",
+        "translation": "这是一道给大教皇的命令，使其知晓并理解；反映发信者使用的命令口吻。",
+        "sourceId": "RS1",
+        "locator": "书信开头",
+        "url": "https://human.libretexts.org/Courses/Saint_Mary%27s_College_%28Notre_Dame_IN%29/Humanistic_Studies/The_Mongols%3A_Self-Perception_Letters_and_Rhetoric_and_Modern_Legacies/02%3A_Letters_and_Rhetoric_between_East_and_West_%281240s_CE%29"
+      },
+      "limitation": "采用有出处的英译，未校波斯文原件；仅到年精度。蒙古作为现代地区入口，不代表其疆域与今天蒙古国相同。",
+      "parties": [],
+      "aliases": [
+        "Güyük",
+        "贵由汗",
+        "古由克"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX2",
+      "caseId": null,
+      "title": "1649年会典规定逃亡农民追索不受年限限制",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "俄罗斯沙皇国（莫斯科国家）"
+      ],
+      "placeId": "rx-moscow",
+      "placeLabel": "莫斯科",
+      "placeRole": "国家立法中心的城市参照；未定位法典议定建筑",
+      "date": {
+        "value": "1649",
+        "precision": "year",
+        "sortYear": 1649,
+        "display": "1649年",
+        "original": "Соборное Уложение 1649 года；未换算旧历具体日",
+        "sourceIds": [
+          "RS2",
+          "RS3"
+        ]
+      },
+      "summary": "法典引言记载沙皇下令编纂；第十一章规定依据登记簿返还逃亡农民，并取消追索的时效年限。",
+      "people": [
+        {
+          "name": "阿列克谢·米哈伊洛维奇",
+          "role": "引言所列下令编纂法典的沙皇"
+        }
+      ],
+      "claims": [
+        {
+          "text": "引言将搜集旧律、编订新条和议定法典的命令归于阿列克谢·米哈伊洛维奇。",
+          "sourceId": "RS2",
+          "locator": "引言首段",
+          "url": "https://nnov.hse.ru/ba/law/igpr/SUvvedenie"
+        },
+        {
+          "text": "第十一章第1–2条以登记簿为返还依据，规定追索逃亡农民不受年限限制；第3条涉及妻儿和财物。",
+          "sourceId": "RS3",
+          "locator": "第十一章第1–3条",
+          "url": "https://nnov.hse.ru/ba/law/igpr/SUglavaXI"
+        }
+      ],
+      "quote": {
+        "text": "без урочных лет",
+        "translation": "不设追索年限；所论是逃亡农民的返还规则。",
+        "sourceId": "RS3",
+        "locator": "第十一章第2条",
+        "url": "https://nnov.hse.ru/ba/law/igpr/SUglavaXI"
+      },
+      "limitation": "依据有校本出处的转录，法律规范与实际执行分开。未把泛俄国条文自动归入今天白俄罗斯或乌克兰。",
+      "parties": [],
+      "aliases": [
+        "Sobornoe Ulozhenie",
+        "Соборное Уложение"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX3",
+      "caseId": null,
+      "title": "大陆会议通过《独立宣言》",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "美利坚合众国（联合殖民地宣布独立）"
+      ],
+      "placeId": "rx-philadelphia",
+      "placeLabel": "费城",
+      "placeRole": "大陆会议通过宣言的城市参照；不以现藏地定位事件",
+      "date": {
+        "value": "1776-07-04",
+        "precision": "day",
+        "sortYear": 1776,
+        "display": "1776年7月4日 · 通过",
+        "original": "In Congress, July 4, 1776",
+        "sourceIds": [
+          "RS4",
+          "RS20"
+        ]
+      },
+      "summary": "宣言提出政府权力来自被统治者同意，并宣告联合殖民地为自由独立的各邦、解除对英国王室的效忠。",
+      "people": [
+        {
+          "name": "约翰·汉考克",
+          "role": "宣言签名栏所列马萨诸塞代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "宣言将政府正当权力的来源表述为被统治者的同意。",
+          "sourceId": "RS4",
+          "locator": "We hold these truths 权利段",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+        },
+        {
+          "text": "末段宣称联合殖民地为自由独立的各邦，并解除对英国王室的效忠与政治联系。",
+          "sourceId": "RS4",
+          "locator": "We, therefore 末段",
+          "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+        },
+        {
+          "text": "7月4日是宣言通过日；羊皮纸本的集中签署属于后来阶段。",
+          "sourceId": "RS20",
+          "locator": "通过与羊皮纸本签署的形成史说明",
+          "url": "https://www.archives.gov/founding-docs/declaration-history"
+        }
+      ],
+      "quote": {
+        "text": "these United Colonies are, and of Right ought to be Free and Independent States",
+        "translation": "这些联合殖民地是、而且依法应当是自由独立的各邦；这是宣言提出的政治法律主张。",
+        "sourceId": "RS4",
+        "locator": "宣言末段",
+        "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+      },
+      "limitation": "通过日不等于全部签署日；权利原则的宣示不等于当时所有居民均已实际享有同等权利。",
+      "parties": [],
+      "aliases": [
+        "Declaration of Independence"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX4",
+      "caseId": null,
+      "title": "费城制宪会议签署美国宪法",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "美利坚合众国（由邦联转向新宪法安排）"
+      ],
+      "placeId": "rx-philadelphia",
+      "placeLabel": "费城",
+      "placeRole": "制宪会议签署地的城市参照",
+      "date": {
+        "value": "1787-09-17",
+        "precision": "day",
+        "sortYear": 1787,
+        "display": "1787年9月17日 · 签署",
+        "original": "Done in Convention ... the Seventeenth Day of September ... 1787",
+        "sourceIds": [
+          "RS5",
+          "RS21"
+        ]
+      },
+      "summary": "签署文本将所授立法权交给由参议院和众议院组成的国会，并规定九州批准足以在批准州之间建立宪法。",
+      "people": [
+        {
+          "name": "乔治·华盛顿",
+          "role": "签名栏所列会议主席、弗吉尼亚代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第一条第一节将宪法授予的立法权交给由参议院与众议院组成的国会。",
+          "sourceId": "RS5",
+          "locator": "Article I, Section 1",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        {
+          "text": "第七条规定九州制宪会议批准足以在批准州之间建立宪法；签署不是各州批准已经完成。",
+          "sourceId": "RS5",
+          "locator": "Article VII",
+          "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+        },
+        {
+          "text": "签署本末署1787年9月17日，档案馆将会议地点定位于费城。",
+          "sourceId": "RS21",
+          "locator": "签署本档案说明",
+          "url": "https://www.archives.gov/milestone-documents/constitution"
+        }
+      ],
+      "quote": {
+        "text": "All legislative Powers herein granted shall be vested in a Congress of the United States",
+        "translation": "这里授予的全部立法权归合众国国会；所指为宪法明授的立法权。",
+        "sourceId": "RS5",
+        "locator": "Article I, Section 1",
+        "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+      },
+      "limitation": "本日期是签署阶段，未将草案通过、州批准和1789年政府运行混为一日；并非含后世修正案的现行整合宪法。",
+      "parties": [],
+      "aliases": [
+        "United States Constitution"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX5",
+      "caseId": null,
+      "title": "图库曼会议通报独立决定",
+      "regions": [
+        "阿根廷"
+      ],
+      "polities": [
+        "南美洲联合省"
+      ],
+      "placeId": "rx-tucuman",
+      "placeLabel": "圣米格尔-德图库曼",
+      "placeRole": "会议通报公文末署城市参照",
+      "date": {
+        "value": "1816-07-09",
+        "precision": "day",
+        "sortYear": 1816,
+        "display": "1816年7月9日",
+        "original": "Congreso en Tucumán, á 9 de Julio de 1816",
+        "sourceIds": [
+          "RS6"
+        ]
+      },
+      "summary": "会议向最高执政官通报当日一致通过脱离西班牙国王及宗主国统治的决定，并要求向各省各地传播公布。",
+      "people": [
+        {
+          "name": "弗朗西斯科·纳西索·德拉普里达",
+          "role": "通报署名的会议主席"
+        },
+        {
+          "name": "何塞·马里亚诺·塞拉诺",
+          "role": "通报署名的议员兼秘书"
+        }
+      ],
+      "claims": [
+        {
+          "text": "通报称南美洲联合省各省各地代表一致宣布脱离西班牙国王及其宗主国统治。",
+          "sourceId": "RS6",
+          "locator": "印刷页57，致最高执政官公文第一段",
+          "url": "https://www.chubuteduca.ar/wp-content/uploads/2020/09/pueblos-originarios-e-independencia.pdf"
+        },
+        {
+          "text": "公文要求最高执政官向联盟各省各地传达并公布消息，末署图库曼及7月9日。",
+          "sourceId": "RS6",
+          "locator": "印刷页58，公文末段及署名",
+          "url": "https://www.chubuteduca.ar/wp-content/uploads/2020/09/pueblos-originarios-e-independencia.pdf"
+        }
+      ],
+      "quote": {
+        "text": "la independencia del país de la dominación de los Reyes de España y su metrópoli",
+        "translation": "国家脱离西班牙诸王及其宗主国的统治而独立；摘自当日通报。",
+        "sourceId": "RS6",
+        "locator": "印刷页57，公文第一段",
+        "url": "https://www.chubuteduca.ar/wp-content/uploads/2020/09/pueblos-originarios-e-independencia.pdf"
+      },
+      "limitation": "此处材料是当日通报，不冒充已校原件的完整独立法；未提前加入7月19日补充措辞，联合省也不能直接等同今天阿根廷边界。",
+      "parties": [],
+      "aliases": [
+        "Tucumán",
+        "Provincias Unidas de la América del Sud"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX6",
+      "caseId": null,
+      "title": "智利临时宪法获批准并宣誓",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "智利国家（最高执政官时期）"
+      ],
+      "placeId": "santiago",
+      "placeLabel": "圣地亚哥",
+      "placeRole": "文献导言所署政治中心城市参照",
+      "date": {
+        "value": "1818-10-23",
+        "precision": "day",
+        "sortYear": 1818,
+        "display": "1818年10月23日 · 批准并宣誓",
+        "original": "sancionado y jurado solemnemente el 23 de Octubre del mismo",
+        "sourceIds": [
+          "RS7"
+        ]
+      },
+      "summary": "临时宪法规定无罪推定与最高执政官行政权，同时将天主教设为国家唯一、排他的宗教。",
+      "people": [
+        {
+          "name": "贝尔纳多·奥希金斯",
+          "role": "导言署名的最高执政官"
+        }
+      ],
+      "claims": [
+        {
+          "text": "题首明确区分8月10日公布与10月23日批准并宣誓两个阶段。",
+          "sourceId": "RS7",
+          "locator": "文献题首",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005251&idParte="
+        },
+        {
+          "text": "第一编第一章第3条规定合法定罪前推定无罪；第二编规定天主教为国家唯一、排他的宗教。",
+          "sourceId": "RS7",
+          "locator": "Título I, Capítulo I, Art. 3；Título II, Capítulo único",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005251&idParte="
+        },
+        {
+          "text": "第四编将最高行政权交给最高执政官。",
+          "sourceId": "RS7",
+          "locator": "Título IV, Capítulo I, Art. 1",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005251&idParte="
+        }
+      ],
+      "quote": {
+        "text": "Todo hombre se reputa inocente, hasta que legalmente sea declarado culpado.",
+        "translation": "任何人均推定无罪，直到依法被宣告有罪。",
+        "sourceId": "RS7",
+        "locator": "Título I, Capítulo I, Art. 3",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005251&idParte="
+      },
+      "limitation": "按历史版本题首记录批准宣誓日，保留它与8月公布稿的区别；宗教排他条款不能用今天宪法的宗教自由措辞替代。",
+      "parties": [],
+      "aliases": [
+        "Constitución Provisoria de 1818",
+        "O’Higgins"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX7",
+      "caseId": null,
+      "title": "苏维埃俄国提出无兼并、无赔款的和平建议",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "苏维埃俄国（新工农政府）"
+      ],
+      "placeId": "saint-petersburg",
+      "placeLabel": "彼得格勒（今圣彼得堡）",
+      "placeRole": "第二次全俄苏维埃代表大会所在城市参照",
+      "date": {
+        "value": "1917-11-08",
+        "precision": "day",
+        "sortYear": 1917,
+        "display": "1917年11月8日 · 原历10月26日",
+        "original": "26 октября (8 ноября) 1917；所据转录明列双历",
+        "sourceIds": [
+          "RS8"
+        ]
+      },
+      "summary": "《和平法令》向交战各国和人民提出立即谈判的建议，主张无兼并、无赔款，并宣布放弃秘密外交。",
+      "people": [
+        {
+          "name": "弗拉基米尔·乌里扬诺夫-列宁",
+          "role": "篇末署名的人民委员会主席"
+        }
+      ],
+      "claims": [
+        {
+          "text": "法令开头要求交战各方立即谈判公正、民主的和平，并将其表述为没有兼并和赔款的和平。",
+          "sourceId": "RS8",
+          "locator": "第12页，开头和平建议段",
+          "url": "https://www.hist.msu.ru/ER/Etext/DEKRET/o_mire.htm"
+        },
+        {
+          "text": "法令宣布取消秘密外交，提出公开条约与谈判的政策。",
+          "sourceId": "RS8",
+          "locator": "秘密外交段",
+          "url": "https://www.hist.msu.ru/ER/Etext/DEKRET/o_mire.htm"
+        }
+      ],
+      "quote": {
+        "text": "немедленный мир без аннексий",
+        "translation": "立即实现没有兼并的和平；完整主张还包括不索取赔款。",
+        "sourceId": "RS8",
+        "locator": "开头和平建议段",
+        "url": "https://www.hist.msu.ru/ER/Etext/DEKRET/o_mire.htm"
+      },
+      "limitation": "法令是新政府的主张与建议，不能证明当天战争已经结束。此时不称苏联；具体公历日由所据文献并列双历支持。",
+      "parties": [],
+      "aliases": [
+        "Декрет о мире",
+        "Decree on Peace"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX8",
+      "caseId": null,
+      "title": "苏维埃第一次代表大会批准苏联成立条约",
+      "regions": [
+        "俄罗斯",
+        "白俄罗斯",
+        "乌克兰"
+      ],
+      "polities": [
+        "苏维埃社会主义共和国联盟",
+        "俄罗斯社会主义联邦苏维埃共和国",
+        "乌克兰社会主义苏维埃共和国",
+        "白俄罗斯社会主义苏维埃共和国",
+        "外高加索社会主义苏维埃联邦共和国"
+      ],
+      "placeId": "rx-moscow",
+      "placeLabel": "莫斯科",
+      "placeRole": "条约第23条规定的联盟首都城市参照",
+      "date": {
+        "value": "1922-12-30",
+        "precision": "day",
+        "sortYear": 1922,
+        "display": "1922年12月30日 · 代表大会批准",
+        "original": "30 декабря 1922 г.；与12月29日代表会议签署阶段区分",
+        "sourceIds": [
+          "RS9",
+          "RS10"
+        ]
+      },
+      "summary": "四个共和国的成立条约规定联盟权限、共同公民资格及莫斯科首都地位，并在第26条保留各加盟共和国自由退出的权利。",
+      "people": [],
+      "claims": [
+        {
+          "text": "前言列四个缔约共和国，规定组成苏维埃社会主义共和国联盟。",
+          "sourceId": "RS9",
+          "locator": "条约前言",
+          "url": "https://dogovor.sssr.su/"
+        },
+        {
+          "text": "官方原件目录将该宣言与条约日期标为1922年12月30日。",
+          "sourceId": "RS10",
+          "locator": "ГАРФ Р-3316，Оп. 1，Д. 5，Л. 1–2；目录署日",
+          "url": "https://statearchive.ru/468"
+        },
+        {
+          "text": "条约第21条规定共同联盟公民资格，第23条以莫斯科为首都，第26条保留各共和国自由退出权。",
+          "sourceId": "RS9",
+          "locator": "第21、23、26条",
+          "url": "https://dogovor.sssr.su/"
+        }
+      ],
+      "quote": {
+        "text": "За каждой из союзных республик сохраняется право свободного выхода из Союза.",
+        "translation": "每一个加盟共和国均保留自由退出联盟的权利；条文并未在此规定后来具体退出程序。",
+        "sourceId": "RS9",
+        "locator": "第26条",
+        "url": "https://dogovor.sssr.su/"
+      },
+      "limitation": "条文采用有报刊出处的私人转录，官方目录只交叉核文献身份与日期，未完成原扫描逐字复校。1922年26条条约不是1924年宪法，退出权条文也不是1991年所有程序自动完成的证据。",
+      "parties": [],
+      "aliases": [
+        "СССР",
+        "USSR",
+        "苏联成立条约"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX9",
+      "caseId": null,
+      "title": "美国《民权法》规定公共设施平等使用权",
+      "regions": [
+        "美国"
+      ],
+      "polities": [
+        "美利坚合众国"
+      ],
+      "placeId": "washington",
+      "placeLabel": "华盛顿",
+      "placeRole": "联邦立法与批准成法的城市参照",
+      "date": {
+        "value": "1964-07-02",
+        "precision": "day",
+        "sortYear": 1964,
+        "display": "1964年7月2日 · 批准成法",
+        "original": "Approved July 2, 1964",
+        "sourceIds": [
+          "RS11"
+        ]
+      },
+      "summary": "法律第二编规定在所列公共服务设施中，个人不得因种族、肤色、宗教或族裔来源受到歧视或隔离。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第二编第201(a)节保障平等享用公共服务设施的商品、服务和待遇，禁止所列四种事由的歧视或隔离。",
+          "sourceId": "RS11",
+          "locator": "Title II, Sec. 201(a)",
+          "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+        },
+        {
+          "text": "第201(b)节列旅馆、餐饮和娱乐场所等范围，并规定与州际贸易或国家行为的联系条件。",
+          "sourceId": "RS11",
+          "locator": "Title II, Sec. 201(b)",
+          "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+        }
+      ],
+      "quote": {
+        "text": "without discrimination or segregation on the ground of race, color, religion, or national origin",
+        "translation": "不得因种族、肤色、宗教或族裔来源而歧视或隔离。",
+        "sourceId": "RS11",
+        "locator": "Title II, Sec. 201(a)",
+        "url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+      },
+      "limitation": "仅据所读第二编条文描述法定权利与覆盖范围，不将其概括为所有歧视当日已经消除。",
+      "parties": [],
+      "aliases": [
+        "Civil Rights Act of 1964"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX10",
+      "caseId": null,
+      "title": "智利军政府批准拟议宪法并提交公投",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "智利共和国（军政府统治）"
+      ],
+      "placeId": "santiago",
+      "placeLabel": "圣地亚哥",
+      "placeRole": "第3464号法令末署城市参照",
+      "date": {
+        "value": "1980-08-08",
+        "precision": "day",
+        "sortYear": 1980,
+        "display": "1980年8月8日 · 法令批准拟议宪法",
+        "original": "Santiago, 8 de Agosto de 1980；版本公布日11 de Agosto de 1980另计",
+        "sourceIds": [
+          "RS12"
+        ]
+      },
+      "summary": "第3464号法令批准一部拟议宪法并交付公投；文本自称民主共和国，同时以过渡条款维持军政府的立法权。",
+      "people": [
+        {
+          "name": "奥古斯托·皮诺切特",
+          "role": "法令末署的共和国总统、陆军总司令"
+        }
+      ],
+      "claims": [
+        {
+          "text": "法令单一条批准新的宪法文本并将其提交公投，不能由此把8月8日当成宪法全部生效日。",
+          "sourceId": "RS12",
+          "locator": "DL 3464, Artículo único",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=7129&idVersion=1980-08-11"
+        },
+        {
+          "text": "拟议正文第4条称智利为民主共和国；第十八过渡条款把立法权交军政府会议，第二十一条限制国会条款在过渡期的适用。",
+          "sourceId": "RS12",
+          "locator": "宪法第4条；第十八过渡条款 B；第二十一过渡条款",
+          "url": "https://www.bcn.cl/leychile/navegar?idNorma=7129&idVersion=1980-08-11"
+        }
+      ],
+      "quote": {
+        "text": "Ejercer el Poder Legislativo",
+        "translation": "行使立法权；本句在第十八过渡条款列为军政府会议的权限。",
+        "sourceId": "RS12",
+        "locator": "第十八过渡条款 B",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=7129&idVersion=1980-08-11"
+      },
+      "limitation": "严格使用1980年8月11日原始版本；8月8日法令批准、8月11日公布、后来的公投及宪法生效分别处理。文本的民主自称不抹去其过渡权力安排。",
+      "parties": [],
+      "aliases": [
+        "Decreto Ley 3464",
+        "Constitución de 1980",
+        "Pinochet"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX11",
+      "caseId": null,
+      "title": "阿根廷国会宣告军政府第22924号法律无效",
+      "regions": [
+        "阿根廷"
+      ],
+      "polities": [
+        "阿根廷共和国（恢复宪政后的国会）"
+      ],
+      "placeId": "rx-buenos-aires",
+      "placeLabel": "布宜诺斯艾利斯",
+      "placeRole": "法律末署通过地的城市参照",
+      "date": {
+        "value": "1983-12-22",
+        "precision": "day",
+        "sortYear": 1983,
+        "display": "1983年12月22日 · 国会通过",
+        "original": "Sanción: 22-12-1983；末署 veintidos días del mes de diciembre del año mil novecientos ochenta y tres",
+        "sourceIds": [
+          "RS13"
+        ]
+      },
+      "summary": "第23040号法律以违宪为由废除军政府第22924号法律，宣布其不可补救无效，并否定其法律效果。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1条废除第22924号事实政权法律，并宣告其违宪、不可补救地无效。",
+          "sourceId": "RS13",
+          "locator": "Artículo 1",
+          "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23040-28166/texto"
+        },
+        {
+          "text": "第2条规定被废法律不发生刑事、民事、行政、军事等法律效果，也不适用较轻刑法原则。",
+          "sourceId": "RS13",
+          "locator": "Artículo 2",
+          "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23040-28166/texto"
+        }
+      ],
+      "quote": {
+        "text": "declárase insanablemente nula la ley de facto Nº 22.924",
+        "translation": "宣告事实政权第22924号法律不可补救地无效。",
+        "sourceId": "RS13",
+        "locator": "Artículo 1",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23040-28166/texto"
+      },
+      "limitation": "12月22日为通过日期，12月29日为公报刊登日期。本记录只呈现这一具体法律动作，不把它等同于民主转型所有阶段。",
+      "parties": [],
+      "aliases": [
+        "Ley 23.040",
+        "Ley 22.924"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX12",
+      "caseId": null,
+      "title": "艾尔文在拉莫内达宫阳台发表就任日演说",
+      "regions": [
+        "智利"
+      ],
+      "polities": [
+        "智利共和国（艾尔文执政伊始）"
+      ],
+      "placeId": "santiago",
+      "placeLabel": "圣地亚哥",
+      "placeRole": "总统府阳台演说所在城市参照",
+      "date": {
+        "value": "1990-03-11",
+        "precision": "day",
+        "sortYear": 1990,
+        "display": "1990年3月11日 · 就任日演说",
+        "original": "Discurso Balcones de La Moneda – 11 de Marzo de 1990",
+        "sourceIds": [
+          "RS14"
+        ]
+      },
+      "summary": "艾尔文向圣地亚哥公众宣称智利重返民主，并提出自由、公正、团结、真相及结束政治监禁的政治目标。",
+      "people": [
+        {
+          "name": "帕特里西奥·艾尔文",
+          "role": "基金会演说档案标注的发言总统"
+        }
+      ],
+      "claims": [
+        {
+          "text": "演说以圣地亚哥人民为对象，称智利通过和平道路重返民主。",
+          "sourceId": "RS14",
+          "locator": "Pueblo de Santiago 开头及 Chile vuelve a la democracia 段",
+          "url": "https://fundacionaylwin.cl/ideas-y-discursos/"
+        },
+        {
+          "text": "演说提出建立属于全体智利人的国家，并将自由、公正、团结和查明真相作为目标。",
+          "sourceId": "RS14",
+          "locator": "Queremos un Chile 及真相、政治犯各段",
+          "url": "https://fundacionaylwin.cl/ideas-y-discursos/"
+        }
+      ],
+      "quote": {
+        "text": "Queremos un Chile de todos los chilenos, con todos los chilenos, para todos los chilenos.",
+        "translation": "我们希望智利属于全体智利人、与全体智利人同行、为全体智利人服务。",
+        "sourceId": "RS14",
+        "locator": "Queremos un Chile 段",
+        "url": "https://fundacionaylwin.cl/ideas-y-discursos/"
+      },
+      "limitation": "实际核读的是当日演说，不是国会交接仪式记录；愿景和行动者对转型的表述不能证明政策后来全部实现。",
+      "parties": [],
+      "aliases": [
+        "Patricio Aylwin",
+        "La Moneda"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX13",
+      "caseId": null,
+      "title": "乌克兰最高苏维埃通过独立宣告法",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "乌克兰苏维埃社会主义共和国最高苏维埃",
+        "宣布独立的乌克兰"
+      ],
+      "placeId": "rx-kyiv",
+      "placeLabel": "基辅",
+      "placeRole": "最高苏维埃会议城市参照；未定位具体议席",
+      "date": {
+        "value": "1991-08-24",
+        "precision": "day",
+        "sortYear": 1991,
+        "display": "1991年8月24日 · 通过并依条文即时生效",
+        "original": "24 серпня 1991 року；最终法文写明自通过时生效",
+        "sourceIds": [
+          "RS15"
+        ]
+      },
+      "summary": "当晚会议最终宣读并以346票赞成通过独立宣告法，宣称乌克兰独立、领土完整，并以本国宪法和法律为唯一有效法律。",
+      "people": [
+        {
+          "name": "列昂尼德·克拉夫丘克",
+          "role": "当日会议主持人、乌克兰最高苏维埃主席"
+        }
+      ],
+      "claims": [
+        {
+          "text": "最终独立法宣告建立独立的乌克兰国家，并声明领土不可分割、不可侵犯。",
+          "sourceId": "RS15",
+          "locator": "印刷页27–28，最终独立法",
+          "url": "https://www.rada.gov.ua/meeting/stenogr/show/4595.html"
+        },
+        {
+          "text": "最终法规定自通过时生效，会议记录载346票赞成；另一个决议以321票赞成安排12月1日公投确认。",
+          "sourceId": "RS15",
+          "locator": "印刷页27–28，决议及最终法后的表决",
+          "url": "https://www.rada.gov.ua/meeting/stenogr/show/4595.html"
+        }
+      ],
+      "quote": {
+        "text": "Цей акт набирає чинності з моменту його схвалення",
+        "translation": "本法自获通过之时起生效；这是法文对自身效力的规定。",
+        "sourceId": "RS15",
+        "locator": "印刷页28，最终独立法末句",
+        "url": "https://www.rada.gov.ua/meeting/stenogr/show/4595.html"
+      },
+      "limitation": "只引最终第27–28页，未采用前文草稿；当日主持人尚不能提前称为独立后经选举的总统。法的即时生效、公投确认、国际承认与苏联终结分别处理。",
+      "parties": [],
+      "aliases": [
+        "Акт проголошення незалежності України",
+        "Kravchuk"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX14",
+      "caseId": null,
+      "title": "白俄罗斯赋予主权宣言宪法法律地位",
+      "regions": [
+        "白俄罗斯"
+      ],
+      "polities": [
+        "白俄罗斯苏维埃社会主义共和国（当时国名）"
+      ],
+      "placeId": "rx-minsk",
+      "placeLabel": "明斯克",
+      "placeRole": "同日决议末署明斯克的城市参照；未定位会议建筑",
+      "date": {
+        "value": "1991-08-25",
+        "precision": "day",
+        "sortYear": 1991,
+        "display": "1991年8月25日 · 第1017-XII号法",
+        "original": "Закон от 25 августа 1991 г. № 1017-XII",
+        "sourceIds": [
+          "RS16"
+        ]
+      },
+      "summary": "第1017-XII号法第1项将既有国家主权宣言提升为宪法法律；本条只记录这一步法律地位变化。",
+      "people": [],
+      "claims": [
+        {
+          "text": "第1项明确赋予国家主权宣言宪法法律地位；它不是重新撰写一份主权宣言。",
+          "sourceId": "RS16",
+          "locator": "第1项，公开节录",
+          "url": "https://etalonline.by/document/?regnum=v19101017"
+        },
+        {
+          "text": "官方条目标明法律日期为1991年8月25日，编号1017-XII。",
+          "sourceId": "RS16",
+          "locator": "法律题首",
+          "url": "https://etalonline.by/document/?regnum=v19101017"
+        },
+        {
+          "text": "同日另一份政治经济独立决议保留白俄罗斯苏维埃社会主义共和国国名，末署明斯克；与后接经9月19日修改的宣言分开。",
+          "sourceId": "RS22",
+          "locator": "PDF第1页前半，决议题首及末署",
+          "url": "https://www.gorby.ru/userfiles/belorussia.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Придать статус конституционного закона",
+        "translation": "赋予宪法法律的地位；短摘避开页面后来更新的国名。",
+        "sourceId": "RS16",
+        "locator": "第1项开头",
+        "url": "https://etalonline.by/document/?regnum=v19101017"
+      },
+      "limitation": "仅核到官方公开第1项，后续登录内容未读。当前整合条目使用后来的白俄罗斯共和国名称，不能据此把8月25日写成改国名日或现行宪法制定日。",
+      "parties": [],
+      "aliases": [
+        "БССР",
+        "1017-XII"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX15",
+      "caseId": null,
+      "title": "白俄、俄罗斯与乌克兰签署建立独联体协议",
+      "regions": [
+        "白俄罗斯",
+        "俄罗斯",
+        "乌克兰"
+      ],
+      "polities": [
+        "白俄罗斯共和国",
+        "俄罗斯苏维埃联邦社会主义共和国（协议亦称俄罗斯联邦）",
+        "乌克兰"
+      ],
+      "placeId": "rx-minsk",
+      "placeLabel": "明斯克（文书末署）",
+      "placeRole": "协议正式末署城市；不据此精确定位实际会晤建筑",
+      "date": {
+        "value": "1991-12-08",
+        "precision": "day",
+        "sortYear": 1991,
+        "display": "1991年12月8日 · 三方签署",
+        "original": "Совершено в городе Минске 8 декабря 1991 года",
+        "sourceIds": [
+          "RS17"
+        ]
+      },
+      "summary": "三方协议设立独立国家联合体，互认领土完整与现存边界，并在前言作出苏联不再作为国际法主体和地缘政治现实存在的共同声明。",
+      "people": [
+        {
+          "name": "斯坦尼斯拉夫·舒什克维奇",
+          "role": "白俄罗斯最高苏维埃主席、协议签署者"
+        },
+        {
+          "name": "鲍里斯·叶利钦",
+          "role": "俄罗斯苏维埃联邦社会主义共和国总统、协议签署者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "前言列白俄罗斯、俄罗斯和乌克兰为三方，并共同声明苏联停止作为国际法主体和地缘政治现实存在；第1条设立独联体。",
+          "sourceId": "RS17",
+          "locator": "前言；第1条",
+          "url": "https://eccis.org/document/1"
+        },
+        {
+          "text": "第5条互认领土完整和现存边界，第12条保证履行由原苏联条约给各方带来的国际义务。",
+          "sourceId": "RS17",
+          "locator": "第5、12条",
+          "url": "https://eccis.org/document/1"
+        },
+        {
+          "text": "末署为1991年12月8日明斯克，列三种同等效力语言文本和三方领导人签名。",
+          "sourceId": "RS17",
+          "locator": "末署日期、语言及签名栏",
+          "url": "https://eccis.org/document/1"
+        }
+      ],
+      "quote": {
+        "text": "Высокие Договаривающиеся Стороны образуют Содружество Независимых Государств.",
+        "translation": "缔约各方组成独立国家联合体；这是第1条的设立条款。",
+        "sourceId": "RS17",
+        "locator": "第1条",
+        "url": "https://eccis.org/document/1"
+      },
+      "limitation": "这是三方协议的签署及共同声明，不把它单独描述为15个共和国或所有苏联机关在同一时刻完成的统一解体程序；后续批准、加入和机关终止须分别核证。",
+      "parties": [],
+      "aliases": [
+        "Беловежское соглашение",
+        "CIS",
+        "独联体"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RX16",
+      "caseId": null,
+      "title": "叶利钦致函联合国主张俄罗斯继续苏联席位",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "俄罗斯苏维埃联邦社会主义共和国（信中称俄罗斯联邦）",
+        "苏联常驻联合国代表机构"
+      ],
+      "placeId": "rx-new-york",
+      "placeLabel": "纽约",
+      "placeRole": "收函机构联合国秘书处所在城市参照；不表示发函签署地点",
+      "date": {
+        "value": "1991-12-24",
+        "precision": "day",
+        "sortYear": 1991,
+        "display": "1991年12月24日 · 续席信函递交",
+        "original": "24 December 1991；苏联常驻代表将叶利钦信函递交秘书长",
+        "sourceIds": [
+          "RS18",
+          "RS19"
+        ]
+      },
+      "summary": "来信主张俄罗斯继续苏联在联合国及安理会的成员资格，要求改用俄罗斯联邦名称，并承接联合国宪章项下的权利义务与代表资格。",
+      "people": [
+        {
+          "name": "鲍里斯·叶利钦",
+          "role": "发信者，信函所称俄罗斯联邦总统"
+        },
+        {
+          "name": "尤里·沃龙佐夫",
+          "role": "递交信函的苏联常驻联合国代表"
+        }
+      ],
+      "claims": [
+        {
+          "text": "信函称苏联在联合国及安理会等机构的成员资格由俄罗斯联邦继续，并请求使用新名称。",
+          "sourceId": "RS18",
+          "locator": "第291段所引信函第一、二句",
+          "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+ILA%C5%9ECU+AND+OTHERS+v.+MOLDOVA+AND+RUSSIA.pdf&id=001-61886&library=ECHR"
+        },
+        {
+          "text": "信函声明承担苏联在联合国宪章下的全部权利义务，包括财务义务，并确认原代表继续代表俄罗斯的资格。",
+          "sourceId": "RS18",
+          "locator": "第291段所引信函第三、四句",
+          "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+ILA%C5%9ECU+AND+OTHERS+v.+MOLDOVA+AND+RUSSIA.pdf&id=001-61886&library=ECHR"
+        },
+        {
+          "text": "联合国图书馆将原信定位于秘书长档案，并说明它未作为正式联合国文件散发。",
+          "sourceId": "RS19",
+          "locator": "1991年12月24日信函及档号说明",
+          "url": "https://ask.un.org/faq/378083"
+        }
+      ],
+      "quote": {
+        "text": "The Russian Federation assumes full responsibility for all the USSR's rights and obligations under the United Nations Charter",
+        "translation": "俄罗斯联邦承担苏联在联合国宪章项下全部权利和义务；此处范围由信函限定。",
+        "sourceId": "RS18",
+        "locator": "第291段所引信函第三句",
+        "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+ILA%C5%9ECU+AND+OTHERS+v.+MOLDOVA+AND+RUSSIA.pdf&id=001-61886&library=ECHR"
+      },
+      "limitation": "实际逐字核读法院官方判决所引英文信函，未校联合国馆藏扫描。它是续席通知和主张，不是新的入会表决，也不能推出所有双边债务、资产与条约继承均已解决；不编造正式联合国文号。",
+      "parties": [],
+      "aliases": [
+        "Russian Federation",
+        "UN membership",
+        "Yeltsin"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "CX1",
+      "caseId": null,
+      "title": "《圣谕广训》御序阐明扩写十六条训谕的用意",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（清廷行政中心参照）",
+      "placeRole": "文书所属清廷的行政中心参照；未核御序的具体撰写、刊刻或宣读地点",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1724,
+        "display": "约1724年 · 雍正二年二月",
+        "original": "序末文字层作“雍正二年二月初日”；本条只采用无歧义的年号年及二月。日数字尚未对读原叶，且未做完整中西历换算；1724只作年号对照排序，不参与精确西历同年匹配。",
+        "sourceIds": [
+          "CS1"
+        ]
+      },
+      "summary": "御序自述将先朝上谕十六条推衍为《圣谕广训》，强调文字显明直朴，并期望兵民落实谨身节用。",
+      "people": [],
+      "claims": [
+        {
+          "text": "序中自述将先朝上谕十六条寻绎其义、推衍其文，形成《圣谕广训》；这是编纂意图的第一人称陈述。",
+          "sourceId": "CS1",
+          "locator": "《圣谕广训万言谕》首篇御序，“谨将上谕十六条”至“名曰圣谕广训”段",
+          "url": "https://www.shidianguji.com/zh/book/NA03320/chapter/1m3nvfvitlhde"
+        },
+        {
+          "text": "序中说明措辞力求显明直朴，并希望兵民谨身节用；材料只能证明朝廷的训谕目标，不能证明各地已奉行或风俗已经改善。",
+          "sourceId": "CS1",
+          "locator": "首篇御序，“旁征远引”至“共勉为谨身节用之庶人”段",
+          "url": "https://www.shidianguji.com/zh/book/NA03320/chapter/1m3nvfvitlhde"
+        }
+      ],
+      "quote": {
+        "text": "意取顯明，語多直樸",
+        "translation": "意思力求显明，语言多用直白朴实的表达。",
+        "sourceId": "CS1",
+        "locator": "首篇御序，“旁征远引，往复周详”后",
+        "url": "https://www.shidianguji.com/zh/book/NA03320/chapter/1m3nvfvitlhde"
+      },
+      "limitation": "所读为后世传本的现代数字识读文字层，不是雍正亲笔或已核定的1724年初刻。页面有明显OCR错误，故摘要和引文仅用可辨识且语义稳定的序文；原叶图片访问403，底本刊年、日数字未闭环。后附“疏稿”的考试、宣读制度不归入此署年的御序。北京只是所属清廷行政中心参照。",
+      "aliases": [
+        "聖諭廣訓",
+        "圣谕广训万言谕",
+        "雍正二年",
+        "御序"
+      ],
+      "polities": [
+        "清朝"
+      ],
+      "parties": []
+    },
+    {
+      "id": "CX2",
+      "caseId": null,
+      "title": "《北京学界全体宣言》呼吁工商各界维护主权",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（传单散发城市）",
+      "placeRole": "北大校史所述五四游行中散发宣言的城市；采用城市参照点，不表示起草房间或全部游行路线",
+      "date": {
+        "value": "1919",
+        "precision": "year",
+        "sortYear": 1919,
+        "display": "1919年",
+        "original": "所读宣言影印未见署日。北京大学《五四前后的北京大学》将其散发置于1919年5月4日北京游行；本条仅采用公元年精度，不以现代展文发布日期充作文书日期。",
+        "sourceIds": [
+          "CS2"
+        ]
+      },
+      "summary": "宣言以青岛及山东权利为危机，呼吁全国工商各界设法开国民大会，并以维护主权、反对被指为国贼者作动员口号。",
+      "people": [],
+      "claims": [
+        {
+          "text": "宣言开头指称日本在万国和会谋求并吞青岛、管理山东权利，并将之描述为中国领土与存亡危机；这是学生宣言的立场，不能直接当作和约条款。",
+          "sourceId": "CS2",
+          "locator": "北大展文“三个北大宣言”第一幅影印：题名左侧正文起首至“中国就亡了”",
+          "url": "https://news.pku.edu.cn/info/4031/745701.htm"
+        },
+        {
+          "text": "正文要求全国工商各界设法开国民大会，提出“外争主权，内除国贼”，并以两条信条动员同胞。",
+          "sourceId": "CS2",
+          "locator": "同幅影印：自“务望全国工商各界”至“两個信條”及末段",
+          "url": "https://news.pku.edu.cn/info/4031/745701.htm"
+        },
+        {
+          "text": "北大校史明确记述1919年5月4日北京各校游行途中散发这份宣言；地图据此采用北京城市参照，不从作者籍贯推定地点。",
+          "sourceId": "CS2",
+          "locator": "《五四前后的北京大学》“1919年第一次世界大战结束”段，5月4日游行与宣言散发叙述",
+          "url": "https://www.pku.edu.cn/detail/905.html"
+        }
+      ],
+      "quote": {
+        "text": "外爭主權，內除國賊",
+        "translation": "宣言以对外维护主权、对内清除其所指的国贼作为动员口号。",
+        "sourceId": "CS2",
+        "locator": "“三个北大宣言”第一幅影印，中段自“开国民大会”后的两列",
+        "url": "https://news.pku.edu.cn/info/4031/745701.htm"
+      },
+      "limitation": "已读的是北大校史馆、融媒体中心2021年展文发布的历史印刷件影印，纸面有现代红线标记；未核原藏号、这张影印对应的具体初印或报载版本，也未据影印确定起草日。题名依影印《北京学界全体宣言》；校史叙述中另作《北京全体学界宣言》。主张保留宣言的政治立场，不扩写实际外交结果、全国响应范围或后续成效。",
+      "aliases": [
+        "北京學界全體宣言",
+        "北京全体学界宣言",
+        "五四运动",
+        "万国和会"
+      ],
+      "polities": [
+        "中华民国"
+      ],
+      "parties": []
     }
   ],
   "places": [
@@ -1365,7 +4940,7 @@
       "precision": "city_reference",
       "coordinateSource": "https://www.wikidata.org/w/index.php?title=Q61&oldid=2572052133",
       "coordinateLabel": "Wikidata Q61 · 固定修订2572052133",
-      "note": "现代城市参照点。两文书均署华盛顿；本轮未定位具体签署、认证建筑，也未证明二者发生在同一房间。"
+      "note": "现代城市参照点；各文书的具体地点与角色分别见记录，不据此推定文书在同一建筑或房间完成。"
     },
     {
       "id": "gaoyou",
@@ -1546,6 +5121,390 @@
       "coordinateSource": "https://whc.unesco.org/en/tentativelists/6459",
       "coordinateLabel": "UNESCO《Ancient City of Ondong》预备名录6459",
       "note": "乌栋古城遗址参照点，取北纬11°49′26″、东经104°44′33″；不表示1863年签约王宫的实测建筑坐标。"
+    },
+    {
+      "id": "ax-chengdu",
+      "label": "蜀郡 · 成都参照",
+      "coordinates": [
+        104.063333,
+        30.66
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q30002",
+      "coordinateLabel": "Wikidata Q30002 · 现代城市／遗址地理参照",
+      "note": "以现代成都城市点参照蜀郡行政中心；不是岷山崩发生地点或灾害范围，不能由此点推断震中。"
+    },
+    {
+      "id": "ax-changan",
+      "label": "长安 · 西安参照",
+      "coordinates": [
+        108.942222,
+        34.261111
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q5826",
+      "coordinateLabel": "Wikidata Q5826 · 现代城市／遗址地理参照",
+      "note": "现代西安城市参照，涉及汉长安或隋唐京师时均仅作城市层级定位；不是宫殿、户籍覆盖面或使团出发站的精确坐标。"
+    },
+    {
+      "id": "ax-jiankang",
+      "label": "建康 · 南京参照",
+      "coordinates": [
+        118.778889,
+        32.060833
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q16666",
+      "coordinateLabel": "Wikidata Q16666 · 现代城市／遗址地理参照",
+      "note": "现代南京城市参照；用于东晋都城建康这一写作活动背景，不表示法显书写、口述或寺院的确切位置。"
+    },
+    {
+      "id": "ax-hanoi",
+      "label": "河内 · 大罗／升龙参照",
+      "coordinates": [
+        105.841169,
+        21.0245
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1858",
+      "coordinateLabel": "Wikidata Q1858 · 现代城市／遗址地理参照",
+      "note": "现代河内城市参照；不等于1010年城墙范围、王舟停泊处或1945年宣读台的实测坐标。"
+    },
+    {
+      "id": "ax-kamakura",
+      "label": "镰仓",
+      "coordinates": [
+        139.547222,
+        35.319167
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q200267",
+      "coordinateLabel": "Wikidata Q200267 · 现代城市／遗址地理参照",
+      "note": "现代镰仓城市参照；用于幕府制定法的政治中心，不表示原文书签署建筑的精确位置。"
+    },
+    {
+      "id": "ax-angkor",
+      "label": "真腊王城 · 吴哥城参照",
+      "coordinates": [
+        103.859722,
+        13.443333
+      ],
+      "precision": "site_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q223665",
+      "coordinateLabel": "Wikidata Q223665 · 现代城市／遗址地理参照",
+      "note": "现代Angkor Thom遗址参照点；不是周达观使馆、入境口岸或整个高棉王国的界线。"
+    },
+    {
+      "id": "ax-seoul",
+      "label": "汉城 · 首尔参照",
+      "coordinates": [
+        126.99,
+        37.56
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q8684",
+      "coordinateLabel": "Wikidata Q8684 · 现代城市／遗址地理参照",
+      "note": "现代首尔城市参照；古代材料的参与政治体为朝鲜王朝，未把现代韩国国家倒填至15或18世纪。"
+    },
+    {
+      "id": "ax-panipat",
+      "label": "帕尼帕特",
+      "coordinates": [
+        76.97,
+        29.3875
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q139706",
+      "coordinateLabel": "Wikidata Q139706 · 现代城市／遗址地理参照",
+      "note": "现代帕尼帕特城市参照；不是1526年战场阵线、炮位或坟墓的精确坐标。"
+    },
+    {
+      "id": "ax-nagasaki",
+      "label": "长崎",
+      "coordinates": [
+        129.879639,
+        32.749528
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q38234",
+      "coordinateLabel": "Wikidata Q38234 · 现代城市／遗址地理参照",
+      "note": "现代长崎城市参照；1635年选录文书发给长崎奉行，这里定位受令城市，不推断江户发令房间。"
+    },
+    {
+      "id": "ax-tokyo",
+      "label": "东京",
+      "coordinates": [
+        139.691667,
+        35.689444
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1490",
+      "coordinateLabel": "Wikidata Q1490 · 现代城市／遗址地理参照",
+      "note": "现代东京城市参照；用于日本国家机关所在地，不表示1889或1946年仪式房间的实测坐标。"
+    },
+    {
+      "id": "ax-vientiane",
+      "label": "万象",
+      "coordinates": [
+        102.63,
+        17.98
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q9326",
+      "coordinateLabel": "Wikidata Q9326 · 现代城市／遗址地理参照",
+      "note": "现代城市参照；坐标为已读Wikidata地名条目的17°58′48″N、102°37′48″E，1991年文本自署Vientiane。"
+    },
+    {
+      "id": "ax-pyongyang",
+      "label": "平壤",
+      "coordinates": [
+        125.7475,
+        39.016667
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q18808",
+      "coordinateLabel": "Wikidata Q18808 · 现代城市／遗址地理参照",
+      "note": "现代平壤城市参照；2000年共同宣言明确指峰会城市，未定位签署建筑或会谈房间。"
+    },
+    {
+      "id": "ex-ankara",
+      "label": "安卡拉（古安居拉）",
+      "coordinates": [
+        32.84,
+        39.94
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q3640",
+      "coordinateLabel": "Wikidata Q3640 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-runnymede",
+      "label": "兰尼米德草地",
+      "coordinates": [
+        -0.57,
+        51.44
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1483542",
+      "coordinateLabel": "Wikidata Q1483542 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。此项为草地区域参照，非城市或唯一封印现场。"
+    },
+    {
+      "id": "ex-nuremberg",
+      "label": "纽伦堡",
+      "coordinates": [
+        11.08,
+        49.45
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q2090",
+      "coordinateLabel": "Wikidata Q2090 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-wittenberg",
+      "label": "维滕贝格",
+      "coordinates": [
+        12.65,
+        51.87
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q6837",
+      "coordinateLabel": "Wikidata Q6837 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-nantes",
+      "label": "南特",
+      "coordinates": [
+        -1.55,
+        47.22
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q12191",
+      "coordinateLabel": "Wikidata Q12191 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-munster",
+      "label": "明斯特",
+      "coordinates": [
+        7.63,
+        51.96
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q2742",
+      "coordinateLabel": "Wikidata Q2742 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-versailles",
+      "label": "凡尔赛",
+      "coordinates": [
+        2.14,
+        48.81
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q621",
+      "coordinateLabel": "Wikidata Q621 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-istanbul",
+      "label": "伊斯坦布尔（君士坦丁堡）",
+      "coordinates": [
+        28.96,
+        41.01
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q406",
+      "coordinateLabel": "Wikidata Q406 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-schwarzburg",
+      "label": "施瓦茨堡",
+      "coordinates": [
+        11.2,
+        50.64
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q539200",
+      "coordinateLabel": "Wikidata Q539200 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-lausanne",
+      "label": "洛桑",
+      "coordinates": [
+        6.63,
+        46.53
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q807",
+      "coordinateLabel": "Wikidata Q807 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-bonn",
+      "label": "波恩",
+      "coordinates": [
+        7.1,
+        50.74
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q586",
+      "coordinateLabel": "Wikidata Q586 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "ex-belfast",
+      "label": "贝尔法斯特",
+      "coordinates": [
+        -5.93,
+        54.6
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q10686",
+      "coordinateLabel": "Wikidata Q10686 · P625 · 本轮已读并约取小数点后两位",
+      "note": "现代地理参照点，坐标已作粗化；不是建筑、封印、议事厅或宣读现场的实测坐标。史事地点角色以记录字段为准。"
+    },
+    {
+      "id": "rx-karakorum",
+      "label": "哈拉和林附近",
+      "coordinates": [
+        102.847989,
+        47.20954
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://gazetteer.dainst.org/doc/2042953.html",
+      "coordinateLabel": "德国考古研究院地名库 · Karakorum",
+      "note": "采用哈拉和林地点参照坐标；1246年信使所到汗廷在附近，未核营帐位置，不将现代蒙古国边界投射到蒙古帝国。"
+    },
+    {
+      "id": "rx-moscow",
+      "label": "莫斯科",
+      "coordinates": [
+        37.6175,
+        55.750555555556
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q649",
+      "coordinateLabel": "Wikidata Q649 · 城市坐标 55°45′2″N 37°37′3″E",
+      "note": "现代城市参照点，所据坐标已读；不表示1649年议定场所或1922年签署室的精确坐标。"
+    },
+    {
+      "id": "rx-philadelphia",
+      "label": "费城",
+      "coordinates": [
+        -75.163611111111,
+        39.952777777778
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1345",
+      "coordinateLabel": "Wikidata Q1345 · 城市坐标 39°57′10″N 75°9′49″W",
+      "note": "采用城市主坐标，不取邮政编码的局部坐标；不表示独立厅室内位置。"
+    },
+    {
+      "id": "rx-tucuman",
+      "label": "圣米格尔-德图库曼",
+      "coordinates": [
+        -65.21667,
+        -26.8330556
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/San_Miguel_de_Tucum%C3%A1n",
+      "coordinateLabel": "Wikipedia · 城市信息框 26°49′59″S 65°13′W",
+      "note": "城市级参照；此坐标来源是现代地名信息框，原始历史主张另引省教育部文献集。未作会议建筑精确定位。"
+    },
+    {
+      "id": "rx-buenos-aires",
+      "label": "布宜诺斯艾利斯",
+      "coordinates": [
+        -58.381944444444,
+        -34.599722222222
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1486",
+      "coordinateLabel": "Wikidata Q1486 · 城市坐标 34°35′59″S 58°22′55″W",
+      "note": "现代城市参照点，不表示国会会场建筑精确位置。"
+    },
+    {
+      "id": "rx-minsk",
+      "label": "明斯克",
+      "coordinates": [
+        27.561836944444,
+        53.902246111111
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q2280",
+      "coordinateLabel": "Wikidata Q2280 · 城市坐标 53°54′8.086″N 27°33′42.613″E",
+      "note": "现代城市参照点。1991年独联体协议末署明斯克，不以该点代表别洛韦日森林的会晤建筑。"
+    },
+    {
+      "id": "rx-kyiv",
+      "label": "基辅",
+      "coordinates": [
+        30.523611111111,
+        50.45
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q1899",
+      "coordinateLabel": "Wikidata Q1899 · 城市坐标 50°27′N 30°31′25″E",
+      "note": "现代城市参照点，不表示最高苏维埃会场内的位置；现代地区入口不等同于其他时代主权。"
+    },
+    {
+      "id": "rx-new-york",
+      "label": "纽约",
+      "coordinates": [
+        -74.006111111111,
+        40.712777777778
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://www.wikidata.org/wiki/Q60",
+      "coordinateLabel": "Wikidata Q60 · 城市坐标 40°42′46″N 74°0′22″W",
+      "note": "作为收函机构联合国秘书处所在城市的参照，不表示信函在纽约签署，也不以城市主点代表联合国建筑。"
     }
   ],
   "sources": [
@@ -1828,10 +5787,686 @@
       "checked": "对应署名页与MJP条约末尾署名互校。",
       "limitation": "本轮只核署名页，版本其他部分未逐页核；不补入未经核对的官职。MJP将Walewski转写作Walewki，异文在人物角色中保留。",
       "humanReviewed": false
+    },
+    {
+      "id": "MS1",
+      "title": "美国公法106-286（2000年10月10日批准）",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-106publ286/html/PLAW-106publ286.htm",
+      "kind": "美国政府公布的历史成文法全文",
+      "locator": "114 Stat.880–882；§101(a)(b)、§102(a)",
+      "checked": "已读GovInfo官方全文的批准日期及第101、102条；区分授权、条件与待遇生效。",
+      "limitation": "公布法律的文字不能单独证明其随后执行，也不是中国已于当天加入WTO的证据。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MS2",
+      "title": "克林顿白宫：中国永久正常贸易关系法签署仪式讲话（2000-10-10）",
+      "url": "https://clintonwhitehouse4.archives.gov/textonly/library/hot_releases/October_10_2000_6.html",
+      "kind": "美国国家档案馆保存的当时白宫新闻秘书办公室逐字稿",
+      "locator": "页首时间地点；THE PRESIDENT段，China must still complete起句",
+      "checked": "已核逐字稿日期、The South Lawn与总统讲话；原文明确入世谈判尚待完成。",
+      "limitation": "属于美国政府参与者自述；讲话中的政策预期不作为已经发生的经济或政治效果。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS1",
+      "title": "《汉书》卷十《成帝纪》元延三年条",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷010",
+      "kind": "东汉所修史书的现代全文转录",
+      "locator": "卷十《成帝纪》；元延元年、二年之后的“三年春正月丙寅”条",
+      "checked": "已打开并读元延元年至四年的连续正文，核对三年正月岷山崩条，不以搜索摘要代替正文。",
+      "limitation": "传世史书追记前代事件，不是前10年的出土当日记录；本轮未对读汉代简牍、古本影像或做中西历日换算。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS2",
+      "title": "《汉书》卷二十八《地理志》户口条及篇末总计",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷028下",
+      "kind": "东汉史书所存西汉登记数字的现代全文转录",
+      "locator": "卷二十八《地理志》“京兆尹，元始二年户……”；《论》“讫于孝平……民户……”段",
+      "checked": "已打开并读京兆尹元始二年条及篇末户口总计，核对数字为12,233,062户与59,594,978口。",
+      "limitation": "这是后世史书保存的登记户口，不是完整原始户籍表；郡县、田地与户口的材料层次不能一概视为同一日快照。未据此估算漏籍人口。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS3",
+      "title": "《佛国记》正文末及义熙十二年附识",
+      "url": "https://zh.wikisource.org/wiki/佛國記",
+      "kind": "旅行记后世传本的现代全文转录",
+      "locator": "篇末“法显发长安……故将竹帛疏所经历……是岁甲寅”；下接“晋义熙十二年”识语",
+      "checked": "已打开并读篇末甲寅署年、义熙十二年附识及归国叙述；没有把书首存在歧异的弘始纪年强行换成具体出发日。",
+      "limitation": "现读为后世传本文字，不是法显手稿；正文甲寅段与后加识语分层。佛迹传说、地方人口与风俗均为作者观察或转述，未作为现代普查数据。 本轮核到传统纪年原文，未核完整西历年界；西历排序年不等于已核精确西历年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS4",
+      "title": "《隋书》卷八十一《东夷·倭国》大业三年段",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷81",
+      "kind": "唐初所修前代史书的现代全文转录",
+      "locator": "卷81《倭国》“大业三年，其王多利思比孤遣使朝贡”段",
+      "checked": "已打开并读大业三年整段国书、沙门来学及次年裴清出使叙述。",
+      "limitation": "是中国官修史对来使的记述，非倭国书原件；“多利思比孤”身份不在本条强行等同后世日本天皇谱系。 本轮核到传统纪年原文，未核完整西历年界；西历排序年不等于已核精确西历年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS5",
+      "title": "《旧唐书》卷一百九十八《天竺国》贞观十五年段",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷198",
+      "kind": "五代官修唐史的现代全文转录",
+      "locator": "卷198《天竺国》“贞观十五年，尸罗逸多自称摩伽陀王”段",
+      "checked": "已打开并读贞观十五年使节段及其后李义表回访、献物叙述；据正文把候选643改为641。",
+      "limitation": "现存为五代编纂史书对唐代事件的叙述，不是641年国书原件；贡使的朝贡表述属于史书政治语言。 本轮核到传统纪年原文，未核完整西历年界；西历排序年不等于已核精确西历年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS6",
+      "title": "《大越史记全书》本纪卷二《李纪一》顺天元年条",
+      "url": "https://www.shidianguji.com/zh/book/7597351255165370377/chapter/1lpz7buqg312i",
+      "kind": "越南后世累修官史所存汉文诏令与纪事 · 数字化识读",
+      "locator": "本纪卷二，庚戌顺天元年；“帝以华闾城湫隘”迁都手诏及“秋七月”段",
+      "checked": "已打开并读卷二顺天元年迁都诏与秋七月迁都段；选择文字清楚的完整句。",
+      "limitation": "所据为15—17世纪累修史书的后世刊本文字，不是1010年诏书原件；网页OCR有噪声，未逐字复校原刻。黄龙显现为史书叙事，不据此验证超自然事件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS7",
+      "title": "《御成败式目》1894年《群书类从》底本转录",
+      "url": "https://ja.wikisource.org/wiki/御成敗式目",
+      "kind": "幕府法令后世印本逐文转录（附国立国会图书馆底本链接）",
+      "locator": "题记及第1、2条；底本塙保己一编《群书类从》第十五辑，经济杂志社，明治27年，NDL pid1879792，コマ6起",
+      "checked": "已打开并读题记、第1条修理神社祭祀、第2条修造寺塔；页面明确给出1894底本与NDL逐页链接。",
+      "limitation": "是1232年法令的1894后世印本现代转录，页面转录完成度标为50%，本轮未对底本影像逐页复校；因此不声称原稿签章或整部已校定。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS8",
+      "title": "周达观《真腊风土记·总叙》",
+      "url": "https://zh.wikisource.org/wiki/真臘風土記",
+      "kind": "元代旅行记后世传本的现代全文转录",
+      "locator": "正文《总叙》“元贞之乙未六月”至“大德丁酉六月回舟”段；《城郭》段",
+      "checked": "已打开并读正文总叙的乙未、丙申、丁酉连续纪年；没有把前置清代提要当成作者原文。",
+      "limitation": "属于元朝男性使团成员的观察与帝国政治措辞；现读为后世传本转录，不是1296年原始笔记。正文的“遂得臣服”是作者表述，不独立证明当地接受元朝有效统治。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS9",
+      "title": "《世宗实录》卷113《训民正音成》条",
+      "url": "https://sillok.history.go.kr/id/kda_12809029_004",
+      "kind": "国史编纂委员会 · 后修实录传本汉文转录与韩译",
+      "locator": "kda_12809029_004；卷113，世宗28年9月29日甲午第4条；太白山史库本36册113卷36叶B，国编影印本4册702页",
+      "checked": "已打开并读汉文“是月，训民正音成”、御制及郑麟趾序；核对原文二十八字而非今日字母数。",
+      "limitation": "《世宗实录》为君主身后修纂，数据库是传本转录；本轮未逐叶对校实录原刊或1446《解例本》。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS10",
+      "title": "《巴布尔回忆录》Annette S. Beveridge英译本",
+      "url": "https://www.gutenberg.org/files/44608/44608-0.txt",
+      "kind": "第一人称回忆录 · 1922年英译印本的逐字数字转录",
+      "locator": "932 AH年记；(t)至(w)帕尼帕特段，尤其(w) Battle of Pānī-pat；边注原稿叶264b—267",
+      "checked": "已打开并读正文抵帕尼帕特、车辆屏障布阵、Rajab8日及半日交战段；题页载First Printed1922，译自Turki text。",
+      "limitation": "原作者16世纪记事，现读为1922英译本及现代转录，未对读察合台文手稿；不同西历换算有差，本轮不作日级定年。战果和人数属于胜方自述。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS11",
+      "title": "1635年致长崎奉行禁令选录",
+      "url": "https://afe.easia.columbia.edu/ps/japan/tokugawa_edicts_foreigners.pdf",
+      "kind": "哥伦比亚大学授权刊载的原文献英译节选",
+      "locator": "PDF第1—2页，选录第1—4款；David J. Lu编Japan:A Documentary History(1997)，第221—222页",
+      "checked": "已打开两页PDF并读选录条款1—4；所读为大学据1997文献集授权转载的英文译文。",
+      "limitation": "未核日文签署原件，英文标题与节选由近现代编者编排；不是1635年印制的英语文本。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS12",
+      "title": "《正祖实录》卷2建奎章阁条",
+      "url": "https://sillok.history.go.kr/id/kva_10009025_002",
+      "kind": "国史编纂委员会 · 后修实录传本汉文转录与韩译",
+      "locator": "kva_10009025_002；卷2，即位年9月25日癸巳第2条；太白山史库本2册2卷41叶A，国编影印本44册629页",
+      "checked": "已打开并读汉文首句、奉藏御制、设官论议及“三月经始，至是工告完”段。",
+      "limitation": "实录为身后编纂记录，数据库转录并非1776年营建现场簿；阁名与旧有同名小阁的历史不可混同。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS13",
+      "title": "《大日本帝国宪法》伊东巳代治英译",
+      "url": "https://www.ndl.go.jp/constitution/e/etc/c02.html",
+      "kind": "日本国立国会图书馆 · 历史宪法全文英译",
+      "locator": "颁布敕语、署年及第4、5、29、33条；日期亦核World and Japan文献库18890211.O1E.html",
+      "checked": "已打开并读国会图书馆全文和GRIPS／东京大学文献库的1889署年、1906译本来源说明及第4、5条。",
+      "limitation": "条文是1889文本的历史英译；国会图书馆网页不是原署名卷影像。颁布与后来施行时间分开，不用近现代英译出版年替换事件年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS14",
+      "title": "《越南民主共和国独立宣言》全文官方转载",
+      "url": "https://caa.gov.vn/hoat-dong-nganh/tuyen-ngon-doc-lap-02-9-1945-20250819142510145.htm",
+      "kind": "越南民航局官网 · 1945原文献全文转载（2025刊）",
+      "locator": "TOÀN VĂN BẢN TUYÊN NGÔN ĐỘC LẬP；开头引述权利宣言段、临时政府断绝关系段、结尾宣告段",
+      "checked": "已打开并读越文全文，核对该页注明胡志明于1945-09-02在河内巴亭广场宣读；正文末段明确自由与独立。",
+      "limitation": "是2025年官方逐文转载，不是1945年报纸原版或录音；宣言中的历史断言与政治诉求归属于宣言作者，未全部独立核证。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS15",
+      "title": "《日本国宪法》全文",
+      "url": "https://www.shugiin.go.jp/internet/itdb_kenpou.nsf/html/kenpou/en/constitution.htm",
+      "kind": "日本众议院宪法审查会 · 官方全文英译",
+      "locator": "页首公布日期；序言；第9条、第100条",
+      "checked": "已打开并读公布日期、序言主权句、第9条及第100条六个月后施行规则。",
+      "limitation": "是官方现代网页全文英译，非1946官报影像；本条只说明公布时文本，不讨论后来解释、修宪争议或现实军备。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS16",
+      "title": "Indian Independence Act1947原颁法令",
+      "url": "https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/pdfs/ukpga_19470030_en.pdf",
+      "kind": "英国官方历史法令原版扫描",
+      "locator": "10&11Geo.6,c.30；PDF第1页第1、2条；PDF第4页第6条",
+      "checked": "已打开19页官方PDF并读首页御准日、第1条设立自治领日期、第2条疆域安排及第6条立法权。",
+      "limitation": "是英国立法文本，不能代表全部印度政治力量的自述；未据此重画分治边界，也未核所有地方交接与难民经历。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS17",
+      "title": "中英关于香港问题的联合声明全文",
+      "url": "https://www.cmab.gov.hk/en/issues/jd2.htm",
+      "kind": "香港特区政府政制及内地事务局 · 官方条约全文",
+      "locator": "联合声明第1、2、4、5、8款及北京署年",
+      "checked": "已打开并读全文，核对北京1984-12-19落款、第1、2款1997日期和第8款批准生效条件。",
+      "limitation": "仅核条约文本，不就后来的解释争议与履行作结论；网页为官方转录，非现场签署原件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS18",
+      "title": "1991年《老挝人民民主共和国宪法》英文译文",
+      "url": "https://www.icj.org/wp-content/uploads/2013/07/Laos-Constitution-1991-eng.pdf",
+      "kind": "国际法律家委员会存档 · 1991原版宪法英译",
+      "locator": "12页PDF题页及第1—4条；序言另追述1975建国",
+      "checked": "已打开并读题页1991年8月13—15日万象会议说明及第1—4条；没有采用另一份含2003修订的FAO文件。",
+      "limitation": "英文译文并非老文签署原件，译者与认证地位未在本PDF中交代；网站上传日期2013不是文本制定年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS19",
+      "title": "Agreement on a comprehensive political settlement of the Cambodia conflict",
+      "url": "https://treaties.un.org/doc/publication/unts/volume%201663/v1663.pdf",
+      "kind": "联合国条约汇编 · 1991多语协定公布本",
+      "locator": "UNTS卷1663,I-28613；英文本第56—59页，序言、第1—4条；附件4第7项（第90页）",
+      "checked": "已打开578页条约汇编并读英文本第56—59页、第90页附件4第7项及最终文件落款；序言明确列所填地区的参与国。",
+      "limitation": "是联合国后来公布的条约文本，不是1991年现场签章原件；条约框架不证明战争、遣返和制度建设在签署日全部完成。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AS20",
+      "title": "South-North Joint Declaration（2000年6月15日）",
+      "url": "https://english.mofe.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=1692",
+      "kind": "韩国政府官网保存的同期宣言全文英译",
+      "locator": "文书序言、第1—5项及末尾签署栏；政府转载页发布于2000-06-17",
+      "checked": "已打开并读全文及签署栏，核对峰会地点平壤、6月13—15日会谈、6月15日签署，不把网页发布日期当签署日。",
+      "limitation": "所读为韩国政府所载英语版本，不是韩文签章原件；共同声明中的计划不等于已经履行。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES1",
+      "title": "奥古斯都《功业录》第8节：三次公民清查",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/2*.html",
+      "kind": "原始铭文的学术校勘本逐字转录 · 拉丁文、古希腊译文与1924年英译并列",
+      "locator": "Loeb Classical Library 1924，Res Gestae §8，印本第357—359页；注37将第三次清查对应为AD14",
+      "checked": "已打开拉丁、希腊及英译对照，逐段核读§8及注37；另读传本说明确认安卡拉神庙传本。",
+      "limitation": "原罗马铜柱已佚，使用安卡拉等铭刻传本的校勘本；英文为Frederick W. Shipley现代翻译。公民登记的年龄、性别范围存在史学讨论，本轮不擅定为成年男性，也不据此估算帝国总人口。",
+      "humanReviewed": false,
+      "witnessUrl": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/home.html",
+      "witnessLabel": "三语版本、神庙分栏与校勘说明"
+    },
+    {
+      "id": "ES2",
+      "title": "1215年大宪章拉丁文与英译",
+      "url": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215/!all",
+      "kind": "大学合作研究项目 · 中世纪原始宪章校勘文本及逐条英译",
+      "locator": "序言、第39、40条及Suffix B落款；项目说明采用William Stubbs晚19世纪校本",
+      "checked": "已打开全条文并核读序言、39—40条的拉丁文及英译；另读传本和1215年说明。",
+      "limitation": "原宪章连续书写，条号为后世编辑工具；1215、1225和1297版本须区分，不能把free man自动解释为现代普遍平等权。原署儒略历日未换算为格里高利历。",
+      "humanReviewed": false,
+      "witnessUrl": "https://magnacarta.cmp.uea.ac.uk/read/magna_carta_1215",
+      "witnessLabel": "校本、四份存世原件与日期说明"
+    },
+    {
+      "id": "ES3",
+      "title": "查理四世1356年金玺诏书（纽伦堡部分）",
+      "url": "https://avalon.law.yale.edu/medieval/golden.asp",
+      "kind": "大学法学院文献库 · 中世纪原始法文书的历史英译转录",
+      "locator": "诏书前言及第II章第1—4款；网页标示Altmann u. Bernheim第39页",
+      "checked": "已打开全文并精读皇帝/波希米亚国王身份、纽伦堡落款和第II章选举条款。",
+      "limitation": "使用英译而非原始拉丁诏书影像；不同城市存有不同时期制作的正式文本。本条只引用读到的纽伦堡部分，不把整部文书视作同一日完成。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.stadtgeschichte-ffm.de/en/city-history/digital-presentations/die-goldene-bulle",
+      "witnessLabel": "法兰克福城市档案馆：正式文本传承说明"
+    },
+    {
+      "id": "ES4",
+      "title": "马丁·路德《九十五条论题》",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/martin-luther-ninety-five-theses-october-31-1517",
+      "kind": "德国历史研究所文献项目 · 拉丁原作的1915年英译逐字转录",
+      "locator": "导言及第36、43、62条；Works of Martin Luther，Philadelphia 1915，卷1第29—38页",
+      "checked": "已打开并精读原文序言、36、43、62条及译本出处。",
+      "limitation": "英文来自现代翻译；机构导读明确钉门说有争议。本条只记录论题文字与提出辩论的主张，不断言1517年10月31日在教堂门上钉文的现场。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.loc.gov/resource/gdcwdl.wdl_07497/",
+      "witnessLabel": "美国国会图书馆：1517年论题印本著录与影像入口"
+    },
+    {
+      "id": "ES5",
+      "title": "南特敕令：1599年王家印本的数字校勘转录",
+      "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001-0063",
+      "kind": "大学图书馆数字原始文献版 · 法文王家印本逐行转录，附法国国家图书馆影印链接",
+      "locator": "1599巴黎王家印本；第VI条f.8v—9r，第XIII条；f.54r为1598年4月南特落款，f.55为1599年2月巴黎登记",
+      "checked": "已打开数字版，精读第VI、XIII条、卷首Henri王衔、f.54r落款与1599年登记文字。",
+      "limitation": "所见传本是1599年刊印、登记文本，不能混作1598年手签原件；编辑版同时显示长s及字形现代化层，所引短摘采用字形现代化层，保留古法语拼写。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES6",
+      "title": "1648年明斯特和约（皇帝与法国及盟友）",
+      "url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+      "kind": "大学法学院原始条约文献库 · 历史英译转录",
+      "locator": "序言、第I、LXIV、LXV条及明斯特落款",
+      "checked": "已打开并读序言的代表、君主及奥地利大公称号，第I、LXIV—LXV条与落款。",
+      "limitation": "网页未充分交代这份古式英译的底本细节；所读是皇帝与法国的明斯特条约，不能代替全部威斯特伐利亚和平文件或原始拉丁文校勘。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES7",
+      "title": "1689年英格兰权利法案",
+      "url": "https://avalon.law.yale.edu/17th_century/england.asp",
+      "kind": "大学法学院文献库 · 英文原始法令逐字转录",
+      "locator": "An Act Declaring the Rights and Liberties of the Subject and Settling the Succession of the Crown；权利宣告与王位继承段",
+      "checked": "已打开并精读议会同意、征税、议会言论及William/Mary王位段落。",
+      "limitation": "文中1688年1—2月使用old style；网站标题以1689表示该法案。本条只标年，不把旧式月日直接写成格里高利日期；宗教与王位资格限制不能省略后概括为普遍平等。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.loc.gov/exhibits/magna-carta-muse-and-mentor/interpreting-the-rule-of-law.html",
+      "witnessLabel": "美国国会图书馆：1689年印本著录"
+    },
+    {
+      "id": "ES8",
+      "title": "1789年人权与公民权宣言",
+      "url": "https://www.elysee.fr/la-presidence/la-declaration-des-droits-de-l-homme-et-du-citoyen",
+      "kind": "法国总统府 · 原始宣言法文逐条转录，附机构史料说明",
+      "locator": "序言及第1、6、10、16条；机构导读记1789年8月20—26日逐条表决与10月5日王认可",
+      "checked": "已打开并逐条读第1、6、10、16条及导读中的通过/认可阶段；另核凡尔赛机构史料。",
+      "limitation": "本页为现代机构转录，不是1789年手写或最初印本；宣言中的规范性平等不证明全部居民当时即享有相同选举权或执行待遇。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/versailles-au-coeur-revolution-francaise",
+      "witnessLabel": "凡尔赛宫机构史料：1789年政治现场"
+    },
+    {
+      "id": "ES9",
+      "title": "1839年御园敕令（Gülhane Edict）英译选录",
+      "url": "https://idreader.cas.bg/files/ID-Reader-vol1-Late-Enlighten.pdf",
+      "kind": "研究机构托管的CEU Press原始文献读本 · 2006年校订英译选段",
+      "locator": "Discourses of Collective Identity卷I，第332—339页；原始敕令正文第336—339页，重点第337—338页",
+      "checked": "已打开PDF并读正文第337—339页、原始年代/语言/译本说明第332页和宣读地说明第333页。",
+      "limitation": "英译由Ahmet Ersoy参照奥斯曼土耳其文本改订Hurewitz 1956译本，且有省略号；不是1839年敕令原件。条文承诺、作者解释与后来执行须分开；不采导读的宽泛世俗化结论作事实主张。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES10",
+      "title": "1876年奥斯曼宪法：同期英译的1908年印本",
+      "url": "https://en.wikisource.org/wiki/Ottoman_constitution_of_1876",
+      "kind": "同期原始外交译文的期刊印本逐页转录 · 附扫描",
+      "locator": "The American Journal of International Law 2(4), Supplement Official Documents, 1908，第367—387页；原件译文附于1876年12月26日美国国务院第113号电报/派遣文；第1—2、8、11、17—18条",
+      "checked": "已打开全文，核读版本声明、并列历法标题及第1—2、8、11、17—18条。",
+      "limitation": "译者不详，英译经法文版本而非直接译自奥斯曼土耳其文；所用为1876文本，不把1909修正回填其中。Wikisource转录不是外交签押原件。",
+      "humanReviewed": false,
+      "witnessUrl": "https://en.wikisource.org/wiki/File:Ottoman_constitution_of_1876.pdf",
+      "witnessLabel": "1908年期刊印本扫描及出处"
+    },
+    {
+      "id": "ES11",
+      "title": "1918年德意志奥地利政体法案（国家理事会提案）",
+      "url": "https://www.parlament.gv.at/dokument/PN/I-PN/8/imfname_639200.pdf",
+      "kind": "奥地利议会官方保存的原始法案影印 · 明确为提案而非最终公报",
+      "locator": "Provisorische Nationalversammlung, Beilage Nr.8, Vorlage des Staatsrates，PDF第1—3页；第1—2、9条",
+      "checked": "已打开三页原始影印并核读第1—2、9条，看到题首日期栏仅印1918、月日留空；另读议会官方史料说明1918年11月12日通过阶段。",
+      "limitation": "这是政府/国家理事会提案，不能冒充StGBl.5/1918正式颁布终稿；未逐字对校正式公报。原始日期栏留空，不据通行年表替它补日。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.parlament.gv.at/verstehen/historisches/1918-1945/ausrufung-republik/index.html",
+      "witnessLabel": "奥地利议会：1918年11月12日共和国宣布阶段说明"
+    },
+    {
+      "id": "ES12",
+      "title": "1919年魏玛宪法英译选段",
+      "url": "https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi:document-3937",
+      "kind": "德国历史研究所文献项目 · 原始宪法的学术英译选录",
+      "locator": "原文第1、22条、第181条及Schwarzburg 11 August 1919署名；英译据Louis L. Snyder编Documents of German History，1958，第385—392页",
+      "checked": "已打开并精读第1、22条、末署地点日期和Reich President EBERT。",
+      "limitation": "为带省略号的英译选段，非全部德国法律公报影像；签署、公布及生效日期不同，不能把8月11日直接写为全部制度已开始运行。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES13",
+      "title": "1923年洛桑和约",
+      "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-part-i_-political-clauses.en.mfa",
+      "kind": "土耳其外交部 · 原始条约英文机构转录",
+      "locator": "序言全权名单、第1、37—38条、第143条及末署；分卷页面保持同一条约",
+      "checked": "已打开序言、政治条款及末卷，精读伊斯梅特等全权、第1、38条及1923年7月24日洛桑落款。",
+      "limitation": "英语机构转录含个别拼写错误，不冒称签署法文原件；1923年1月30日希土人口交换公约是另一个文书，不与7月24日和约混为一件。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.mfa.gov.tr/lausanne-peace-treaty----preamble.en.mfa",
+      "parallelLabel": "序言与各方全权名单",
+      "witnessUrl": "https://www.mfa.gov.tr/lausanne-peace-treaty-part-v-miscellaneous-provisions-1_prisoners-of-war.en.mfa",
+      "witnessLabel": "第143条、落款及署名"
+    },
+    {
+      "id": "ES14",
+      "title": "1949年德意志联邦共和国基本法选段（1956修正另列）",
+      "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/ghdi:document-2858",
+      "kind": "德国历史研究所文献项目 · 1949原始基本法英译选段及单列修正",
+      "locator": "原文第1(1)、20条及Bonn am Rhein, May 23, 1949署名；1956修正置于独立标题下；转引Golay 1958文献集",
+      "checked": "已打开并读1949部分第1(1)、20条及波恩/Adenauer末署，确认1956修正单列，不向1949回填。",
+      "limitation": "仅为选段与英译；网页标题同时提到1956，必须区分段落层级。本条不引用1956修正后的兵役等条文，也不宣称1949基本法当时覆盖东德。",
+      "humanReviewed": false
+    },
+    {
+      "id": "ES15",
+      "title": "1950年舒曼宣言",
+      "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_en",
+      "kind": "欧盟官方 · 原始政府声明全文的机构英译转录",
+      "locator": "Full text中France/Germany、common High Authority和solidarity in production三段；发布日及身份见机构导言",
+      "checked": "已打开并读完整相关声明段落，另打开法国外交部会址史料，核对巴黎时钟厅发布地及舒曼当时职务。",
+      "limitation": "1950为法国政府的方案宣言，不是1951年巴黎条约已建立共同体的事实；“战争不可能”是声明表达的目标与预期，不是已验证的因果结论。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.diplomatie.gouv.fr/fr/le-ministere/lieux-emblematiques/le-quai-d-orsay",
+      "witnessLabel": "法国外交部：1950年5月9日时钟厅发布地点"
+    },
+    {
+      "id": "ES16",
+      "title": "1955年恢复独立民主奥地利国家条约",
+      "url": "https://ris.bka.gv.at/Dokumente/BgblPdf/1955_152_0/1955_152_0.pdf",
+      "kind": "奥地利政府法律系统 · 1955公报原印本及官方结构化条约转录",
+      "locator": "BGBl.152/1955，39.Stück，1955年7月30日，第725页起；公报题首记5月15日维也纳签署；第1、4条读官方结构化转录",
+      "checked": "已打开86页1955公报，核读题首签署日期/地点与颁布日期；正文第1、4条另在官方结构化全文中精读。",
+      "limitation": "公报正文部分为图像，工具OCR未覆盖全部；所引条文文字取官方结构化转录，其页面含1964及更晚法源附注，不把附注回填1955。本轮未逐字校读四语全部影像。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10000265",
+      "parallelLabel": "官方结构化条约全文（含后续法源附注）"
+    },
+    {
+      "id": "ES17",
+      "title": "1990年二加四最终解决条约（同期外交电报附全文）",
+      "url": "https://nsarchive.gwu.edu/media/16139/ocr",
+      "kind": "美国同期外交电报原始档案 · 大学国家安全档案馆公布并OCR转录；附条约全文",
+      "locator": "September 12 Two-Plus-Four Ministerial in Moscow: Detailed Account；电报第41段附条约；第1、7、9、10条及六方署名",
+      "checked": "已打开并精读电报第8、14段角色及第41段所附条约第1、7、9—10条和莫斯科9月12日署名；与GHDI所录美国国务院英译交叉核读。",
+      "limitation": "同期电报是条约文本见证而非签署正本；OCR有错字。本条仅引核读到的条款，官方签署语言另有英、德、法、俄四种；最终生效须与1990签署区分。",
+      "humanReviewed": false,
+      "parallelUrl": "https://germanhistorydocs.org/en/a-new-germany-1990-2023/two-plus-four-treaty-on-germany-september-12-1990.pdf",
+      "parallelLabel": "GHDI转录：BGBl.1990 II第1318—1324页及美国国务院英译",
+      "witnessUrl": "https://nsarchive.gwu.edu/document/16139-document-25",
+      "witnessLabel": "原档案影像与解密背景"
+    },
+    {
+      "id": "ES18",
+      "title": "1998年贝尔法斯特协议／多方谈判协议及英爱政府间协议",
+      "url": "https://cain.ulster.ac.uk/events/peace/docs/agreement.htm",
+      "kind": "阿尔斯特大学CAIN档案项目 · 原始协议全文逐条转录；英国政府Cm.3883原件影印并存",
+      "locator": "Constitutional Issues 1(i)—(vi)；British-Irish Agreement第1、4条、末署及Annex 2国籍资格定义",
+      "checked": "已打开并精读宪制问题、英爱政府间协议的生效段、贝尔法斯特10 April 1998末署及Tony Blair/Bertie Ahern署名。英国政府36页影印PDF已打开，但为图像，未依赖其OCR作逐字引文。",
+      "limitation": "两层协议及签署、全民投票、机构运行和政府间协议生效须区分；协议中people of Northern Ireland有附件资格定义，不可说所有现居者自动取得两国护照。",
+      "humanReviewed": false,
+      "witnessUrl": "https://assets.publishing.service.gov.uk/media/619500728fa8f5037d67b678/The_Belfast_Agreement_An_Agreement_Reached_at_the_Multi-Party_Talks_on_Northern_Ireland.pdf",
+      "witnessLabel": "英国政府Cm.3883，1998年4月原件影印"
+    },
+    {
+      "id": "RS1",
+      "title": "贵由致教皇书（1246）：Rachewiltz 英译的教学文献转录",
+      "url": "https://human.libretexts.org/Courses/Saint_Mary%27s_College_%28Notre_Dame_IN%29/Humanistic_Studies/The_Mongols%3A_Self-Perception_Letters_and_Rhetoric_and_Modern_Legacies/02%3A_Letters_and_Rhetoric_between_East_and_West_%281240s_CE%29",
+      "kind": "高校课程资料 · 有出处的原始书信英译转录",
+      "locator": "2: Letters and Rhetoric between East and West；2. Güyük Khan’s Letter to Pope Innocent IV；引自 Igor de Rachewiltz, Papal Envoys to the Great Khans (1971), pp. 213–214",
+      "checked": "已读书信英译全文、伊斯兰历署年及译文出处说明；页面注明原件为波斯文并有蒙古文印玺，藏梵蒂冈档案。",
+      "limitation": "网页明确将译文现代化；未逐字校波斯文原件。正文只核到伊斯兰历644年哲马迪后月末，采用1246年精度，未取网页图注的单日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS2",
+      "title": "Соборное Уложение 1649 года：引言",
+      "url": "https://nnov.hse.ru/ba/law/igpr/SUvvedenie",
+      "kind": "大学法学教学资料 · 有校本出处的法典转录",
+      "locator": "引言；总目录说明据《Российское законодательство X–XX вв.》第3卷，О. И. Чистяков 主编，1985年校核",
+      "checked": "已读阿列克谢·米哈伊洛维奇命令收集律例、委任编纂人员与议定法典的引言。",
+      "limitation": "使用大学刊布的校核转录，未校1649年印本或卷轴；未换算旧历具体日。",
+      "humanReviewed": false,
+      "parallelUrl": "https://nnov.hse.ru/ba/law/igpr/sobornoeulozgenie1649"
+    },
+    {
+      "id": "RS3",
+      "title": "Соборное Уложение 1649 года，第十一章：Суд о крестьянех",
+      "url": "https://nnov.hse.ru/ba/law/igpr/SUglavaXI",
+      "kind": "大学法学教学资料 · 有校本出处的法典转录",
+      "locator": "第十一章第1–3条；1985年校本转录",
+      "checked": "已读第1–3条对逃亡农民、登记簿和无追索时限的规定。",
+      "limitation": "法定追索条文不能直接证明地方执行；边疆用语不自动映射为今天的乌克兰。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS4",
+      "title": "Declaration of Independence: A Transcription",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "kind": "美国国家档案馆 · 原始文献转录",
+      "locator": "In Congress, July 4, 1776；首段、权利段、末段及签名栏",
+      "checked": "已读国家档案馆公布的宣言正文、署日、独立主张及签名名单。",
+      "limitation": "馆方说明转录反映羊皮纸本的拼写标点，依据Stone刻版；7月4日是宣言通过日，不能当作所有人在羊皮纸本上的签字日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS5",
+      "title": "Constitution of the United States: A Transcription（1787年原文）",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "kind": "美国国家档案馆 · 原始宪法转录",
+      "locator": "第一条第一节；第七条；Done in Convention 署日及签名栏",
+      "checked": "已读1787年宪法正文与署日，不以增补修正案替代原文。",
+      "limitation": "本条对应9月17日签署，草案批准、各州批准与政府运行另属阶段；原文保留当时的奴隶制妥协。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS6",
+      "title": "图库曼会议向最高执政官通报独立决定（1816年7月9日）",
+      "url": "https://www.chubuteduca.ar/wp-content/uploads/2020/09/pueblos-originarios-e-independencia.pdf",
+      "kind": "阿根廷丘布特省教育部出版物 · 原始公文转录",
+      "locator": "Sergio Esteban Caviglia 编《Pueblos originarios e independencia》；印刷页57–58，Escmo. Supremo Director del Estado 公文及署名",
+      "checked": "已读会议记录开头及其后完整独立通报公文；公文末署 Congreso en Tucumán, á 9 de Julio de 1816，并列主席、副主席、秘书。",
+      "limitation": "采用省教育部文献集的公文转录；记录对象是当日通报，未把7月19日后来加入的对一切外国统治措辞提前。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS7",
+      "title": "Proyecto de Constitución Provisoria para el Estado de Chile（1818）",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005251&idParte=",
+      "kind": "智利国会图书馆 LeyChile · 历史法文本",
+      "locator": "题首日期说明；第一编第一章第3条；第二编唯一章；第四编第一章第1条",
+      "checked": "已读题首8月10日公布、10月23日批准并宣誓的区分，以及权利、宗教和最高执政官条文。",
+      "limitation": "题名仍保留Proyecto；本记录选题首明确的10月23日批准宣誓阶段，未将8月公布稿视作同日已生效。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS8",
+      "title": "Декрет о мире（和平法令，1917）",
+      "url": "https://www.hist.msu.ru/ER/Etext/DEKRET/o_mire.htm",
+      "kind": "莫斯科国立大学历史系 · 官方文献集转录",
+      "locator": "Декреты Советской власти，第1卷，1957年，第12–16页；开头和平建议段、秘密外交段及篇末签名",
+      "checked": "已读法令全文；页首并列26 октября（8 ноября）1917，末署人民委员会主席 Владимир Ульянов-Ленин。",
+      "limitation": "正文是新政府的和平建议和政策宣示，不能据此断言战争已终结；公历日期依据该文本明列的换算。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS9",
+      "title": "Договор об образовании Союза Советских Социалистических Республик（1922）",
+      "url": "https://dogovor.sssr.su/",
+      "kind": "有出处的私人历史文献转录",
+      "locator": "条约前言、第1、21、23、26条及落款；网站说明签字据1923年1月1日《Известия》及后一期更正",
+      "checked": "已读1922年26条条约、29日代表会议签署与30日苏维埃第一次代表大会批准的版次说明。",
+      "limitation": "非官方网站，原始出处由网站标明；官方档案目录可交叉核对文献与日期，尚未逐字校原扫描。不得替换成1924年宪法文本。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS10",
+      "title": "Декларация и Договор об образовании СССР. 30 декабря 1922 г.",
+      "url": "https://statearchive.ru/468",
+      "kind": "俄罗斯联邦国家档案馆 · 原件目录及展览图",
+      "locator": "ГАРФ. Ф. Р-3316. Оп. 1. Д. 5. Л. 1–2",
+      "checked": "已读档案馆目录、1922年12月30日日期、印刷件与档号说明。",
+      "limitation": "图像存在但本轮未逐字读图；只用于条约文献身份、批准日期的交叉核对，不为私人转录的每一个字背书。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS11",
+      "title": "Civil Rights Act (1964)",
+      "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+      "kind": "美国国家档案馆 · 已批准法律原始文本转录",
+      "locator": "Approved July 2, 1964；Title II, Sec. 201(a)–(b)；Record Group 11, Enrolled Acts and Resolutions of Congress",
+      "checked": "已读批准日期及第二编第201节公共服务设施平等使用条文。",
+      "limitation": "本记录只论第二编的法定保障与所列设施范围，不把法律颁布等同于歧视在实践中消失。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS12",
+      "title": "Decreto Ley 3464：Aprueba nueva Constitución Política y la somete a plebiscito（原始版本）",
+      "url": "https://www.bcn.cl/leychile/navegar?idNorma=7129&idVersion=1980-08-11",
+      "kind": "智利国会图书馆 LeyChile · 1980年8月11日原始版本",
+      "locator": "DL 3464 题首、单一条；拟议宪法第4条、第十四、第十八及第二十一过渡条款",
+      "checked": "已读1980年原始版本，包含8月8日圣地亚哥署日、军政府批准并提交公投的导言及过渡权力条款。",
+      "limitation": "使用指定1980-08-11版本；8月8日法令批准、8月11日公布、公投与宪法后续生效分开，未将现行整合文本倒置为1980年原文。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS13",
+      "title": "Ley 23.040：Derógase por inconstitucional y declárase insanablemente nula la ley de facto Nº 22.924",
+      "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23040-28166/texto",
+      "kind": "阿根廷国家法规数据库 · 历史法律全文",
+      "locator": "1983年12月22日通过，Boletín Oficial 1983年12月29日第25331号第1页；第1–2条及末署",
+      "checked": "已读法律全文、第1条废除并宣告不可补救无效、第2条效果，以及通过、公布日期。",
+      "limitation": "本条是新国会处理军政府第22.924号法律的具体立法动作，不能单凭它概括整个民主化进程。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS14",
+      "title": "Discurso Balcones de La Moneda – 11 de Marzo de 1990",
+      "url": "https://fundacionaylwin.cl/ideas-y-discursos/",
+      "kind": "帕特里西奥·艾尔文基金会 · 当事人演说档案转录",
+      "locator": "Ideas y discursos；1990年3月11日拉莫内达宫阳台演说全文，Pueblo de Santiago 开头",
+      "checked": "已读完整演说：重返民主、自由、公正、团结、查明真相及不再有政治犯的表述。",
+      "limitation": "材料为基金会保存的总统演说转录，属于行动者自述；演说目标不能等同于其后全部实现。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS15",
+      "title": "乌克兰最高苏维埃1991年8月24日晚间会议逐字记录",
+      "url": "https://www.rada.gov.ua/meeting/stenogr/show/4595.html",
+      "kind": "乌克兰最高拉达 · 当日议事记录",
+      "locator": "Бюлетень № 2，Засідання друге（вечірнє），24 серпня 1991 року；印刷页27–28，最终决议与最终《独立宣告法》",
+      "checked": "已读最终宣读及表决；独立决议321票赞成，最终独立法346票赞成；与前段草稿逐字区分。",
+      "limitation": "页面前段第16–17页另有草案；本记录只引最终第27–28页。独立法即时生效、公民投票确认与国际承认是不同程序。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS16",
+      "title": "Закон от 25 августа 1991 г. № 1017-XII：赋予主权宣言宪法法律地位",
+      "url": "https://etalonline.by/document/?regnum=v19101017",
+      "kind": "白俄罗斯国家立法与法律信息中心 ETALON · 官方法律条目公开节录",
+      "locator": "1991年8月25日第1017-XII号法，第1项（公开可见部分）",
+      "checked": "已读法律日期和第1项授予主权宣言宪法法律地位的规定。",
+      "limitation": "公开页面只显示第1项，其后需登录；当前标题与正文使用后来更新的Республика Беларусь国名，不能将其作为8月25日当日原始国名证据。仅摘不涉及更新国名的连续短句。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS17",
+      "title": "Соглашение о создании Содружества Независимых Государств（1991年12月8日）",
+      "url": "https://eccis.org/document/1",
+      "kind": "独联体执行委员会 · 官方历史协议全文",
+      "locator": "前言，第1、5、11–14条；末署城市日期与三方签名栏",
+      "checked": "已读原协议14条与三方落款，页面后附1994年摩尔多瓦批准保留另行区分。",
+      "limitation": "本记录日期是三方签署日；不把签署、各国批准、12月21日议定书和苏联其他机关终结合为同一天。注册簿链接需JavaScript，本轮未读其动态状态细目。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS18",
+      "title": "叶利钦1991年12月24日致联合国秘书长信（欧洲人权法院判决所引全文）",
+      "url": "https://hudoc.echr.coe.int/app/conversion/docx/pdf?filename=CASE+OF+ILA%C5%9ECU+AND+OTHERS+v.+MOLDOVA+AND+RUSSIA.pdf&id=001-61886&library=ECHR",
+      "kind": "欧洲人权法院官方判决 · 原始外交信函的具名全文引录",
+      "locator": "CASE OF ILAŞCU AND OTHERS v. MOLDOVA AND RUSSIA, Grand Chamber, 8 July 2004；第291段，判决印刷页61（PDF第69页）",
+      "checked": "已读第291段所引信函全文及引介：苏联常驻代表尤里·沃龙佐夫于1991年12月24日递交叶利钦来信。",
+      "limitation": "实际阅读的是法院2004年引录的1991年英文信函，不是俄文亲署原件；仅证明该信提出的续席、名称与权利义务主张。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS19",
+      "title": "When did the Russian Federation become a member of the United Nations?",
+      "url": "https://ask.un.org/faq/378083",
+      "kind": "联合国达格·哈马舍尔德图书馆 · 档案出处说明",
+      "locator": "24 December 1991 letter；UN Archives, S-1024-0174-0001, Secretary-General Javier Pérez de Cuéllar, USSR file",
+      "checked": "已读图书馆对信函日期、档案号、原扫描位置与未作为正式联合国文件散发的说明。",
+      "limitation": "所链5页扫描本轮无可读OCR，未逐字校图；不得杜撰正式联合国文号，亦不单凭该信证明所有国家继承问题已经解决。",
+      "humanReviewed": false,
+      "parallelUrl": "https://ask.un.org/loader?fid=19456&key=90767ef0305af7e1f1b5c3434e26f797&type=1"
+    },
+    {
+      "id": "RS20",
+      "title": "The Declaration of Independence: A History",
+      "url": "https://www.archives.gov/founding-docs/declaration-history",
+      "kind": "美国国家档案馆 · 原件形成史及日期说明",
+      "locator": "1776年7月4日通过、8月2日羊皮纸本签署阶段的说明",
+      "checked": "已核馆方对宣言通过与羊皮纸签署阶段的区分。",
+      "limitation": "此为原件形成史辅助说明，主张正文仍引宣言原文。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS21",
+      "title": "Constitution of the United States (1787)",
+      "url": "https://www.archives.gov/milestone-documents/constitution",
+      "kind": "美国国家档案馆 · 签署本档案目录及说明",
+      "locator": "Signed Copy of the Constitution；Record Group 360；1787年9月17日与费城制宪会议说明",
+      "checked": "已核签署本身份、9月17日日期和费城制宪会议城市定位。",
+      "limitation": "目录说明辅助定位，宪法实体条文引自1787年原文转录。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RS22",
+      "title": "白俄罗斯最高苏维埃关于政治经济独立的1991年8月25日决议",
+      "url": "https://www.gorby.ru/userfiles/belorussia.pdf",
+      "kind": "戈尔巴乔夫基金会文献资料 · 原始决议转录",
+      "locator": "PDF第1页前半，Постановление об обеспечении политической и экономической самостоятельности Белорусской ССР，末署明斯克1991年8月25日",
+      "checked": "已读3页PDF；第1页前半决议保留Белорусская ССР当时国名，署舒什克维奇为第一副主席；后接宣言明确注明含1991年9月19日修改。",
+      "limitation": "只作同日当时国名及城市的辅助文书；后接经9月19日修改的宣言不当作7月27日或8月25日原始版本。",
+      "humanReviewed": false
+    },
+    {
+      "id": "CS1",
+      "title": "《圣谕广训万言谕》所收御序（识典古籍文字层）",
+      "url": "https://www.shidianguji.com/zh/book/NA03320/chapter/1m3nvfvitlhde",
+      "kind": "清代御制训谕传本的现代数字识读",
+      "locator": "首篇《圣谕广训序》正文及序末“雍正二年二月”署年；不含其后《疏稿》",
+      "checked": "已实际打开并逐段读序文及署年，核对十六条推衍、显明直朴、谨身节用三处；页面原叶图像请求返回403，因此没有宣称核过原叶日数字或初刻版本。另实际对读《福建通志（四库全书本）》卷首“圣谕广训序〈雍正二年〉”段，确认十六条推衍、显明直朴、谨身节用文字；未将同文传本视为独立作者见证。",
+      "limitation": "平台书名为《聖諭廣訓万言諭》，署清圣祖、世宗著；本轮未核其所据传本刊年、卷叶。文字层有OCR错字，原叶日数字未核，年号年不作日历换算。平行传文同为现代转录，其全览页提示可能调整；两个文字层的核读仍不能代替原叶校勘。",
+      "humanReviewed": false,
+      "parallelUrl": "https://zh.wikisource.org/zh-hans/福建通志_(四庫全書本)/全覽1",
+      "parallelLabel": "平行传文：《福建通志》卷首同篇御序（文字转录）"
+    },
+    {
+      "id": "CS2",
+      "title": "北大校史馆公布的《北京学界全体宣言》影印及校史中的散发日期",
+      "url": "https://news.pku.edu.cn/info/4031/745701.htm",
+      "kind": "机构公开的历史印刷件影印，辅以机构校史日期说明",
+      "locator": "2021-03-23《北大与建党｜信仰百年，初心如一！》“五四运动的三个北大宣言”第一幅；日期对照北京大学《五四前后的北京大学》1919年5月4日段",
+      "checked": "已打开北大展文并实际查看、读出第一幅宣言影印正文，核对原题、青岛山东措辞、工商各界与主权口号；同时打开并读北京大学校史的1919年5月4日游行、散发叙述。",
+      "limitation": "2021年网页为现代再现，原印刷件年代为1919年语境；网页未给本幅原藏号或初印报刊出处。影印未见署日，故记录只取1919年。校史正文将题名次序写作《北京全体学界宣言》，影印原题作《北京学界全体宣言》。",
+      "humanReviewed": false,
+      "parallelUrl": "https://www.pku.edu.cn/detail/905.html",
+      "parallelLabel": "日期及地点补证：北京大学官方校史"
     }
   ],
   "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。",
-  "selection": "本轮保持1852—1868年，按请求地区补入首批可定位材料，并保留原三组精读。每个地区有相关材料不等于覆盖其完整历史；半岛入口共享史料、帝国辖区及非缔约地区均另作说明。",
+  "selection": "时间框架为公元前10年至公元2000年。保留原1852—1868样本，分时代补入已核读原始材料；按地区、时段显示收录数，不将导航范围等同逐年逐国完备的全球通史。",
   "basemap": {
     "title": "Natural Earth 1:110m Land",
     "version": "v5.1.2仓库版本；陆地层",
@@ -1840,7 +6475,7 @@
     "license": "Public domain",
     "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
     "sha256": "74e32d31a1f9531a8531d9f5d7bf1b29c4ec94f87a006639e998e01be14f9156",
-    "note": "现代概化陆地轮廓只作地理参照；不显示国家疆界，不表示1852—1868年精确岸线。"
+    "note": "现代概化陆地轮廓只作地理参照；不显示国家疆界，不表示任一历史时期的精确岸线。"
   },
   "regions": [
     {
@@ -1854,10 +6489,13 @@
           "to": 1868
         }
       ],
-      "note": "地区入口不等于事件发生地；中美续增条约发生在华盛顿。",
+      "note": "检索入口不等于事件发生地；帝制时期与近现代国家的材料均按文本标明，后编史书与同时期文书分别说明。",
       "aliases": [
         "China",
         "清朝"
+      ],
+      "searchAliases": [
+        "China"
       ]
     },
     {
@@ -1876,11 +6514,14 @@
           "to": 1868
         }
       ],
-      "note": "1868年政权更替；交接年并列名称，具体参与者按文书分别标明。",
+      "note": "当时政权、文书形成及后世刊本分开；古代年级材料不虚构西历月日。",
       "aliases": [
         "Japan",
         "幕府",
         "明治"
+      ],
+      "searchAliases": [
+        "Japan"
       ]
     },
     {
@@ -1894,11 +6535,16 @@
           "to": 1868
         }
       ],
-      "note": "英国立法机关所在城市与印度公告颁示地分别定位。",
+      "note": "古代与中世纪记录按文书中的政治实体说明；现代英国入口不等于各时期都存在同名国家。",
       "aliases": [
         "United Kingdom",
         "Britain",
         "联合王国"
+      ],
+      "searchAliases": [
+        "United Kingdom",
+        "Britain",
+        "UK"
       ]
     },
     {
@@ -1917,11 +6563,14 @@
           "to": 1868
         }
       ],
-      "note": "1852年发生体制变更；外交条约、保护条约和法国旅行者记录分别标明性质。",
+      "note": "依每条文书区分王国、共和国、帝国及条约参与身份；不把制度文字直接当作实际执行。",
       "aliases": [
         "France",
         "法兰西",
         "第二帝国"
+      ],
+      "searchAliases": [
+        "France"
       ]
     },
     {
@@ -1940,12 +6589,15 @@
           "to": 1868
         }
       ],
-      "note": "本期不能当作已经统一的德意志帝国；1867宪法第79条仍另列南德加入问题。",
+      "note": "前近代德意志各政治体、帝国、共和国及分裂与统一阶段逐项说明，不能追溯为自古统一的国家。",
       "aliases": [
         "Germany",
         "德意志",
         "普鲁士",
         "北德意志"
+      ],
+      "searchAliases": [
+        "Germany"
       ]
     },
     {
@@ -1964,12 +6616,16 @@
           "to": 1868
         }
       ],
-      "note": "1856巴黎和约中的缔约方是奥地利帝国；1867年后再区分二元君主国的共同事务安排。",
+      "note": "本入口兼作奥地利/哈布斯堡相关材料检索；只有相应历史时期使用奥匈二元君主国名称，不把奥匈帝国套到全部年代。",
       "aliases": [
         "Austria-Hungary",
         "奥地利",
         "奥匈",
         "哈布斯堡"
+      ],
+      "searchAliases": [
+        "Austria",
+        "Hungary"
       ]
     },
     {
@@ -1983,11 +6639,15 @@
           "to": 1868
         }
       ],
-      "note": "现代地区名称用于检索；1856年条约参与方是奥斯曼帝国，不使用现代土耳其共和国名称。",
+      "note": "以现代地理名称检索；奥斯曼帝国及土耳其共和国等身份以每条文书为准。",
       "aliases": [
         "Turkey",
         "Ottoman",
         "奥斯曼"
+      ],
+      "searchAliases": [
+        "Turkey",
+        "Türkiye"
       ]
     },
     {
@@ -2001,11 +6661,15 @@
           "to": 1868
         }
       ],
-      "note": "本轮收录对外条约与1868公民权文书，不声称已经覆盖该国全部重大历史。",
+      "note": "早期美洲并不因缺少本批文献而没有历史；殖民地、独立宣言及合众国阶段分别说明。",
       "aliases": [
         "United States",
         "USA",
         "美利坚"
+      ],
+      "searchAliases": [
+        "United States",
+        "USA"
       ]
     },
     {
@@ -2024,11 +6688,14 @@
           "to": 1868
         }
       ],
-      "note": "1858年的立法、权力接管公告与实际施政分开；不把当时英属印度范围等同今日印度国界。",
+      "note": "现代印度是地理检索入口；古代政治体、殖民管治与独立后的宪制不得混成同一种主权状态。",
       "aliases": [
         "India",
         "英属印度",
         "东印度公司"
+      ],
+      "searchAliases": [
+        "India"
       ]
     },
     {
@@ -2047,12 +6714,15 @@
           "to": 1868
         }
       ],
-      "note": "1862条约割让的是列明省份与岛屿，不能把整个现代越南都画成同一种统治状态。",
+      "note": "现代越南入口包含不同历史政治体与殖民、分治阶段；原文所列辖区不自动等于今日国土。",
       "aliases": [
         "Vietnam",
         "安南",
         "阮朝",
         "交趾支那"
+      ],
+      "searchAliases": [
+        "Vietnam"
       ]
     },
     {
@@ -2066,10 +6736,13 @@
           "to": 1868
         }
       ],
-      "note": "民法典提出、批准、印行与施行分开记录。",
+      "note": "批准、公布、施行与政治权力实际移交分开记录；地区入口不预设古代已有同名国家。",
       "aliases": [
         "Chile",
         "智利共和国"
+      ],
+      "searchAliases": [
+        "Chile"
       ]
     },
     {
@@ -2083,10 +6756,13 @@
           "to": 1868
         }
       ],
-      "note": "本轮对读1853原版宪法；不使用后来的修订条号，也不把宪法中的首都条款当作实际控制的证明。",
+      "note": "独立宣言、宪法通过、公布及后续修订区分；按历史版条号对读。",
       "aliases": [
         "Argentina",
         "阿根廷邦联"
+      ],
+      "searchAliases": [
+        "Argentina"
       ]
     },
     {
@@ -2105,11 +6781,14 @@
           "to": 1868
         }
       ],
-      "note": "1863保护条约的签署与法国批准分开；不倒填1884公约条款。",
+      "note": "王国、保护关系及近现代安排按文献阶段说明；不将一份条约倒填到其他时期。",
       "aliases": [
         "Cambodia",
         "高棉",
         "柬王"
+      ],
+      "searchAliases": [
+        "Cambodia"
       ]
     },
     {
@@ -2123,11 +6802,14 @@
           "to": 1868
         }
       ],
-      "note": "不是统一的现代老挝国家。本轮旅行记录属于法国作者视角，不能代表当地自述或整个老挝地区。",
+      "note": "地方王国、殖民关系与现代国家按记录分别说明；旅行者视角不代表当地全体自述。",
       "aliases": [
         "Laos",
         "琅勃拉邦",
         "寮国"
+      ],
+      "searchAliases": [
+        "Laos"
       ]
     },
     {
@@ -2141,11 +6823,14 @@
           "to": 1868
         }
       ],
-      "note": "1852—1868年尚无现代韩国国家。与“朝鲜”入口共用同一组王朝材料，不把同一事件重复造为两国事件。",
+      "note": "1948年前的半岛史料可与朝鲜入口共享，不为同一事件制造两份记录；之后的国家身份依文书说明。",
       "aliases": [
         "South Korea",
         "半岛南部",
         "南韩"
+      ],
+      "searchAliases": [
+        "South Korea"
       ]
     },
     {
@@ -2159,11 +6844,14 @@
           "to": 1868
         }
       ],
-      "note": "1852—1868年尚无现代朝鲜民主主义人民共和国。与“韩国”入口共用史料；“朝祥”按“朝鲜”处理。",
+      "note": "早期半岛史料可与韩国入口共享；朝祥按朝鲜识别，现代国家与朝鲜王朝不可混同。",
       "aliases": [
         "North Korea",
         "半岛北部",
         "朝祥"
+      ],
+      "searchAliases": [
+        "North Korea"
       ]
     },
     {
@@ -2177,11 +6865,14 @@
           "to": 1868
         }
       ],
-      "note": "蒙古是条文涉及的地区，不是1860中俄条约的独立缔约方；设领权不等于已经开馆。",
+      "note": "蒙古帝国、清代蒙古地区与现代国家逐项说明；涉及地区、文书地点和独立缔约资格分别标注。",
       "aliases": [
         "Mongolia",
         "库伦",
         "Urga"
+      ],
+      "searchAliases": [
+        "Mongolia"
       ]
     },
     {
@@ -2195,7 +6886,7 @@
           "to": 1868
         }
       ],
-      "note": "本期只收俄罗斯帝国材料；苏联、俄罗斯联邦属于后续年代批次。",
+      "note": "按记录区分早期政治体、俄罗斯帝国、苏联与俄罗斯联邦；苏联材料不倒填到沙俄记录。",
       "aliases": [
         "Russia",
         "俄国",
@@ -2203,11 +6894,13 @@
         "沙皇俄国"
       ],
       "selectionAliases": [
-        "沙皇俄国/苏联/俄罗斯"
-      ],
-      "futureNames": [
+        "沙皇俄国/苏联/俄罗斯",
         "苏联",
+        "USSR",
         "俄罗斯联邦"
+      ],
+      "searchAliases": [
+        "Russia"
       ]
     },
     {
@@ -2221,11 +6914,14 @@
           "to": 1868
         }
       ],
-      "note": "收录依据是法令明确列出的明斯克、莫吉廖夫等省份；不假设当时已有同名独立国家，也不代表全部今日国土。",
+      "note": "本入口是地理检索，不预设古代已有独立白俄罗斯国家；帝国省份、苏维埃及独立阶段按原文说明。",
       "aliases": [
         "Belarus",
         "明斯克",
         "莫吉廖夫"
+      ],
+      "searchAliases": [
+        "Belarus"
       ]
     },
     {
@@ -2239,14 +6935,168 @@
           "to": 1868
         }
       ],
-      "note": "本轮依据基辅、波多利亚、沃里尼亚等省份条例；只代表文本所指辖区，不覆盖全部今日乌克兰地区。",
+      "note": "本入口不把古代政治体直接等同现代国家；帝国辖省、苏维埃与独立文书按证据分别说明。",
       "aliases": [
         "Ukraine",
         "基辅",
         "波多利亚",
         "沃里尼亚"
+      ],
+      "searchAliases": [
+        "Ukraine"
       ]
     }
   ],
-  "scopeNote": "本批为1852—1868年；苏联、现代两韩、俄罗斯联邦等后续阶段尚未纳入时间轴。"
+  "scopeNote": "本批为分时代史料选编。美洲古代、欧亚早期及各地区部分时代仍有明显空白；缺记录表示尚未收录，不表示没有历史。",
+  "eras": [
+    {
+      "id": "ancient",
+      "label": "古代",
+      "caption": "前10年—500年",
+      "from": -10,
+      "to": 500
+    },
+    {
+      "id": "medieval-early",
+      "label": "中世纪前期",
+      "caption": "501—1000年",
+      "from": 501,
+      "to": 1000
+    },
+    {
+      "id": "medieval-late",
+      "label": "中世纪后期",
+      "caption": "1001—1500年",
+      "from": 1001,
+      "to": 1500
+    },
+    {
+      "id": "early-modern",
+      "label": "1501—1800",
+      "caption": "近世文献",
+      "from": 1501,
+      "to": 1800
+    },
+    {
+      "id": "modern",
+      "label": "1801—1913",
+      "caption": "19世纪与20世纪初",
+      "from": 1801,
+      "to": 1913
+    },
+    {
+      "id": "world-wars",
+      "label": "1914—1945",
+      "caption": "世界大战时期",
+      "from": 1914,
+      "to": 1945
+    },
+    {
+      "id": "contemporary",
+      "label": "1946—2000",
+      "caption": "战后至世纪末",
+      "from": 1946,
+      "to": 2000
+    }
+  ],
+  "coverage": {
+    "complete": false,
+    "note": "时间导航覆盖2010个历史年份；已收材料不等于逐年逐地区完备的历史。",
+    "gaps": [
+      {
+        "label": "868年王玠《金刚经》印本题记",
+        "reason": "大英图书馆IDP馆藏Or.8210/P.2页面已打开，868年代与敦煌发现地可核；题记原图／完整逐字文字本轮未读到。牛津Cabinet页面502，不能把检索摘要里的日级换算当成已读原文。",
+        "urls": [
+          "https://idp.bl.uk/collection/51FDAEAFB4A24E2E9981692A98130BC8/",
+          "https://www.cabinet.ox.ac.uk/worlds-earliest-dated-printed-book-diamond-sutra-868-ce"
+        ]
+      },
+      {
+        "label": "1186年Ta Prohm碑K.273",
+        "reason": "仅找到后人讨论与版次线索，未打开并对读Cœdès1906碑文及译文，未补造原文、人数或条款。",
+        "urls": []
+      },
+      {
+        "label": "1953年法老友好联系条约",
+        "reason": "联合国A/CN.4/730第19页第54段载第1条英译，但脚注65明确秘书处不掌握正式作准文本和生效状态。本批收束数量，不用该摘录冒充已核完整原约。",
+        "urls": [
+          "https://documents.un.org/api/symbol/access?l=en&s=A%2FCN.4%2F730&t=pdf"
+        ]
+      },
+      {
+        "label": "1949年印度宪法原官报",
+        "reason": "官方eGazette1949PDF连续读取超时；用已打开的1947印度独立法原版扫描替代。",
+        "urls": [
+          "https://egazette.gov.in/WriteReadData/1949/E-2358-1949-0000-109779.pdf"
+        ]
+      },
+      {
+        "label": "老挝1800年以前的在地原始文献",
+        "reason": "本批没有取得可核篇章、原纪年及版本的早期老文／碑刻材料；未用后世建国传说补造精确事件。",
+        "urls": []
+      },
+      {
+        "label": "1918年奥地利政体法正式公报终稿",
+        "reason": "RIS旧公报终稿检索未取得可读正文；本轮EX11明确以国家理事会原始提案为记录主体，月日栏留空，只用1918年。正式通过日期可由议会官方说明另证，不据此篡改提案。",
+        "urls": []
+      },
+      {
+        "label": "罗马公民清查性别与年龄纳入范围",
+        "reason": "原始§8提供civium Romanorum登记数；本轮未完成现代人口史争论复核，故不写成成年男性总数、帝国总人口或安卡拉人口。",
+        "urls": []
+      },
+      {
+        "label": "1955奥地利条约四语全部影像校对",
+        "reason": "已打开原公报且核读题首日期地点；条款字句以RIS官方结构化转录核对，未声称逐字校读86页全部四语影像。",
+        "urls": []
+      },
+      {
+        "label": "中古与早期近代欧历日转换",
+        "reason": "1215、1356、1517、1598、1648、1689及1839仅取年；1876印本保留多历并列而不强行统一日。",
+        "urls": []
+      },
+      {
+        "label": "美国、智利、阿根廷 · 公元前10年至欧洲接触前",
+        "reason": "本轮未取得可逐字核读、可精确定位年代的当地古代原始材料；不以现代国家名称填充古代文明，也不将考古文化简介伪装成当时文献。",
+        "urls": []
+      },
+      {
+        "label": "白俄罗斯、乌克兰 · 古代至中世纪",
+        "reason": "本轮未完成有可靠版本传承的古罗斯原始文本核读；俄罗斯法典未因泛俄语境而自动扩展到这两个现代地区。",
+        "urls": []
+      },
+      {
+        "label": "蒙古 · 1924年宪法",
+        "reason": "官方议会页面可核元数据并有传统蒙古文图像，但未完成原图逐字核读；私人西里尔转录虽指向官方旧链接，官方链接本轮不可读，故不新增记录。",
+        "urls": [
+          "https://old.parliament.mn/nn/13466/",
+          "https://legalinfo.mn/api/front/cons-detail-1924.html"
+        ]
+      },
+      {
+        "label": "蒙古 · 1992年宪法",
+        "reason": "已读WIPO英文文本的版本页标明2001年版本；未核1992原始版，不以含后改文本充当1992原文。官方原始版本链接本轮403。",
+        "urls": [
+          "https://www.wipo.int/wipolex/en/legislation/details/3039",
+          "https://www.wipo.int/wipolex/en/text/496825",
+          "https://legalinfo.mn/mn/detail?lawId=16960303421141"
+        ]
+      },
+      {
+        "label": "俄罗斯、白俄罗斯、乌克兰 · 1991年国家继承",
+        "reason": "已拆为乌克兰独立法、白俄罗斯宪法法律地位、独联体签署和俄罗斯联合国续席信四条；各国批准、12月21日议定书、苏联机关终结、债务和资产分配仍须分别增补，不能用单条资料概括全部解体与继承。",
+        "urls": []
+      },
+      {
+        "label": "补充中国材料的版本核验",
+        "reason": "CS1底本刊年与原叶图像未闭环；文字层署日“初日”未作日数字采用，精度保留regnal_year/null。",
+        "urls": []
+      },
+      {
+        "label": "补充中国材料的版本核验",
+        "reason": "CS2原藏号、影印对应的初印或报载版本未核；影印无可见署日，仅采用1919年。",
+        "urls": []
+      }
+    ]
+  }
 }
