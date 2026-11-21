@@ -9813,6 +9813,494 @@
       ],
       "locationStatus": "unlocated",
       "locationNote": "只确认任命与其后驻地的叙述，具体受任地点未记；仍可在列表与中国对读中阅读，不生成任意坐标。"
+    },
+    {
+      "id": "AV1",
+      "caseId": null,
+      "title": "Vat Phu碑追记877Śaka年Vāp Śaṅkarātmā购地设村",
+      "regions": [
+        "老挝"
+      ],
+      "placeId": "ay-vatphou",
+      "placeLabel": "Vat Phu（碑来源地区参照）",
+      "placeRole": "数字版题为Stela from Vat Phu；既有文化景观点只参照碑来源区域，不表示877Śaka购地村落边界或原刻碑点",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 955,
+        "display": "约955年 · 877 Śaka",
+        "original": "b2及b14明记877 śaka；955仅为纪元对照起年的排序值，未核完整西历年界，保留原纪年，西历日期待核。该碑标题所据最晚纪年928Śaka及十一世纪书体属于传本年代；本条是碑对较早购地的追记，不称955年同期契券或955年刻碑。",
+        "sourceIds": [
+          "AP1"
+        ]
+      },
+      "summary": "Vat Phu出土碑的b面两段追记877Śaka年的土地购买，具名Vāp Śaṅkarātmā，并说明设村和供给舂米等义务。",
+      "people": [
+        {
+          "name": "Vāp Śaṅkarātmā",
+          "role": "b2—8与b14—17所记购地参与者；Vāp保留原称，b14名字后半是校勘补读，可由b3完整名字相互参照"
+        }
+      ],
+      "claims": [
+        {
+          "text": "b2—8和b14—17均明署877Śaka并叙购地；后段把交易与建立Vrai Trapek村、设定舂米供给联系起来。缺失的数量不补成确定值。",
+          "sourceId": "AP1",
+          "locator": "K720 b2—8、b14—17原文及对应Cœdès法译",
+          "url": "https://dharmalekha.info/texts/INSCIK00720"
+        },
+        {
+          "text": "同碑c20另有928Śaka纪年，现代编者将字形归为十一世纪；因此877Śaka指被追述的交易时间，不能据它给整个现存刻石定年。",
+          "sourceId": "AP1",
+          "locator": "标题、Palaeographic description及c20—27",
+          "url": "https://dharmalekha.info/texts/INSCIK00720"
+        }
+      ],
+      "quote": {
+        "text": "877 śaka nu vāp· śa[ṅkarātmā]",
+        "translation": "Śaka877年，Vāp Śaṅkarātmā……；方括号为编者补读，非完整刻存字。此短句是现代罗马字释读。",
+        "sourceId": "AP1",
+        "locator": "b14，连读b3姓名及b15—17交易叙述",
+        "url": "https://dharmalekha.info/texts/INSCIK00720",
+        "kind": "primary_text"
+      },
+      "limitation": "古高棉文碑多处残缺，记录的是较早财产安排的后刻追述，不是保存完好的原始买卖契。碑来源处在今老挝，仅作地区检索，不称当时已有老挝国家；不把供给义务当实际已交付数量。现有AY19的401—600断代范围完全保留。",
+      "aliases": [
+        "K720",
+        "Vat Phu",
+        "877 Śaka",
+        "Vāp Śaṅkarātmā",
+        "Vrai Trapek",
+        "土地与供养"
+      ],
+      "polities": [
+        "K720所记地方土地关系（不据本段强定王国归属）"
+      ]
+    },
+    {
+      "id": "AV2",
+      "caseId": null,
+      "title": "罗德越—葡—拉字典原刊题页署罗马1651年",
+      "regions": [
+        "越南"
+      ],
+      "placeId": "av-rome",
+      "placeLabel": "罗马（原题页明署刊印城市）",
+      "placeRole": "1651年文献的刊印城市参照，不是词汇采录地点、越南境内活动点或现代收藏地点",
+      "date": {
+        "value": "1651",
+        "precision": "year",
+        "sortYear": 1651,
+        "display": "1651年 · 原刊题页",
+        "original": "原题页底署ROMÆ及1651，记传信部印刷和经费；仅采用原刊年，不称1651是开始采词、完成全部初稿或越南语罗马字书写发明年。",
+        "sourceIds": [
+          "AP2"
+        ]
+      },
+      "summary": "原刊题页具名Alexandre de Rhodes，署罗马1651年；首叶将Tunkinense词目配以葡萄牙语、拉丁语释义，呈现传教出版中的多语知识整理。",
+      "people": [
+        {
+          "name": "Alexandre de Rhodes（罗德）",
+          "role": "原题页以editum ab具名的编刊者，题页同时称其为耶稣会成员及宗座传教士；不据此称唯一语言创造者或具体排字印工"
+        }
+      ],
+      "claims": [
+        {
+          "text": "题页署罗马、1651年，并以“IN LVCEM EDITVM AB ALEXANDRO DE RHODES”具名，底署传信部的印刷与经费安排；这是出版信息，不是词汇采录日记。",
+          "sourceId": "AP2",
+          "locator": "PDF第3页所载未编号原题页：中部署名及底部ROMÆ、1651行",
+          "url": "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf"
+        },
+        {
+          "text": "原正文首叶标第1、2栏，标题写“Seu Tunkinense cum Lusitana, & Latina declaratione”，A部词条中可见带附加符号的词形及葡、拉释义；不能由这一叶推断全书已统一所有方言或全国实际使用。",
+          "sourceId": "AP2",
+          "locator": "PDF第3页所载原正文首叶，第1—2栏标题及A部词条",
+          "url": "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf"
+        }
+      ],
+      "quote": {
+        "text": "IN LVCEM EDITVM AB ALEXANDRO DE RHODES",
+        "translation": "由Alexandre de Rhodes编刊问世；按原题页大写字形转写。",
+        "sourceId": "AP2",
+        "locator": "未编号原题页中部署名；大学图书馆PDF第3页",
+        "url": "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf",
+        "kind": "primary_text"
+      },
+      "limitation": "本轮实际读到的是Comillas大学图书馆展览PDF所嵌葡萄牙国家图书馆原刊叶照片，未读取1651年完整扫描本。只取原叶可见的刊年、出版责任和首叶结构；展览前两页的现代生平叙述不当作原典，不把题页署名升级为单人发明文字。越南标签表示所记语言，地图点明确是罗马刊印地。",
+      "aliases": [
+        "Dictionarium Annamiticum Lusitanum et Latinum",
+        "罗德",
+        "越葡拉字典",
+        "1651",
+        "Tunkinense"
+      ],
+      "polities": [
+        "罗马教廷传信部（原题页刊印机构）"
+      ]
+    },
+    {
+      "id": "RV1",
+      "caseId": null,
+      "title": "57年伦敦木牍以执政官纪年记105第纳里货款债务",
+      "regions": [
+        "英国"
+      ],
+      "polities": [
+        "罗马帝国不列颠行省"
+      ],
+      "placeId": "london",
+      "placeLabel": "伦敦（伦迪尼乌姆）",
+      "placeRole": "文书来源与Bloomberg发掘所在城市参照，非精确木牍出土探方",
+      "date": {
+        "value": "0057",
+        "precision": "year",
+        "sortYear": 57,
+        "display": "公元57年（原署执政官年）",
+        "original": "第1–3行列Nero第二任执政官与Lucius Calpurnius Piso，RIB对应57年1月8日；本条只采用其所定年份，保留原日而未换算成前推公历日期。",
+        "sourceIds": [
+          "RP1"
+        ]
+      },
+      "summary": "木牍自署执政官年；Tibullus写明欠Gratus105第纳里，缘于已出售并交付的货物，属于具名私人债务文书。",
+      "people": [
+        {
+          "name": "Tibullus（提布鲁斯）",
+          "role": "原文自称Venustus的获释奴隶，署写并承认债务者；不是同名诗人"
+        },
+        {
+          "name": "Gratus（格拉图斯）",
+          "role": "原文所记债权人、Spurius的获释奴隶；其前主人名S为校补"
+        }
+      ],
+      "claims": [
+        {
+          "text": "原文第1–3行给执政官与月日，目录据内署日期归为公元57年；出土层位另为约53–60/61年，不能以层位范围取代这条内署日期。",
+          "sourceId": "RP1",
+          "locator": "第1–3行；Dating criteria及1–3行评论",
+          "url": "https://romaninscriptionsofbritain.org/inscriptions/TabLondBloomberg44"
+        },
+        {
+          "text": "第4–8行中Tibullus声明欠Gratus105第纳里已售交货物的价款，并承诺向其或相关权利人偿还。",
+          "sourceId": "RP1",
+          "locator": "第4–8行；Translation",
+          "url": "https://romaninscriptionsofbritain.org/inscriptions/TabLondBloomberg44"
+        }
+      ],
+      "quote": {
+        "text": "scripsi et dico me debere",
+        "translation": "我已写明并声明我欠……；这是债务承认公式的连续短摘。",
+        "sourceId": "RP1",
+        "locator": "第4–5行连续文字",
+        "url": "https://romaninscriptionsofbritain.org/inscriptions/TabLondBloomberg44",
+        "kind": "primary_text"
+      },
+      "limitation": "不以一份借据推出全城金融制度或两人的准确职业。现存是蜡层下残留木面笔痕，部分词由编者补足；图像链接已尝试但未直接逐字校图。英国为现代地区入口，当时没有英国国家。",
+      "artifact": {
+        "identifier": "Tab.Lond.Bloomberg WT44；Find ID7499；context6749",
+        "site": "伦敦Walbrook，Bloomberg原Bucklersbury House发掘区",
+        "imageOrReportUrl": "https://romaninscriptionsofbritain.org/inscriptions/TabLondBloomberg44",
+        "datingMethod": "文书内署执政官组合，RIB明确对应57年；发掘层位独立相合",
+        "datingLimitation": "日数VI有释读讨论；只使用执政官年级日期，不自行换历日"
+      },
+      "aliases": [
+        "WT44",
+        "Bloomberg",
+        "伦敦",
+        "Tibullus",
+        "Gratus"
+      ],
+      "parties": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RV2",
+      "caseId": null,
+      "title": "1497年司法法典原署7006年九月，规范审判与农民迁出时段",
+      "regions": [
+        "俄罗斯"
+      ],
+      "polities": [
+        "莫斯科大公国（全罗斯大公伊凡三世时期）"
+      ],
+      "placeId": null,
+      "locationStatus": "unlocated",
+      "placeLabel": "原文未定位法典成文地点",
+      "placeRole": "地点待核，仅在列表对读",
+      "locationNote": "原署标题给大公与纪年，没有明确成文或签署城市；本条不把现代首都或文本现藏地点自动作为成文地。",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1497,
+        "display": "约1497年 · 原署7006年九月",
+        "original": "标题原署“ЛЕТА7006-ГО МЕСЯЦА СЕПТЕМВРИА”；采用学术版本题名1497作年级排序参照，不给未经核定的西历日。这里保留非公历原纪年，不称7006为君主在位年。",
+        "sourceIds": [
+          "RP2"
+        ]
+      },
+      "summary": "原署标题称伊凡·瓦西里耶维奇与子嗣、波雅尔规定审判；第1条禁止收受酬赂与徇私，第57条把农民迁出限定于秋季圣乔治日前后。",
+      "people": [
+        {
+          "name": "伊凡三世（伊凡·瓦西里耶维奇）",
+          "role": "原署标题所列全罗斯大公，与子嗣、波雅尔参与“关于审判”的规范制定；不列未核定的执笔作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "标题保留7006年九月，并点名全罗斯大公伊凡·瓦西里耶维奇、其子嗣与波雅尔。",
+          "sourceId": "RP2",
+          "locator": "1497法典原文标题",
+          "url": "https://lib.uni-dubna.ru/search/files/ist_roszac_ii/~ist_roszac_ii.htm"
+        },
+        {
+          "text": "通行第1条要求审判者不得收受酬赂（посул）、不得借审判报复或徇私；第57条规定秋季圣乔治日前一周与后一周为迁出时段，并列居住费用。",
+          "sourceId": "RP2",
+          "locator": "通行第1、57条",
+          "url": "https://lib.uni-dubna.ru/search/files/ist_roszac_ii/~ist_roszac_ii.htm"
+        }
+      ],
+      "quote": {
+        "text": "А судом не мстити, ни дружити никому.",
+        "translation": "审判不得用来报复，也不得偏袒任何人。",
+        "sourceId": "RP2",
+        "locator": "通行第1条末句",
+        "url": "https://lib.uni-dubna.ru/search/files/ist_roszac_ii/~ist_roszac_ii.htm",
+        "kind": "primary_text"
+      },
+      "limitation": "原抄本没有68条编号，这是后世通行划分；现有唯一抄本为传承文本，不冒称亲署法令原件。法规范不证明即时、普遍执行，也不能把第57条简化为当年已完成所有农民的农奴化。成文地点未核，保留未定位。 禁止收受посул不等于禁止一切司法收费，法典另列费用；不套用现代收费制度。",
+      "aliases": [
+        "Судебник1497",
+        "司法法典",
+        "伊凡三世",
+        "圣乔治日"
+      ],
+      "parties": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "RV3",
+      "caseId": null,
+      "title": "潘提卡派翁社团铭文自署纪元413年，纪念索罗马特斯王",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "博斯普鲁斯王国"
+      ],
+      "placeId": "rv-pantikapaion",
+      "placeLabel": "潘提卡派翁（今刻赤遗址）",
+      "placeRole": "PHI语料所列原铭所在地的遗址区域参照，非现代国界声明",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 117,
+        "display": "博斯普鲁斯纪元413年（约公元117年）",
+        "original": "第16行“ἐν τῷ ∙ γιυ ∙ ἔτει ∙ καὶ ∙ μηνὶ Λῴῳ.”，纪元413年洛奥斯月；PHI目录给117AD。本条保留原纪元，117仅依目录作年级排序参照；未自行换算月份和历日，不称纪元413为国王在位413年。",
+        "sourceIds": [
+          "RP3",
+          "RP4"
+        ]
+      },
+      "summary": "像座铭文由称为Neikaieon年轻人社团的组织纪念国王，称其为奠建者和恩主，并给承办者及纪元年、月份。",
+      "people": [
+        {
+          "name": "索罗马特斯一世（Sauromates I）",
+          "role": "被纪念的博斯普鲁斯国王；王名部分由校释补足，图12明确对应其像座"
+        },
+        {
+          "name": "卢基乌斯·弗拉维乌斯·埃皮廷卡农",
+          "role": "第14–15行所列承办者（ἐπιμεληθέντος）；不把承办角色改写为雕刻工匠"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第16行保存纪元年413与洛奥斯月；目录把这一明确内署日期对应公元117年，而非仅按器型给范围。",
+          "sourceId": "RP3",
+          "locator": "第16行；目录117AD",
+          "url": "https://epigraphy.packhum.org/text/182758"
+        },
+        {
+          "text": "第2–15行以王号和赞誉纪念索罗马特斯，并列社团及承办者；奠建者、恩主是铭文中的纪念称谓。",
+          "sourceId": "RP3",
+          "locator": "第2–15行，尤其第11–15行",
+          "url": "https://epigraphy.packhum.org/text/182758"
+        },
+        {
+          "text": "考古所公开专著第63页图12与CIRB44、117年、索罗马特斯I像座明确对应；其后讨论Neikaieon所指地名有不同解释。",
+          "sourceId": "RP4",
+          "locator": "第63页图12及第64页讨论",
+          "url": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf"
+        }
+      ],
+      "quote": {
+        "text": "ἐν τῷ ∙ γιυ ∙ ἔτει",
+        "translation": "在413年；这是铭文原纪元年，不是公元413年。",
+        "sourceId": "RP3",
+        "locator": "第16行开头连续文字",
+        "url": "https://epigraphy.packhum.org/text/182758",
+        "kind": "primary_text"
+      },
+      "limitation": "社团称呼可释为比提尼亚尼西亚或博斯普鲁斯本地同名城，不能直接据此写人口迁徙。王名与若干称号有残损校补；未据原物照片逐字重新校勘。乌克兰为现代地理入口，不把117年的博斯普鲁斯王国改称乌克兰国家。",
+      "artifact": {
+        "identifier": "CIRB44=IosPEII39；PH182758；Завойкина2013图12",
+        "site": "Pantikapaion(Kerch)，PHI所在地著录",
+        "imageOrReportUrl": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf#page=62",
+        "datingMethod": "铭文第16行自署博斯普鲁斯纪元413年洛奥斯月；PHI及专著对应117AD",
+        "datingLimitation": "保留原纪元而不自算历日；采用年级排序参照，人物姓名与称号校补状态另标"
+      },
+      "aliases": [
+        "CIRB44",
+        "IosPEII39",
+        "PH182758",
+        "潘提卡派翁",
+        "刻赤",
+        "Sauromates"
+      ],
+      "parties": [],
+      "humanReviewed": false
+    },
+    {
+      "id": "MV1",
+      "caseId": null,
+      "title": "显德二年诏规定寺院敕额、停废与僧账",
+      "regions": [
+        "中国"
+      ],
+      "polities": [
+        "后周"
+      ],
+      "placeId": null,
+      "placeLabel": "所录诏文未署发布地点",
+      "placeRole": "原文未定位，仅在列表对读",
+      "locationStatus": "unlocated",
+      "locationNote": "本段未给发布地点，不以推定都城或辑本收藏地放置地图点。",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 955,
+        "display": "约955年 · 显德二年五月甲戌",
+        "original": "《旧五代史》编年原署显德二年五月甲戌；年号表以954为起年，955仅作排序参照。未换算甲戌的西历日或完整年界。",
+        "sourceIds": [
+          "MP1",
+          "MP4"
+        ]
+      },
+      "summary": "史书所录诏将寺院有无敕额作为保留、停废的区别，并规定禁止私建与逐年僧账上报。",
+      "people": [
+        {
+          "name": "后周世宗",
+          "role": "世宗纪所系诏令的发布者；不把后世辑本编者当当事人"
+        }
+      ],
+      "claims": [
+        {
+          "text": "诏规定有敕额寺院仍旧，无敕额者停废，并安排佛像、僧尼并入保留寺院。",
+          "sourceId": "MP1",
+          "locator": "显德二年五月甲戌诏“應有敕額寺院”段",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷115"
+        },
+        {
+          "text": "诏禁止私建寺院、兰若，规定出家资格与逐年造僧账两本、一本申祠部等程序。",
+          "sourceId": "MP1",
+          "locator": "同诏禁止私建、出家资格及年造僧账段",
+          "url": "https://zh.wikisource.org/wiki/舊五代史/卷115"
+        }
+      ],
+      "quote": {
+        "text": "應有敕額寺院，一切仍舊，其無敕額者，並仰停廢",
+        "translation": "有敕额的寺院仍旧保留，没有敕额的命令停废；这是诏的规范要求。",
+        "sourceId": "MP1",
+        "locator": "五月甲戌诏寺院敕额段",
+        "url": "https://zh.wikisource.org/wiki/舊五代史/卷115",
+        "kind": "primary_text"
+      },
+      "limitation": "后编官史及后世辑本传承，不是现存955原诏。仅记规范，不据后续总数推定执行程度；诏中对僧尼行为的指控不能直接当成中性事实。未核发布地点与历日换算。",
+      "aliases": [
+        "显德二年",
+        "后周世宗",
+        "敕额",
+        "寺院",
+        "僧账"
+      ]
+    },
+    {
+      "id": "MV2",
+      "caseId": null,
+      "title": "《问刑条例》题稿记白昂等议例及弘治十三年奉旨",
+      "regions": [
+        "中国"
+      ],
+      "polities": [
+        "明朝"
+      ],
+      "placeId": null,
+      "placeLabel": "题稿未署成文或奉旨地点",
+      "placeRole": "地点待核，仅在列表对读",
+      "locationStatus": "unlocated",
+      "locationNote": "不以推定京城或东京大学现藏地作为题稿成文地点。",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1500,
+        "display": "约1500年 · 弘治十三年三月初二日",
+        "original": "题稿末项复议记弘治十三年三月初二日奉旨；1500为年号排序参照。它是该段所录答复的日期，不等于全部条例初次颁布或刊印日；未换算完整西历年界或历日。",
+        "sourceIds": [
+          "MP2",
+          "MP3",
+          "MP4"
+        ]
+      },
+      "summary": "题稿具名白昂、闵珪、王轼等官会同议例，保存六条再议及弘治十三年末项奉旨的文书阶段。",
+      "people": [
+        {
+          "name": "白昂",
+          "role": "题稿具衔刑部尚书，会同议例官"
+        },
+        {
+          "name": "闵珪",
+          "role": "题稿具衔都察院左都御史，会同议例官；不改写为当时刑部尚书"
+        },
+        {
+          "name": "王轼",
+          "role": "题稿具衔大理寺卿，会同议例官"
+        }
+      ],
+      "claims": [
+        {
+          "text": "首段列白昂、闵珪、王轼及各自官署，叙受命查例与会同议例；不能把具衔官员直接当每条条例的唯一执笔人。",
+          "sourceId": "MP2",
+          "locator": "《问刑条例题稿》首段及官衔姓名表",
+          "url": "https://daizhige.org/史藏/政书/明代律例汇编.html"
+        },
+        {
+          "text": "文书先录六条再议，末项记弘治十三年三月初二日奉旨“都照旧行”；这是保留的复议、答复阶段。",
+          "sourceId": "MP2",
+          "locator": "六条再议与弘治十三年三月初二日末段",
+          "url": "https://daizhige.org/史藏/政书/明代律例汇编.html"
+        },
+        {
+          "text": "后编《明史》也将白昂等会九卿议例及六事再议系于弘治十三年，作为辅助核对而非独立原件。",
+          "sourceId": "MP3",
+          "locator": "刑法志一弘治十三年议例段",
+          "url": "https://zh.wikisource.org/wiki/明史/卷93"
+        }
+      ],
+      "quote": {
+        "text": "弘治十三年三月初二日，奉圣旨：“都照旧行。钦此”",
+        "translation": "原题稿转录所记答复日期与奉旨：都照旧行。保留原纪年及文书阶段。",
+        "sourceId": "MP2",
+        "locator": "《问刑条例题稿》末项奉旨",
+        "url": "https://daizhige.org/史藏/政书/明代律例汇编.html",
+        "kind": "primary_text"
+      },
+      "limitation": "现代汇编的文字转录已读，东京大学底本和嘉靖刊本原叶未校；不将末项答复日称整个法制完成日。规范形成过程不证明各地判案实际一致，也不据后编史书总述倒填每条条例的日期。",
+      "aliases": [
+        "问刑条例",
+        "弘治十三年",
+        "白昂",
+        "闵珪",
+        "王轼",
+        "刑部",
+        "司法"
+      ]
     }
   ],
   "places": [
@@ -10830,6 +11318,30 @@
       "coordinateSource": "https://en.wikipedia.org/w/index.php?title=Balaklava&oldid=1374977319",
       "coordinateLabel": "Balaklava城市坐标44°30′N33°36′E，已读地名页坐标栏；只用于城市参照",
       "note": "原报告发掘地在湾东北约2公里，城市点不冒充神庙具体探方。现代地区入口为乌克兰，古代记录的政权和驻军角色单列。"
+    },
+    {
+      "id": "av-rome",
+      "label": "罗马 · 1651刊印城市参照",
+      "coordinates": [
+        12.48278,
+        41.89333
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Rome",
+      "coordinateLabel": "已打开Rome条目现代城市参照坐标41°53′36″N12°28′58″E",
+      "note": "历史关联仅据原刊题页ROMÆ；不是本轮已核的传信部印刷作坊地址，也不是越南词汇采录地点。"
+    },
+    {
+      "id": "rv-pantikapaion",
+      "label": "潘提卡派翁遗址（刻赤）",
+      "coordinates": [
+        36.46861,
+        45.35083
+      ],
+      "precision": "area_reference",
+      "coordinateSource": "https://en.wikipedia.org/wiki/Panticapaeum",
+      "coordinateLabel": "Pantikapaion遗址坐标45°21′3″N36°28′7″E，已打开地名页坐标栏",
+      "note": "语料原地著录为Pantikapaion(Kerch)；此点为遗址区域参照，不表示像座精确发现探方或现藏地点。"
     }
   ],
   "sources": [
@@ -12684,6 +13196,229 @@
       "checked": "已实际打开对应年号段，用于永元元年/三年、建安二十五年与万历六年的排序对照。",
       "limitation": "只用于年号年对照，不是农历月日到西历的历算；不能据此认定完整农历年界与西历年一致。",
       "humanReviewed": false
+    },
+    {
+      "id": "AP1",
+      "title": "DHARMA K720：Vat Phu碑的877Śaka购地追记与928Śaka后续条目",
+      "url": "https://dharmalekha.info/texts/INSCIK00720",
+      "kind": "残碑的现代逐行校勘释读与早期法译",
+      "locator": "b2—8、b14—17、c20—27；书体说明；数字版书目指《Inscriptions du Cambodge》卷V第212—215页",
+      "checked": "已打开并读b面原文与全部法译交易段，核对两处877、具名Śaṅkarātmā、Vrai Trapek与供米；另核c20的928及十一世纪字形说明。数字版Kunthea Chhom，版本2026-11-10，末修2026-09-17。",
+      "limitation": "未自行看原石或拓本图；用公开校勘释读而非凭目录推断。数字版书目指Cœdès1953卷V212—215页，译文标题却标Cœdès1954，本轮不抹平这处元数据差异，也未冒称核过该初刊页图。877为追述事件年，非全碑刻成年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AP2",
+      "title": "1651年罗德字典原题页及正文第1—2栏影像：Comillas大学图书馆公开展览PDF",
+      "url": "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf",
+      "kind": "1651原刊叶照片经机构公开展览PDF转载",
+      "locator": "4页PDF第3页；未编号原题页与字典正文首叶第1—2栏；图像署Biblioteca Nacional de Portugal",
+      "checked": "已下载PDF并实际查看第3页嵌入的两张原叶照片，逐字核ROMÆ、1651、Alexandro de Rhodes署名及正文Tunkinense/Lusitana/Latina标题；没有仅凭馆藏目录判定出版年。",
+      "limitation": "来源链为1651印本—葡国国家图书馆数字照片—Comillas展览PDF；本轮葡国purl.pt/961全本入口403，未对校其他完整副本。保留大学馆明确图像归属，不把现代展览文字假装原书序言。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RP1",
+      "title": "伦敦Bloomberg木牍WT44：执政官纪年货款承认书",
+      "url": "https://romaninscriptionsofbritain.org/inscriptions/TabLondBloomberg44",
+      "kind": "Roman Inscriptions of Britain · 原文校释、外交式转录、译文、图像与发掘语境",
+      "locator": "Tab.Lond.Bloomberg WT44；Find ID7499；context6749；第1–3行日期、第4–8行正文；Tomlin2016b WT44，图87",
+      "checked": "已实际打开并读Edition、Diplomatic、Translation、日期评论和出土语境。原文列尼禄第二任执政官与Lucius Calpurnius Piso，目录对应57年1月8日。页面列图87摹本及照片，两个直接图像URL均尝试打开但本轮缓存不可读，未声称逐字校照片。",
+      "limitation": "短引来自RIB校释原文，不是现代博物馆摘要。S(puri)的S与est等有编者补字，日期日数也有读法讨论；本条只采用执政官所定年份，不把未核的儒略历日换算成前推公历日。",
+      "humanReviewed": false,
+      "imageUrl": "https://romaninscriptionsofbritain.org/imggal-mini/TLB044-photo.png",
+      "parallelUrl": "https://romaninscriptionsofbritain.org/imggal-mini/TLB044-lineart.png"
+    },
+    {
+      "id": "RP2",
+      "title": "《1497年司法法典》：杜布纳大学图书馆所载学术释文",
+      "url": "https://lib.uni-dubna.ru/search/files/ist_roszac_ii/~ist_roszac_ii.htm",
+      "kind": "有学术底本说明的法律原文转录",
+      "locator": "“СУДЕБНИК1497ГОДА—Текст”标题；通行第1、3、57条；前部“Судебники1497и1550годов—Введение”版本说明",
+      "checked": "已实际读到7006年九月原署标题、第1条禁收酬赂（посул）与不得徇私、第57条农民迁出时段，并核版本说明：依1952年《Судебники XV–XVI вв.》学术版，68条编号为后世编辑沿用，非原抄本自有编号。 最后另核第1条与第3条及版本注释对посул和司法费用的区分，避免表述为禁止所有收费。",
+      "limitation": "本轮核的是大学图书馆转录及其底本说明，未直接校1497年唯一传抄本的图像或1952年印本。网页有若干OCR讹字，短引选在可连续读取的句子。标题纪年与实际颁行、实施阶段不可一概而论。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RP3",
+      "title": "潘提卡派翁CIRB44：纪元413年社团纪念索罗马特斯铭文",
+      "url": "https://epigraphy.packhum.org/text/182758",
+      "kind": "PHI Greek Inscriptions · 有原刊对应号的铭文原文校释",
+      "locator": "CIRB44=IosPEII39，PH182758；第2–15行称号、社团和承办者；第16行纪元413年与洛奥斯月；目录117AD",
+      "checked": "已实际打开并读完整16行希腊文、校补符号、Pantikapaion(Kerch)地点、117AD目录及末行原纪年。原王名部分为补字，纪元年与月份保留，不自行换算月日。",
+      "limitation": "所读为PHI的学术转录，未声称直接读1965年CIRB印本；原物图像另核RP4第63页图12。社团称呼Neikaieon的地理解释有争论，不能据此直接证明从比提尼亚迁徙。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RP4",
+      "title": "CIRB44原物图像与对象对应：Завойкина2013，图12",
+      "url": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf",
+      "kind": "俄罗斯科学院考古所公开专著 · 同编号原物图像与研究说明",
+      "locator": "Н.В.Завойкина，《Боспорские фиасы:между полисом и монархией》，2013，第63–64页；图12（PDF第62页，页面页码63）",
+      "checked": "已实际读第63页关于117年、索罗马特斯I像座、CIRB44与图12的明确对应，以及第64页关于社团所称地名的不同解释。图12为所刊原物图像；本轮未据照片逐字复校PHI补字。",
+      "limitation": "本来源用于原物图像和对象对应；古代引句用RP3希腊铭文本身，不能拿专著的现代解释冒充古人话语。此URL与仓库RT20的塔奈斯图28来源是同一本书，但本次核读的是第63–64页图12。",
+      "humanReviewed": false,
+      "imageUrl": "https://archaeolog.ru/media/books_2013/zavoykina_2013.pdf#page=62"
+    },
+    {
+      "id": "EP1",
+      "title": "Morales、Nielsen、Villalba2013：南美首批史前建筑树轮定年原报告",
+      "url": "https://ri.conicet.gov.ar/bitstream/handle/11336/10079/CONICET_Digital_Nro.10170.pdf?isAllowed=y&sequence=1",
+      "kind": "原始树轮考古研究报告",
+      "locator": "Journal of Archaeological Science40，2393—2401；§3、表1—2、§4—6；PDF第3—8页",
+      "checked": "已打开原报告文字层；核LlactaQaqa、SiaMoqo在玻利维亚Lípez；核树皮标志B、非伐木年vv及1340/1338的区别。",
+      "limitation": "不是智利/阿根廷遗址，不能按作者机构地址、树种分布或相邻国界归入两国；即便带树皮得到伐木年，也不自动证明施工同年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP2",
+      "title": "Murphy等2024：智利上洛阿Inca统治高精度放射性碳模型",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/448BDAC681D393CE38BDE38116F8A918/S0033822224000912a.pdf/a-high-precision-radiocarbon-chronology-of-inka-rule-in-the-upper-loa-river-region-of-northern-chile.pdf",
+      "kind": "原始考古测年统计研究报告",
+      "locator": "Radiocarbon66，676—698；摘要、表1—3及模型方法；表2为印页686/PDF第11页",
+      "checked": "已打开全文文字层并核表2主模型：1401—1437年95%HPD、1411—1430年68%HPD、中位1420；亦读木炭旧木效应和模型敏感性。",
+      "limitation": "1420是模型中位数，非原纪年或确切征服年。表2与摘要一致标95%HPD；结论末一处68%标记与之不一，不据该处缩窄置信范围。本轮未重跑模型，未把木炭年龄等同施工日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP3",
+      "title": "Marsh等2017：厄瓜多尔与阿根廷Inca扩张贝叶斯模型",
+      "url": "https://ri.conicet.gov.ar/bitstream/11336/78977/2/CONICET_Digital_Nro.50f20052-c776-4ec1-9bb8-6043a8912b0c_A.pdf",
+      "kind": "原始考古测年统计研究报告",
+      "locator": "Radiocarbon59(1)，117—140；摘要、Developing a Chronology、表5、Ranchillos段；PDF第1—3、14—15页",
+      "checked": "已打开论文文字层；核阿根廷Mendoza主模型1350—1440年95%概率、表5中位1400，以及地图刻意用中位数简化的图注。",
+      "limitation": "1400、1420等图表点估计不能当事件确年；1471年传统南扩时间来自殖民时代记述及后世重建。本轮未直接检查所有原始实验室记录或复算模型。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP4",
+      "title": "MAS-2904圣佩德罗陶杯单件原始编目",
+      "url": "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf",
+      "kind": "博物馆原始器物档案",
+      "locator": "MAS-2904；PDF第1页ASIGNACIÓN CRONOLÓGICA、PERIODO/FASE；后文VOCES",
+      "checked": "本轮重新打开并读首页：100—400d.C.、Séquitor阶段；区分器物编目和当代匠人访谈。",
+      "limitation": "没有古代自署年或本件单年制作记录；当代访谈不是100—400年人的直接证词，不把现代受访者填成古代制作者。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP5",
+      "title": "瓦尔帕莱索自然史馆3015号陶鼓单件著录",
+      "url": "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica",
+      "kind": "博物馆原始器物著录与出土收藏说明",
+      "locator": "Tamboril，Nºinv.3015；馆方列表第3015对象段",
+      "checked": "本轮重新打开并读3015号：Aconcagua1000—1450年；VillaAlemana1984年清理墓葬发现。",
+      "limitation": "1984是现代发现年，不能用它补前1500年事件；1000—1450为文化时期归属，不是1000年制作或下葬的证据。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP6",
+      "title": "Candelaria动物形陶器8995原始著录",
+      "url": "https://www.bellasartes.gob.ar/coleccion/obra/8995/",
+      "kind": "博物馆原始器物著录",
+      "locator": "Inventario8995；FichaTécnica的Fecha、Técnica、Soporte与Origen",
+      "checked": "本轮重新打开单件页：200—400年、陶质、塑形；1986为现代捐赠年。",
+      "limitation": "没有原纪年、可识别古代作者或可核单年事件；不给范围选取中点。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP7",
+      "title": "阿瓜达青铜牌1991.164单件著录",
+      "url": "https://www.clevelandart.org/art/1991.164",
+      "kind": "博物馆原始器物著录",
+      "locator": "1991.164；Date、ArgentinaLaAguada、Medium、Description",
+      "checked": "本轮重新打开单件页：完整600—900年断代，未列自署纪年、古代人物姓名与具体出土地。",
+      "limitation": "无可读古代纪年；图像人物不等于可具名的历史人物；1991为入藏编号组成，不可当古代年份。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP8",
+      "title": "SantaMaría青铜铃MChAP0957现行单件页",
+      "url": "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/",
+      "kind": "博物馆原始器物著录",
+      "locator": "MCHAP0957；Materiales、Código及Ninguna段",
+      "checked": "本轮重新打开：1200—1470年，正文明确此型器物缺专业发掘资料、确切功能不明。",
+      "limitation": "没有原纪年或特定制作事件年；收藏在智利不代表产于智利；本轮不修改既有EZ4断代和旧目录待核说明。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EP9",
+      "title": "Büntgen等2018：774与993年宇生放射性碳事件的全球树轮研究",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6127282/",
+      "kind": "原始自然科学测量研究报告",
+      "locator": "NatureCommunications9:3605；Abstract、Introduction、MethodsSamplepreparation",
+      "checked": "已打开正文，核逐年树轮、交叉定年与放射性碳年标的性质。",
+      "limitation": "自然科学年标不是当地人类建造、战争或政治活动事件；本轮没有由该文导出智利/阿根廷的单年人类事件，也不按作者机构地址给事件地理标签。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MP1",
+      "title": "《旧五代史》卷115显德二年五月寺院诏",
+      "url": "https://zh.wikisource.org/wiki/舊五代史/卷115",
+      "kind": "后编官史所录诏令的现代文字转录",
+      "locator": "卷115周书六·世宗纪二，显德二年五月甲戌诏，敕额、停废与僧账诸段",
+      "checked": "已读显德二年编年、五月甲戌诏及其寺院敕额、停废、禁止私建与年造僧账条款；保留原署纪年，不转公历日。",
+      "limitation": "所读是后编史书经后世辑本传承的转录，不是955年亲署原诏；未逐字对校清辑底本或原叶。诏中指控是发布者修辞，法令也不证明各地已实际执行。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MP2",
+      "title": "弘治《问刑条例》题稿：白昂等议例与奉旨",
+      "url": "https://daizhige.org/史藏/政书/明代律例汇编.html",
+      "kind": "现代律例汇编所录原题稿的民间文字转录",
+      "locator": "《问刑条例题稿》首段、六条复议及弘治十三年三月初二日奉旨；末附录自《皇明制书》卷十三的底本说明",
+      "checked": "已读刑部尚书白昂、都察院左都御史闵珪、大理寺卿王轼的官署与会同议例；核弘治十一年十二月二十一日受命及十三年三月初二日末次所录奉旨，并读版本说明。",
+      "limitation": "汇编说明录自东京大学藏《皇明制书》卷十三，另述嘉靖三十三年汪宗元刊本异文；本轮未打开这些原书影像，不把转录冒称原叶。末项答复日期不等于全部条例最初颁行或刊印日期。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MP3",
+      "title": "《明史》卷93刑法志：弘治十三年白昂等议条例",
+      "url": "https://zh.wikisource.org/wiki/明史/卷93",
+      "kind": "后编官史的现代文字转录（辅助核对）",
+      "locator": "刑法志一，弘治五年至十三年议例、尚书白昂及六事再议段",
+      "checked": "已读弘治十三年、白昂会九卿、条例辅律与六事再议的记述；与MP2所录题稿分列，未将后编史书当当时会议原件。",
+      "limitation": "后世编纂的刑法志可以核对人物和叙述阶段，不能由其总述给每条条例定同一颁行日，也不能证明实际司法成效。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MP4",
+      "title": "中国历代年号索引表：显德与弘治",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "kind": "中国科学院自然科学史研究所所载年号对照工具",
+      "locator": "后周显德954—959；明弘治1488—1505",
+      "checked": "本轮核显德起年954及弘治起年1488，故显德二年、弘治十三年分别以955、1500作排序参照。",
+      "limitation": "年号起讫表不提供完整农历年界或甲戌、三月初二的公历换算；MP1、MP2仍为原署年/null，不进入严格同年、同日。",
+      "humanReviewed": false
+    },
+    {
+      "id": "UP1",
+      "title": "LTRR2015 Chaco树轮样本数据库（原始样本卡转录）",
+      "url": "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+      "kind": "亚利桑那大学树轮实验室样本级研究数据",
+      "locator": "Specimens表：Excel行6292（JPB-104 a-c）、457（PB-450）、202（PB-198）；OuterDate、OuterDateType、Provenance等列",
+      "checked": "已实际下载并只读检查Specimens表，核JPB-104 a-c末轮828r、Pueblo Bonito Room317，PB-450为928rLB、Room89，PB-198为1024B、Room100北墙屋顶主梁。另读档案数据库说明，表系研究人员纸质样本卡转录。",
+      "limitation": "这些是样本末轮及端部标志，不自动等于建筑初建或城市成立年。未重测木材、校原纸卡或完成所选房间施工相位和复用史的原报告闭环；表仅涉及Chaco遗址，不能外推整个美国地区。",
+      "humanReviewed": false
+    },
+    {
+      "id": "UP2",
+      "title": "Chaco树轮端部与伐木日期标志说明",
+      "url": "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
+      "kind": "研究数据库技术释义（据Lekson1983）",
+      "locator": "PDF第1页，B、G、L、c、r、v、vv及+、++定义",
+      "checked": "已下载、渲染并查看原页：B/G/L/c/r在无+或++时按说明分别支持置信程度递减的伐木日期；v/vv分别为无直接端部证据的估计、无法估计离真实外缘多远。",
+      "limitation": "可靠的伐木日期仍须区分于安装、房屋建造、复用或现代修复。端部符号只解决样本定年的一部分，不直接识别历史人物或建筑施工事件。",
+      "humanReviewed": false
+    },
+    {
+      "id": "UP3",
+      "title": "Chaco研究档案：树轮数据来源与使用限制",
+      "url": "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/",
+      "kind": "考古研究档案的数据质量与木材流转说明",
+      "locator": "Regarding the reliability of tree-ring data及现代稳定修复、木材复用说明",
+      "checked": "已读档案页面正文，核样本来源信息不全、重复或分析差异、木材复用，以及二十世纪修复中异址木材流转的明确提醒。另核数据库入口说明纸卡转录和两套数据库尚待对账。",
+      "limitation": "档案的一般提醒不能证明每一件带确年木材都曾复用，也不能否定树轮单年精度；本批只因没有完成重要施工事件的样本关联核验而保留美国三格的纪年缺口。",
+      "humanReviewed": false
     }
   ],
   "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。 新增器物明确区分古代铭文、现代馆藏说明及原始研究报告；范围断代保留完整上下界，地点未知则不放置地图点。",
@@ -13222,7 +13957,7 @@
   ],
   "coverage": {
     "complete": false,
-    "note": "时间范围仍为前10年至2000年、无0年。每个地区时代格已有样本，不等于逐年或全地区完整；仅有范围断代的格不能确认为具体年，人物、地点、版本和原发表的缺口继续保留。",
+    "note": "时间范围仍为前10年至2000年、无0年。140格中129格有纪年材料，11格仍只有完整范围材料；本轮核查原16格，只在5格加得合格纪年证据。原署年未换算不等于确定西历年，原有16条范围材料不收窄。有样本不等于逐年或全地区完整；人物、地点、版本和原发表缺口继续保留。",
     "gaps": [
       {
         "label": "1186年Ta Prohm碑K.273",
@@ -13303,11 +14038,6 @@
       {
         "label": "补充中国材料的版本核验",
         "reason": "CS2原藏号、影印对应的初印或报载版本未核；影印无可见署日，仅采用1919年。",
-        "urls": []
-      },
-      {
-        "label": "亚洲材料：待续核",
-        "reason": "越南1651年罗德词典候选只核到馆藏及出版元数据；Gallica和Google原文未成功取得，未列为已完成记录。",
         "urls": []
       },
       {
@@ -13429,6 +14159,157 @@
         "label": "医院碑及无铭器物的中国同期同类材料",
         "reason": "本批四组问题对读只用于证据足够的配对。K368医院碑及四件美洲器物尚未形成独立核验的中国同期同类实物/原始制度文书组；继续可用中国材料选择器浏览参考年代，不将相差百年的法令硬称同年，也不据器形推定接触传播。",
         "urls": []
+      },
+      {
+        "label": "越南1651字典全本与版本校勘",
+        "reason": "本轮只核原题页与首叶照片。葡国全本入口403，未读完整字典、序言或多版本；不据有限原叶解释全部语言创造过程。",
+        "urls": [
+          "https://purl.pt/961",
+          "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf"
+        ]
+      },
+      {
+        "label": "老挝古代：K365仍无绝对纪年",
+        "reason": "重读K365古文字说明与原文，仍仅5—6世纪401—600。AY19范围原样保留；K720的877Śaka追记只补501—1000格，不倒填前10—500格。",
+        "urls": [
+          "https://dharmalekha.info/texts/INSCIK00365",
+          "https://dharmalekha.info/texts/INSCIK00720"
+        ]
+      },
+      {
+        "label": "老挝K720传本及事件纪年的分别",
+        "reason": "AP1核到877Śaka追记与928Śaka后续条目、十一世纪书体；未校原拓或初刊页图。Cœdès1953/1954元数据差异保留，955只作交易的参考排序。",
+        "urls": [
+          "https://dharmalekha.info/texts/INSCIK00720"
+        ]
+      },
+      {
+        "label": "白俄罗斯古代：未得本地原署确年",
+        "reason": "已知特里申墓地的170–270年是发掘者暂定使用区间，不得选中点或单年。Lyshchytsy及单件罗马币的65–175、235–236等是钱币发行年代，不能充当当地输入或埋藏年；尚无本地关联明确且原署500年前确年的闭环材料。古罗斯或泛斯拉夫叙事也不能倒用于本格。",
+        "urls": [
+          "https://djvu.online/file/WfUOkUZzJWGvH",
+          "https://chre.ashmus.ox.ac.uk/hoard/17431",
+          "https://www.skarbonka.ru/pdf/1/IX_Sidorovich-2010.pdf"
+        ]
+      },
+      {
+        "label": "中国955、1500年参照的传本与历日",
+        "reason": "MP1史书辑本、MP2题稿汇编转录均未校原叶；MP4只核年号起年。两条仍为regnal_year/null，地点未定位，不把甲戌或三月初二直接当公历确日。",
+        "urls": [
+          "https://zh.wikisource.org/wiki/舊五代史/卷115",
+          "https://daizhige.org/史藏/政书/明代律例汇编.html",
+          "https://agri-history.ihns.ac.cn/history/historic%20table.htm"
+        ]
+      },
+      {
+        "label": "智利 · ancient纪年缺口",
+        "reason": "MAS-2904的100—400年是对象的馆方分期，不是某年的制作/使用原纪年。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：不能把陶杯无原纪年当成社会不存在复杂知识或把当代匠人访谈移作古人自述；不作单年对齐。",
+        "sourceIds": [
+          "EP4"
+        ],
+        "urls": [
+          "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf"
+        ]
+      },
+      {
+        "label": "智利 · medieval-early纪年缺口",
+        "reason": "RY5完整1000—1450年范围仅在1000年与此格接触；馆方没有说该鼓确在1000年制成或下葬。 全球树轮年标只能支持测年方法，不能补成本格当地的人类事件。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：不将1000年端点或774/993自然年标计为已获单年人类事件。",
+        "sourceIds": [
+          "EP5",
+          "EP9"
+        ],
+        "urls": [
+          "https://www.mhnv.gob.cl/galeria/piezas-escogidas-de-la-coleccion-arqueologica",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6127282/"
+        ]
+      },
+      {
+        "label": "智利 · medieval-late纪年缺口",
+        "reason": "上洛阿原报告表2主模型是1401—1437年95%HPD，1420是中位数；不能新增1420年征服条目。 带单年伐木日期的LlactaQaqa研究遗址在玻利维亚，不能借给智利。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：1401—1437可作区间对读；不得把中位1420或图上点误当确年，也不由同步推出因果。",
+        "sourceIds": [
+          "EP2",
+          "EP1"
+        ],
+        "urls": [
+          "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/448BDAC681D393CE38BDE38116F8A918/S0033822224000912a.pdf/a-high-precision-radiocarbon-chronology-of-inka-rule-in-the-upper-loa-river-region-of-northern-chile.pdf",
+          "https://ri.conicet.gov.ar/bitstream/handle/11336/10079/CONICET_Digital_Nro.10170.pdf?isAllowed=y&sequence=1"
+        ]
+      },
+      {
+        "label": "阿根廷 · ancient纪年缺口",
+        "reason": "8995的日期栏只给200—400年，没有原署年；1986为捐赠信息。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：不将动物形陶器默认作祭祀/墓葬用品，不取300年作中点事件。",
+        "sourceIds": [
+          "EP6"
+        ],
+        "urls": [
+          "https://www.bellasartes.gob.ar/coleccion/obra/8995/"
+        ]
+      },
+      {
+        "label": "阿根廷 · medieval-early纪年缺口",
+        "reason": "1991.164牌仍只可读为600—900年、LaAguada归属的青铜器物，图像人物没有可核姓名或当事纪年。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：器物可以进行相交时期对读，但不能为了同年卡片把600—900压成868或认定图像为某位君主。",
+        "sourceIds": [
+          "EP7"
+        ],
+        "urls": [
+          "https://www.clevelandart.org/art/1991.164"
+        ]
+      },
+      {
+        "label": "阿根廷 · medieval-late纪年缺口",
+        "reason": "Mendoza主模型给1350—1440年95%概率、表5中位1400；地图点是中位数的简化，不是确年。 0957铃仍只有馆方时期归属，未核得可将其收窄为某年祭仪或制作事件的原纪年。 1340年带树皮样本属于玻利维亚LlactaQaqa，不是阿根廷。 本次已读材料中未核得符合条件的当地单年人类事件；这不构成对全部未刊材料的不存在证明。既有完整断代保持不变。 对读边界：不把1471年传统南扩年表或模型中位1400改写为阿根廷当地的原纪年事件；不将图中相近日期作帝国制度等同。",
+        "sourceIds": [
+          "EP3",
+          "EP8",
+          "EP1"
+        ],
+        "urls": [
+          "https://ri.conicet.gov.ar/bitstream/11336/78977/2/CONICET_Digital_Nro.50f20052-c776-4ec1-9bb8-6043a8912b0c_A.pdf",
+          "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/",
+          "https://ri.conicet.gov.ar/bitstream/handle/11336/10079/CONICET_Digital_Nro.10170.pdf?isAllowed=y&sequence=1"
+        ]
+      },
+      {
+        "label": "美国 · 前10—500纪年事件缺口",
+        "reason": "原RY16器物仍保留目录范围；Chaco样本表不覆盖美国全境，没有从该表未命中推出此格不存在确年材料。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "sourceIds": [
+          "UP1",
+          "UP2",
+          "UP3"
+        ],
+        "urls": [
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
+          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+        ]
+      },
+      {
+        "label": "美国 · 501—1000纪年事件缺口",
+        "reason": "JPB-104 a-c为828r，PB-450为928rLB；这些年度数据保留在UP1台账，不把它们改写为城市建立或房屋初建年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "sourceIds": [
+          "UP1",
+          "UP2",
+          "UP3"
+        ],
+        "urls": [
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
+          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+        ]
+      },
+      {
+        "label": "美国 · 1001—1500纪年事件缺口",
+        "reason": "PB-198为1024B、Room100北墙屋顶主梁；尚未完成具体施工相位与木材复用史的原报告核验，不能仅据树皮年给整个建筑定年。 UP2承认合格样本可达单年伐木精度；UP3的一般复用提醒也不否定每件样本。缺的是重要人类事件的关联闭环，不是把所有树轮视为宽范围。旧器物断代不变，未知人物不补造。",
+        "sourceIds": [
+          "UP1",
+          "UP2",
+          "UP3"
+        ],
+        "urls": [
+          "https://chacoarchive.org/media/data/LTRRGreatHouseDatabase.xlsx",
+          "https://www.chacoarchive.org/cra/wp-content/uploads/2010/05/tring_key.pdf",
+          "https://www.chacoarchive.org/cra/tree-ring-database-disclaimer/"
+        ]
       }
     ],
     "resolvedGaps": [
@@ -13499,6 +14380,20 @@
           "EU4"
         ],
         "urls": []
+      },
+      {
+        "label": "1651年罗德字典原刊叶",
+        "previousReason": "越南1651年罗德词典候选只核到馆藏及出版元数据；Gallica和Google原文未成功取得，未列为已完成记录。",
+        "resolution": "AV2/AP2已实际读大学图书馆转载的原刊题页与正文首叶照片，可核罗马1651、署名与首叶结构；全本与版本校勘仍待续核。",
+        "recordIds": [
+          "AV2"
+        ],
+        "sourceIds": [
+          "AP2"
+        ],
+        "urls": [
+          "https://eventos.comillas.edu/_files/_event/_33967/_editorFiles/file/Texto_Alexandre%20de%20Rhodes_1.pdf"
+        ]
       }
     ]
   },
@@ -13618,6 +14513,81 @@
         "RU2",
         "MT1",
         "MT5"
+      ]
+    },
+    {
+      "id": "rv-private-public-57",
+      "title": "57年参照：私人债务与赐印绶各由谁作出？",
+      "chinaRecordId": "AY14",
+      "otherRecordId": "RV1",
+      "question": "谁以第一人称承认义务，谁由后世官史叙述其赐予行动？原署执政官年与官史年号各怎样支持日期？",
+      "relationBasis": "两条均用57年作排序参照；AY14保留建武中元二年、未核年界，木牍为当事文书内署执政官年，不声称已核同一历日。",
+      "reading": "木牍以Tibullus的债务承认与权利人名构成私人文书；《后汉书》保存倭奴国使者朝贺与光武赐印绶叙事。比较文字动作和作者层次，不将两者的效力混同。",
+      "boundary": "同年参照不证明两地接触或共同制度；赐印绶不是贸易借据，借据也不能证明罗马当事人享有何种外交身份。",
+      "sourceIds": [
+        "RP1",
+        "AT13"
+      ]
+    },
+    {
+      "id": "rv-judicial-rules",
+      "title": "约1497—1500年：司法规范怎样记官职、程序与权威？",
+      "chinaRecordId": "MV2",
+      "otherRecordId": "RV2",
+      "question": "分别标出制定、会同议例与奉旨的参与者；怎样区分法律文本的规范、复议阶段和实际执行证据？",
+      "relationBasis": "莫斯科法典以约1497年排序，题稿末项奉旨以约1500年排序，相距约三年；两者均保留原纪年，不称同年或同日。",
+      "reading": "法典原署大公与波雅尔，规范审判行为和迁出时段；题稿具衔白昂、闵珪、王轼，保存六条复议与奉旨。对读司法规范的权威和文书形成阶段，而非把不对应的条文硬作同一制度。",
+      "boundary": "原抄本与题稿传本都不是实施统计；不能由禁收酬赂、迁出限制或奉旨推定普遍执行，也不能把相近年代当互相影响。",
+      "sourceIds": [
+        "RP2",
+        "MP2",
+        "MP3",
+        "MP4"
+      ]
+    },
+    {
+      "id": "rv-inscribed-date",
+      "title": "二世纪前后：铭文纪元与传记年号怎样留下时间？",
+      "chinaRecordId": "MY1",
+      "otherRecordId": "RV3",
+      "question": "哪些数字、年号或称号直接写在原文里？被称为恩主的国王、立碑承办者、传记所记造仪者分别是什么角色？",
+      "relationBasis": "117年为铭文原纪元的语料目录对照，MY1约132年为原年号参照，相隔约15年，不作严格同年比较。",
+      "reading": "CIRB44末行保留纪元413年及月份，王号和社团称谓有残损校释；张衡传把造仪系于阳嘉元年，后续验证故事未署同年。可比较原纪年、传承文本和人物角色的证据强度。",
+      "boundary": "不据恩主称号确认国王亲自雕刻，也不凭两地有具名材料就推出技术传播。原纪元与中国年号均不能直接当作前推公历确日。",
+      "sourceIds": [
+        "RP3",
+        "RP4",
+        "MT1",
+        "MT5"
+      ]
+    },
+    {
+      "id": "av-land-register-955",
+      "title": "约955年参照：土地供给与寺院登记怎样留下文字？",
+      "chinaRecordId": "MV1",
+      "otherRecordId": "AV1",
+      "question": "哪些是购地参与者、供给义务，哪些是寺院名额和登记规范？原纪年指追述事件还是现存载体形成？",
+      "relationBasis": "两条以约955年排序；K720追记877Śaka交易，诏系显德二年。两套年界均未核全，不作严格同年或同日。",
+      "reading": "K720具名Śaṅkarātmā，追记购地设村及舂米供给；史书所录后周诏按敕额区分寺院并规定僧账。可比较财产、供给与登记怎样被文字保存，不能把不同宗教和文书类型混同。",
+      "boundary": "K720不是955年同期原契券，诏也不是现存原件；不把土地交易自动当佛寺政策，不据供给义务推算实际交付量或跨区传播。",
+      "sourceIds": [
+        "AP1",
+        "MP1",
+        "MP4"
+      ]
+    },
+    {
+      "id": "av-publishing-1637-1651",
+      "title": "约1637与1651年：编纂者怎样说明知识与出版责任？",
+      "chinaRecordId": "MY3",
+      "otherRecordId": "AV2",
+      "question": "原题页、正文首栏和作者自序各能证明什么？怎样区分编刊署名、知识排序与实际传播？",
+      "relationBasis": "《天工开物》自序以约1637年排序，字典原刊题页署1651，相距约14年；不是同年，也不把自序署年等同初刊日。",
+      "reading": "宋应星自序说明五谷、金玉的篇目秩序及写作定位；字典题页署罗德、罗马与传信部，首叶配列越语词形及葡、拉释义。材料分别显露作者自我定位与出版责任。",
+      "boundary": "没有核完整字典与全部版本，不能由署名判定单人创造文字，也不能由一篇自序或首叶推算读者规模、全国影响或两书直接传承。",
+      "sourceIds": [
+        "MT3",
+        "AP2"
       ]
     }
   ]
