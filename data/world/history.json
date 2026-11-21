@@ -9010,6 +9010,809 @@
         "Or.8210/P.2",
         "敦煌"
       ]
+    },
+    {
+      "id": "AZ1",
+      "caseId": null,
+      "title": "《燕然山铭》原石署年并以刻石宣示军事功绩",
+      "regions": [
+        "蒙古",
+        "中国"
+      ],
+      "placeId": "az-yanran",
+      "placeLabel": "中戈壁Inil Hairhan摩崖（现存刻石地点参照）",
+      "placeRole": "现存摩崖坐标据田野报告的明确转引；不把点位放到旧说杭爱山脉中心，不据石刻单点复原所有古山名或战线",
+      "date": {
+        "value": "0089",
+        "precision": "year",
+        "sortYear": 89,
+        "display": "89年 · 永元元年秋七月",
+        "original": "原石首行释作“惟永元元年秋七月”；中科院年号表列永元89—105。秋七月处于此纪元起年89的年中，足以取公元年级；没有换算儒略历或格里高利历日。2017/2019/2020分别为现代识读、拓本与校订时间。",
+        "sourceIds": [
+          "AU1",
+          "MU5"
+        ]
+      },
+      "summary": "现存于今蒙古国中戈壁的摩崖自署永元元年秋七月，称车骑将军窦宪，并自述封山刊石；后编《后汉书》将撰铭归于班固。",
+      "people": [
+        {
+          "name": "窦宪",
+          "role": "原石第2行所称车骑将军，是铭文所颂军事行动的统帅"
+        },
+        {
+          "name": "班固",
+          "role": "《后汉书》明确记为受令作铭者；不是原石上已核到的作者亲署"
+        }
+      ],
+      "claims": [
+        {
+          "text": "原石第1行署永元元年秋七月，第2行称车骑将军窦宪，第18行记“封山刊石”；这是军事功绩的公开自述，不能把颂扬的胜利或永久安宁当作独立战果审计。",
+          "sourceId": "AU1",
+          "locator": "首行、第2行、第18行校读及附录释文",
+          "url": "https://www.thepaper.cn/newsDetail_forward_5723077"
+        },
+        {
+          "text": "《后汉书》窦宪传在登燕然、刻石勒功后写“令班固作铭曰”，并录铭文；作铭者归属取此后编叙事，不把传文异字直接补作原石现状。",
+          "sourceId": "AU2",
+          "locator": "卷23窦宪传，“宪、秉遂登燕然山”至所录铭文",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷23"
+        },
+        {
+          "text": "现代研究转引田野报告，将现存摩崖置于中戈壁省德勒格尔杭爱苏木Inil Hairhan附近，并给出具体坐标；这一定位只证明现代遗存位置。",
+          "sourceId": "AU3",
+          "locator": "第3页及脚注③",
+          "url": "https://ygx.sxu.edu.cn/db/%E6%9C%9F%E5%88%8A/20260417/75%E5%8C%97%E9%AD%8F%E6%97%B6%E7%9A%84%E2%80%9C%E5%B7%B3%E5%B0%BC%E9%99%82%E2%80%9D%E5%92%8C%E2%80%9C%E4%BA%8E%E5%B7%B3%E5%B0%BC%E5%A4%A7%E6%B0%B4%E2%80%9D%E6%89%80%E6%B6%89%E5%9C%B0%E7%90%86%E9%97%AE%E9%A2%98%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E3%80%8A%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86%E3%80%8B%E7%9A%84%E7%9B%B8%E5%85%B3%E6%B3%A8%E8%AE%B0.pdf"
+        }
+      ],
+      "quote": {
+        "text": "惟永元元年秋七月",
+        "translation": "在永元元年的秋季七月；依2020校订所释原石首行，不将阴历月份直接写成公历七月。",
+        "sourceId": "AU1",
+        "locator": "原石第1行；2020校订文首行讨论与附录",
+        "url": "https://www.thepaper.cn/newsDetail_forward_5723077",
+        "kind": "primary_text"
+      },
+      "limitation": "原碑磨损、拓本与传世文本有异读；本条以明确的署年、人物称谓和刊石目的为限。原石照片已查看，但低清照片不足以独立复核全部字。今蒙古国是遗存位置入口，不称89年已有蒙古民族国家；现代坐标的文献链尚经2025论文转引2019报告。",
+      "aliases": [
+        "燕然山铭",
+        "封燕然山铭",
+        "窦宪",
+        "班固",
+        "Inil Hairhan",
+        "Baruun Ilgen"
+      ],
+      "polities": [
+        "东汉",
+        "北匈奴"
+      ]
+    },
+    {
+      "id": "AZ2",
+      "caseId": null,
+      "title": "Say Fong医院碑规定治疗对象与医者配置",
+      "regions": [
+        "老挝",
+        "柬埔寨"
+      ],
+      "placeId": "az-say-fong",
+      "placeLabel": "Say Fong（医院碑发现区域参照）",
+      "placeRole": "数据库标明的今老挝Say Fong地点参照；不当作已核医院建筑确址或碑现藏馆位置",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1186,
+        "display": "约1186年 · 1108 Śaka",
+        "original": "第17颂B10的象数词dehāmvara-hr̥d-indunā由Finot1915、Honda1965释为1108Śaka，对照1186。原句没有已核月日，本轮不据纪元年起年证明全年西历年界，故保留原纪年/null。",
+        "sourceIds": [
+          "AU4",
+          "AU5"
+        ]
+      },
+      "summary": "发现于今老挝Say Fong的梵文医院碑以高棉王权口吻叙医院与药师佛供奉，列四varṇa为治疗对象，并规定两位医者。",
+      "people": [
+        {
+          "name": "阇耶跋摩七世",
+          "role": "碑第4颂称Śrī Jayavarmadeva，第17颂将建医院归于这位王者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "第17颂自述在此建立医院及佛寺、药师佛供奉，并以象数词纪年；Honda所据译文明确释1108Śaka，不能将现代发表年当作建院年。",
+          "sourceId": "AU5",
+          "locator": "第408页第17颂，PDF第10页；另见第413页第4颂的人物指代说明",
+          "url": "https://www.jstage.jst.go.jp/article/ibk1952/14/1/14_1_417/_pdf/-char/en"
+        },
+        {
+          "text": "B13—14（第19颂）列四varṇa为治疗对象，并列两位医者；varṇa是碑的身份分类，文本规范不等于本轮已核每类人的就医人数或实际平等程度。",
+          "sourceId": "AU4",
+          "locator": "第19颂，B13—14原文及Finot1903法译；Honda仅译19a",
+          "url": "https://dharmalekha.info/texts/INSCIK00368"
+        },
+        {
+          "text": "Siddham将对象K368的地点列为Say Fong（Laos），提供区域坐标与碑石照片；用于现代地区归档，不把它据为中世纪已有老挝国家的证明。",
+          "sourceId": "AU6",
+          "locator": "Object K368地点、坐标与照片说明",
+          "url": "https://siddham.network/object/k368/"
+        }
+      ],
+      "quote": {
+        "text": "cikitsyā Atra catvāro varṇā",
+        "translation": "这里的四varṇa应可获得治疗。依据现代罗马字释读；不把英译补入的equally当作古碑独立用字。",
+        "sourceId": "AU4",
+        "locator": "B13a—b，第19颂上半",
+        "url": "https://dharmalekha.info/texts/INSCIK00368",
+        "kind": "primary_text"
+      },
+      "limitation": "梵文铭文由现代释读保存，数码版基于EFEO拓本125，初刊Finot1903第18—33页、1915修订，另有Honda1965重读。今老挝为碑的发现区域，君主与宗教制度属于高棉王权语境，不套现代疆界。本条证明其发布的安排，不证明医院实际规模、疗效或连续运营。",
+      "aliases": [
+        "K368",
+        "Say Fong",
+        "Sai Fong",
+        "阇耶跋摩七世",
+        "医院碑",
+        "1108 Śaka",
+        "varṇa"
+      ],
+      "polities": [
+        "阇耶跋摩七世时期高棉王权"
+      ]
+    },
+    {
+      "id": "EZ1",
+      "caseId": null,
+      "title": "圣佩德罗MAS-2904红色磨光陶杯保存器形与表面工艺",
+      "regions": [
+        "智利"
+      ],
+      "placeId": null,
+      "placeLabel": "具体出土/制造地点未刊，不以现代收藏城市定位",
+      "placeRole": "原件现存但缺精确历史地点，仅在列表及同期对读中显示",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 100,
+        "toYear": 400,
+        "sortYear": 100,
+        "display": "约公元100—400年",
+        "original": "馆方该件档案完整定为100—400d.C.，Periodo Formativo／Fase Séquitor；不以其他San Pedro物件的更长年代代替。",
+        "sourceIds": [
+          "EU1"
+        ]
+      },
+      "summary": "单件器物档案记录一件红色磨光陶杯的器形、带形把手、平底和表面处理，为今智利北部早期制陶提供物质材料。",
+      "people": [],
+      "claims": [
+        {
+          "text": "MAS-2904归San Pedro Rojo Pulido类型，外内表面均施色浆并磨光，器身有纵置带形把手与平底。",
+          "sourceId": "EU1",
+          "locator": "PDF第1页DESCRIPCIÓN GENERAL、TÉCNICA UTILIZADA",
+          "url": "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf"
+        },
+        {
+          "text": "对象页将其完整断代为100—400年，归形成期Séquitor阶段；地点栏只给San Pedro de Atacama大区。",
+          "sourceId": "EU1",
+          "locator": "PDF第1页ASIGNACIÓN CRONOLÓGICA、PERIODO/FASE、ÁREA GEOGRÁFICA",
+          "url": "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf"
+        }
+      ],
+      "quote": {
+        "text": "Modelado, engobado y pulido.",
+        "translation": "塑形、施色浆、磨光。这是现代编目的技术描述，不是器上的古代铭文。",
+        "sourceId": "EU1",
+        "locator": "PDF第1页TÉCNICA UTILIZADA",
+        "url": "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf",
+        "kind": "catalog_description"
+      },
+      "limitation": "未发现本件古代文字或已知制作者姓名，人物留空。地区归属不是精确出土点，不画收藏城市。后附当代社区口述独立于古代物证，不能据此跨千年回填工艺谱系。",
+      "aliases": [
+        "MAS-2904",
+        "San Pedro Rojo Pulido",
+        "Séquitor",
+        "Lickanantay"
+      ],
+      "polities": [
+        "San Pedro考古学传统（非已确定国家名）"
+      ],
+      "parties": [],
+      "locationStatus": "unlocated",
+      "locationNote": "馆方的文化或大区域归属不等于具体发掘地点；本轮无可追溯的原件发现点坐标。"
+    },
+    {
+      "id": "EZ2",
+      "caseId": null,
+      "title": "Candelaria8995号动物形陶器保存早期造型材料",
+      "regions": [
+        "阿根廷"
+      ],
+      "placeId": null,
+      "placeLabel": "具体出土/制造地点未刊，不以现代收藏城市定位",
+      "placeRole": "原件现存但缺精确历史地点，仅在列表及同期对读中显示",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 200,
+        "toYear": 400,
+        "sortYear": 200,
+        "display": "约公元200—400年",
+        "original": "单件馆方著录Temprano:(200—400d.C)；完整采用该件断代，不从其他文化范围裁切。",
+        "sourceIds": [
+          "EU2"
+        ]
+      },
+      "summary": "国立美术馆8995号物件被著录为Candelaria传统的动物形陶器；其材质和塑形工艺提供可核的物质证据，用途与制作者身份仍未知。",
+      "people": [],
+      "claims": [
+        {
+          "text": "该件编号8995，馆方将其分类为塑形制作的陶质动物形器物，18.6×15厘米。",
+          "sourceId": "EU2",
+          "locator": "Ficha Técnica：Técnica、Género、Soporte、Medidas、Inventario",
+          "url": "https://www.bellasartes.gob.ar/coleccion/obra/8995/"
+        },
+        {
+          "text": "馆方日期栏明确200—400年；1986年指现代捐赠时间，并非器物制造年。",
+          "sourceId": "EU2",
+          "locator": "Ficha Técnica：Fecha、Origen",
+          "url": "https://www.bellasartes.gob.ar/coleccion/obra/8995/"
+        }
+      ],
+      "quote": {
+        "text": "Temprano: (200-400 d.C)",
+        "translation": "早期：公元200—400年。这是现代馆藏断代，器物本身没有这种公元纪年题署。",
+        "sourceId": "EU2",
+        "locator": "Ficha Técnica：Fecha",
+        "url": "https://www.bellasartes.gob.ar/coleccion/obra/8995/",
+        "kind": "catalog_description"
+      },
+      "limitation": "无可读古代铭文或已知制作者姓名。对象缺发掘地层和精确地点，不能将布宜诺斯艾利斯收藏地当作古代活动点；“Candelaria(NOA)”是馆方考古文化归属，不是已知王朝或民族国家。",
+      "aliases": [
+        "Candelaria",
+        "Inventario8995",
+        "Vaso zoomorfo",
+        "Noroeste argentino"
+      ],
+      "polities": [
+        "Candelaria考古文化归属（具体政治共同体未定）"
+      ],
+      "parties": [],
+      "locationStatus": "unlocated",
+      "locationNote": "馆方的文化或大区域归属不等于具体发掘地点；本轮无可追溯的原件发现点坐标。"
+    },
+    {
+      "id": "EZ3",
+      "caseId": null,
+      "title": "阿瓜达1991.164号青铜牌呈现人物与猫科动物图像",
+      "regions": [
+        "阿根廷"
+      ],
+      "placeId": null,
+      "placeLabel": "具体出土/制造地点未刊，不以现代收藏城市定位",
+      "placeRole": "原件现存但缺精确历史地点，仅在列表及同期对读中显示",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 600,
+        "toYear": 900,
+        "sortYear": 600,
+        "display": "约公元600—900年",
+        "original": "馆方单件记录完整断代600—900年；不把区间中点750年写成制造年。",
+        "sourceIds": [
+          "EU3"
+        ]
+      },
+      "summary": "阿瓜达归属的青铜牌保存中央人物、几何纹饰与两旁猫科动物的组合；器物图像可读，人物姓名及其权力角色未知。",
+      "people": [],
+      "claims": [
+        {
+          "text": "该件编号1991.164，馆方记录材质为青铜，尺寸12.8×14厘米，断代600—900年。",
+          "sourceId": "EU3",
+          "locator": "Date、Medium、Measurements、Credit Line",
+          "url": "https://www.clevelandart.org/art/1991.164"
+        },
+        {
+          "text": "现代馆方描述中央正面人物以及两侧带斑点、长卷尾猫科动物；未识别具体历史人物。",
+          "sourceId": "EU3",
+          "locator": "Description",
+          "url": "https://www.clevelandart.org/art/1991.164"
+        }
+      ],
+      "quote": {
+        "text": "He is flanked by spotted felines with long, curling tails",
+        "translation": "中央形象两侧有带斑点、长卷尾的猫科动物。英语he是馆方叙述用语，不足以独立证明人物性别。",
+        "sourceId": "EU3",
+        "locator": "Description",
+        "url": "https://www.clevelandart.org/art/1991.164",
+        "kind": "catalog_description"
+      },
+      "limitation": "这是无可读古代铭文的器物证据，短引取现代目录，不能当古人自述。图像与青铜材质不直接证明其为君主、萨满或战争奖章；未公开发掘语境与合金成分。",
+      "aliases": [
+        "La Aguada",
+        "1991.164",
+        "青铜牌"
+      ],
+      "polities": [
+        "La Aguada考古文化归属（非已确定国家名）"
+      ],
+      "parties": [],
+      "locationStatus": "unlocated",
+      "locationNote": "馆方的文化或大区域归属不等于具体发掘地点；本轮无可追溯的原件发现点坐标。"
+    },
+    {
+      "id": "EZ4",
+      "caseId": null,
+      "title": "Santa María0957号青铜铃提供南安第斯铸造器物证据",
+      "regions": [
+        "阿根廷"
+      ],
+      "placeId": null,
+      "placeLabel": "具体出土/制造地点未刊，不以现代收藏城市定位",
+      "placeRole": "原件现存但缺精确历史地点，仅在列表及同期对读中显示",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 1200,
+        "toYear": 1470,
+        "sortYear": 1200,
+        "display": "约公元1200—1470年",
+        "original": "已实际打开的现行馆方单件作品页定1200—1470dC，完整采用该页范围；旧馆刊1000—1470线索仅见检索摘要，尚未核原页，未据其扩展已核断代。",
+        "sourceIds": [
+          "EU4"
+        ]
+      },
+      "summary": "MChAP0957号铃保留大型金属器形与表面图像；馆方明确承认缺乏专业发掘语境，因此其确切功能仍需证据。",
+      "people": [],
+      "claims": [
+        {
+          "text": "现行单件器物页列MCHAP0957、1200—1470年、298×290毫米。",
+          "sourceId": "EU4",
+          "locator": "Materiales、Medidas、Código",
+          "url": "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/"
+        },
+        {
+          "text": "馆方正文承认此型器物没有专业发掘资料，故确切功能不明；后续关于仪式的描述应作为解释假说。",
+          "sourceId": "EU4",
+          "locator": "正文Ninguna de las piezas段",
+          "url": "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/"
+        }
+      ],
+      "quote": {
+        "text": "no sabemos exactamente qué función tenían",
+        "translation": "我们并不确切知道它们具有何种功能。这是馆方对证据边界的明确说明。",
+        "sourceId": "EU4",
+        "locator": "正文Ninguna de las piezas段",
+        "url": "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/",
+        "kind": "catalog_description"
+      },
+      "limitation": "具体出土地点未知，placeId为空。当前1200—1470年仅由已实际打开的馆方单件页EU4支持。另见旧馆刊总目较宽起年线索，但只读到检索摘要，未核PDF原页，故本轮不升级为1000—1470年的已核包络；详见gaps。祭仪用途须与材质、铸造技术的直接检验分开。",
+      "aliases": [
+        "Santa María",
+        "MCHAP0957",
+        "tan-tan",
+        "青铜铃"
+      ],
+      "polities": [
+        "Santa María考古文化归属（非已确定国家名）"
+      ],
+      "parties": [],
+      "locationStatus": "unlocated",
+      "locationNote": "馆方的文化或大区域归属不等于具体发掘地点；本轮无可追溯的原件发现点坐标。"
+    },
+    {
+      "id": "RZ1",
+      "caseId": null,
+      "title": "布列斯特—特里申墓地发掘报告记录火葬组合与暂定年代",
+      "regions": [
+        "白俄罗斯"
+      ],
+      "polities": [
+        "布格河地区的维尔巴克文化社群（具体政权名称未明）"
+      ],
+      "placeId": "ry-brest",
+      "placeLabel": "布列斯特东缘特里申（城市级参照）",
+      "placeRole": "原报告明确的墓地所在城市参照，非精确墓坑坐标",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 170,
+        "toYear": 270,
+        "sortYear": 170,
+        "display": "约170—270年（已发掘区的暂定断代）",
+        "original": "发掘者原报告第63页：“примерно 170—270 гг. н. э.”；其后明确只研究了墓地一部分，时间判断并非最终结论。此范围是墓地已发掘部分的使用期，不是1959发现或1960—1977发掘日期。",
+        "sourceIds": [
+          "RU1"
+        ]
+      },
+      "summary": "发掘者把特里申墓地已发掘区暂定为约170—270年；墓葬1的陶瓮、焚烧遗骨、铜制衣扣与纺轮形成有编号的出土组合。",
+      "people": [],
+      "claims": [
+        {
+          "text": "报告将墓地定位于布列斯特东部特里申、穆哈韦茨河右岸，列出约900平方米、75座含火葬遗存的墓葬。",
+          "sourceId": "RU1",
+          "locator": "第3–4页，地点、发掘范围及保存说明",
+          "url": "https://djvu.online/file/WfUOkUZzJWGvH"
+        },
+        {
+          "text": "墓葬1的陶瓮中有焚烧骨片、小陶碗、两枚铜衣扣、铜扣与陶纺轮；原报告给出墓号与图版对应。",
+          "sourceId": "RU1",
+          "locator": "第5页“Погребение 1”；图版III/1、VI/1",
+          "url": "https://djvu.online/file/WfUOkUZzJWGvH"
+        },
+        {
+          "text": "断代章以衣扣类型、共存器物及区域分期作比较，结论为已发掘区约170–270年，并明确结论不是最终定论。",
+          "sourceId": "RU1",
+          "locator": "第60–63页，尤其第63页结尾",
+          "url": "https://djvu.online/file/WfUOkUZzJWGvH"
+        }
+      ],
+      "quote": {
+        "text": "примерно 170—270 гг. н. э.",
+        "translation": "约公元170—270年；这是现代发掘者对已发掘墓地使用期的暂定判断，不是古人自述。",
+        "sourceId": "RU1",
+        "locator": "第63页“Хронология могильника”结尾括号内",
+        "url": "https://djvu.online/file/WfUOkUZzJWGvH",
+        "kind": "research_report"
+      },
+      "limitation": "没有可核古代人名，人物留空。范围完整保留为170–270，不能用中点220年制造事件；未发掘区可能改变边界，后续分期研究也可能修订。墓地实物不自行证明社群的语言、民族自称、国家归属或与汉朝有直接联系。地图沿用布列斯特城市参照，非具体墓坑。",
+      "artifact": {
+        "identifier": "Брест-Тришин墓地；墓葬1；原报告图版III/1、VI/1；总体图2、14",
+        "site": "布列斯特东缘特里申，穆哈韦茨河右岸；原报告第3页",
+        "imageOrReportUrl": "https://djvu.online/file/WfUOkUZzJWGvH",
+        "datingMethod": "发掘者原报告的衣扣类型学、组合共存与区域分期比较；已发掘区使用期约170–270",
+        "datingLimitation": "非直接碳测年；作者第63页称尚非最终结论且仅研究墓地一部分，不能给每座墓分配确年"
+      },
+      "parties": [],
+      "aliases": [
+        "Brest-Trishin",
+        "布列斯特",
+        "特里申",
+        "维尔巴克"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "RZ2",
+      "caseId": null,
+      "title": "巴拉克拉瓦神庙像座铭文为安东尼努斯与奥勒留祝祷",
+      "regions": [
+        "乌克兰"
+      ],
+      "polities": [
+        "罗马帝国（第一意大利军团的驻军与奉献活动）",
+        "赫尔松涅索斯城邦近郊"
+      ],
+      "placeId": "rz-balaklava",
+      "placeLabel": "巴拉克拉瓦地区（城市参照）",
+      "placeRole": "原报告所述神庙发掘地的城市参照，非把港湾中心当成像座探方",
+      "date": {
+        "value": null,
+        "precision": "range",
+        "fromYear": 139,
+        "toYear": 161,
+        "sortYear": 139,
+        "display": "约139—161年（铭文头衔断代）",
+        "original": "原报告第202页据安东尼努斯为Augustus、马尔库斯·奥勒留为Caesar，给139–161年上下限；作者更倾147–161，并进一步提出较晚位置的推测。本条保留可完整容纳前两区间的139–161，不用中点虚构奉献年。",
+        "sourceIds": [
+          "RU2"
+        ]
+      },
+      "summary": "像座第1号铭文献给赫拉克勒斯，为安东尼努斯与马尔库斯·奥勒留祝祷，并列第一意大利军团军官；头衔支持139—161年的宽断代。",
+      "people": [
+        {
+          "name": "安东尼乌斯·瓦伦斯（Antonius Valens）",
+          "role": "铭文第4–6行所列第一意大利军团军事保民官，奉献活动具名者"
+        },
+        {
+          "name": "马尔库斯·奥勒留",
+          "role": "铭文中被祝祷者，原文称Caesar；不能写成当时已经是皇帝或本人到访此地"
+        }
+      ],
+      "claims": [
+        {
+          "text": "报告记1996年在巴拉克拉瓦湾东北约2公里发现神庙遗存，第1铭文刻在赫拉克勒斯像座上，并给出原文与图像。",
+          "sourceId": "RU2",
+          "locator": "第197–201页；第1号铭文；图4.1、图5",
+          "url": "https://ancientrome.ru/publik/article.htm?a=1408654805"
+        },
+        {
+          "text": "铭文献给赫拉克勒斯，为安东尼努斯Augustus与马尔库斯·奥勒留Caesar祝祷，并列军事保民官瓦伦斯和同军团百夫长诺维乌斯·乌尔皮安努斯。",
+          "sourceId": "RU2",
+          "locator": "第1号铭文第1–8行；第202页展开与俄译",
+          "url": "https://ancientrome.ru/publik/article.htm?a=1408654805"
+        },
+        {
+          "text": "报告以两位被祝祷者头衔给139–161年断代，更倾147–161年；具体建立日与更窄年份没有确定。",
+          "sourceId": "RU2",
+          "locator": "第202页，头衔及断代论证",
+          "url": "https://ancientrome.ru/publik/article.htm?a=1408654805"
+        }
+      ],
+      "quote": {
+        "text": "HERCVLI SACR",
+        "translation": "献给赫拉克勒斯；SACR是sacrum的缩写，保留原刊所录大写与V字形。",
+        "sourceId": "RU2",
+        "locator": "第1号铭文第1行；印页200–202，图4.1、图5",
+        "url": "https://ancientrome.ru/publik/article.htm?a=1408654805",
+        "kind": "primary_text"
+      },
+      "limitation": "材料属于罗马驻军的宗教奉献，不能据此判定整个克里米亚的行政地位。被祝祷者不等于亲临者；1996是发现年，不是奉献年。乌克兰是现代地理入口，不是2世纪政权名；铭文的完整头衔区间保留，不缩成确年。",
+      "artifact": {
+        "identifier": "1999 VDI报告第1号铭文；赫拉克勒斯像座；图4.1、图5",
+        "site": "巴拉克拉瓦湾东北约2公里神庙发掘区，1996年发现",
+        "imageOrReportUrl": "https://ancientrome.ru/publik/article.htm?a=1408654805",
+        "datingMethod": "铭文帝号/凯撒称号的上下限：报告给139–161，更倾147–161；与字形、军团研究交叉讨论",
+        "datingLimitation": "无自署确年；较窄147–161与进一步偏晚的推测并非同等确定，本条采用139–161完整范围"
+      },
+      "parties": [],
+      "aliases": [
+        "Balaklava",
+        "HERCVLI",
+        "安东尼努斯",
+        "奥勒留",
+        "Antonius Valens"
+      ],
+      "humanReviewed": false
+    },
+    {
+      "id": "MZ1",
+      "caseId": null,
+      "title": "科尔多瓦建城文书以西班牙王权名义命名城市并宣示占有",
+      "regions": [
+        "阿根廷"
+      ],
+      "placeId": "ry-cordoba",
+      "placeLabel": "科尔多瓦地区（城市参照）",
+      "placeRole": "文书记述的殖民建城地区参照；现代城市点不是1573年Suquía岸边的确切仪式点",
+      "date": {
+        "value": "1573",
+        "precision": "year",
+        "sortYear": 1573,
+        "display": "1573年 · 原署七月六日",
+        "original": "照片首叶与转录记seys días del mes de julio、mil y quinientos y setenta y tres；未核旧历到推算格里历转换，故只录1573年，不把原七月六日当现代公历日。",
+        "sourceIds": [
+          "MU1"
+        ]
+      },
+      "summary": "文书具名Cabrera与书记Torres，把城市命名、王权占有和地方司法象征写进同一程序；这是殖民当局自己的权利宣示。",
+      "people": [
+        {
+          "name": "Jerónimo Luis de Cabrera／赫罗尼莫·路易斯·德卡夫雷拉",
+          "role": "文书所列总督、建城与占有宣示的行动者"
+        },
+        {
+          "name": "Francisco de Torres／弗朗西斯科·德托雷斯",
+          "role": "首叶及末署点名的书记；不把现代转载者当原作者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "首叶记1573年、Cabrera及书记Francisco de Torres，文书地点用Quisquisacate及Suquía河等名称。",
+          "sourceId": "MU1",
+          "locator": "Folio1r前半；转录第1—2、4节",
+          "url": "https://www.republicofcordoba.com/acta-fundacion"
+        },
+        {
+          "text": "第二叶将城市称作Córdoba，称以西班牙国王名义占有，并以rollo e picota指司法权象征。",
+          "sourceId": "MU1",
+          "locator": "Folio1v中部；转录第5—6节",
+          "url": "https://www.republicofcordoba.com/acta-fundacion"
+        }
+      ],
+      "quote": {
+        "text": "en nombre de la Majestad Real",
+        "translation": "以国王陛下的名义；引自所据转录，标点和大小写依现代转载，不伪称外交式原字转写。",
+        "sourceId": "MU1",
+        "locator": "转录第6节；Folio1v的占有宣示段",
+        "url": "https://www.republicofcordoba.com/acta-fundacion",
+        "kind": "primary_text"
+      },
+      "limitation": "已看前两叶复制图及所据转录，未把整册后续任官条款都列为已核。殖民权利宣称不能证明原住民同意、土地无主或实际控制范围；也不把该私站的现代人物故事当史料。",
+      "polities": [
+        "西班牙君主国在图库曼的殖民当局"
+      ],
+      "aliases": [
+        "Córdoba de la Nueva Andalucía",
+        "Cabrera",
+        "科尔多瓦建城",
+        "Quisquisacate"
+      ]
+    },
+    {
+      "id": "MZ2",
+      "caseId": null,
+      "title": "《明史》记万历六年采纳张居正议丈量田亩",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "beijing",
+      "placeLabel": "北京（明廷政策中心参照）",
+      "placeRole": "以政策命令所出朝廷作城市参照，不表示丈量发生在北京或原诏房间已定位",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 1578,
+        "display": "约1578年 · 万历六年",
+        "original": "原文万历六年；按年号表为1578排序参照。正文未给本条月日，不用三年程限推定各地完工日。",
+        "sourceIds": [
+          "MU2",
+          "MU5"
+        ]
+      },
+      "summary": "后编食货志将一次田亩丈量命令系于万历六年，并同时保存统一算法的主张和后续考核扭曲的批评。",
+      "people": [
+        {
+          "name": "张居正",
+          "role": "史书所记丈量建议的提出者"
+        },
+        {
+          "name": "明神宗",
+          "role": "本段“帝用……议”的采纳者；不是在每块田现场丈量的人"
+        }
+      ],
+      "claims": [
+        {
+          "text": "万历六年句明称采纳张居正建议，通行丈量天下田亩、限三载竣事，并叙用开方法处理边角。",
+          "sourceId": "MU2",
+          "locator": "万历六年句至“畸零截补”",
+          "url": "https://zh.wikisource.org/wiki/明史/卷77"
+        },
+        {
+          "text": "同段后文又批评改用小弓追求溢额、掊克见田及据溢额加赋；这些是史书叙述，不等于本轮已核各地结果。",
+          "sourceId": "MU2",
+          "locator": "“然居正尚综核”至段末",
+          "url": "https://zh.wikisource.org/wiki/明史/卷77"
+        }
+      ],
+      "quote": {
+        "text": "天下田畝通行丈量，限三載竣事",
+        "translation": "通令丈量田亩，规定三年的办结期限；这是命令及程限，不是完成统计。",
+        "sourceId": "MU2",
+        "locator": "万历六年段",
+        "url": "https://zh.wikisource.org/wiki/明史/卷77",
+        "kind": "primary_text"
+      },
+      "limitation": "不把后编史书当原诏或丈量簿，不直接采用其全国田数作真实面积比较。与1573科尔多瓦文书仅作相近年代的空间、权力与行政文字对读，不将两种制度视作等同。",
+      "polities": [
+        "明朝"
+      ],
+      "aliases": [
+        "张居正",
+        "清丈田亩",
+        "万历六年",
+        "鱼鳞图册"
+      ]
+    },
+    {
+      "id": "MZ3",
+      "caseId": null,
+      "title": "《三国志》所录曹操遗令要求葬后除服且不藏金玉",
+      "regions": [
+        "中国"
+      ],
+      "placeId": "my-luoyang",
+      "placeLabel": "洛阳（死亡叙事城市参照）",
+      "placeRole": "正文记曹操卒于洛阳；不是高陵墓室、遗令撰写房间或全部葬仪的坐标",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 220,
+        "display": "约220年 · 建安二十五年春正月",
+        "original": "武帝纪建安二十五年春正月、庚子王崩后引遗令；220为年号对照排序，未核历日与完整年界。原书未给遗令独立拟稿日。",
+        "sourceIds": [
+          "MU3",
+          "MU5"
+        ]
+      },
+      "summary": "纪传把遗令接在曹操死亡记载之后，强调丧服、守军职务和随葬物；规范文本与考古墓葬的实际残存须分别验证。",
+      "people": [
+        {
+          "name": "曹操",
+          "role": "遗令在纪传中归属的人物；不能由转录确认亲笔或全部实际执行"
+        }
+      ],
+      "claims": [
+        {
+          "text": "正文遗令规定葬后除服，要求将兵屯戍者不得离屯、有司各尽职。",
+          "sourceId": "MU3",
+          "locator": "建安二十五年遗令前半",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+        },
+        {
+          "text": "遗令又要求敛以时服、不藏金玉珍宝；正文次叙二月葬高陵，二者不可混同撰稿日与出土实物。",
+          "sourceId": "MU3",
+          "locator": "遗令后半及紧接葬高陵句",
+          "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+        }
+      ],
+      "quote": {
+        "text": "斂以時服，無藏金玉珍寶",
+        "translation": "用平常衣服入殓，不以金玉珍宝随葬；这是文书要求，不是已核墓室清单。",
+        "sourceId": "MU3",
+        "locator": "遗令末两句",
+        "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+        "kind": "primary_text"
+      },
+      "limitation": "以陈寿正文所引遗令为主体，未核原件和各版本异文；不能证明东汉各阶层都薄葬，也不能将“无藏”与任何考古未见贵重物的现象直接画等号。",
+      "polities": [
+        "东汉末年的魏王政权"
+      ],
+      "aliases": [
+        "曹操",
+        "建安二十五年",
+        "曹操遗令",
+        "薄葬"
+      ]
+    },
+    {
+      "id": "MZ4",
+      "caseId": null,
+      "title": "《后汉书》记班超受任都护及西域王位更置",
+      "regions": [
+        "中国"
+      ],
+      "placeId": null,
+      "placeLabel": "受任动作的具体地点未记",
+      "placeRole": "任命及西域关系记录，不以其后驻地龟兹它干城代替受任现场",
+      "date": {
+        "value": null,
+        "precision": "regnal_year",
+        "sortYear": 91,
+        "display": "约91年 · 永元二年之明年",
+        "original": "原文先叙永元二年，下一段以“明年”承接班超为都护；据此为永元三年，91只作年号排序。未给任命月日或完整西历年界。",
+        "sourceIds": [
+          "MU4",
+          "MU5"
+        ]
+      },
+      "summary": "传记将班超都护任命、徐干长史任命和龟兹王更置合叙；可以与两年前刻于今蒙古境内的汉军纪功文字对读不同的帝国权力表达。",
+      "people": [
+        {
+          "name": "班超",
+          "role": "史书所记受任都护并参与龟兹王更置者"
+        },
+        {
+          "name": "徐干",
+          "role": "同句所记受任长史者"
+        },
+        {
+          "name": "白霸",
+          "role": "史书所记被立为龟兹王者"
+        }
+      ],
+      "claims": [
+        {
+          "text": "永元二年段后的“明年”明确记班超为都护、徐干为长史。",
+          "sourceId": "MU4",
+          "locator": "永元二年月氏攻超后“明年”段首",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷47"
+        },
+        {
+          "text": "同段记废尤利多而立白霸及班超随后居龟兹它干城；任命动作与后续驻地属于不同地点角色。",
+          "sourceId": "MU4",
+          "locator": "“拜白霸为龟兹王”至“徐干屯疏勒”",
+          "url": "https://zh.wikisource.org/wiki/後漢書/卷47"
+        }
+      ],
+      "quote": {
+        "text": "乃以超爲都護，徐幹爲長史",
+        "translation": "于是任班超为都护、徐干为长史；官名依史书，不换成现代国家或行政职衔。",
+        "sourceId": "MU4",
+        "locator": "永元二年之明年段",
+        "url": "https://zh.wikisource.org/wiki/後漢書/卷47",
+        "kind": "primary_text"
+      },
+      "limitation": "南朝编史的汉朝视角不能代替当地各方声音，也不能证明所记全域完全受控。与89石刻在时间上接近，但不把两个不同方向的行动说成同一次战役或同一作者。",
+      "polities": [
+        "东汉",
+        "龟兹等西域诸王权"
+      ],
+      "aliases": [
+        "班超",
+        "西域都护",
+        "徐干",
+        "白霸",
+        "龟兹"
+      ],
+      "locationStatus": "unlocated",
+      "locationNote": "只确认任命与其后驻地的叙述，具体受任地点未记；仍可在列表与中国对读中阅读，不生成任意坐标。"
     }
   ],
   "places": [
@@ -9991,6 +10794,42 @@
       "coordinateLabel": "UNESCO世界遗产440号坐标",
       "precision": "area_reference",
       "note": "世界遗产地的机构参照点，非第17窟测量点，也不是868年印刷作坊。题记原卷出自藏经洞，现代伦敦藏地不回投868年。"
+    },
+    {
+      "id": "az-yanran",
+      "label": "燕然山铭现存摩崖 · 中戈壁参照",
+      "coordinates": [
+        104.5549166667,
+        45.1778888889
+      ],
+      "precision": "site_reference",
+      "coordinateSource": "https://ygx.sxu.edu.cn/db/%E6%9C%9F%E5%88%8A/20260417/75%E5%8C%97%E9%AD%8F%E6%97%B6%E7%9A%84%E2%80%9C%E5%B7%B3%E5%B0%BC%E9%99%82%E2%80%9D%E5%92%8C%E2%80%9C%E4%BA%8E%E5%B7%B3%E5%B0%BC%E5%A4%A7%E6%B0%B4%E2%80%9D%E6%89%80%E6%B6%89%E5%9C%B0%E7%90%86%E9%97%AE%E9%A2%98%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E3%80%8A%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86%E3%80%8B%E7%9A%84%E7%9B%B8%E5%85%B3%E6%B3%A8%E8%AE%B0.pdf",
+      "coordinateLabel": "莫久愚2025第3页明确转引2019田野报告：104°33′17.7″E，45°10′40.4″N",
+      "note": "以现代遗存报告坐标作点位参照，未自行复测；不取旧说杭爱山脉中心坐标，不据石铭将一切“燕然山”用名定为同一山体。"
+    },
+    {
+      "id": "az-say-fong",
+      "label": "Say Fong医院碑发现区域参照",
+      "coordinates": [
+        102.6702777778,
+        17.8236111111
+      ],
+      "precision": "site_reference",
+      "coordinateSource": "https://siddham.network/object/k368/",
+      "coordinateLabel": "Siddham对象K368列17°49′25″N102°40′13″E；2020-06-12编目",
+      "note": "机构碑铭数据库的Say Fong区域参照，非本轮考古测绘；不据此称医院建筑确址或碑现藏馆点。"
+    },
+    {
+      "id": "rz-balaklava",
+      "label": "巴拉克拉瓦",
+      "coordinates": [
+        33.6,
+        44.5
+      ],
+      "precision": "city_reference",
+      "coordinateSource": "https://en.wikipedia.org/w/index.php?title=Balaklava&oldid=1374977319",
+      "coordinateLabel": "Balaklava城市坐标44°30′N33°36′E，已读地名页坐标栏；只用于城市参照",
+      "note": "原报告发掘地在湾东北约2公里，城市点不冒充神庙具体探方。现代地区入口为乌克兰，古代记录的政权和驻军角色单列。"
     }
   ],
   "sources": [
@@ -11667,6 +12506,184 @@
       "checked": "已打开并核阳嘉与庆历起讫；仅用于原典年号对照。",
       "limitation": "年号年份对照不是逐日历算；未据表证明原农历月份与公历年界完全一致。",
       "humanReviewed": false
+    },
+    {
+      "id": "AU1",
+      "title": "辛德勇：《燕然山铭》文本新订定（2020）及2019年新拓片",
+      "url": "https://www.thepaper.cn/newsDetail_forward_5723077",
+      "kind": "基于摩崖原石拓本的原始校勘研究，附拓片照片",
+      "locator": "2020-02-03发表、文末自署2020-02-01；首幅陈国荣拓片（王龙霄摄）；第1、2、18行讨论及附录释文",
+      "checked": "已打开全文，读首行原署年、第2行窦宪及第18行封山刊石的校读；已下载并查看所附2019拓片全貌。逐字引用依据作者释读，不声称凭低分辨率照片独立辨尽所有字。",
+      "limitation": "2017识读后的再校订，利用2019年拓本；部分字仍有争议。本文自己声明未用馆存最高分辨率文件，不据其疆域解释断定实际控制线。",
+      "humanReviewed": false,
+      "parallelUrl": "https://imagenfs.thepaper.cn/image/48/131/171.jpg",
+      "parallelLabel": "2019拓本照片，已查看；读字依据2020校勘释文"
+    },
+    {
+      "id": "AU2",
+      "title": "《后汉书》卷23·窦融列传附窦宪传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷23",
+      "kind": "5世纪后编史书保存的纪事与铭文传本之现代转录",
+      "locator": "窦宪传“宪惧诛”至“令班固作铭曰”及随后的《燕然山铭》",
+      "checked": "已打开并读北征、刻石纪功和完整传世铭文段，核对史书将作铭归于班固及刻石目的；与现代原石释读分列，不混合异文。",
+      "limitation": "范晔5世纪编纂，非89年军中档案；传本与原石异文存在，“三千余里”等叙述没有在此独立实测。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AU3",
+      "title": "莫久愚：北魏时的“巳尼陂”和“于巳尼大水”所涉地理问题辨析（2025）",
+      "url": "https://ygx.sxu.edu.cn/db/%E6%9C%9F%E5%88%8A/20260417/75%E5%8C%97%E9%AD%8F%E6%97%B6%E7%9A%84%E2%80%9C%E5%B7%B3%E5%B0%BC%E9%99%82%E2%80%9D%E5%92%8C%E2%80%9C%E4%BA%8E%E5%B7%B3%E5%B0%BC%E5%A4%A7%E6%B0%B4%E2%80%9D%E6%89%80%E6%B6%89%E5%9C%B0%E7%90%86%E9%97%AE%E9%A2%98%E8%BE%A8%E6%9E%90%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E3%80%8A%E4%B8%AD%E5%9B%BD%E5%8E%86%E5%8F%B2%E5%9C%B0%E5%9B%BE%E9%9B%86%E3%80%8B%E7%9A%84%E7%9B%B8%E5%85%B3%E6%B3%A8%E8%AE%B0.pdf",
+      "kind": "现代历史地理研究中对2019年田野报告的明确转引，仅用于发现地参照",
+      "locator": "第3页、脚注③，引齐木德道尔吉/高建国《有关〈封燕然山铭〉摩崖的三个问题》2019年第1期",
+      "checked": "已打开PDF正文并读第3页，核对中戈壁省德勒格尔杭爱苏木、Inil Hairhan及104°33′17.7″E/45°10′40.4″N。此处读到的是2025论文对2019报告的转引，未冒称已读2019原发表。",
+      "limitation": "该页讨论北魏地理，不是89年材料本身；只借所转引坐标定位现存摩崖，古代燕然山所指和行军路线仍有争论。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AU4",
+      "title": "DHARMA：K368 Say Fong医院碑逐行释读及历次译文",
+      "url": "https://dharmalekha.info/texts/INSCIK00368",
+      "kind": "梵文原碑EFEO拓本125的现代校勘释读与旧译文",
+      "locator": "A7—8（第4颂）；B9—10（第17颂）；B13—14（第19颂）；EFEO拓本125",
+      "checked": "已打开并读上述原文行及Finot1903、1915法译与Honda1965英译；核对第17颂纪年释1108Śaka、第19颂四varṇa和两位医者。页面版本2026-11-18，末修2026-09-19，数字编者Kunthea Chhom。",
+      "limitation": "现代罗马字释读，不是古碑上刻有拉丁字母；部分缺字由同文碑补足。所用第17/19颂未据现代“平等医疗”措辞扩大解释。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AU5",
+      "title": "Megumu Honda, The SAY-FONG Inscription of Jayavarman VII（1965）",
+      "url": "https://www.jstage.jst.go.jp/article/ibk1952/14/1/14_1_417/_pdf/-char/en",
+      "kind": "碑铭原始校勘研究及所据梵文英译原发表PDF",
+      "locator": "印度学佛教学研究14(1)，第417—405页；第408页第17—19a颂（PDF第10页）",
+      "checked": "已打开原发表PDF并读第417页来源说明及第408页梵文、1108Śaka/1186对照和第19a颂英译；明确第19b—41颂未由该文全文翻译，医者人数另据DHARMA所收Finot与原文。",
+      "limitation": "1965研究译文有括入解释；equally为译者补语，不当作原石独立用字。所列1186为纪元年对照，本轮未核完整西历年界。",
+      "humanReviewed": false
+    },
+    {
+      "id": "AU6",
+      "title": "Siddham对象K368：Say Fong医院碑与发现区域坐标",
+      "url": "https://siddham.network/object/k368/",
+      "kind": "机构碑铭数据库的现代对象编目与照片入口",
+      "locator": "Object K368；Say Fong (Laos)；Coordinates17°49′25″N102°40′13″E；2020-06-12编目",
+      "checked": "已打开对象页并下载、查看其完整碑石照片，核对地点、坐标、照片说明“après Lorrillard2018”及对应铭文链接；原字释读仍据校勘本，不声称照片足以独立辨尽磨损字。",
+      "limitation": "地图取数据库所标Say Fong地点参照；对象照片不据此宣称在原医院建筑原位。坐标未经本轮GPS或考古网格复测。",
+      "humanReviewed": false,
+      "parallelUrl": "https://siddham.network/wp-content/uploads/2020/06/Say-fong.jpg",
+      "parallelLabel": "对象页所附完整碑石照片，已查看"
+    },
+    {
+      "id": "EU1",
+      "title": "San Pedro红色磨光陶器MAS-2904原始器物档案",
+      "url": "https://museo.precolombino.cl/wp-content/uploads/2026/01/MAS-2904-1.pdf",
+      "kind": "博物馆原始器物编目 · 对象档案",
+      "locator": "MAS-2904／外部编号MAS–2904；22页PDF第1页ASIGNACIÓN CRONOLÓGICA、PERIODO/FASE、DESCRIPCIÓN GENERAL与DIMENSIONES；后附当代社群口述资料",
+      "checked": "已打开并阅读对象档案首页：100—400年、Séquitor阶段、红色磨光类型、垂直带形把手、平底、材质、尺寸及完整程度。",
+      "limitation": "器物断代是馆方归属，首页未给该件独立测年或发掘编号；后文当代匠人口述不能冒充古代制作者证词，不能直接证明100—400年采用同一配方或仪式。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EU2",
+      "title": "Candelaria动物形陶器8995原始著录",
+      "url": "https://www.bellasartes.gob.ar/coleccion/obra/8995/",
+      "kind": "博物馆原始器物著录",
+      "locator": "Museo Nacional de Bellas Artes，Inventario8995；Ficha Técnica的Autor、Fecha、Técnica、Género、Soporte与Medidas",
+      "checked": "已实际打开馆方单件记录：Candelaria(NOA)、Temprano200—400年、塑形、陶质、动物形分类、18.6×15厘米及1986年捐赠信息。",
+      "limitation": "年代为馆方样式归属，未给该件直接测年、地层和具体出土地；完整保留200—400年。现代捐赠信息不能补作古代制作者身份。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EU3",
+      "title": "阿瓜达青铜牌1991.164",
+      "url": "https://www.clevelandart.org/art/1991.164",
+      "kind": "博物馆原始器物著录及作品照片",
+      "locator": "Cleveland Museum of Art，1991.164；Date600–900、Argentina La Aguada、Medium、Measurements、Description及原件图像入口",
+      "checked": "已实际打开对象页，读取600—900年断代、青铜材质、12.8×14厘米及中央人物与两旁斑点猫科动物的馆方描述。",
+      "limitation": "未公布具体出土地点与地层，未列本件金属比例和独立测年；“人物”“猫科动物”是现代图像识别，不据此认定其身份、姓名、性别、具体仪式或国家制度。",
+      "humanReviewed": false
+    },
+    {
+      "id": "EU4",
+      "title": "Santa María青铜铃MChAP0957现行器物页",
+      "url": "https://museo.precolombino.cl/exposiciones-cartelera/permanente/exposicion-permanente-america-precolombina-en-el-arte/obras-maestras/vitrina-campana-de-bronce/",
+      "kind": "博物馆原始对象著录及作品照片",
+      "locator": "Museo Chileno de Arte Precolombino，MCHAP0957；材料/年代1200—1470dC、298×290mm、Código及正文对发掘语境的说明",
+      "checked": "已实际打开对象页：器物号、尺寸、1200—1470年和多角度原件照片入口；正文明确承认此类型缺专业发掘资料、确切功能不明。",
+      "limitation": "器物在智利博物馆收藏不代表在智利制造或发现；本记录按馆方归属标阿根廷，具体出土地未刊。正文关于仪式、强音、出神的说法属解释，不当作由出土语境证明的事实。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RU1",
+      "title": "Ю. В. Кухаренко《Могильник Брест-Тришин》发掘者原报告（1980）",
+      "url": "https://djvu.online/file/WfUOkUZzJWGvH",
+      "kind": "原始考古发掘报告 · 有原书扫描页及OCR的公开电子版本",
+      "locator": "Москва: Наука, 1980；第3–5页地点、发掘与墓葬1；第60–63页“Хронология могильника”；图2、14；图版III/1、VI/1",
+      "checked": "已打开并读原报告正文与书目信息、墓葬1描述、出土地与发掘范围、完整断代章的结论；页面提供130幅原书扫描页。第63页明确约170–270年且断代尚非最后结论。",
+      "limitation": "使用发掘者1980年原始出版物，不把第三方OCR当作新考古报告；细读点为地点、墓葬1与断代章，未逐件校完全部75墓。维尔巴克是考古分类，不能自动等同现代民族、国籍或政权。",
+      "humanReviewed": false
+    },
+    {
+      "id": "RU2",
+      "title": "Зубарь、Савеля、Сарновский《赫尔松涅索斯近郊罗马神庙的新铭文》原报告（1999）",
+      "url": "https://ancientrome.ru/publik/article.htm?a=1408654805",
+      "kind": "铭文与原始发掘研究报告 · 有刊物页码、拉丁释文及原物图像的电子转录",
+      "locator": "《Вестник древней истории》1999年第2期，第197–217页；本条用第197–202页、第1号铭文、图4.1及图5",
+      "checked": "已打开并读1996年巴拉克拉瓦发掘背景、赫拉克勒斯像座的逐行拉丁文与展开、译文、139–161及更倾向147–161的年代论证；已核图号和版面说明。",
+      "limitation": "网页明确图片位置为阅读方便有所调整，引用采用印刷页码与图号；未把图像逐个字母重新校勘。报告对驻军更替与较窄年代有推测，不将其改写为确定事件年。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MU1",
+      "title": "1573年科尔多瓦建城文书前两叶复制图及转录",
+      "url": "https://www.republicofcordoba.com/acta-fundacion",
+      "kind": "私人网页转载的历史手稿照片及转录，附大学目录与既有复制页核对入口",
+      "locator": "Folio1r、1v；转录INVOCACIÓN Y FECHA、NOMBRE DE LA CIUDAD及TOMA DE POSESIÓN；Folio称呼依转载页面排序，未核原册叶码",
+      "checked": "已下载并实际查看前两叶照片，核对1573署年、Cabrera、Francisco de Torres、Córdoba及以王权名义占有的关键句；大学目录将文书题为1573年Libro I并列Archivo Municipal de Córdoba。未采用该私站的现代虚构叙事栏目。",
+      "limitation": "图像由私人网站转载，不是档案馆本轮直接提供的原册；没有独立鉴定纸墨、复制代次及全册。转录现代化标点，局部褪色；只对已核关键句作有限主张。 页面Folio号不是本轮已核的档案叶码或原藏号。",
+      "humanReviewed": false,
+      "witnessUrl": "https://www.republicofcordoba.com/_next/image?url=%2Facta%2Ffolio-1v.webp&w=1920&q=75&dpl=dpl_Da7wWowA5zRVFQqhAPKUC7zTgxLN",
+      "witnessLabel": "本轮已查看的第二叶复制图",
+      "parallelUrl": "https://www2.ual.es/ideimand/portfolio-items/acta-de-fundacion-de-cordoba-argentina-1573-libro-i-de-actas-de-cabildo/",
+      "parallelLabel": "大学文书目录与馆藏来源说明；非本轮所读原册"
+    },
+    {
+      "id": "MU2",
+      "title": "《明史》卷七十七·食货志：万历六年丈量田亩",
+      "url": "https://zh.wikisource.org/wiki/明史/卷77",
+      "kind": "清代后编官修史书的现代转录",
+      "locator": "“凡田以近郭为上地”段，万历六年张居正议至增赋云",
+      "checked": "已读年号、采纳张居正建议、三年程限、丈量算法及后续段对改小弓求溢额和加赋的批评；不只摘其正面结论。",
+      "limitation": "后编史书并非1578年原诏或实测田册；本条事件取政策动议与命令，不把后续结果全定在1578，更不验证汇总数准确。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MU3",
+      "title": "《三国志》卷一·武帝纪：曹操遗令",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01",
+      "kind": "陈寿纪传所保存遗令文字的现代转录",
+      "locator": "建安二十五年春正月、庚子王崩与紧接遗令；正文与裴注分开",
+      "checked": "已读洛阳死亡的编年背景及正文遗令，核对葬后除服、将兵不得离屯、敛以时服与无藏金玉珍宝；不把后附诸家轶闻当遗令。",
+      "limitation": "非曹操亲署遗令原件；史书传本文字不证明具体墓室已完全按令执行，也不能推广为东汉所有群体的葬俗。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MU4",
+      "title": "《后汉书》卷四十七·班超传：都护任命",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷47",
+      "kind": "后编史书的现代转录",
+      "locator": "永元二年月氏攻超段之后“明年”至“超居龟兹它干城”",
+      "checked": "已读永元二年及下一段“明年”的编年承接、班超为都护、徐干为长史与龟兹王更置叙述；任命年按文本承接为永元三年。",
+      "limitation": "非91年任命原诏。传记“皆降”“悉定”等是汉朝史书表述，不等于已实测全域控制；任命动作地点未明，不能拿驻地当受任现场。",
+      "humanReviewed": false
+    },
+    {
+      "id": "MU5",
+      "title": "中国科学院自然科学史研究所：中国历代年号索引表（本批对照项）",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "kind": "现代机构年号对照工具，非事件原件",
+      "locator": "〔东汉〕永元89—105、建安196—220；〔明〕万历1573—1620",
+      "checked": "已实际打开对应年号段，用于永元元年/三年、建安二十五年与万历六年的排序对照。",
+      "limitation": "只用于年号年对照，不是农历月日到西历的历算；不能据此认定完整农历年界与西历年一致。",
+      "humanReviewed": false
     }
   ],
   "method": "先对读文书正文，区分官方公布本、机构转录、私人转录、刊行日记和后编实录。已读正文不等于亲署原件鉴定、整册校勘或第三方专业审读；来源状态和未核部分逐项保留。 新增器物明确区分古代铭文、现代馆藏说明及原始研究报告；范围断代保留完整上下界，地点未知则不放置地图点。",
@@ -12205,7 +13222,7 @@
   ],
   "coverage": {
     "complete": false,
-    "note": "时间导航仍为公元前10年至2000年、无0年。矩阵统计已收材料涉及的地区与时代；范围跨期不等于多次事件，有材料不等于历史已完备。",
+    "note": "时间范围仍为前10年至2000年、无0年。每个地区时代格已有样本，不等于逐年或全地区完整；仅有范围断代的格不能确认为具体年，人物、地点、版本和原发表的缺口继续保留。",
     "gaps": [
       {
         "label": "1186年Ta Prohm碑K.273",
@@ -12248,12 +13265,12 @@
       },
       {
         "label": "美国、智利、阿根廷 · 公元前10年至欧洲接触前",
-        "reason": "已以美国RY16—RY18、智利RY5补入可追溯的具体器物或测年研究；全部保留原断代范围与未知制作者。阿根廷欧洲接触前、智利更早阶段仍缺闭环材料，不能从少数器物推定完整历史。",
+        "reason": "原有美国和智利器物之外，本批EZ1—EZ4补入智利古代与阿根廷三个早期时代的具体对象；制作者和精确出土地仍未知，目录断代不证明区间每年有事件，亦非全地区历史覆盖。",
         "urls": []
       },
       {
         "label": "白俄罗斯、乌克兰 · 古代至中世纪",
-        "reason": "本轮RY10—RY14补入波洛茨克与基辅的中古纪事、铭文；纪事为后编传承，原刻及版本限制逐条保留。两地区公元500年以前仍缺正式收录材料，不用泛斯拉夫叙事替代。",
+        "reason": "RZ1的发掘者报告与RZ2的神庙原始发表补入古代样本；中古RY10—RY14继续保留后编传承限制。一个墓地或一件铭文不代表两地区全境、全部时期或所有社群。",
         "urls": []
       },
       {
@@ -12334,28 +13351,13 @@
         "urls": []
       },
       {
-        "label": "白俄罗斯 · 古代（前10—500）",
-        "reason": "本轮未闭环到具有文物号、原始报告/图像及可保留完整断代的原始材料；不将泛斯拉夫材料自动套为白俄罗斯事件。",
-        "urls": []
-      },
-      {
         "label": "乌克兰 · 古代（前10—500）",
-        "reason": "已读PHI SEG45:985赫尔松涅索斯174年希腊文（https://epigraphy.packhum.org/text/339722），但未闭环到该石的原照片或1995年原发表报告，暂不入正式records；不能仅靠现代综述补图像要求。",
-        "urls": []
-      },
-      {
-        "label": "智利 · 古代（前10—500）、早期中古（501—1000）",
-        "reason": "本轮可靠闭环器物3015为1000–1450，保留跨时期区间；没有把它改断为更早年份。更早遗物须继续核器物号、图像和年代依据。",
-        "urls": []
-      },
-      {
-        "label": "阿根廷 · 古代（前10—500）、早期中古（501—1000）、晚期中古（1001—1500）",
-        "reason": "候选Ciénaga器物原馆方断代有前200—850年，超出本项目起点，不裁剪为前10—850。其他文物未闭环原图与断代依据，不用现代国家叙事替代。",
+        "reason": "旧候选174年SEG45:985的原发表/照片仍待核；RZ2已用另一件139—161年巴拉克拉瓦神庙铭文与1999原报告补此时代格，不把两件铭文混为一件。",
         "urls": []
       },
       {
         "label": "阿根廷 · 近世（1501—1800）",
-        "reason": "已打开阿尔梅里亚大学1573年科尔多瓦建城文书图像目录（https://www2.ual.es/ideimand/portfolio-items/acta-de-fundacion-de-cordoba-argentina-1573-libro-i-de-actas-de-cabildo/），另读民间全文转录，但未完成原件影像与完整转录逐段互校，暂不据此入正式记录。",
+        "reason": "MZ1已看私人网站转载的前两叶手稿复制图，并核关键纪年、人名、命名及王权占有句；大学目录来源与复制传承分列。全册逐段互校、原册叶码与复制代次仍待核，不以有限核读宣称全部条款已校。",
         "urls": []
       },
       {
@@ -12366,6 +13368,66 @@
       {
         "label": "美国 · 古代（前10—500）、早期中古（501—1000）、晚期中古（1001—1500）",
         "reason": "已分别以具体烟斗、米姆布雷斯陶碗与木柱原研究补入；跨期器物不证明区间每年发生同一事件，制作者未知。另已读SLAM112:1944号陶碗c.970–1020及Eby Ranch商人来源记录（https://www.slam.org/collection/objects/36325/），但没有完成对应照片核查，改用图像对应明确的Met1978.412.120，不混淆两件器物的断代或出土地。",
+        "urls": []
+      },
+      {
+        "label": "本批原发表与历法续核",
+        "reason": "未取得2019年《有关〈封燕然山铭〉摩崖的三个问题》原发表全文；现存摩崖坐标明确经已读2025研究转引，未把原报告列作已读。2017发布仅作发现背景，不代替2020逐行校读。",
+        "urls": []
+      },
+      {
+        "label": "本批原发表与历法续核",
+        "reason": "Finot1903首发表PDF直取遇403，已读其机构题录与首段，并由DHARMA核逐行释读、1903/1915译文；另已读Honda1965原发表PDF。纪年无月日的K368保留原纪年，不强补公历年。",
+        "urls": []
+      },
+      {
+        "label": "四件器物的古代制造者与精确出土地",
+        "reason": "所有people为空，placeId为null；现代收藏者和博物馆城市不冒充古代人物与地点。",
+        "urls": []
+      },
+      {
+        "label": "0957号铃旧新目录断代差异",
+        "reason": "现行馆方单件页EU4的1200—1470年已实际打开阅读。旧馆刊PDF的网页打开返回91页但没有可读文字层，PDF截图亦失败；本轮没有直接看清原页。检索摘要返回1000—1470，不能据此升级为已核范围，也不能由新页未解释断代修订就自行取包络。",
+        "urls": [
+          "https://museo.precolombino.cl/documents/383/Museo-Chileno-de-Arte-Precolombino.pdf"
+        ]
+      },
+      {
+        "label": "0957号铃的原始合金分析报告全文",
+        "reason": "馆方公开原报告PDF超过网页工具大小限制，随后内存只读下载超时；未把检索摘要中的锡含量写成已核结果。",
+        "urls": [
+          "https://museo.precolombino.cl/documents/379/Los-orfebres-olvidados-de-America.pdf"
+        ]
+      },
+      {
+        "label": "乌克兰 · 赫尔松涅索斯174年SEG45:985荣誉决议",
+        "reason": "PHI希腊正文已读；俄罗斯国家图书馆目录给出1995原发表报告的戈梅利大学电子本路径，但该路径本轮不可访问，未完成原图或原报告正文核查。不能把后引文献的参考书目冒称已读原刊。",
+        "urls": [
+          "https://epigraphy.packhum.org/text/339722",
+          "https://vss.nlr.ru/archive_catalog.php?rid=1976",
+          "https://elib.gsu.by/handle/123456789/19210"
+        ]
+      },
+      {
+        "label": "白俄罗斯 · Lyshchytsy罗马钱币窖藏及单件罗马币",
+        "reason": "已读Oxford17431及Sidarovich首次钱币研究，有坐标、钱币目录与图；Pobol2001原报告PDF可打开但正文解析不完整。孤立币的235–236等是铸造年，尚不能证明当地流入/埋藏发生在500年前；故改用有原发掘语境及本地使用期的特里申墓地。",
+        "urls": [
+          "https://chre.ashmus.ox.ac.uk/hoard/17431",
+          "https://www.istorija.lt/data/public/uploads/2020/10/la_21_73-80.pdf",
+          "https://www.skarbonka.ru/pdf/1/IX_Sidorovich-2010.pdf"
+        ]
+      },
+      {
+        "label": "1573科尔多瓦原册与完整校勘",
+        "reason": "已读前两叶转载复制图与关键句；原册、完整逐行校勘与复制代次仍未独立鉴定，未将私人网页的现代叙事当原典。",
+        "urls": [
+          "https://www.republicofcordoba.com/acta-fundacion",
+          "https://www2.ual.es/ideimand/portfolio-items/acta-de-fundacion-de-cordoba-argentina-1573-libro-i-de-actas-de-cabildo/"
+        ]
+      },
+      {
+        "label": "医院碑及无铭器物的中国同期同类材料",
+        "reason": "本批四组问题对读只用于证据足够的配对。K368医院碑及四件美洲器物尚未形成独立核验的中国同期同类实物/原始制度文书组；继续可用中国材料选择器浏览参考年代，不将相差百年的法令硬称同年，也不据器形推定接触传播。",
         "urls": []
       }
     ],
@@ -12395,6 +13457,46 @@
         "sourceIds": [
           "AT18",
           "AT22"
+        ],
+        "urls": []
+      },
+      {
+        "label": "白俄罗斯 · 古代（前10—500）",
+        "previousReason": "本轮未闭环到具有文物号、原始报告/图像及可保留完整断代的原始材料；不将泛斯拉夫材料自动套为白俄罗斯事件。",
+        "resolution": "以发掘者1980报告的墓地使用期170—270补入；不以罗马币铸年充作本地年代。",
+        "recordIds": [
+          "RZ1"
+        ],
+        "sourceIds": [
+          "RU1"
+        ],
+        "urls": []
+      },
+      {
+        "label": "智利 · 古代（前10—500）、早期中古（501—1000）",
+        "previousReason": "本轮可靠闭环器物3015为1000–1450，保留跨时期区间；没有把它改断为更早年份。更早遗物须继续核器物号、图像和年代依据。",
+        "resolution": "MAS-2904单件完整100—400断代补古代格；原有RY5跨1000年的范围仍按原值，不混同器物。",
+        "recordIds": [
+          "EZ1"
+        ],
+        "sourceIds": [
+          "EU1"
+        ],
+        "urls": []
+      },
+      {
+        "label": "阿根廷 · 古代（前10—500）、早期中古（501—1000）、晚期中古（1001—1500）",
+        "previousReason": "候选Ciénaga器物原馆方断代有前200—850年，超出本项目起点，不裁剪为前10—850。其他文物未闭环原图与断代依据，不用现代国家叙事替代。",
+        "resolution": "分别以8995、1991.164、MChAP0957单件补入200—400、600—900、1200—1470；超出项目起点的旧候选未被裁剪采用。",
+        "recordIds": [
+          "EZ2",
+          "EZ3",
+          "EZ4"
+        ],
+        "sourceIds": [
+          "EU2",
+          "EU3",
+          "EU4"
         ],
         "urls": []
       }
@@ -12455,6 +13557,67 @@
       "sourceIds": [
         "AT5",
         "CS2"
+      ]
+    },
+    {
+      "id": "colonial-space-1570s",
+      "title": "1573与1578：空间怎样写进权力和行政文字？",
+      "chinaRecordId": "MZ2",
+      "otherRecordId": "MZ1",
+      "question": "分别找出谁在何种权威下命名、占有或丈量空间；这些动作的对象和证据有什么区别？",
+      "relationBasis": "科尔多瓦文书为1573年，万历六年约1578，参考纪年相距约五年；不称同日或同年。",
+      "reading": "建城文书以西班牙王权名义宣示城市与司法权；《明史》后编段落保存明廷丈量田亩的命令、期限和对溢额考核的批评。前者是殖民占有文书，后者是后修财政叙述，不能互换体裁和授权背景。",
+      "boundary": "殖民者的宣称不证明原住民同意或土地无主，丈量命令不证明各地如实完成。不能由这两种文本排列制度优劣、推定共同政策起源或比较实际面积。",
+      "sourceIds": [
+        "MU1",
+        "MU2",
+        "MU5"
+      ]
+    },
+    {
+      "id": "burial-text-and-context",
+      "title": "二至三世纪：墓葬残存与曹操遗令能互相证明吗？",
+      "chinaRecordId": "MZ3",
+      "otherRecordId": "RZ1",
+      "question": "一边记录发掘残存，一边规定应当怎样安葬；分别能据什么辨认行为、身份和年代？",
+      "relationBasis": "曹操遗令的约220年排序参照落在墓地170—270年的暂定使用期内；范围相交不确认某一墓葬与遗令同年。",
+      "reading": "特里申报告以墓号、火葬坑及共存器物说明实际发掘语境；曹操遗令要求除服、守职并不藏金玉。遗令显示具名政治人物的规范，考古报告显示特定已发掘区的残存，二者支持的判断层次不同。",
+      "boundary": "遗令不等于墓室清单，考古未见某物也不等于从未存在。不能把两地归为同一种葬俗、同一民族或有传播关系，也不能从部分墓地推出全地区社会结构。",
+      "sourceIds": [
+        "RU1",
+        "MU3",
+        "MU5"
+      ]
+    },
+    {
+      "id": "han-stone-and-appointments",
+      "title": "89与91年前后：纪功刻石与西域任官记录",
+      "chinaRecordId": "MZ4",
+      "otherRecordId": "AZ1",
+      "question": "原石和后编传记分别怎样描述行动者、地名、功绩与任官；哪些词属于权力的自我表达？",
+      "relationBasis": "原石署永元元年秋七月，班超任命按原文“永元二年”之“明年”排序为约91年；两项参考纪年接近而非同一战事。",
+      "reading": "现存今蒙古境内的刻石以汉军立场公开纪功；班超传记录另一方向的都护任命与王位更置。可以比较当时帝国以颂功和任官表达权力的不同方式，并识别原石与后编文本的传承距离。",
+      "boundary": "蒙古在这里是发现地的地区入口，不是89年现代蒙古国家的声音。两份材料都与汉朝权力视角有关，不构成两个独立国家的对等证词，也不证明战果和行政控制覆盖全部相关地区。",
+      "sourceIds": [
+        "AU1",
+        "AU2",
+        "MU4",
+        "MU5"
+      ]
+    },
+    {
+      "id": "rz-inscription-titles",
+      "title": "二世纪前后：铭文头衔与官修传记各能证明什么？",
+      "chinaRecordId": "MY1",
+      "otherRecordId": "RZ2",
+      "question": "在祝祷铭文与张衡传中，分别区分具名行动者、被祝祷者、记录者和制作者；哪种称号真正提供日期上下限？",
+      "relationBasis": "现有MY1约132年与本铭文139–161年接近但不重叠；用作同一古代时段的制度文字比较，不声称同年、同月或直接因果。",
+      "reading": "像座直接保留帝号、Caesar及军团军官职称；报告以称号组合定上下限。张衡传用年号系造仪，同时后接无署年的验证故事，不能把故事全部定在132年。",
+      "boundary": "被祝祷的奥勒留不能自动列为当地亲临者；传记所记人物与古代像座的奉献者也不是同一种作者角色。没有证据连接两材料的技术传播或直接接触。",
+      "sourceIds": [
+        "RU2",
+        "MT1",
+        "MT5"
       ]
     }
   ]
