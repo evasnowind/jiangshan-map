@@ -10968,6 +10968,24 @@
           "sourceId": "ARX1",
           "locator": "印页/PDF644 Figure4—5及完整图注；接645、648的解释限制",
           "url": "https://naturalis.fcnym.unlp.edu.ar/bitstreams/364110ed-e252-4ac2-8906-5fdd6ba867dd/download#page=644"
+        },
+        {
+          "text": "2017原S1列42个不同器号；English F2:F43片数求和1293。正文另列1665片出土陶片及1292片无新鲜断口的分析陶片，筛选口径的对应关系与差1尚未解释。",
+          "sourceId": "ARS3",
+          "locator": "Methodology同段；S1 English!A2:A43、F1:F43；本轮原单元格及OOXML核读",
+          "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X16002593/resource/name/S0003598X16002593sup001.xlsx"
+        },
+        {
+          "text": "S1有6、114、141、142、179号器的完整度存值为30%；正文门槛写高于30%。保留这个待解释差异，不以未核的估计精度或筛选流程强行消除。",
+          "sourceId": "ARS3",
+          "locator": "S1 English!A7/E7、A11/E11、A35/E35、A36/E36、A39/E39；Methodology同段",
+          "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X16002593/resource/name/S0003598X16002593sup001.xlsx"
+        },
+        {
+          "text": "原S1的4号器完整度99%、现存4片、热变1片，K5公式以J5×100/F5得25；分散H5原数10须结合正文至少10米与隔墙观察。热变比例的分母为现存片数，不能当作原器总面积的25%。",
+          "sourceId": "ARS3",
+          "locator": "S1 English!A5:K5、A44:K45脚注；Results and discussion器4段",
+          "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X16002593/resource/name/S0003598X16002593sup001.xlsx"
         }
       ],
       "quote": {
@@ -10978,7 +10996,7 @@
         "url": "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041",
         "kind": "research_report"
       },
-      "limitation": "约1050—1200保留为2013/2015作者综合概括；2015原表的交点与概率区段另存ARX1，不把它们缩成这个概括或转成某年弃用。2015表/原位照片已核，2013原表与2017原图/S1仍未核；本轮只核逆方差合并算术，不是重新校准，也不证明两样本同一火灾。不能据屋顶、复原图或破坏解释确认全谷同年弃居、纵火者、战争或首领。",
+      "limitation": "约1050—1200保留为2013/2015作者综合概括；2015原表交点/概率区段另存ARX1。2017原S1单元格与公式已核，2013原Table1及2017原图4/6/7仍未核。S1的42器、1293列和、正文1292/1665及30%边界值并列，不擅自修表或推弃用确年。只核静态算术，未重跑Calib4.3/OxCal，不证明两果核同次火灾、全谷同年弃居或谁下令。",
       "aliases": [
         "La Rinconada",
         "Iglesia de los Indios",
@@ -11036,6 +11054,12 @@
           "sourceId": "ARS4",
           "locator": "公开可视化静态说明，Similarity#1/#2与百分比定义",
           "url": "https://www.polsl.pl/rif/projekty/incastate/"
+        },
+        {
+          "text": "本轮看公开署源图4转载，能核模型与样本标签及Agreement数值；它不显示实际混合百分比或完整OxCal代码，不能据图消除项目/正文比例差异。",
+          "sourceId": "SS4",
+          "locator": "公开转载的已发表Figure4；版本和SHA见SS4.imageWitnesses；非S2代码",
+          "url": "https://phys.org/news/2026-06-human-sacrifice-inca-empire-driven.html"
         }
       ],
       "quote": {
@@ -11046,7 +11070,7 @@
         "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172",
         "kind": "research_report"
       },
-      "limitation": "这是有先验条件的概率窗；植物来源、混合曲线选择和模型代码仍待独立核验，项目页与主文标签不一致未消除。少女为现代称呼，未获古人姓名；不指定某位印加王、某年即位或气候危机为仪式原因，也不由植物单独判断死因。未核精确坐标，不随意放点。",
+      "limitation": "这是有先验条件的概率窗；植物来源、混合曲线选择和模型代码仍待独立核验，项目页与主文标签不一致未消除。少女为现代称呼，未获古人姓名；不指定某位印加王、某年即位或气候危机为仪式原因，也不由植物单独判断死因。未核精确坐标，不随意放点。 本轮图4转载的Agreement只表示模型内部一致性，不能当史实正确概率；S2仍未读，不称独立复现。",
       "aliases": [
         "Llullaillaco",
         "少女墓",
@@ -11236,7 +11260,7 @@
         "locator": "§4.1 Limitations of the Study，作者公开原论文完整文字转录；原PDF页图未核",
         "url": "https://www.academia.edu/167372122/International_Journal_of_Osteoarchaeology"
       },
-      "limitation": "人体组织测年与具体受伤/下葬日分开；墓葬情境沿用早期采集记录，原场记未校。完整正文转录已读，原PDF图片、实验室质控和补充校准图未核；重物撞击/矿难是解释，不能由创伤和矿旁位置确认职业、死因或伤发生地点。",
+      "limitation": "人体组织测年与具体受伤/下葬日分开；墓葬情境沿用早期采集记录，原场记未校。完整正文转录已读，原PDF图片、实验室质控和补充校准图未核；重物撞击/矿难是解释，不能由创伤和矿旁位置确认职业、死因或伤发生地点。 本轮看Cedimed同DOI机构配图，未与论文面板/个体文件闭环；机构扫描年与机型同论文有出入，不能据配图确认病例、职业或矿内事故。",
       "aliases": [
         "Las Turquesas",
         "Indio Muerto",
@@ -14646,8 +14670,8 @@
       "doi": "10.1111/arcm.70172",
       "kind": "原始AMS、稳定同位素与贝叶斯年代模型研究报告",
       "locator": "§2.1—2.2；§3.2的UGAMS-66476/66477/66478；Fig.3—4；§4校准与解释限制",
-      "checked": "实际读出版社全文文字与图注：M6古柯叶393±22BP、M7木薯412±21BP、M8玉米358±20BP；模型先验下界约1410、上界1532。选定南北半球曲线混合方案下，墓葬估计1462—1507年（95.4%HPD）、1479—1502（68.3%），均值1489±11。未独立运行OxCal代码或阅读全部补充文件。 2026-11-22本轮重读出版社HTML §2.2先验、§3.2测值/混合曲线、Figure4图注、Data Availability及SI目录。正文称代码在S2，SI目录唯一502.6KB PDF条目描述Figure S1和Figure S2应用截图；未取得PDF，不能判断内部代码。",
-      "limitation": "短命植物降低老木问题，但植物来源不完全确定，校准曲线混合和先验会影响结果；这不是纯粹与历史假设无关的年表。1489均值不是单年事件；不删掉1501—1507，不由王朝年表给墓中人物命名或确定哪位君主下令，祭祀动机仍属解释。 此次是HTML文字复核，非图像阅读、S2代码检查或独立复算。1410/1532只核至主文陈述；不冒称已核Sequence/Boundary具体语法。保留1462—1507完整95.4% HPD。",
+      "checked": "重读出版社主文§2.2、§3.2、图4图注、Data Availability和SI目录；三笔原测值、1410/1532历史先验及完整1462—1507/95.4%HPD沿用。本轮另实际看署明原论文DOI的公开图4转载，能辨OxCal v4.4.4、Amodel96、Combine的Acomb100.4与An40.8、M6(SH)/M7(Mixed)/M8(Mixed)、1532上界标签。该图未给混合百分比或代码。当前SI目录实际502.6KB PDF链接普通GET仍403后停止；S2及项目实际脚本未取得。OpenAlex/OpenAIRE/Crossref此次元数据未给新的附件位置，不据此断言代码不存在。",
+      "limitation": "短命植物、来源假设、曲线混合和历史先验共同约束概率窗；1489均值不是单年事件。保留1501—1507尾段，不为墓中人或下令者补名。所看为公开署源转载图，非出版社高清原图、S2或模型复跑。Amodel/Acomb是模型内部一致性指标，不能解释为96%或100.4%的史实正确率。图中节点标签不能代替Sequence/Boundary具体语法；主文M7/M8=30%/60% NH与项目60%/30%差异仍未解决。",
       "quote": {
         "text": "between 1462 and 1507",
         "translation": "在1462至1507年之间。需连同图4的95.4%后验区间和模型条件理解。",
@@ -14680,6 +14704,39 @@
           },
           "change": "补核主文、项目静态文字和公开仓储元数据；S2和实际脚本未取得，不宣称代码审计或复算。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "SS4",
+            "title": "Sieczkowska-Jacyna等2026：Llullaillaco墓葬短命植物组合测年",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172",
+            "doi": "10.1111/arcm.70172",
+            "kind": "原始AMS、稳定同位素与贝叶斯年代模型研究报告",
+            "locator": "§2.1—2.2；§3.2的UGAMS-66476/66477/66478；Fig.3—4；§4校准与解释限制",
+            "checked": "实际读出版社全文文字与图注：M6古柯叶393±22BP、M7木薯412±21BP、M8玉米358±20BP；模型先验下界约1410、上界1532。选定南北半球曲线混合方案下，墓葬估计1462—1507年（95.4%HPD）、1479—1502（68.3%），均值1489±11。未独立运行OxCal代码或阅读全部补充文件。 2026-11-22本轮重读出版社HTML §2.2先验、§3.2测值/混合曲线、Figure4图注、Data Availability及SI目录。正文称代码在S2，SI目录唯一502.6KB PDF条目描述Figure S1和Figure S2应用截图；未取得PDF，不能判断内部代码。",
+            "limitation": "短命植物降低老木问题，但植物来源不完全确定，校准曲线混合和先验会影响结果；这不是纯粹与历史假设无关的年表。1489均值不是单年事件；不删掉1501—1507，不由王朝年表给墓中人物命名或确定哪位君主下令，祭祀动机仍属解释。 此次是HTML文字复核，非图像阅读、S2代码检查或独立复算。1410/1532只核至主文陈述；不冒称已核Sequence/Boundary具体语法。保留1462—1507完整95.4% HPD。",
+            "quote": {
+              "text": "between 1462 and 1507",
+              "translation": "在1462至1507年之间。需连同图4的95.4%后验区间和模型条件理解。",
+              "kind": "research_report",
+              "locator": "§3.2与Fig.4；不是原纪年文书",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172"
+            },
+            "humanReviewed": false,
+            "readScope": {
+              "publisherOrProjectStaticTextRead": true,
+              "supportingFileObtained": false,
+              "oxcalCodeRead": false,
+              "projectScriptRead": false,
+              "visualizationRun": false,
+              "independentOxcalReproduction": false,
+              "description": "主文S2声明与SI目录截图说明并存；未取得附件，不能判定内部是否实际含代码。"
+            }
+          },
+          "change": "新增公开署源图4转载的实际图像阅读；S2与代码缺口保留，Agreement和历史真值概率明确分开。",
+          "humanReviewed": false
         }
       ],
       "readScope": {
@@ -14689,7 +14746,76 @@
         "projectScriptRead": false,
         "visualizationRun": false,
         "independentOxcalReproduction": false,
-        "description": "主文S2声明与SI目录截图说明并存；未取得附件，不能判定内部是否实际含代码。"
+        "creditedPublishedFigureReproductionViewed": true,
+        "publisherHighResolutionOriginalObtained": false,
+        "description": "公开转载图与S2代码分开；模型Agreement不作真值概率。"
+      },
+      "readingLevel": "出版社全文与图注已读；新增公开署源图4转载已看；原S2/项目脚本未读、OxCal未复跑",
+      "imageWitnesses": [
+        {
+          "id": "SS4-Figure4-public-reproduction",
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/human-sacrifice-in-inc-2.jpg",
+          "pageUrl": "https://phys.org/news/2026-06-human-sacrifice-inca-empire-driven.html",
+          "sha256": "a22f7e274d8003ade4acff8ad67d5417527b019d8770c1c67bd20ece1d0e2b8c",
+          "bytes": 32257,
+          "dimensions": [
+            800,
+            440
+          ],
+          "actualImageViewed": true,
+          "imageClass": "credited_public_reproduction_of_published_Figure4",
+          "attribution": "页面明确署Archaeometry (2026), DOI10.1111/arcm.70172；不采用新闻叙述作为年代依据。",
+          "publisherOriginalObtained": false,
+          "supportingS2Obtained": false,
+          "visibleLabels": {
+            "software": "OxCal v4.4.4",
+            "Amodel": 96,
+            "firstBoundaryAgreement": 101,
+            "combinedAgreement": 100.4,
+            "An": 40.8,
+            "sampleCount": 3,
+            "samples": [
+              {
+                "id": "M6",
+                "material": "coca leaves",
+                "curve": "SH",
+                "agreement": 118
+              },
+              {
+                "id": "M7",
+                "material": "manioc",
+                "curve": "Mixed",
+                "agreement": 98
+              },
+              {
+                "id": "M8",
+                "material": "maize grains",
+                "curve": "Mixed",
+                "agreement": 83
+              }
+            ],
+            "terminusAnteQuem": 1532,
+            "terminusAgreement": 100
+          },
+          "limitation": "800×440公开转载图，只核可辨标签。图中未显示30/60混合百分比或完整代码，不能确定Boundary语法/先验分布，也不是独立复算。Agreement不是史实正确概率。",
+          "humanReviewed": false
+        }
+      ],
+      "supportingAccessAudit": {
+        "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Farcm.70172&file=arcm_70172-sup-0001-Supplementary_material.pdf",
+        "method": "one ordinary public GET after current directory verification",
+        "authenticated": false,
+        "status": 403,
+        "stopped": true
+      },
+      "repositoryMetadataCheck": {
+        "researchDate": "2026-11-22",
+        "urls": [
+          "https://api.openalex.org/works/https://doi.org/10.1111/arcm.70172",
+          "https://api.crossref.org/works/10.1111/arcm.70172",
+          "https://api.openaire.eu/search/publications?doi=10.1111%2Farcm.70172&format=json"
+        ],
+        "result": "本轮返回位置仅指出版社DOI/PDF/XML；未给可取得的新S2或代码文件，不证明其他公开原件不存在。"
       }
     },
     {
@@ -14699,8 +14825,8 @@
       "doi": "10.1002/oa.70059",
       "kind": "原始古病理与AMS研究论文；本轮核作者公开全文转录",
       "locator": "§1.1、§2 Materials and Methods、§3 Results末段、§4.1 Limitations；EarlyView8页文本，具体原页码待图核；主文Figure2—5图题及FigureS1目录仅文字已读。出版社定刊为36(1)、5—12页，首发2025-12-15；作者页标EarlyView8页，具体图版页码仍待图核。",
-      "checked": "已实际打开作者Catalina Morales Cifuentes公开上传的原论文全文转录，核软组织采样、UGAMS73501的95.4%/SHCal20/OxCal、正式埋葬的早期记录传承和§4.1反证。出版社SI普通公开下载本轮403，未继续换路径重试。 2026-11-22原图续核：作者Academia页web仍返回完整文字转录和图题；同标准页一次普通GET实际403并停止。出版社公开摘要及SI目录已读，正式Read-full-text链接403后停止；旧SI下载403入口未重试。公开镜像及OpenAlex/OpenAIRE/Crossref位置核查未取得原PDF、主文图或FigureS1；Figshare标准公共检索403后停止。没有新图像核读，不提升为PDF页图已读。",
-      "limitation": "作者上传版本与DOI、作者、收稿录用日期相合，尚未逐页比对出版社图版。早期墓葬记录不完整；不能确认矿内受伤或矿工身份；FigureS1、原AMS证书/质控与重算未核。894—1016完整范围不变。",
+      "checked": "作者公开原论文完整文字转录、主文Figure2—5图题及出版社SI目录已读；软组织取样、UGAMS73501与894—1016/95.4%、SHCal20/OxCal沿用既核结果。本轮新增扫描参与机构Cedimed同DOI文章及两张实际公开图片的完整看图，保存URL、SHA和尺寸：三维重建配图与团队照片均为机构页面关联资料。尚无原论文图号、面板或个体档案的文件级对应，不能据机构配图确认为论文Fig.4或CT原始切片。机构2024/Optima CT520与论文2023/Brivo CT385的出入未解决。原PDF整版、CT切片/DICOM、TableS1及FigureS1仍未取得；不把旧转录/图题或本轮机构配图提升为论文原图、补表或独立放射学核验。",
+      "limitation": "作者上传版本与DOI、作者、收稿录用日期相合，尚未逐页比对出版社图版。早期墓葬记录不完整；不能确认矿内受伤或矿工身份；FigureS1、原AMS证书/质控与重算未核。894—1016完整范围不变。 Cedimed正文称2024扫描、Optima CT520，与既读论文§2的2023、Brivo CT385存在出入；未独立解决，不能借机构宣传文改写论文方法。机构文与论文同案关联较强，但单张配图与具体原论文图版/个体的文件级对应仍未闭环；不可据此确认矿工身份或矿内受伤。机构配图无已读转载授权。",
       "quote": {
         "text": "1140 ± 20 bp (UGAMS 73501), calibrated to 894–1016 ad",
         "translation": "UGAMS73501的常规放射性碳年龄1140±20BP，作者摘要所给校准区间894—1016年。",
@@ -14761,12 +14887,56 @@
           },
           "change": "补记原图、原PDF及SI本次仍未取得的证据；不将转录/图题提升为图像已读。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "SS5",
+            "title": "Morales与Garrido2025/2026：Las Turquesas墓地男性遗存AMS与创伤观察",
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059",
+            "doi": "10.1002/oa.70059",
+            "kind": "原始古病理与AMS研究论文；本轮核作者公开全文转录",
+            "locator": "§1.1、§2 Materials and Methods、§3 Results末段、§4.1 Limitations；EarlyView8页文本，具体原页码待图核；主文Figure2—5图题及FigureS1目录仅文字已读。出版社定刊为36(1)、5—12页，首发2025-12-15；作者页标EarlyView8页，具体图版页码仍待图核。",
+            "checked": "已实际打开作者Catalina Morales Cifuentes公开上传的原论文全文转录，核软组织采样、UGAMS73501的95.4%/SHCal20/OxCal、正式埋葬的早期记录传承和§4.1反证。出版社SI普通公开下载本轮403，未继续换路径重试。 2026-11-22原图续核：作者Academia页web仍返回完整文字转录和图题；同标准页一次普通GET实际403并停止。出版社公开摘要及SI目录已读，正式Read-full-text链接403后停止；旧SI下载403入口未重试。公开镜像及OpenAlex/OpenAIRE/Crossref位置核查未取得原PDF、主文图或FigureS1；Figshare标准公共检索403后停止。没有新图像核读，不提升为PDF页图已读。",
+            "limitation": "作者上传版本与DOI、作者、收稿录用日期相合，尚未逐页比对出版社图版。早期墓葬记录不完整；不能确认矿内受伤或矿工身份；FigureS1、原AMS证书/质控与重算未核。894—1016完整范围不变。",
+            "quote": {
+              "text": "1140 ± 20 bp (UGAMS 73501), calibrated to 894–1016 ad",
+              "translation": "UGAMS73501的常规放射性碳年龄1140±20BP，作者摘要所给校准区间894—1016年。",
+              "kind": "research_report",
+              "locator": "Abstract第1段；数学空格规范化，数字与单位未改",
+              "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059"
+            },
+            "humanReviewed": false,
+            "readingLevel": "作者公开论文完整文字转录及主文图题已读；原PDF页图、CT/早期照片、FigureS1及TableS1未核",
+            "textUrl": "https://www.academia.edu/167372122/International_Journal_of_Osteoarchaeology",
+            "parallelUrl": "https://www.academia.edu/167372122/International_Journal_of_Osteoarchaeology",
+            "parallelLabel": "作者公开原论文全文转录；图片及SI仍未核",
+            "readScope": {
+              "bodyTranscriptionRead": true,
+              "figureCaptionsRead": true,
+              "figureImagesRead": false,
+              "fullPdfObtained": false,
+              "pdfPagesRendered": false,
+              "supportingDirectoryRead": true,
+              "supportingDocxObtained": false,
+              "figureS1Viewed": false,
+              "tableS1Read": false,
+              "newImagesViewed": [],
+              "newMediaSha256": null,
+              "independentRadiologyOrCalibrationVerified": false,
+              "description": "本轮新增的是访问审计与图版层级拆分。未取得PDF，故无法按PDF技能渲染；没有把缓存转录、摘要、图题或补充目录当作看过原图。",
+              "humanReviewed": false
+            }
+          },
+          "change": "核到金片正式HTML释文与真实原图链接；另看CT参与机构关联配图，均按实际读级保留限制。",
+          "humanReviewed": false
         }
       ],
-      "readingLevel": "作者公开论文完整文字转录及主文图题已读；原PDF页图、CT/早期照片、FigureS1及TableS1未核",
+      "readingLevel": "既往作者全文文字/图题已读；本轮另看机构关联三维配图及团队照片，原论文整版、CT切片、原始DICOM与SI仍未核",
       "textUrl": "https://www.academia.edu/167372122/International_Journal_of_Osteoarchaeology",
       "parallelUrl": "https://www.academia.edu/167372122/International_Journal_of_Osteoarchaeology",
-      "parallelLabel": "作者公开原论文全文转录；图片及SI仍未核",
+      "parallelLabel": "作者论文全文转录；论文原图/补表未核，另有机构关联配图见证",
       "readScope": {
         "bodyTranscriptionRead": true,
         "figureCaptionsRead": true,
@@ -14780,9 +14950,99 @@
         "newImagesViewed": [],
         "newMediaSha256": null,
         "independentRadiologyOrCalibrationVerified": false,
-        "description": "本轮新增的是访问审计与图版层级拆分。未取得PDF，故无法按PDF技能渲染；没有把缓存转录、摘要、图题或补充目录当作看过原图。",
+        "description": "newImagesViewed维持论文原图语义为空；本轮另看两张机构页面完整图片，记录在imageWitnesses。三维重建配图有同DOI语境归属，未确定原论文图号、文件传承及个体级标识。",
+        "humanReviewed": false,
+        "originalPaperFigureImagesRead": false,
+        "relatedInstitutionalMediaViewed": true,
+        "relatedInstitutionalMediaWitnessIds": [
+          "SS5-Cedimed-3D",
+          "SS5-Cedimed-team"
+        ],
+        "relatedThreeDImageViewed": true,
+        "rawCtSlicesOrDicomViewed": false,
+        "sameIndividualImageFileProvenanceConfirmed": false
+      },
+      "publicInstitutionalWitness": {
+        "url": "https://cedimed.cl/2026/08/15/cedimed-tomografia-minero-prehispanico-atacama/",
+        "title": "El aporte de Cedimed a la investigación sobre la muerte de un minero prehispánico en Atacama",
+        "published": "2026-08-15",
+        "kind": "institutional_public_communication",
+        "locator": "全文相关段落、顶部重建配图、Equipo de investigación团队照片、Estudio de referencia与页脚",
+        "readScope": "机构文章相关全文及两张实际公开图片；不是作者论文PDF或补充文件",
+        "sameStudyContext": "文章明确引用10.1002/oa.70059，Morales/Garrido、El Salvador、Museo Regional de Atacama及894—1016年；据此只能确认页面谈同一研究。",
+        "unresolvedDiscrepancies": [
+          {
+            "field": "扫描年",
+            "paperPreviouslyRead": "2023",
+            "cedimedPage": "2024"
+          },
+          {
+            "field": "机型",
+            "paperPreviouslyRead": "Brivo CT385",
+            "cedimedPage": "OPTIMA CT520"
+          },
+          {
+            "field": "肢体创伤",
+            "paperPreviouslyRead": "包括左胫骨/下肢创伤",
+            "cedimedPage": "一处表述无颅骨或肢体损伤；不采此概括推翻论文"
+          }
+        ],
+        "rights": "页脚todos los derechos reservados；未读到图片CC许可或转载授权",
+        "permissionToView": "标准无登录公开页面及其实际图片链接",
         "humanReviewed": false
-      }
+      },
+      "imageWitnesses": [
+        {
+          "id": "SS5-Cedimed-3D",
+          "sourceId": "SS5",
+          "pageUrl": "https://cedimed.cl/2026/08/15/cedimed-tomografia-minero-prehispanico-atacama/",
+          "url": "https://cedimed.cl/wp-content/uploads/2026/08/reconstruccion-3d-tomografia-minero-prehispanico-atacama-1200x847.webp",
+          "sha256": "27dee560d2565f75bea8cf1d701a0cb3e7735ebdff55abc7c577ee4056c61694",
+          "bytes": 53476,
+          "mimeType": "image/webp",
+          "dimensions": [
+            1200,
+            847
+          ],
+          "captionOrAlt": "机构文章顶部三维重建配图",
+          "actualImageViewed": true,
+          "viewScope": "whole_delivered_public_image",
+          "imageClass": "institutional_related_3d_illustration",
+          "originalPublishedFigureNumber": null,
+          "sameStudyArticleContextVerified": true,
+          "sameIndividualFileProvenanceVerified": false,
+          "rights": "Centro Médico Cedimed；公开可阅，无已读图像转载许可",
+          "sourcePermission": "标准公开页面中实际列出的图片URL，HTTP200，无登录/校验绕过",
+          "visualObservation": "完整查看所提供1200×847图：黑底单一骨骼三维视图，见头颅、上肢、肋骨和脊柱，姿势屈曲；上下有裁切，无图号、比例尺、面板字母或病历标识。没有用图像独立诊断骨折。",
+          "clarity": "图像整体可视；缺论文图号及个体元数据，不能提供法医/放射诊断核验",
+          "humanReviewed": false
+        },
+        {
+          "id": "SS5-Cedimed-team",
+          "sourceId": "SS5",
+          "pageUrl": "https://cedimed.cl/2026/08/15/cedimed-tomografia-minero-prehispanico-atacama/",
+          "url": "https://cedimed.cl/wp-content/uploads/2026/08/equipo-investigacion-tomografo-optima-ct520-cedimed-copiapo.webp",
+          "sha256": "aa284a681adb6c04f82cb143d265da3435aba1c6ec06652cc4dca4103836c913",
+          "bytes": 99494,
+          "mimeType": "image/webp",
+          "dimensions": [
+            1600,
+            1200
+          ],
+          "captionOrAlt": "Equipo de investigación y profesionales de Cedimed junto al tomógrafo OPTIMA CT520 en la sede de Copiapó",
+          "actualImageViewed": true,
+          "viewScope": "whole_delivered_public_image",
+          "imageClass": "institutional_context_photo",
+          "originalPublishedFigureNumber": null,
+          "sameStudyArticleContextVerified": true,
+          "sameIndividualFileProvenanceVerified": false,
+          "rights": "Centro Médico Cedimed；公开可阅，无已读图像转载许可",
+          "sourcePermission": "标准公开页面中实际列出的图片URL，HTTP200，无登录/校验绕过",
+          "visualObservation": "完整查看所提供1600×1200图：六人在GE Optima设备旁，纸盒可见409字样；没有按面孔认人，也未将盒号当作SS5个体档案号。非CT数据。",
+          "clarity": "图像整体可视；缺论文图号及个体元数据，不能提供法医/放射诊断核验",
+          "humanReviewed": false
+        }
+      ]
     },
     {
       "id": "SS6",
@@ -15150,32 +15410,38 @@
       "title": "Nicolas Nauleau, Huay Sa Houa 2, nouvelles données archéologiques sur un site de la ville ancienne de Vat Phu au Laos : 2020, 2022, 2023",
       "url": "https://journals.openedition.org/baefe/pdf/13950",
       "parallelUrl": "https://journals.openedition.org/baefe/13950",
-      "parallelLabel": "正式HTML发表页；本轮仍仅显示Anubis校验页",
+      "parallelLabel": "正式HTML全文/释文已读；fig.7b真实链接已核，图像仍未取得",
       "kind": "research_report",
       "locator": "BAEFE, Asie du Sud-Est continentale | 2025；印刷页4 §6；页6 §11；页8—12 §16—26；页10 fig.7a、页11 fig.7b；页26 §69—74；页28—29注12—18。PDF共30页，封面另占1页。",
-      "checked": "2026-11-22：实际打开标准公开PDF附件并读上述正文、释读及图题；不是只读摘要。PDF文字提取存在字体编码偏移；本轮未取得可视页图，未独立辨读金片照片。 本次续核未取得新原页图：指定页请求仍返回校验或cache miss，普通公开下载超时；本次细化沿用此前已读正文，不冒称新全文或新图像核读。 2026-11-22本轮原图续核：ResearchGate指定标准公开页的web读取为cache miss，随后一次普通GET返回HTTP403、text/html（21,317字节），标题Temporarily Unavailable；按边界停止该入口。定向检索未找到新的可读原件/作者镜像；未取PDF、原页或fig.7b，不增加原图或独立校字已读结论。",
+      "checked": "本轮读到正式HTML全文，可核清楚Unicode释文、§20—26出土情境、注13/15及fig.7a/7b图题与实际Original JPEG链接。释文两行分别为punya dāk‑ (ṁ)、ma (dya)，注13明确第二行很不确定。§22的ma指第二行首字；注15另谈ka，未证明在谈同一个字，不能先判编辑冲突。fig.7b原JPEG普通请求超时、web返回cache miss；未取得金片照片或原PDF页图，不能独立校字。建筑A扰动填土与US4048邻近地面分开；没有可用原署年或古代具名奉献者。",
       "readScope": {
-        "level": "original_report_text_sections",
+        "level": "original_report_html_sections_and_published_transcription",
         "bodyRead": true,
         "inscriptionEditionRead": true,
         "figureCaptionsRead": true,
         "figureImagesRead": false,
         "fullArticleRead": false,
-        "description": "已读当地发掘者原发表报告的指定段落，含K.1578公布残词及释读保留意见。图像截图返回cache miss；普通PDF下载50秒超时，未尝试解决或绕过Anubis。",
+        "description": "本轮逐项读正式HTML指定段落、脚注、图题、原图链接和权利说明；并未通读或逐页看完整文章，不把HTML可访问等同原图已看。",
         "lastImageAttempt": {
           "researchDate": "2026-11-22",
-          "mode": "standard_public_entry_only",
-          "result": "http403_stopped",
+          "mode": "standard_public_html_and_actual_image_links_only",
+          "result": "actual_links_found_images_cache_miss_or_timeout",
           "figureImagesRead": false,
           "newImagesViewed": [],
           "newIndependentGlyphReadings": [],
           "newPdfRendered": false,
-          "note": "未取得PDF，无可渲染页；没有将HTTP403响应当成PDF或原图。",
+          "note": "PDF标准公开入口见Anubis即止；未猜下载路径、未绕校验。",
           "humanReviewed": false
-        }
+        },
+        "bodyHtmlRead": true,
+        "unicodeTranscriptionClear": true,
+        "originalImageLinksRead": true,
+        "fullPdfObtainedThisRound": false,
+        "pdfPagesRenderedThisRound": false,
+        "independentGlyphReading": false
       },
       "version": "ResEFE原发表考古报告，2025-09-16上线；公开PDF封面标自动生成于2025-09-21；DOI 10.4000/14onr。2020、2022、2023是田野季，并非金片纪年。",
-      "limitation": "以2025报告转述Soutif释读，非本轮对原件的独立校读。第二行被原报告注13明确列为很不确定；未公布原署年份或古代具名奉献者。建筑A与邻近地层无法直接衔接，现代测年/书体与建筑假说不得替成事件年。 文字层§22讨论ma，注15通信讨论ka的长中竖，两处字名分别保留，缺原图不能擅自统一。US4048是邻近地面，不是金片公布出土单位。",
+      "limitation": "采用发掘报告公布的释读，未从金片照片独立辨读。第二行很不确定；正文ma与注15 ka未证明为同一字，不据此认定编辑冲突。金片来自建筑A基础空间的扰动填土，US4048为邻近地面；建筑与邻层关系、多个书体/建造假说不能变成确年。K.1578不与既有AY19的K365混为一件，401—600不变。",
       "humanReviewed": false,
       "readHistory": [
         {
@@ -15233,8 +15499,98 @@
           },
           "change": "补记原图、原PDF及SI本次仍未取得的证据；不将转录/图题提升为图像已读。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "LOS1",
+            "title": "Nicolas Nauleau, Huay Sa Houa 2, nouvelles données archéologiques sur un site de la ville ancienne de Vat Phu au Laos : 2020, 2022, 2023",
+            "url": "https://journals.openedition.org/baefe/pdf/13950",
+            "parallelUrl": "https://journals.openedition.org/baefe/13950",
+            "parallelLabel": "正式HTML发表页；本轮仍仅显示Anubis校验页",
+            "kind": "research_report",
+            "locator": "BAEFE, Asie du Sud-Est continentale | 2025；印刷页4 §6；页6 §11；页8—12 §16—26；页10 fig.7a、页11 fig.7b；页26 §69—74；页28—29注12—18。PDF共30页，封面另占1页。",
+            "checked": "2026-11-22：实际打开标准公开PDF附件并读上述正文、释读及图题；不是只读摘要。PDF文字提取存在字体编码偏移；本轮未取得可视页图，未独立辨读金片照片。 本次续核未取得新原页图：指定页请求仍返回校验或cache miss，普通公开下载超时；本次细化沿用此前已读正文，不冒称新全文或新图像核读。 2026-11-22本轮原图续核：ResearchGate指定标准公开页的web读取为cache miss，随后一次普通GET返回HTTP403、text/html（21,317字节），标题Temporarily Unavailable；按边界停止该入口。定向检索未找到新的可读原件/作者镜像；未取PDF、原页或fig.7b，不增加原图或独立校字已读结论。",
+            "readScope": {
+              "level": "original_report_text_sections",
+              "bodyRead": true,
+              "inscriptionEditionRead": true,
+              "figureCaptionsRead": true,
+              "figureImagesRead": false,
+              "fullArticleRead": false,
+              "description": "已读当地发掘者原发表报告的指定段落，含K.1578公布残词及释读保留意见。图像截图返回cache miss；普通PDF下载50秒超时，未尝试解决或绕过Anubis。",
+              "lastImageAttempt": {
+                "researchDate": "2026-11-22",
+                "mode": "standard_public_entry_only",
+                "result": "http403_stopped",
+                "figureImagesRead": false,
+                "newImagesViewed": [],
+                "newIndependentGlyphReadings": [],
+                "newPdfRendered": false,
+                "note": "未取得PDF，无可渲染页；没有将HTTP403响应当成PDF或原图。",
+                "humanReviewed": false
+              }
+            },
+            "version": "ResEFE原发表考古报告，2025-09-16上线；公开PDF封面标自动生成于2025-09-21；DOI 10.4000/14onr。2020、2022、2023是田野季，并非金片纪年。",
+            "limitation": "以2025报告转述Soutif释读，非本轮对原件的独立校读。第二行被原报告注13明确列为很不确定；未公布原署年份或古代具名奉献者。建筑A与邻近地层无法直接衔接，现代测年/书体与建筑假说不得替成事件年。 文字层§22讨论ma，注15通信讨论ka的长中竖，两处字名分别保留，缺原图不能擅自统一。US4048是邻近地面，不是金片公布出土单位。",
+            "humanReviewed": false
+          },
+          "change": "核到金片正式HTML释文与真实原图链接；另看CT参与机构关联配图，均按实际读级保留限制。",
+          "humanReviewed": false
         }
-      ]
+      ],
+      "publicImageLinks": [
+        {
+          "url": "https://journals.openedition.org/baefe/docannexe/image/13950/img-9.jpg",
+          "caption": "Fig. 7b. Inscription K. 1578.",
+          "credit": "© N. Nauleau, 2023",
+          "pageLabel": "Original (jpeg, 386k)",
+          "locator": "正式HTML §22后fig.7b及图像目录；旧PDF印页11",
+          "readStatus": "link_and_caption_read_image_unobtained",
+          "sha256": null,
+          "humanReviewed": false
+        },
+        {
+          "url": "https://journals.openedition.org/baefe/docannexe/image/13950/img-8.jpg",
+          "caption": "Fig. 7a. Aménagement dans les fondations du bâtiment A, vue de l’ouest.",
+          "credit": "© N. Nauleau, 2022",
+          "pageLabel": "Original (jpeg, 552k)",
+          "locator": "正式HTML §20后fig.7a及图像目录；旧PDF印页10",
+          "readStatus": "link_and_caption_read_image_unobtained",
+          "sha256": null,
+          "humanReviewed": false
+        }
+      ],
+      "publishedReadingWitness": {
+        "url": "https://journals.openedition.org/baefe/13950",
+        "locator": "§21（Soutif释读）及注13；§22与注15",
+        "transcription": [
+          "(1) punya dāk‑ (ṁ)",
+          "(2) ma (dya)"
+        ],
+        "quote": {
+          "text": "La lecture de la deuxième ligne est très incertaine.",
+          "translation": "第二行的释读很不确定。",
+          "kind": "research_report",
+          "locator": "注13"
+        },
+        "qualification": "以上是正式报告发表的释文与保留意见，并非本轮从金片照片独立辨读。正文ma与注15 ka分开记录；没有证明二者是在争论同一个字。",
+        "humanReviewed": false
+      },
+      "contextRecheck": {
+        "locator": "§20—26",
+        "checked": "金片在建筑A基础中央空间的扰动填土中出土。建筑A缺与邻近地层直接连接，正文并列多个建造假说；US4048是可能关联的邻近地面，不是金片明确出土单位。没有原署年或古代具名人。",
+        "effect": "不新增事件或缩窄旧记录范围。",
+        "humanReviewed": false
+      },
+      "rightsThisRound": {
+        "url": "https://journals.openedition.org/baefe/13950",
+        "locator": "Droits d’auteur",
+        "checked": "正文为CC BY-NC-ND 4.0，图像与附件另有权利限制；fig.7b明确署N. Nauleau 2023。",
+        "imageReusePermissionEstablished": false,
+        "humanReviewed": false
+      }
     },
     {
       "id": "BYS1",
@@ -15309,8 +15665,8 @@
       "url": "https://www.academia.edu/20146495/Paisajes_del_abandono_En_La_espacialidad_en_arqueolog%C3%ADa_Enfoques_m%C3%A9todos_y_aplicaci%C3%B3n_Editado_por_In%C3%A9s_Gordillo_y_Jos%C3%A9_M_Vaquer_Editorial_AbyaYala_Quito_Ecuador_2013",
       "kind": "发掘者对本遗址材料的原始研究章节；作者公开转录",
       "locator": "《La espacialidad en arqueología》345—389；印页370—373，Table1前后正文及区域尺度讨论",
-      "checked": "实际打开作者公开全文转录并读相关段落：本遗址chañar果核终末组合给约1050—1200；区域比较另给950—1200。没有把区域范围移给单个遗址，也未声称看过Table1原图。 本次另循公开CONICET关系链完整取得2015书的候选附件（35页、14027331字节，MD5=f7edf2a0980a8d76c266c4ee8e25d8c5与机构元数据相合），实为Korstanje等第721—749页另一章及前页，不含Gordillo—Leiton第635—661页或约646页Table1。没有据附件同书名冒称原表已读。",
-      "limitation": "已读正文与表题，表中各原样本、原页图、概率分布和分组算法未校。本卡取作者明示的约1050—1200综合范围，不能当作自行复算的95%区间或一个持续150年的燃烧事件。 2015候选附件经内容核实属于另一章，不能补2013 Table1图版；原表仍未核。",
+      "checked": "保留原作者公开转录相关正文已读：本遗址终末占用约1050—1200，区域另述950—1200。2026-11-22本轮再次读作者公开转录的印页370—373及Table1题注；直接作者页面GET403，未取得原PDF或表图。BICYT指定书目直接GET403且明示WAF；UBA正式2013书目GET200，全文说明数字版尚不可用。本轮最后精确图片检索未返回2013 Table1可核页图。",
+      "limitation": "2013 Table1各原样本、完整区间、概率单元格和原图仍未核，不能由题注补造表值；不以已核2015表替代2013版本，不将2013/2015判为同版或缩窄AR2。WAF403和检索未命中都不证明文件不存在。",
       "humanReviewed": false,
       "readingLevel": "author_report_text_read_table_image_unread",
       "readHistory": [
@@ -15330,6 +15686,23 @@
           },
           "change": "完整校验后识别候选附件错配，仍未取得所需测年表；不提升原表阅读等级。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "ARS2",
+            "title": "Gordillo2013：La Rinconada终末占用与弃用年代的原研究",
+            "url": "https://www.academia.edu/20146495/Paisajes_del_abandono_En_La_espacialidad_en_arqueolog%C3%ADa_Enfoques_m%C3%A9todos_y_aplicaci%C3%B3n_Editado_por_In%C3%A9s_Gordillo_y_Jos%C3%A9_M_Vaquer_Editorial_AbyaYala_Quito_Ecuador_2013",
+            "kind": "发掘者对本遗址材料的原始研究章节；作者公开转录",
+            "locator": "《La espacialidad en arqueología》345—389；印页370—373，Table1前后正文及区域尺度讨论",
+            "checked": "实际打开作者公开全文转录并读相关段落：本遗址chañar果核终末组合给约1050—1200；区域比较另给950—1200。没有把区域范围移给单个遗址，也未声称看过Table1原图。 本次另循公开CONICET关系链完整取得2015书的候选附件（35页、14027331字节，MD5=f7edf2a0980a8d76c266c4ee8e25d8c5与机构元数据相合），实为Korstanje等第721—749页另一章及前页，不含Gordillo—Leiton第635—661页或约646页Table1。没有据附件同书名冒称原表已读。",
+            "limitation": "已读正文与表题，表中各原样本、原页图、概率分布和分组算法未校。本卡取作者明示的约1050—1200综合范围，不能当作自行复算的95%区间或一个持续150年的燃烧事件。 2015候选附件经内容核实属于另一章，不能补2013 Table1图版；原表仍未核。",
+            "humanReviewed": false,
+            "readingLevel": "author_report_text_read_table_image_unread"
+          },
+          "change": "2017原S1实际取得并核原始单元格/公式/缓存；2013仅补核书目与原件状态，未取得原表。",
+          "humanReviewed": false
         }
       ]
     },
@@ -15337,13 +15710,13 @@
       "id": "ARS3",
       "title": "Gordillo与Vindrola-Padrós2017：La Rinconada E5器物破坏与弃用原研究",
       "url": "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041",
-      "kind": "原发掘材料的重组、热变、破碎与空间分散分析论文",
-      "locator": "Antiquity91(355):155—172；The site、Methodology、Results and discussion；Figure4—7及Conclusion",
-      "checked": "实际读出版社全文、方法与结果图注：E5取无新鲜断口且器物重组完整度大于30%的样本；4号器重组片分处至少10米、隔一道墙。核到烧塌屋顶、器片关联及作者的有意关闭假说，未取得原图或附表S1。 本次再次核出版社HTML可读，从实际链接尝试Figure4/6/7与S1原xlsx，普通公开下载均403，出版社PDF下载超时；未读到新原图或S1，不重试既有UCL403入口。",
-      "limitation": "空间组合与作者解释分开；不是原始逐日记录。正文的约1200及区域950—1200不升为确年；自然火与人为破坏解释有争论，不能断定全谷同年弃居、战争或一名首领下令。 S1虽找到公开附件标识S0003598X16002593sup001.xlsx，尚未取得内容，不能据文件名补造数据。",
+      "kind": "原发掘材料分析论文及原附表S1工作簿",
+      "locator": "Antiquity91(355):155—172；Methodology含1292/1665、完整度门槛及42器单位的同一段；S1 English!A1:K49、IF mediana-media!A1:B46",
+      "checked": "本轮取得出版社正文实际链接的17,658字节原S1 XLSX，ZIP全部成员CRC可解析；两张工作表及原始单元格、数值格式、公式和缓存均已核。English列42个不同器号，F2:F43片数本轮求和1293；正文分别列1665片出土陶片、1292片无新鲜断口的分析陶片及42器分析单位，确切筛选映射和差1仍待解释。E7/E11/E35/E36/E39存值0.3、格式0%，对应6/114/141/142/179号器，正文门槛写高于30%；未自行删行或判定差异原因。另以原始OOXML与独立Artifact Tool只读导入/JavaScript算术交叉核得同样42器、1293片和五个30%边界值。未改写、重存或用Excel引擎重算原工作簿。论文原图4/6/7仍未核。",
+      "limitation": "正文1665既指出土片总数，又被列为碎片最小分析单位；1292指无新鲜断口而被分析的陶片；S1列42器片数求和1293。不能先假定三者对应完全相同的筛选阶段或同一分母，差1仍待原始计数/选择流程解释。正文完整度高于30%的语言与S1五行30%的存值并存，可能涉及估计/存储精度或流程，但原因未定，不自行删行、改阈值或改工作簿。S1是陶器分析表，无放射性碳校准数据，不能反推确年或改1050—1200。论文原图4/6/7本轮未取，仍不称原图已核。",
       "humanReviewed": false,
       "doi": "10.15184/aqy.2016.259",
-      "readingLevel": "publisher_full_text_and_captions_read",
+      "readingLevel": "publisher_full_text_and_original_S1_cells_read_main_figures_unread",
       "readHistory": [
         {
           "researchDate": "2026-11-22",
@@ -15362,8 +15735,498 @@
           },
           "change": "补记原图与S1的实际公开取件失败；保留正文/图注已读与图像/原表未读的区别。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "ARS3",
+            "title": "Gordillo与Vindrola-Padrós2017：La Rinconada E5器物破坏与弃用原研究",
+            "url": "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041",
+            "kind": "原发掘材料的重组、热变、破碎与空间分散分析论文",
+            "locator": "Antiquity91(355):155—172；The site、Methodology、Results and discussion；Figure4—7及Conclusion",
+            "checked": "实际读出版社全文、方法与结果图注：E5取无新鲜断口且器物重组完整度大于30%的样本；4号器重组片分处至少10米、隔一道墙。核到烧塌屋顶、器片关联及作者的有意关闭假说，未取得原图或附表S1。 本次再次核出版社HTML可读，从实际链接尝试Figure4/6/7与S1原xlsx，普通公开下载均403，出版社PDF下载超时；未读到新原图或S1，不重试既有UCL403入口。",
+            "limitation": "空间组合与作者解释分开；不是原始逐日记录。正文的约1200及区域950—1200不升为确年；自然火与人为破坏解释有争论，不能断定全谷同年弃居、战争或一名首领下令。 S1虽找到公开附件标识S0003598X16002593sup001.xlsx，尚未取得内容，不能据文件名补造数据。",
+            "humanReviewed": false,
+            "doi": "10.15184/aqy.2016.259",
+            "readingLevel": "publisher_full_text_and_captions_read"
+          },
+          "change": "2017原S1实际取得并核原始单元格/公式/缓存；2013仅补核书目与原件状态，未取得原表。",
+          "humanReviewed": false
         }
-      ]
+      ],
+      "supplementaryUrl": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X16002593/resource/name/S0003598X16002593sup001.xlsx",
+      "supplementaryFile": {
+        "url": "https://static.cambridge.org/content/id/urn:cambridge.org:id:article:S0003598X16002593/resource/name/S0003598X16002593sup001.xlsx",
+        "actualLinkFrom": "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041",
+        "bytes": 17658,
+        "sha256": "3be5352fb6670bfe2c272ea2dbc5019a2f4cee67f4da4f4df231972df4a038af",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "integrity": "ZIP全部16成员CRC通过，工作簿/两工作表/共享字符串/样式和公式等完整可解析。未见出版社提供的独立校验和；此SHA为本地计算的版本标识。",
+        "createdInCoreProperties": "2016-01-03T20:34:54Z",
+        "modifiedInCoreProperties": "2016-11-03T10:31:28Z",
+        "metadataDateBoundary": "2016文件属性不是遗址事件年或2017期刊发表日。",
+        "workbookCalcMode": "manual"
+      },
+      "cellAudit": {
+        "headers": [
+          {
+            "cell": "A1",
+            "text": "Vessel No."
+          },
+          {
+            "cell": "B1",
+            "text": "Ceramic Type*"
+          },
+          {
+            "cell": "C1",
+            "text": "Class"
+          },
+          {
+            "cell": "D1",
+            "text": "Shape Type"
+          },
+          {
+            "cell": "E1",
+            "text": "Completeness Percentage"
+          },
+          {
+            "cell": "F1",
+            "text": "Fragments"
+          },
+          {
+            "cell": "G1",
+            "text": "FI"
+          },
+          {
+            "cell": "H1",
+            "text": "Dispersion"
+          },
+          {
+            "cell": "I1",
+            "text": "Size Category"
+          },
+          {
+            "cell": "J1",
+            "text": "Thermally altered Fragments"
+          },
+          {
+            "cell": "K1",
+            "text": "Percentage of Thermal-Alteration**"
+          }
+        ],
+        "mainSheet": "English",
+        "mainRange": "A1:K49",
+        "dataRange": "A2:K43",
+        "rows": 42,
+        "uniqueVesselIds": 42,
+        "rawOoxmlSum": 1293,
+        "completenessThresholdEvidence": {
+          "mainTextRuleChinese": "正文说按宏观估计的完整度高于30%选取器物。",
+          "mainTextLocator": "Methodology同段第二句；原HTML字符范围见2017-methodology-locators.json",
+          "rawCellValue": 0.3,
+          "numberFormat": "0%",
+          "correspondingVessels": [
+            {
+              "row": 7,
+              "vessel": 6,
+              "rawCompleteness": 0.3,
+              "numberFormat": "0%",
+              "fragments": 12
+            },
+            {
+              "row": 11,
+              "vessel": 114,
+              "rawCompleteness": 0.3,
+              "numberFormat": "0%",
+              "fragments": 37
+            },
+            {
+              "row": 35,
+              "vessel": 141,
+              "rawCompleteness": 0.3,
+              "numberFormat": "0%",
+              "fragments": 1
+            },
+            {
+              "row": 36,
+              "vessel": 142,
+              "rawCompleteness": 0.3,
+              "numberFormat": "0%",
+              "fragments": 5
+            },
+            {
+              "row": 39,
+              "vessel": 179,
+              "rawCompleteness": 0.3,
+              "numberFormat": "0%",
+              "fragments": 21
+            }
+          ],
+          "storedRange": [
+            0.3,
+            0.99
+          ],
+          "status": "正文门槛语言与表存30%并存；精度、估计规则及纳入流程未核，不能自行改为严格>30%或删这5器。"
+        },
+        "vessel4": {
+          "range": "English!A5:K5",
+          "numericCells": {
+            "A5": 4,
+            "E5": 0.99,
+            "F5": 4,
+            "H5": 10,
+            "J5": 1,
+            "K5": 25
+          },
+          "meaning": "E完整度99%；F片数4；H为分散列原数10，单位须结合正文；J热变片1，K的原公式为J*100/F，缓存25，依现存片计算而非全部原器面积。"
+        },
+        "footnoteMeaningChinese": "A44合并至K45的脚注将热变限定为与遗址火灾相关的烟炱影响，并说明比例以当前保存完整度/出土片数为基础；非每器所有烧损过程的直接证明。",
+        "formulaReading": {
+          "G2_G43": "1/(1+LOG10(F行))",
+          "K2_K43": "J行*100/F行；格式0.00，不是百分号格式",
+          "rawSharedFormulaMasters": [
+            {
+              "cell": "G2",
+              "formulaAttributes": {},
+              "formulaText": "1/(1+LOG10(F2))",
+              "cachedValue": "0.43458798967609363"
+            },
+            {
+              "cell": "K2",
+              "formulaAttributes": {
+                "t": "shared",
+                "ref": "K2:K43",
+                "si": "0"
+              },
+              "formulaText": "J2*100/F2",
+              "cachedValue": "0"
+            },
+            {
+              "cell": "K5",
+              "formulaAttributes": {
+                "t": "shared",
+                "si": "0"
+              },
+              "formulaText": null,
+              "cachedValue": "25"
+            }
+          ],
+          "independentArithmeticCheck": "以现有输入核G/K共42行缓存，未发现算术差异；不把此静态核对称为Excel引擎重算。"
+        },
+        "secondSheet": {
+          "sheetName": "IF mediana-media",
+          "headers": [
+            "Vessel",
+            "IF"
+          ],
+          "recordsRange": "A2:B43",
+          "recordCount": 42,
+          "same42VesselIds": true,
+          "sameFiValuesForEveryVessel": true,
+          "description": "第二工作表是按FI排序的辅助清单及Mean/Median/Mode，不是另一张西语完整器物表；没有片数或完整度列，不能当第二种分母校验。"
+        },
+        "bilingualTableBoundary": "仅两张可见工作表：English为完整英文表；IF mediana-media虽名含西语，但只有Vessel/IF、42器排序及均值中位数众数，不是一份西语全表。没有第二套片数分母可供跨语言复核。",
+        "originalAEFRows": [
+          {
+            "row": 2,
+            "vesselId": 1,
+            "completeness": 0.5,
+            "fragments": 20
+          },
+          {
+            "row": 3,
+            "vesselId": 2,
+            "completeness": 0.6,
+            "fragments": 12
+          },
+          {
+            "row": 4,
+            "vesselId": 3,
+            "completeness": 0.8,
+            "fragments": 37
+          },
+          {
+            "row": 5,
+            "vesselId": 4,
+            "completeness": 0.99,
+            "fragments": 4
+          },
+          {
+            "row": 6,
+            "vesselId": 5,
+            "completeness": 0.5,
+            "fragments": 21
+          },
+          {
+            "row": 7,
+            "vesselId": 6,
+            "completeness": 0.3,
+            "fragments": 12
+          },
+          {
+            "row": 8,
+            "vesselId": 7,
+            "completeness": 0.95,
+            "fragments": 3
+          },
+          {
+            "row": 9,
+            "vesselId": 8,
+            "completeness": 0.4,
+            "fragments": 37
+          },
+          {
+            "row": 10,
+            "vesselId": 13,
+            "completeness": 0.5,
+            "fragments": 10
+          },
+          {
+            "row": 11,
+            "vesselId": 114,
+            "completeness": 0.3,
+            "fragments": 37
+          },
+          {
+            "row": 12,
+            "vesselId": 115,
+            "completeness": 0.9,
+            "fragments": 68
+          },
+          {
+            "row": 13,
+            "vesselId": 116,
+            "completeness": 0.6,
+            "fragments": 17
+          },
+          {
+            "row": 14,
+            "vesselId": 117,
+            "completeness": 0.5,
+            "fragments": 72
+          },
+          {
+            "row": 15,
+            "vesselId": 118,
+            "completeness": 0.5,
+            "fragments": 21
+          },
+          {
+            "row": 16,
+            "vesselId": 119,
+            "completeness": 0.5,
+            "fragments": 75
+          },
+          {
+            "row": 17,
+            "vesselId": 120,
+            "completeness": 0.9,
+            "fragments": 26
+          },
+          {
+            "row": 18,
+            "vesselId": 121,
+            "completeness": 0.5,
+            "fragments": 23
+          },
+          {
+            "row": 19,
+            "vesselId": 122,
+            "completeness": 0.7,
+            "fragments": 40
+          },
+          {
+            "row": 20,
+            "vesselId": 123,
+            "completeness": 0.65,
+            "fragments": 2
+          },
+          {
+            "row": 21,
+            "vesselId": 125,
+            "completeness": 0.5,
+            "fragments": 32
+          },
+          {
+            "row": 22,
+            "vesselId": 126,
+            "completeness": 0.6,
+            "fragments": 1
+          },
+          {
+            "row": 23,
+            "vesselId": 127,
+            "completeness": 0.9,
+            "fragments": 18
+          },
+          {
+            "row": 24,
+            "vesselId": 129,
+            "completeness": 0.99,
+            "fragments": 33
+          },
+          {
+            "row": 25,
+            "vesselId": 130,
+            "completeness": 0.6,
+            "fragments": 27
+          },
+          {
+            "row": 26,
+            "vesselId": 131,
+            "completeness": 0.8,
+            "fragments": 71
+          },
+          {
+            "row": 27,
+            "vesselId": 132,
+            "completeness": 0.95,
+            "fragments": 51
+          },
+          {
+            "row": 28,
+            "vesselId": 133,
+            "completeness": 0.7,
+            "fragments": 120
+          },
+          {
+            "row": 29,
+            "vesselId": 134,
+            "completeness": 0.5,
+            "fragments": 48
+          },
+          {
+            "row": 30,
+            "vesselId": 135,
+            "completeness": 0.8,
+            "fragments": 21
+          },
+          {
+            "row": 31,
+            "vesselId": 136,
+            "completeness": 0.9,
+            "fragments": 46
+          },
+          {
+            "row": 32,
+            "vesselId": 137,
+            "completeness": 0.5,
+            "fragments": 23
+          },
+          {
+            "row": 33,
+            "vesselId": 138,
+            "completeness": 0.4,
+            "fragments": 62
+          },
+          {
+            "row": 34,
+            "vesselId": 140,
+            "completeness": 0.4,
+            "fragments": 20
+          },
+          {
+            "row": 35,
+            "vesselId": 141,
+            "completeness": 0.3,
+            "fragments": 1
+          },
+          {
+            "row": 36,
+            "vesselId": 142,
+            "completeness": 0.3,
+            "fragments": 5
+          },
+          {
+            "row": 37,
+            "vesselId": 177,
+            "completeness": 0.4,
+            "fragments": 29
+          },
+          {
+            "row": 38,
+            "vesselId": 178,
+            "completeness": 0.5,
+            "fragments": 9
+          },
+          {
+            "row": 39,
+            "vesselId": 179,
+            "completeness": 0.3,
+            "fragments": 21
+          },
+          {
+            "row": 40,
+            "vesselId": 180,
+            "completeness": 0.6,
+            "fragments": 39
+          },
+          {
+            "row": 41,
+            "vesselId": 181,
+            "completeness": 0.4,
+            "fragments": 22
+          },
+          {
+            "row": 42,
+            "vesselId": 182,
+            "completeness": 0.4,
+            "fragments": 20
+          },
+          {
+            "row": 43,
+            "vesselId": 183,
+            "completeness": 0.7,
+            "fragments": 37
+          }
+        ],
+        "independentReadOnlyCheck": {
+          "method": "Independent read-only Artifact Tool import and JavaScript arithmetic; no workbook edits or export",
+          "formulaCellCount": 84,
+          "rowCount": 42,
+          "uniqueVesselIds": 42,
+          "sherdCountSum": 1293,
+          "boundaryThirtyPercent": [
+            {
+              "row": 7,
+              "vesselId": 6,
+              "rawValue": 0.3
+            },
+            {
+              "row": 11,
+              "vesselId": 114,
+              "rawValue": 0.3
+            },
+            {
+              "row": 35,
+              "vesselId": 141,
+              "rawValue": 0.3
+            },
+            {
+              "row": 36,
+              "vesselId": 142,
+              "rawValue": 0.3
+            },
+            {
+              "row": 39,
+              "vesselId": 179,
+              "rawValue": 0.3
+            }
+          ]
+        }
+      },
+      "readScope": {
+        "publisherBodyTextRead": true,
+        "supportingWorkbookObtained": true,
+        "bothSheetsCellsRead": true,
+        "rawOoxmlRead": true,
+        "sourceWorkbookChanged": false,
+        "excelEngineRecalculated": false,
+        "originalMainFigureImagesRead": false,
+        "radiocarbonCalibrationReproduced": false,
+        "description": "补表是器物分析数据，不是碳测年表。第二表为FI排序及汇总，非西语完整平行表。"
+      }
     },
     {
       "id": "CNS1",
@@ -15472,7 +16335,7 @@
       "url": "https://www.academia.edu/37471091/VITAL_SIDOROVICH_The_Finds_of_Greek_and_Roman_Provincial_Coins_in_Belarus",
       "kind": "研究者钱币重鉴定及编号目录的原始发表；作者公开全文转写",
       "locator": "Notae Numismaticae—Zapiski Numizmatyczne IX（2014），71—94；第76页注21；第77页正文和注27；第78页注30；第86页Catalogue17及Pl.2.11引用；作者版末尾印页91图注另标Plate3 Fig.5，印页94文字层为Plate3；图号/版本未视觉核定",
-      "checked": "2026-11-22保留前轮作者公开24页全文转写已读状态；本轮重读Lyshchytsy目标段及末尾图注。发现正文/目录引用Pl.2.11，而尾部图注明列Plate3 Fig.5为同地Trajan drachm；另见制版备注，作者版是否校样待核。官网目录PDF文字层核到本篇起71、波兰摘要88、下篇95及纸本为原始版本声明。未取得2014全文原PDF或目标币图。",
+      "checked": "作者公开全文转写及目录已读状态沿用；Pl.2.11与尾部Plate3 Fig.5的引用差异、制版备注仍需最终刊本图版核验。本轮实际核doi.org HTTP302与DataCite官方记录：DOI10.11588/diglit.31073.9正确落地/0073，正式页仍为Anubis拒绝，未取图版。另完整看两张公开Lyshchytsy钱币JPEG拼版，未对应Catalogue17或确认馆藏号，不能替代目标Trajan drachm。铸造年仍不是当地埋藏年。",
       "limitation": "BYR2原页与币图仍未视觉校对，图号冲突不能先行定为正式刊物错误。116/114的统计、币种重鉴定与Pobol117/分项116是不同问题；未逐币对应不得自动抵消差额。Catalogue17的98—99是铸造范围，不能变成本地输入/埋藏确年。对献祭、贸易、战争及社群的解释仍非原署年度。",
       "abstractUrl": "https://mnk.pl/wp-content/uploads/2026/05/V.SIDAROVICH_The_Finds_of_Greek_and_Roman_Provincial_Coins_in_Belarus.pdf",
       "humanReviewed": false,
@@ -15493,9 +16356,91 @@
           },
           "change": "同一2014论文补图号冲突、官网目录文字层与可复核访问缺口；未升级为原页/币图已读。",
           "humanReviewed": false
+        },
+        {
+          "researchDate": "2026-11-22",
+          "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+          "previousState": {
+            "id": "BYR2",
+            "title": "Vital’ Sidorovich《The Finds of Greek and Roman Provincial Coins in Belarus》（2014）",
+            "url": "https://www.academia.edu/37471091/VITAL_SIDOROVICH_The_Finds_of_Greek_and_Roman_Provincial_Coins_in_Belarus",
+            "kind": "研究者钱币重鉴定及编号目录的原始发表；作者公开全文转写",
+            "locator": "Notae Numismaticae—Zapiski Numizmatyczne IX（2014），71—94；第76页注21；第77页正文和注27；第78页注30；第86页Catalogue17及Pl.2.11引用；作者版末尾印页91图注另标Plate3 Fig.5，印页94文字层为Plate3；图号/版本未视觉核定",
+            "checked": "2026-11-22保留前轮作者公开24页全文转写已读状态；本轮重读Lyshchytsy目标段及末尾图注。发现正文/目录引用Pl.2.11，而尾部图注明列Plate3 Fig.5为同地Trajan drachm；另见制版备注，作者版是否校样待核。官网目录PDF文字层核到本篇起71、波兰摘要88、下篇95及纸本为原始版本声明。未取得2014全文原PDF或目标币图。",
+            "limitation": "BYR2原页与币图仍未视觉校对，图号冲突不能先行定为正式刊物错误。116/114的统计、币种重鉴定与Pobol117/分项116是不同问题；未逐币对应不得自动抵消差额。Catalogue17的98—99是铸造范围，不能变成本地输入/埋藏确年。对献祭、贸易、战争及社群的解释仍非原署年度。",
+            "abstractUrl": "https://mnk.pl/wp-content/uploads/2026/05/V.SIDAROVICH_The_Finds_of_Greek_and_Roman_Provincial_Coins_in_Belarus.pdf",
+            "humanReviewed": false,
+            "readingLevel": "作者全文转写及末尾图注已读；官方目录PDF仅文字层已读；2014原PDF页图及目标币照片未读"
+          },
+          "change": "实际核doi.org跳转及DataCite注册记录，确定/0073落地；看过的两张公开拼版未对应目标币，不升级正式图版已读。",
+          "humanReviewed": false
         }
       ],
-      "readingLevel": "作者全文转写及末尾图注已读；官方目录PDF仅文字层已读；2014原PDF页图及目标币照片未读"
+      "readingLevel": "作者全文转写及末尾图注已读；官方目录PDF仅文字层已读；2014原PDF页图及目标币照片未读；新增DOI解析及注册元数据已核，目标原图读取状态未升级",
+      "doi": "10.11588/diglit.31073.9",
+      "doiUrl": "https://doi.org/10.11588/diglit.31073.9",
+      "registeredLandingUrl": "https://digi.ub.uni-heidelberg.de/diglit/notae_numismaticae2014/0073",
+      "registrationMetadataUrl": "https://api.datacite.org/dois/10.11588/diglit.31073.9",
+      "registrationMetadataSha256": "99e0ef101d828fdef7627dc7e9db983aa6e67e913b1d384b66cb2332728a4dce",
+      "registrationAudit": {
+        "doi": "10.11588/diglit.31073.9",
+        "resolverStatus": 302,
+        "registeredLandingUrl": "https://digi.ub.uni-heidelberg.de/diglit/notae_numismaticae2014/0073",
+        "registrarStatus": 200,
+        "registrarUrl": "https://api.datacite.org/dois/10.11588/diglit.31073.9",
+        "registeredTitle": "The finds of Greek and Roman provincial coins in Belarus",
+        "registeredCreator": "Sidarovich, Vital̕",
+        "registeredPublicationYear": 2014,
+        "registeredResourceType": "Digital copy",
+        "registeredAt": "2017-10-11T07:52:08.000Z",
+        "registrationUpdatedAt": "2023-10-27T00:08:32.000Z",
+        "readingLevel": "实际下载并解析官方注册JSON和doi.org跳转头；不是论文正文、图版或实物",
+        "humanReviewed": false
+      },
+      "excludedImageWitnesses": [
+        {
+          "id": "lyshchytsy-photo-1.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D1%8B%D0%BC%D1%81%D0%BA%D1%96%D1%8F_%D0%BC%D0%B0%D0%BD%D0%B5%D1%82%D1%8B._%D0%9B%D1%8B%D1%88%D1%87%D1%8B%D1%86%D1%8B.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/%D0%A0%D1%8B%D0%BC%D1%81%D0%BA%D1%96%D1%8F_%D0%BC%D0%B0%D0%BD%D0%B5%D1%82%D1%8B._%D0%9B%D1%8B%D1%88%D1%87%D1%8B%D1%86%D1%8B.jpg",
+          "urlProvenance": "Commons分类页实际列公开缩略资源，按常规资源路径取得完整JPEG；原图下载未借助API。另一次普通API请求403后已停止，未处理校验。",
+          "sha256": "b963c857ce186f08ec7913d8c16c454f806cbd2302957c6a26df377cb061814e",
+          "bytes": 1883068,
+          "dimensions": [
+            2425,
+            2513
+          ],
+          "actuallyViewed": true,
+          "originalResolutionAsset": true,
+          "completeJournalPlate": false,
+          "targetSpecimenVerified": false,
+          "version": "公开JPEG拼版；未核原始印刷物、制作者、拍摄情境及馆藏号；不能称正式原刊图版或机构逐币原件。",
+          "clarity": "取得完整JPEG，不是120px缩略；多枚币面拼版、部分拉丁字母与人物/手势图式可见；无全幅说明文字或馆藏号。未逐字校读所有币文，也不把分辨率直接当作出版原图质量。",
+          "observations": "实际逐张看完：未见BYR2 Catalogue17目录所述的双七弦琴及顶部小猫头鹰组合；图像内也未给与Catalogue17的对应号码。两幅可能有重复币图，未去重或计独立币数。",
+          "decision": "只作排除候选的研究中间件，不增加来源或历史事实，不替代BYR2目标币图。",
+          "humanReviewed": false
+        },
+        {
+          "id": "lyshchytsy-photo-2.jpg",
+          "filePageUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D1%8B%D0%BC%D1%81%D0%BA%D1%96%D1%8F_%D0%BC%D0%B0%D0%BD%D0%B5%D1%82%D1%8B._%D0%9B%D1%8B%D1%88%D1%87%D1%8B%D1%86%D1%8B_2.jpg",
+          "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/%D0%A0%D1%8B%D0%BC%D1%81%D0%BA%D1%96%D1%8F_%D0%BC%D0%B0%D0%BD%D0%B5%D1%82%D1%8B._%D0%9B%D1%8B%D1%88%D1%87%D1%8B%D1%86%D1%8B_2.jpg",
+          "urlProvenance": "Commons分类页实际列公开缩略资源，按常规资源路径取得完整JPEG；原图下载未借助API。另一次普通API请求403后已停止，未处理校验。",
+          "sha256": "722d2cb10f1e046fb9f09b861739592ef6bc2c1bd118c69f51bdd2dbc79d94b1",
+          "bytes": 1541257,
+          "dimensions": [
+            2421,
+            2497
+          ],
+          "actuallyViewed": true,
+          "originalResolutionAsset": true,
+          "completeJournalPlate": false,
+          "targetSpecimenVerified": false,
+          "version": "公开JPEG拼版；未核原始印刷物、制作者、拍摄情境及馆藏号；不能称正式原刊图版或机构逐币原件。",
+          "clarity": "取得完整JPEG，不是120px缩略；多枚币面拼版、部分拉丁字母与人物/手势图式可见；无全幅说明文字或馆藏号。未逐字校读所有币文，也不把分辨率直接当作出版原图质量。",
+          "observations": "实际逐张看完：未见BYR2 Catalogue17目录所述的双七弦琴及顶部小猫头鹰组合；图像内也未给与Catalogue17的对应号码。两幅可能有重复币图，未去重或计独立币数。",
+          "decision": "只作排除候选的研究中间件，不增加来源或历史事实，不替代BYR2目标币图。",
+          "humanReviewed": false
+        }
+      ]
     },
     {
       "id": "BYR3",
@@ -16298,7 +17243,7 @@
   ],
   "coverage": {
     "complete": false,
-    "note": "时间仍为前10年至2000年、无0年；176条记录、132格有纪年、8格仅范围、0格空白。原22条范围及所有记录日期精度/上下界保持。本轮补核2015原测年表和指定图像、同期中国记文传本，分开综合概括、概率区段、原位照片与复原；模型、未得原图、版本差及古代人物缺口继续列明。所有来源humanReviewed:false，程序检查不替代专业审读。",
+    "note": "时间仍前10年至2000年、无0年；176记录、132格有纪年、8格仅范围、0格空白。原22范围和全部日期对象保留。本轮取得2017原S1，补核金片正式释文/原图链接、钱币DOI与相关配图、模型图4公开转载；S2、2013原表及目标原图未得者继续列缺。深化三组既有中国对读，所有来源humanReviewed:false。",
     "gaps": [
       {
         "label": "1186年Ta Prohm碑K.273",
@@ -16829,7 +17774,7 @@
       },
       {
         "label": "本轮8格核查 · 智利 · medieval-early",
-        "reason": "SS5作者正文转录及Figure2—5图题可读，但本次作者普通页和出版社全文403后停止，未取得原PDF、CT图、早期照片或独立SI DOCX的TableS1/FigureS1；索引不是图像。CHN1仍894—1016/95.4%完整跨1000；矿工身份、矿内受伤和确切埋葬日不补造。CHS1既有原页核读沿用，仍无原证书或校准代码。",
+        "reason": "SS5作者全文和图题已读，本轮另看Cedimed同DOI机构三维配图及团队照；未对应原论文面板/个体档案，扫描年与机型出入未解。原PDF、CT切片/DICOM、FigureS1及TableS1仍未核。CHN1完整894—1016/95.4%不变，不确认矿工、矿内受伤或埋葬确年。",
         "sourceIds": [
           "SS5",
           "CHS1"
@@ -16870,6 +17815,24 @@
               ]
             },
             "change": "本次原表、图像和模型续核；仅按实际读取层级更新。"
+          },
+          {
+            "researchDate": "2026-11-22",
+            "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+            "previousState": {
+              "label": "本轮8格核查 · 智利 · medieval-early",
+              "reason": "SS5作者正文转录及Figure2—5图题可读，但本次作者普通页和出版社全文403后停止，未取得原PDF、CT图、早期照片或独立SI DOCX的TableS1/FigureS1；索引不是图像。CHN1仍894—1016/95.4%完整跨1000；矿工身份、矿内受伤和确切埋葬日不补造。CHS1既有原页核读沿用，仍无原证书或校准代码。",
+              "sourceIds": [
+                "SS5",
+                "CHS1"
+              ],
+              "urls": [
+                "https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.70059",
+                "https://boletin.scha.cl/index.php/boletin/article/download/824/763/3261"
+              ]
+            },
+            "change": "按本轮实际原件/单元格/图像读级更新；年代与人物缺口不视为解决。",
+            "humanReviewed": false
           }
         ]
       },
@@ -16943,7 +17906,7 @@
       },
       {
         "label": "本轮8格核查 · Lyshchytsy原文阅读状态已推进；数量与图像仍待校",
-        "reason": "BYS1五枚币照片已核，但BYR2目标重鉴定币原图仍未取得。作者公开文字正文/目录引Pl.2.11，尾注却列Plate3 Fig.5，另有制版批注；须先核最终原刊版本与图号，不能断言正式刊物有误。BYS1五枚私藏币与此Trajan drachm不可凭同地名认作同币；117/分项116、2014的116/114及后出统计仍待逐币清点。钱币发行年不是当地埋藏年。",
+        "reason": "BYR2的DOI注册及/0073正式落地已核；正式图版仍未得。另两张完整公开拼版均未对应Catalogue17，不能替代目标币。Pl.2.11/Plate3 Fig.5及版本差仍须核最终刊本；BYS1五币并非该Trajan drachm，117/116/114差异未解，铸币年不当当地埋藏年。",
         "sourceIds": [
           "BYS1",
           "BYR2",
@@ -16992,12 +17955,32 @@
               ]
             },
             "change": "本次原表、图像和模型续核；仅按实际读取层级更新。"
+          },
+          {
+            "researchDate": "2026-11-22",
+            "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+            "previousState": {
+              "label": "本轮8格核查 · Lyshchytsy原文阅读状态已推进；数量与图像仍待校",
+              "reason": "BYS1五枚币照片已核，但BYR2目标重鉴定币原图仍未取得。作者公开文字正文/目录引Pl.2.11，尾注却列Plate3 Fig.5，另有制版批注；须先核最终原刊版本与图号，不能断言正式刊物有误。BYS1五枚私藏币与此Trajan drachm不可凭同地名认作同币；117/分项116、2014的116/114及后出统计仍待逐币清点。钱币发行年不是当地埋藏年。",
+              "sourceIds": [
+                "BYS1",
+                "BYR2",
+                "BYS3"
+              ],
+              "urls": [
+                "https://www.istorija.lt/data/public/uploads/2020/10/la_21_73-80.pdf",
+                "https://www.academia.edu/37471091/VITAL_SIDOROVICH_The_Finds_of_Greek_and_Roman_Provincial_Coins_in_Belarus",
+                "https://chre.ashmus.ox.ac.uk/hoard/17431"
+              ]
+            },
+            "change": "按本轮实际原件/单元格/图像读级更新；年代与人物缺口不视为解决。",
+            "humanReviewed": false
           }
         ]
       },
       {
         "label": "本轮8格核查 · 老挝古代 · K.1578金片",
-        "reason": "本次ResearchGate公开入口403后停止，仍无K.1578页图、独立字形释读、原署年或可核古人姓名。ma与注15 ka、第二行残损分别保留；扰动填土与US4048限制不变，AY19仍401—600。已核正文不提升为原图已核，后来书体或君主年代不能填古代确年。",
+        "reason": "正式HTML现已读到Unicode释文、§20—26和注13/15，并核真实Original JPEG链接；fig.7b仍未取到，不能独立校字。正文ma与注15 ka未证明同字，不能先判编辑冲突。第二行很不确定，原署年/古人姓名继续留白；扰动填土不是US4048邻近地面，不与K365混为一件，AY19仍401—600。",
         "sourceIds": [
           "LOS1",
           "LOR1",
@@ -17042,6 +18025,26 @@
               ]
             },
             "change": "本次原表、图像和模型续核；仅按实际读取层级更新。"
+          },
+          {
+            "researchDate": "2026-11-22",
+            "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+            "previousState": {
+              "label": "本轮8格核查 · 老挝古代 · K.1578金片",
+              "reason": "本次ResearchGate公开入口403后停止，仍无K.1578页图、独立字形释读、原署年或可核古人姓名。ma与注15 ka、第二行残损分别保留；扰动填土与US4048限制不变，AY19仍401—600。已核正文不提升为原图已核，后来书体或君主年代不能填古代确年。",
+              "sourceIds": [
+                "LOS1",
+                "LOR1",
+                "LOR2"
+              ],
+              "urls": [
+                "https://journals.openedition.org/baefe/pdf/13950",
+                "https://dharmalekha.info/texts/INSCIK00363",
+                "https://www.persee.fr/doc/befeo_0336-1519_1903_num_3_1_1236"
+              ]
+            },
+            "change": "按本轮实际原件/单元格/图像读级更新；年代与人物缺口不视为解决。",
+            "humanReviewed": false
           }
         ]
       },
@@ -17113,7 +18116,7 @@
       },
       {
         "label": "本轮8格核查 · 阿根廷中世纪后期",
-        "reason": "已从UNLP馆藏完整原书核2015章642—648页、647表1和原位屋顶照片；表的95%分段、2σ交点及正文1050—1200概括分开，未据单点或概括造确年。2013原表、2017原图4/6/7与S1仍未核；Llullaillaco S2及实际项目脚本未得，M7/M8比例差异未解。AR2/AR3原范围与未知人物维持。",
+        "reason": "2015原书647表1与指定原页已核；本轮取得2017原S1两表，42器、片数和1293、五器30%边界值及公式/缓存可追溯。正文1292/1665、完整度高于30%与表的精确映射仍缺。2013原Table1和2017原图4/6/7未核；S2及项目实际脚本未得。AR2/AR3完整范围与未知人物不变。",
         "sourceIds": [
           "ARS2",
           "ARS3",
@@ -17170,12 +18173,36 @@
               ]
             },
             "change": "本次原表、图像和模型续核；仅按实际读取层级更新。"
+          },
+          {
+            "researchDate": "2026-11-22",
+            "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+            "previousState": {
+              "label": "本轮8格核查 · 阿根廷中世纪后期",
+              "reason": "已从UNLP馆藏完整原书核2015章642—648页、647表1和原位屋顶照片；表的95%分段、2σ交点及正文1050—1200概括分开，未据单点或概括造确年。2013原表、2017原图4/6/7与S1仍未核；Llullaillaco S2及实际项目脚本未得，M7/M8比例差异未解。AR2/AR3原范围与未知人物维持。",
+              "sourceIds": [
+                "ARS2",
+                "ARS3",
+                "ARX1",
+                "SS4",
+                "ARS4"
+              ],
+              "urls": [
+                "https://www.academia.edu/20146495/Paisajes_del_abandono_En_La_espacialidad_en_arqueolog%C3%ADa_Enfoques_m%C3%A9todos_y_aplicaci%C3%B3n_Editado_por_In%C3%A9s_Gordillo_y_Jos%C3%A9_M_Vaquer_Editorial_AbyaYala_Quito_Ecuador_2013",
+                "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041",
+                "https://naturalis.fcnym.unlp.edu.ar/bitstreams/364110ed-e252-4ac2-8906-5fdd6ba867dd/download#page=647",
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172",
+                "https://www.polsl.pl/rif/projekty/incastate/"
+              ]
+            },
+            "change": "按本轮实际原件/单元格/图像读级更新；年代与人物缺口不视为解决。",
+            "humanReviewed": false
           }
         ]
       },
       {
         "label": "Llullaillaco校准比例与独立复现",
-        "reason": "主文Fig4的M7/M8=30%/60% NH，与项目Similarity标签60%/30%仍不同。本次仅复核HTML文字与公开机构RDF，未得S2或实际脚本；主文说代码在S2，唯一SI PDF目录描述却是FigureS1/S2应用截图，未取附件不能判内部是否含代码，更不能核Sequence/Boundary语法或独立复算。原1462—1507完整95.4%HPD及先验保留，均值不当事件年。",
+        "reason": "本轮实际看公开署源图4转载，可辨OxCal4.4.4、Amodel96、Acomb100.4、M6/M7/M8及1532节点，但图内无30/60百分比或完整代码。主文M7/M8=30%/60% NH与项目60%/30%差异未解。S2真实附件403后停止，原PDF和实际脚本未得，不判断内部代码或Boundary语法，不称独立复算。Agreement不是史实正确概率，1462—1507完整95.4%HPD保留。",
         "sourceIds": [
           "SS4",
           "ARS4"
@@ -17218,6 +18245,24 @@
               ]
             },
             "change": "本次原表、图像和模型续核；仅按实际读取层级更新。"
+          },
+          {
+            "researchDate": "2026-11-22",
+            "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+            "previousState": {
+              "label": "Llullaillaco校准比例与独立复现",
+              "reason": "主文Fig4的M7/M8=30%/60% NH，与项目Similarity标签60%/30%仍不同。本次仅复核HTML文字与公开机构RDF，未得S2或实际脚本；主文说代码在S2，唯一SI PDF目录描述却是FigureS1/S2应用截图，未取附件不能判内部是否含代码，更不能核Sequence/Boundary语法或独立复算。原1462—1507完整95.4%HPD及先验保留，均值不当事件年。",
+              "sourceIds": [
+                "SS4",
+                "ARS4"
+              ],
+              "urls": [
+                "https://onlinelibrary.wiley.com/doi/full/10.1111/arcm.70172",
+                "https://www.polsl.pl/rif/projekty/incastate/"
+              ]
+            },
+            "change": "按本轮实际原件/单元格/图像读级更新；年代与人物缺口不视为解决。",
+            "humanReviewed": false
           }
         ]
       },
@@ -17244,6 +18289,38 @@
         "urls": [
           "https://scha.cl/wp-content/uploads/2025/03/Actas_XXII_CNACh_2024-1.pdf"
         ]
+      },
+      {
+        "label": "La Rinconada2013 Table1原件仍未取得",
+        "reason": "2015测年原表与2017陶器S1均不能替代2013 Table1。须核2013印页370—373中原样本、全部概率区段与分组依据；目录、作者转录及访问失败不证明原文件不存在。",
+        "sourceIds": [
+          "ARS2",
+          "ARX1"
+        ],
+        "recordIds": [
+          "AR2"
+        ],
+        "urls": [
+          "https://www.academia.edu/20146495/Paisajes_del_abandono_En_La_espacialidad_en_arqueolog%C3%ADa_Enfoques_m%C3%A9todos_y_aplicaci%C3%B3n_Editado_por_In%C3%A9s_Gordillo_y_Jos%C3%A9_M_Vaquer_Editorial_AbyaYala_Quito_Ecuador_2013",
+          "https://naturalis.fcnym.unlp.edu.ar/bitstreams/364110ed-e252-4ac2-8906-5fdd6ba867dd/download#page=647"
+        ],
+        "researchDate": "2026-11-22",
+        "humanReviewed": false
+      },
+      {
+        "label": "La Rinconada2017 S1与正文的计数/完整度口径待核",
+        "reason": "S1 English!F2:F43求和1293；正文1292为无新断口分析片、1665为出土片总数，二者和42器的筛选映射待原始计数流程。五器E存值0.3而正文写高于30%，不先判错误、四舍五入或自行删行。",
+        "sourceIds": [
+          "ARS3"
+        ],
+        "recordIds": [
+          "AR2"
+        ],
+        "urls": [
+          "https://www.cambridge.org/core/journals/antiquity/article/destruction-and-abandonment-practices-at-la-rinconada-ambato-valley-catamarca-argentina/7949F16648679C73C0844D90C5FE4041"
+        ],
+        "researchDate": "2026-11-22",
+        "humanReviewed": false
       }
     ],
     "resolvedGaps": [
@@ -17457,6 +18534,50 @@
         "baseCommit": "41c159cf0a9e40ed53744b2265fc732685b9dc93",
         "researchDate": "2026-11-22",
         "humanReviewed": false
+      },
+      {
+        "label": "2017 La Rinconada原S1工作簿未读",
+        "resolution": "已取得原XLSX并核两表、原单元格/公式/缓存、SHA和CRC；只关闭文件及单元格读取缺口，计数/门槛与历史解释未核定。",
+        "sourceIds": [
+          "ARS3"
+        ],
+        "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+        "researchDate": "2026-11-22",
+        "scope": "仅关闭指定读取/身份导航子缺口；年代、人物、模型和原图缺口按当前台账保留",
+        "humanReviewed": false
+      },
+      {
+        "label": "K.1578正式HTML清晰释文与原图链接未核",
+        "resolution": "现已读正式HTML清晰释文及真实Original JPEG链接；金片图像、独立字形、原署年和人物仍未核。",
+        "sourceIds": [
+          "LOS1"
+        ],
+        "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+        "researchDate": "2026-11-22",
+        "scope": "仅关闭指定读取/身份导航子缺口；年代、人物、模型和原图缺口按当前台账保留",
+        "humanReviewed": false
+      },
+      {
+        "label": "BYR2 DOI正式落地未核",
+        "resolution": "doi.org与DataCite确认/0073；仅完成原件身份导航，正式图版及目标币仍未核。",
+        "sourceIds": [
+          "BYR2"
+        ],
+        "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+        "researchDate": "2026-11-22",
+        "scope": "仅关闭指定读取/身份导航子缺口；年代、人物、模型和原图缺口按当前台账保留",
+        "humanReviewed": false
+      },
+      {
+        "label": "Llullaillaco图4公开转载的图像标签未核",
+        "resolution": "实际看署源公开转载图，存URL/SHA/尺寸及可辨标签；不是出版社高清原图、S2代码或独立复现。",
+        "sourceIds": [
+          "SS4"
+        ],
+        "baseCommit": "d50a378fc152ce48034d62aaf28019ffcba5b9af",
+        "researchDate": "2026-11-22",
+        "scope": "仅关闭指定读取/身份导航子缺口；年代、人物、模型和原图缺口按当前台账保留",
+        "humanReviewed": false
       }
     ]
   },
@@ -17537,14 +18658,15 @@
       "title": "二至三世纪：墓葬残存与曹操遗令能互相证明吗？",
       "chinaRecordId": "MZ3",
       "otherRecordId": "RZ1",
-      "question": "一边记录发掘残存，一边规定应当怎样安葬；分别能据什么辨认行为、身份和年代？",
+      "question": "出土残存、钱币图像中的人物和史书归属的遗令，分别怎样关联到行动者与当地年代？",
       "relationBasis": "曹操遗令的约220年排序参照落在墓地170—270年的暂定使用期内；范围相交不确认某一墓葬与遗令同年。",
-      "reading": "特里申报告以墓号、火葬坑及共存器物说明实际发掘语境；曹操遗令要求除服、守职并不藏金玉。遗令显示具名政治人物的规范，考古报告显示特定已发掘区的残存，二者支持的判断层次不同。",
-      "boundary": "遗令不等于墓室清单，考古未见某物也不等于从未存在。不能把两地归为同一种葬俗、同一民族或有传播关系，也不能从部分墓地推出全地区社会结构。",
+      "reading": "特里申报告以墓号、火葬坑及共存器物说明实际发掘语境；曹操遗令要求除服、守职并不藏金玉。遗令显示具名政治人物的规范，考古报告显示特定已发掘区的残存，二者支持的判断层次不同。 旁检Lyshchytsy材料的DOI虽已注册核实，公开币图仍未对应目标Catalogue17；它们也不是RZ1特里申墓地的同批材料。币上肖像/发行权威不能直接当当地持有人、埋藏者姓名，铸造年不替代在地行为年；曹操是史书记载遗令归属的人物，不代表所见墓葬的实际执行者。",
+      "boundary": "遗令不等于墓室清单，考古未见某物也不等于从未存在。不能把两地归为同一种葬俗、同一民族或有传播关系，也不能从部分墓地推出全地区社会结构。 DOI和公开照片只能帮助查原件身份，不能闭合逐币出土情境或把不同遗址/钱币混为同一证据。",
       "sourceIds": [
         "RU1",
         "MU3",
-        "MU5"
+        "MU5",
+        "BYR2"
       ]
     },
     {
@@ -17720,10 +18842,10 @@
       "title": "约1046与1050—1200：重修记文与弃用遗存",
       "chinaRecordId": "CA3",
       "otherRecordId": "AR2",
-      "question": "具名记文的署年、考古原位照片、暂拟复原图与原表概率区段，各在给哪一种行动定时？",
+      "question": "署文、回述重修、果核测年与42器样本，各在给什么行动定时，又由谁具名作证？",
       "relationBasis": "按卡片的作者综合范围1050—1200，中国记文1046排序参照约早4年；新核2015原表的一些样本区段可能包含1046，但样本概率不等于弃用年，中国原署年也未换算完整年界，不能据此确认同年。",
-      "reading": "《岳阳楼记》传本把滕子京重修、委托范仲淹作文和末署六年九月十五日分开。La Rinconada原表把E5果核与旧木/骨片/散炭分列，95%概率段1037—1143及1148—1213不缩成正文1050—1200概括。2015图5的原位屋顶照片与图4暂拟火灾复原分别阅读；2017关于器片重组和关闭的解释仍须原图/补表核验。",
-      "boundary": "记文署日不是开工或竣工日，样本合并年龄不是弃用日。仅重算899±32BP的合并算术，未复现Calib4.3；表中1205—1205小段也不是确年事件。不得把复原当现场照片，或由近时材料推定同一种建筑功能、迁离原因、战争和统一命令。",
+      "reading": "《岳阳楼记》四库传本可区分滕子京重修、委托范仲淹作文及末署六年九月十五日；后世传本仍不是工程逐日档案。La Rinconada的2015果核概率段、原位屋顶照片和暂拟复原分读；2017原S1现核42器，片数1293与正文无新断口分析片1292的映射待解，5器30%与正文高于30%也未圆通。4号器的热变25%以现存4片中的1片计算，不能当全器烧损面积；古代建造者、制器者与迁离者均未具名。",
+      "boundary": "记文署日不是工程完工日，正文综合1050—1200不替代原表完整概率段。样本选择口径会约束关闭/破坏解释，尚不能从数字差异判原文错误或证实/推翻纵火。陶器计数不给弃用确年；研究者和记文作者的姓名不能代替未知工匠或命令者。未复现Calib4.3；不确认1046同年、共同功能、战争或传播。",
       "sourceIds": [
         "CP3",
         "CP4",
@@ -17737,10 +18859,10 @@
       "title": "1462—1507与约1464：墓葬组合与罢宫妃殉葬记载",
       "chinaRecordId": "CN2",
       "otherRecordId": "AR3",
-      "question": "出土供品的年代、人的死亡、葬仪与文本中的禁令，是否真的在证明同一个动作和同一种制度？",
+      "question": "历史先验、供品组合与Agreement能证明什么；具名遗命的规范又怎样与墓葬实践分开？",
       "relationBasis": "1462—1507的后验窗可能与约1464排序参照相交；这是模型与原署年的近时比较，未证同年、同日。",
-      "reading": "短命植物组合限制少女墓的埋藏年代；《明史》记英宗关于宫妃的遗命。前者没有已证实的下令君主或姓名，后者具名发布者却不直接提供各墓实施记录。项目页与主文样本比例标签差异仍须核。",
-      "boundary": "不以均值1489填事件，不删掉1500年后尾段；不把高山仪式与宫妃制度直接等同，也不把宫妃禁令扩大成所有人殉即时终止或作文明排名。",
+      "reading": "少女墓三种短命植物给条件化埋藏年代窗；公开图4转载可辨M6/M7/M8和1532节点，却不提供完整代码或混合百分比。Amodel96/Acomb100.4是模型内部一致性指标，不是墓葬判断的真值概率。《明史》己巳条归遗命于明英宗，庚午条才记崩；后编传文仍需原诏和实施记录。中国侧有文本归属的遗命者，印加侧不能从区间或王朝年表命名下令者；两侧均不等于全社会实践统计。",
+      "boundary": "1464只作原署年排序，落在1462—1507模型窗内不证明同年。先验1410/1532来自历史假设，Agreement不能充作独立的历史证实；S2和比例差仍待核。不用1489均值造事件，不裁跨1500尾段；宫妃规定不扩大成所有人殉终止，不把两地仪式或制度等同。",
       "sourceIds": [
         "SS4",
         "ARS4",
